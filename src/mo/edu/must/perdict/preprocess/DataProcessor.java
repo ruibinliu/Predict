@@ -1,4 +1,4 @@
-package mo.edu.must.perdict.data;
+package mo.edu.must.perdict.preprocess;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,20 +6,20 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 
-import mo.edu.must.perdict.data.action.Action;
-import mo.edu.must.perdict.data.action.AppOpenAction;
-import mo.edu.must.perdict.data.action.AudioCableAction;
-import mo.edu.must.perdict.data.action.BluetoothConnectedAction;
-import mo.edu.must.perdict.data.action.ChargeCableAction;
-import mo.edu.must.perdict.data.action.Context;
-import mo.edu.must.perdict.data.action.ContextTriggerAction;
-import mo.edu.must.perdict.data.action.DataConnectedAction;
-import mo.edu.must.perdict.data.action.LightChangedAction;
-import mo.edu.must.perdict.data.action.LocationChangedAction;
-import mo.edu.must.perdict.data.action.WiFiConnectedAction;
+import mo.edu.must.perdict.preprocess.action.Action;
+import mo.edu.must.perdict.preprocess.action.AppOpenAction;
+import mo.edu.must.perdict.preprocess.action.AudioCableAction;
+import mo.edu.must.perdict.preprocess.action.BluetoothConnectedAction;
+import mo.edu.must.perdict.preprocess.action.ChargeCableAction;
+import mo.edu.must.perdict.preprocess.action.Context;
+import mo.edu.must.perdict.preprocess.action.ContextTriggerAction;
+import mo.edu.must.perdict.preprocess.action.DataConnectedAction;
+import mo.edu.must.perdict.preprocess.action.LightChangedAction;
+import mo.edu.must.perdict.preprocess.action.LocationChangedAction;
+import mo.edu.must.perdict.preprocess.action.WiFiConnectedAction;
 
 public class DataProcessor {
-    static ArrayList<Action> recordToAction(RecordList recordList) {
+    public static ArrayList<Action> recordToAction(RecordList recordList) {
         ArrayList<Action> actionList = new ArrayList<>();
 
         for (int i = 0, size = recordList.size(); i < size; i++) {
@@ -64,7 +64,7 @@ public class DataProcessor {
         return actionList;
     }
 
-    static HashMap<Action, Context> findContext(ArrayList<Action> actionList) {
+    public static HashMap<Action, Context> findContext(ArrayList<Action> actionList) {
         // 计算Context
         HashMap<Action, Context> actionContext = new HashMap<>();
 

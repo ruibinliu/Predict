@@ -182,7 +182,7 @@ public class TanMain {
 
     private static double validate(Precondition precondition, String preditedPackName, boolean print) {
         if ("".equals(sValidation.trim())) {
-            String filePath = "/Users/ruibin/git/github/Predit/tan-test.txt";
+            String filePath = "out/tan-test.txt";
 
             FileInputStream fis = null;
             InputStreamReader isr = null;

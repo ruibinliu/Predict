@@ -1,6 +1,7 @@
 package mo.edu.must.perdict.utils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -34,6 +35,10 @@ public class FileUtils {
     public static void write(String filePath, String content) {
         FileOutputStream fos = null;
 
+        File directory = new File(filePath).getParentFile();
+        if (!directory.exists()) {
+            directory.mkdirs();
+        }
         try {
             fos = new FileOutputStream(filePath, false);
 

@@ -1,5 +1,5 @@
 
-package mo.edu.must.perdict.data;
+package mo.edu.must.perdict.preprocess;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class Word2VecProcessor {
                 builder.append(line);
                 isFirstLine = false;
             }
-            FileUtils.write("vector.txt", builder.toString());
+            FileUtils.write("out/vector.txt", builder.toString());
             proc.waitFor();
         } catch (IOException e) {
             e.printStackTrace();
@@ -59,7 +59,7 @@ public class Word2VecProcessor {
     }
 
     public static void load() {
-        FileUtils.read("vector.txt", new Listener() {
+        FileUtils.read("out/vector.txt", new Listener() {
             @Override
             public void onReadLine(String line) {
                 String action;

@@ -1,5 +1,5 @@
 
-package mo.edu.must.perdict.data;
+package mo.edu.must.perdict;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,8 +9,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import mo.edu.must.perdict.data.action.Action;
-import mo.edu.must.perdict.data.action.Context;
+import mo.edu.must.perdict.preprocess.DataProcessor;
+import mo.edu.must.perdict.preprocess.Record;
+import mo.edu.must.perdict.preprocess.RecordList;
+import mo.edu.must.perdict.preprocess.Word2VecProcessor;
+import mo.edu.must.perdict.preprocess.action.Action;
+import mo.edu.must.perdict.preprocess.action.Context;
 import mo.edu.must.perdict.tan.TanMain;
 import mo.edu.must.perdict.utils.FileUtils;
 import mo.edu.must.perdict.utils.IoUtils;
@@ -22,7 +26,7 @@ public class Main {
         FileUtils.read(filePath, l);
 
         TanMain.main(new String[] {
-            "/Users/ruibin/git/github/Predict/tan-data.txt"
+            "out/tan-data.txt"
         });
     }
 
@@ -50,7 +54,7 @@ public class Main {
             for (String action : actionSet) {
                 builder.append(action + "\n");
             }
-            FileUtils.write("set.txt", builder.toString());
+            FileUtils.write("out/set.txt", builder.toString());
 
             // for (String action : actionSet) {
             // System.out.println(action);
@@ -63,7 +67,7 @@ public class Main {
             String words = builder.toString();
             // System.out.println(words);
 
-            FileUtils.write("words.txt", words);
+            FileUtils.write("out/words.txt", words);
 
             HashMap<Action, Context> actionContext = DataProcessor.findContext(actionList);
 
@@ -96,8 +100,8 @@ public class Main {
                     }
                 }
             }
-            FileUtils.write("tan-data.txt", builder.toString());
-            FileUtils.write("tan-test.txt", testBuilder.toString());
+            FileUtils.write("out/tan-data.txt", builder.toString());
+            FileUtils.write("out/tan-test.txt", testBuilder.toString());
 
             Word2VecProcessor.process();
             Word2VecProcessor.load();
@@ -106,7 +110,7 @@ public class Main {
 
     public static HashMap<String, String[]> getVectorMap() {
         File vectorMapFile = new File(
-                "/Users/ruibin/workspace/adt/Predit/src/com/must/perdit/knn/vector_map.txt");
+                "out/vector_map.txt");
 
         HashMap<String, String[]> vectorMap = new HashMap<>();
 
