@@ -22,7 +22,7 @@ public class Main {
         FileUtils.read(filePath, l);
 
         TanMain.main(new String[] {
-            "/Users/ruibin/git/github/Predit/tan-data.txt"
+            "/Users/ruibin/git/github/Predict/tan-data.txt"
         });
     }
 
