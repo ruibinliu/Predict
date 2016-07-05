@@ -161,11 +161,15 @@ public class TanMain {
         double matched = 0;
         double unmatched = 0;
 
-        String preconditionPrefix = String.format("%s %s %s %s",
+        String preconditionPrefix = String.format("%s %s %s %s %s %s %s %s",
                 precondition.getLastAppOpenAction(),
+                precondition.getLastAudioCableAction(),
+                precondition.getLastLocationChangedAction(),
+                precondition.getLastChargeCableAction(),
                 precondition.getLastWiFiConnectedAction(),
                 precondition.getLastDataConnectedAction(),
-                precondition.getLastBluetoothConnectedAction());
+                precondition.getLastBluetoothConnectedAction(),
+                precondition.getLastLightChangedAction());
 
         for (String line : lines) {
             if (line.startsWith(preconditionPrefix)) {
