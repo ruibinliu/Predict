@@ -107,9 +107,13 @@ public class Context {
     }
 
     public String toData() {
-        return lastAppOpenAction + " " + lastAudioCableAction + " " + lastLocationChangedAction
-                + " " + lastChargeCableAction + " " + lastWiFiConnectedAction + " "
-                + lastDataConnectedAction + " " + lastBluetoothConnectedAction + " "
+        return lastAppOpenAction + " "
+                + lastAudioCableAction + " "
+                + lastLocationChangedAction + " "
+                + lastChargeCableAction + " "
+                + lastWiFiConnectedAction + " "
+                + lastDataConnectedAction + " "
+                + lastBluetoothConnectedAction + " "
                 + lastLightChangedAction;
     }
 }

@@ -3,6 +3,7 @@ package mo.edu.must.perdict.preprocess;
 import java.util.HashMap;
 
 public class Record extends HashMap<String, String> {
+    private static final long serialVersionUID = 1L;
     public static final String PACKNAME = "packName";
     public static final String USETIME = "useTime";
     public static final String USEPERIOD = "usePeriod";

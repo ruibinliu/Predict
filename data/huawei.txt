@@ -1,0 +1,446 @@
+insertTarget 20160612200356 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.android.settings 20160612200411 _20_21 5 0.0 0.0 no yes null no monday no very_drak move null 164 null null school
+com.tencent.mobileqq 20160612201304 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle middle 164 null null school
+insertTarget 20160612201345 null 532 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160612201349 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612201523 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160612201732 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle urge 164 null null school
+insertTarget 20160612201746 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160612202130 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612202249 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160612202249 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612202249 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160612202256 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle urge 164 null null school
+insertTarget 20160612202314 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+jp.co.gagex.capella_st 20160612203132 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612203207 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+jp.co.gagex.capella_st 20160612203207 _20_21 0 0.0 0.0 no yes null no monday no very_drak move null 164 null null school
+com.huawei.systemmanager 20160612203212 _20_21 277 0.0 0.0 no yes null no monday no very_drak move middle 164 null null school
+com.UCMobile 20160612203649 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612203701 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160612203728 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612203729 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160612203834 _20_21 73 0.0 0.0 no yes null no monday no very_drak move urge 164 null null school
+insertTarget 20160612203953 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mm 20160612204945 _20_21 266 0.0 0.0 no yes null no monday no very_drak run null 164 null null school
+insertTarget 20160612205008 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mm 20160612205109 _20_21 0 0.0 0.0 no yes null no monday no very_drak idle null 164 null null school
+insertTarget 20160612205109 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160612205643 _20_21 337 0.0 0.0 no yes null no monday no very_drak idle middle 164 null null school
+com.tencent.mm 20160612205821 _20_21 94 0.0 0.0 no yes null no monday no very_drak move urge 164 null null school
+com.tencent.mobileqq 20160612205822 _20_21 5 0.0 0.0 no yes null no monday no very_drak move urge 164 null null school
+insertTarget 20160612210031 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160612210211 _21_22 0 0.0 0.0 no yes null no monday no very_drak move null 164 null null school
+insertTarget 20160612210812 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mm 20160612211455 _21_22 36 0.0 0.0 no yes null no monday no very_drak idle urge 164 null null school
+com.diyidan 20160614231626 _23_24 0 0.0 0.0 no no null no wednesday no very_drak idle null 166 null null school
+insertTarget 20160614231626 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160614231702 _23_24 23 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+com.android.mms 20160614231722 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak idle middle 166 null null school
+insertTarget 20160614231734 null 35 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mm 20160614231737 _23_24 35 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614231801 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mm 20160614231942 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614231942 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160614233053 _23_24 671 0.0 0.0 no yes null no wednesday no very_drak move urge 166 null null school
+insertTarget 20160614233101 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160614233417 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614233417 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160614233421 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614233421 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mm 20160614234412 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614234438 null 40 0.0 0.0 null null null null null null null null null null ChargeCable  school
+jp.co.gagex.capella_st 20160614234457 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak idle null 166 null null school
+insertTarget 20160614234501 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+jp.co.gagex.capella_st 20160614234526 _23_24 0 0.0 0.0 no yes null no wednesday no very_drak move null 166 null null school
+insertTarget 20160614234526 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.huawei.systemmanager 20160615001140 _0_1 20 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.android.stk 20160615001159 _0_1 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615001241 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.android.stk 20160615001241 _0_1 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.huawei.systemmanager 20160615001242 _0_1 128 0.0 0.0 no yes null no thurday no very_drak run middle 167 null null school
+com.UCMobile 20160615001453 _0_1 5 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+com.tencent.mobileqq 20160615001548 _0_1 55 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+com.tencent.mm 20160615001555 _0_1 10 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.diyidan 20160615001615 _0_1 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615002553 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.diyidan 20160615002553 _0_1 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615002644 _0_1 155 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.diyidan 20160615002848 _0_1 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615004002 _0_1 675 0.0 0.0 no yes null no thurday no very_drak move urge 167 null null school
+insertTarget 20160615004019 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615004024 _0_1 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.huawei.intelligent 20160615083001 _8_9 1813 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615090014 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615090030 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615090030 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615090909 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615090909 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615090913 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615090913 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.xd.ttdbl.bili 20160615091703 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615091755 _9_10 75 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.xd.ttdbl.bili 20160615091909 _9_10 50 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615092623 _9_10 435 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.xd.ttdbl.bili 20160615092640 _9_10 20 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+jp.co.gagex.capella_st 20160615092701 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615092749 _9_10 50 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mm 20160615092802 _9_10 15 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.UCMobile 20160615092810 _9_10 5 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615092815 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move middle 167 null null school
+com.UCMobile 20160615092910 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615092910 _9_10 55 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.UCMobile 20160615092911 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615092915 _9_10 5 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.UCMobile 20160615092950 _9_10 35 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615092956 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.UCMobile 20160615093031 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615093053 _9_10 20 0.0 0.0 no yes null no thurday no very_drak move middle 167 null null school
+com.UCMobile 20160615093101 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615093141 _9_10 40 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+com.UCMobile 20160615093151 _9_10 10 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615093332 _9_10 105 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+com.UCMobile 20160615093341 _9_10 5 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615093352 _9_10 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615093353 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mm 20160615093353 _9_10 5 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.dmzj.manhua 20160615093403 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615093811 _9_10 255 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.dmzj.manhua 20160615093954 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615094017 _9_10 25 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.dmzj.manhua 20160615094024 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615094052 null 5 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160615094057 _9_10 140 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615094318 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615094327 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615094327 _9_10 0 0.0 0.0 no yes null no thurday no very_drak car null 167 null null school
+insertTarget 20160615094332 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615094332 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615094625 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615094625 _9_10 149 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.android.mms 20160615094855 _9_10 10 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.UCMobile 20160615094905 _9_10 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615095337 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615095337 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615095500 _9_10 1001 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+insertTarget 20160615101606 null 66 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615101713 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615101722 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615102002 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615103001 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615103001 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615104304 _10_11 5 0.0 0.0 no yes null no thurday no very_drak move ignore 167 null null school
+com.tencent.mobileqq 20160615104314 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615104338 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615104338 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615110002 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615110002 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+me.ele 20160615111606 _11_12 265 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+jp.co.gagex.capella_st 20160615112131 _11_12 25 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mm 20160615112201 _11_12 120 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.UCMobile 20160615112412 _11_12 5 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.diyidan 20160615112422 _11_12 40 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.UCMobile 20160615112502 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.dmzj.manhua 20160615112607 _11_12 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615112700 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160615112700 _11_12 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615113053 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160615113053 _11_12 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615113609 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
+com.dmzj.manhua 20160615113749 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615113749 null 699 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615114237 _11_12 5 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615114554 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615114554 _11_12 324 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.android.incallui 20160615115118 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615115145 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615115405 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160615121023 _12_13 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615122521 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615122524 _12_13 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615122524 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615123729 _12_13 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615123729 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615133550 _13_14 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615133559 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160615133559 _13_14 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615133559 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615135130 _13_14 0 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+insertTarget 20160615135647 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615135647 _13_14 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615140442 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.xtuone.android.syllabus 20160615140500 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615140514 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.xtuone.android.syllabus 20160615140555 _14_15 66 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+com.tencent.mm 20160615140609 _14_15 0 0.0 0.0 no yes null no thurday no very_drak move middle 167 null null school
+com.huawei.systemmanager 20160615140609 _14_15 10 0.0 0.0 no yes null no thurday no very_drak move middle 167 null null school
+com.tmall.wireless 20160615140616 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615140710 _14_15 0 0.0 0.0 no yes null no thurday no very_drak move urge 167 null null school
+insertTarget 20160615140731 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.xtuone.android.syllabus 20160615140937 _14_15 100 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+jp.co.gagex.capella_st 20160615141122 _14_15 65 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615141232 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160615142043 _14_15 10 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615142053 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615142144 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mm 20160615142144 _14_15 110 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.UCMobile 20160615142337 _14_15 5 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+insertTarget 20160615142751 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160615143001 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615143001 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.UCMobile 20160615143027 _14_15 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615143027 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.UCMobile 20160615143052 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615143052 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160615143553 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615144010 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160615144042 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615144042 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tmall.wireless 20160615145138 _14_15 0 0.0 0.0 no yes null no thurday no very_drak car null 167 null null school
+insertTarget 20160615145618 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tmall.wireless 20160615145618 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615145817 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tmall.wireless 20160615150554 _15_16 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615150556 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tmall.wireless 20160615150556 _15_16 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615150757 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+jp.co.gagex.capella_st 20160615151504 _15_16 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615151541 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.xd.ttdbl.bili 20160615151554 _15_16 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615151823 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.xd.ttdbl.bili 20160615152455 _15_16 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+insertTarget 20160615152851 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.xd.ttdbl.bili 20160615152851 _15_16 245 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+com.dmzj.manhua 20160615153321 _15_16 0 0.0 0.0 no yes null no thurday no very_drak idle null 167 null null school
+insertTarget 20160615153606 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160615153827 _15_16 0 0.0 0.0 no yes null no thurday no very_drak move middle 167 null null school
+insertTarget 20160615153843 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.dmzj.manhua 20160615153847 _15_16 0 0.0 0.0 no yes null no thurday no very_drak move null 167 null null school
+com.tencent.mobileqq 20160615153852 _15_16 5 0.0 0.0 no yes null no thurday no very_drak idle urge 167 null null school
+insertTarget 20160616234012 null 5 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160620180022 _18_19 0 0.0 0.0 no no null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620180022 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mm 20160620180246 _18_19 0 0.0 0.0 no yes null no tueday no very_drak idle middle 172 null null school
+insertTarget 20160620180256 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.huawei.camera 20160620180940 _18_19 15 0.0 0.0 no yes null no tueday no very_drak move null 172 null null school
+insertTarget 20160620180956 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.mms 20160620190313 _19_20 724 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.tencent.mobileqq 20160620190321 _19_20 0 0.0 0.0 no yes null no tueday no very_drak car null 172 null null school
+insertTarget 20160620190334 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160620190334 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620190739 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160620190741 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620190741 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.huawei.systemmanager 20160620190820 _19_20 5 0.0 0.0 no yes null no tueday no very_drak idle middle 172 null null school
+com.tencent.mobileqq 20160620190825 _19_20 5 0.0 0.0 no yes null no tueday no very_drak car null 172 null null school
+insertTarget 20160620190839 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160620190949 _19_20 0 0.0 0.0 no yes null no tueday no very_drak car null 172 null null school
+insertTarget 20160620190951 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160620190951 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620191327 null 5 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160620191508 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620191537 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.tencent.mobileqq 20160620191556 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.xd.ttdbl.bili 20160620191835 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.tencent.mobileqq 20160620192131 _19_20 535 0.0 0.0 no yes null no tueday no very_drak move middle 172 null null school
+com.tencent.mm 20160620192845 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.tencent.mobileqq 20160620192919 _19_20 85 0.0 0.0 no yes null no tueday no very_drak idle middle 172 null null school
+insertTarget 20160620193034 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160620193034 _19_20 202 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.tencent.mm 20160620193357 _19_20 5 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.android.contacts 20160620193402 _19_20 5 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+com.android.incallui 20160620193407 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620193432 null 26 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.android.contacts 20160620193434 _19_20 0 0.0 0.0 no yes null no tueday no very_drak move null 172 null null school
+com.tencent.mobileqq 20160620193442 _19_20 14 0.0 0.0 no yes null no tueday no very_drak car middle 172 null null school
+insertTarget 20160620193927 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mobileqq 20160620193931 _19_20 0 0.0 0.0 no yes null no tueday no very_drak idle null 172 null null school
+insertTarget 20160620193945 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.android.settings 20160621124645 _12_13 5 0.0 0.0 no yes null no wednesday no very_drak idle null 173 null null school
+net.acgnz 20160621124700 _12_13 145 0.0 0.0 no yes null no wednesday no very_drak idle null 173 null null school
+com.android.browser 20160621124925 _12_13 0 0.0 0.0 no yes null no wednesday no very_drak idle null 173 null null school
+insertTarget 20160621125146 null 5 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160621125151 _12_13 605 0.0 0.0 no yes null no wednesday no very_drak idle null 173 null null school
+com.tencent.mobileqq 20160621130157 _13_14 0 0.0 0.0 no yes null no wednesday no very_drak move null 173 null null school
+insertTarget 20160622095640 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622095700 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622095713 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622095735 _9_10 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622095746 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622101406 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622101406 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.huawei.systemmanager 20160622103245 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622103252 null 1127 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622103303 _10_11 10 0.0 0.0 no yes null no thurday no very_drak move urge 174 null null school
+insertTarget 20160622103309 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622103317 _10_11 0 0.0 0.0 no yes null no thurday no very_drak move urge 174 null null school
+insertTarget 20160622103322 null 40 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.huawei.android.internal.app 20160622103343 _10_11 5 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+cn.wps.moffice_eng 20160622103348 _10_11 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622103352 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622103509 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622103513 null 10 0.0 0.0 null null null null null null null null null null ChargeCable  school
+cn.wps.moffice_eng 20160622103519 _10_11 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622103522 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622103554 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622103613 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622104259 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622104259 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622104259 _10_11 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622104300 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.dmzj.manhua 20160622110126 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622110126 null 5 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.dmzj.manhua 20160622110127 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622110153 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+cn.ibuka.manga.ui 20160622110547 _11_12 5 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622110553 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622110620 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622110627 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.mms 20160622111958 _11_12 851 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622111959 null 5 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.huawei.systemmanager 20160622112007 _11_12 0 0.0 0.0 no yes null no thurday no very_drak move ignore 174 null null school
+cn.ibuka.manga.ui 20160622112007 _11_12 10 0.0 0.0 no yes null no thurday no very_drak move ignore 174 null null school
+com.tencent.mobileqq 20160622112013 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622112013 null 10 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622112014 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622112029 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622112058 _11_12 5 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622112059 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622112414 _11_12 10 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622112430 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622113619 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622113619 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622113808 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622113813 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622115548 _11_12 0 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622115605 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.xd.ttdbl.bili 20160622115924 _11_12 360 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622115936 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622120529 _12_13 10 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622120532 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.incallui 20160622120634 _12_13 65 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622120637 null 15 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.stk 20160622120650 _12_13 15 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622120705 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.settings 20160622121133 _12_13 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+com.tencent.mobileqq 20160622121157 _12_13 0 0.0 0.0 no yes null no thurday no very_drak run middle 174 null null school
+insertTarget 20160622121231 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "zhbitNet-ChinaUnicom" school
+tv.danmaku.bili 20160622121334 _12_13 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.mobileqq 20160622122843 _12_13 1446 0.0 0.0 no no "HK" no thurday no very_drak move middle 174 null null school
+insertTarget 20160622123742 null 10 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.diyidan 20160622123752 _12_13 0 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+insertTarget 20160622124203 null 435 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622140638 _14_15 4834 0.0 0.0 no yes null no thurday no very_drak idle urge 174 null null school
+com.huawei.systemmanager 20160622140642 _14_15 15 0.0 0.0 no yes null no thurday no very_drak move urge 174 null null school
+com.android.settings 20160622140705 _14_15 307 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+com.tencent.mobileqq 20160622141301 _14_15 5 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+com.UCMobile 20160622141306 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622141916 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.UCMobile 20160622141916 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622143606 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.UCMobile 20160622143606 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622144408 null 117 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.UCMobile 20160622144408 _14_15 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+com.tencent.mobileqq 20160622145059 _14_15 840 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622150444 null 994 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622152118 _15_16 6648 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622171213 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622174544 _17_18 1999 0.0 0.0 no yes null no thurday no very_drak move middle 174 null null school
+com.android.gallery3d 20160622174551 _17_18 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622174555 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.gallery3d 20160622175100 _17_18 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622175100 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.android.gallery3d 20160622175100 _17_18 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622175101 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.android.gallery3d 20160622175812 _17_18 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622175812 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622180429 _18_19 380 0.0 0.0 no yes null no thurday no very_drak idle urge 174 null null school
+insertTarget 20160622180458 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.gallery3d 20160622180643 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622180658 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mm 20160622180914 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622180919 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mm 20160622180919 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle urge 174 null null school
+insertTarget 20160622180929 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622181119 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622181120 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622181443 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622181500 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622181733 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622181748 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+me.ele 20160622181748 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622181748 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.xd.ttdbl.bili 20160622182043 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622182101 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.android.mms 20160622182905 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622182913 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622183037 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622183102 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.UCMobile 20160622183408 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622183408 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.android.incallui 20160622183438 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+com.UCMobile 20160622183453 _18_19 5 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+com.tencent.mobileqq 20160622183458 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle urge 174 null null school
+insertTarget 20160622183503 null 5 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622183503 _18_19 0 0.0 0.0 no yes null no thurday no very_drak idle null 174 null null school
+insertTarget 20160622183509 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
+com.tencent.mobileqq 20160622183509 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622183509 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mobileqq 20160622183645 _18_19 0 0.0 0.0 no yes null no thurday no very_drak move null 174 null null school
+insertTarget 20160622183645 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+tv.danmaku.bili 20160622184051 _18_19 15 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+com.huawei.appmarket 20160622184620 _18_19 0 0.0 0.0 no no "HK" no thurday no very_drak move middle 174 null null school
+com.tencent.mobileqq 20160622185113 _18_19 0 0.0 0.0 no no "HK" no thurday no very_drak move middle 174 null null school
+insertTarget 20160622190516 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622190557 _19_20 0 0.0 0.0 no no "HK" no thurday no very_drak idle urge 174 null null school
+insertTarget 20160622191105 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622191105 _19_20 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622191105 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160622200648 _20_21 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622201340 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622201750 _20_21 520 0.0 0.0 no no "HK" no thurday no very_drak idle middle 174 null null school
+insertTarget 20160622202236 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622202239 _20_21 0 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+insertTarget 20160622205030 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
+com.tencent.mm 20160622212149 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622212252 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.tencent.mm 20160622212258 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622212845 null 780 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.UCMobile 20160622213558 _21_22 20 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.qt.qtl 20160622213623 _21_22 160 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.dmzj.manhua 20160622213929 _21_22 80 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.UCMobile 20160622214054 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+com.tencent.mobileqq 20160622214342 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak idle middle 174 null null school
+com.UCMobile 20160622214434 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+insertTarget 20160622215102 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160622215105 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622215105 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622215607 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak move middle 174 null null school
+insertTarget 20160622215704 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160622215704 _21_22 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622215704 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622215843 _21_22 100 0.0 0.0 no no "HK" no thurday no very_drak idle urge 174 null null school
+insertTarget 20160622220208 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
+com.UCMobile 20160622220300 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622220329 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
+com.UCMobile 20160622220444 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622220444 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mobileqq 20160622220616 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle middle 174 null null school
+com.tencent.mm 20160622220630 _22_23 110 0.0 0.0 no no "HK" no thurday no very_drak idle urge 174 null null school
+com.UCMobile 20160622220639 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622220645 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.UCMobile 20160622220645 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622220711 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.UCMobile 20160622220711 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622221105 null 55 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.tmgp.carrot3 20160622221200 _22_23 215 0.0 0.0 no no "HK" no thurday no very_drak run null 174 null null school
+com.tencent.mobileqq 20160622221536 _22_23 10 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.tmgp.carrot3 20160622221546 _22_23 10 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.mobileqq 20160622221556 _22_23 5 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.tmgp.carrot3 20160622221601 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+com.tencent.mobileqq 20160622222631 _22_23 685 0.0 0.0 no no "HK" no thurday no very_drak move middle 174 null null school
+com.tencent.tmgp.carrot3 20160622222732 _22_23 160 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+com.tencent.mobileqq 20160622223012 _22_23 5 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school
+com.tencent.tmgp.carrot3 20160622223017 _22_23 340 0.0 0.0 no no "HK" no thurday no very_drak idle null 174 null null school
+insertTarget 20160622223601 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "HK" school
+com.tencent.mm 20160622225948 _22_23 0 0.0 0.0 no no "HK" no thurday no very_drak move null 174 null null school

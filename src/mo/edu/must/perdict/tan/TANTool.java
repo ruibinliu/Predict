@@ -1,5 +1,6 @@
+
 package mo.edu.must.perdict.tan;
-import java.io.File;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -65,14 +66,13 @@ public class TANTool {
         this.attrNum = this.attrNames.length;
         this.classAttrName = this.attrNames[attrNum - 1];
 
-        Node node;
         this.edges = new int[attrNum][attrNum];
         this.totalNodes = new ArrayList<>();
         this.attr2Column = new HashMap<>();
         this.attr2Values = new HashMap<>();
 
         // 分类属性节点id最小设为0
-        node = new Node(0, attrNames[attrNum - 1]);
+        Node node = new Node(0, attrNames[attrNum - 1]);
         this.totalNodes.add(node);
         for (int i = 0; i < attrNames.length; i++) {
             if (i < attrNum - 1) {

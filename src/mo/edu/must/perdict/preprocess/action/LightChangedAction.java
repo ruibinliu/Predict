@@ -13,6 +13,6 @@ public class LightChangedAction extends Action {
 
     @Override
     public String toString() {
-        return "LightChangedAction[light=" + light + "]";
+        return "LightChangedAction[" + light + "]";
     }
 }

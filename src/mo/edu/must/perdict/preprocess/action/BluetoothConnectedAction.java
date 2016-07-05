@@ -21,6 +21,6 @@ public class BluetoothConnectedAction extends Action {
 
     @Override
     public String toString() {
-        return "BluetoothConnectedAction[deviceName=" + deviceName + "]";
+        return "BluetoothConnectedAction[" + deviceName + "]";
     }
 }

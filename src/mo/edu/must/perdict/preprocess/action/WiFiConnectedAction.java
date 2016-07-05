@@ -13,6 +13,6 @@ public class WiFiConnectedAction extends Action {
 
     @Override
     public String toString() {
-        return "WiFiConnectedAction[wifiName=" + wifiName + "]";
+        return "WiFiConnectedAction[" + wifiName + "]";
     }
 }

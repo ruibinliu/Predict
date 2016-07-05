@@ -27,6 +27,6 @@ public class AppOpenAction extends Action {
 
     @Override
     public String toString() {
-        return "AppOpenAction[packName=" + packName + "]";
+        return "AppOpenAction[" + packName + "]";
     }
 }

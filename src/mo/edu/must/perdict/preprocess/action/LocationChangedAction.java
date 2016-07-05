@@ -14,6 +14,6 @@ public class LocationChangedAction extends Action {
 
     @Override
     public String toString() {
-        return "LocationChangedAction[location=" + location + "]";
+        return "LocationChangedAction[" + location + "]";
     }
 }

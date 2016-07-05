@@ -19,6 +19,6 @@ public class ContextTriggerAction extends Action {
 
     @Override
     public String toString() {
-        return "ContextTriggerAction[context=" + context + "]";
+        return "ContextTriggerAction[" + context + "]";
     }
 }

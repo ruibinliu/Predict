@@ -5,14 +5,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.HashMap;
 
 import mo.edu.must.perdict.utils.FileUtils;
 import mo.edu.must.perdict.utils.IoUtils;
-import mo.edu.must.perdict.utils.FileUtils.Listener;
 
 public class Word2VecProcessor {
-    public static HashMap<String, String[]> vectorMap = new HashMap<>();
+
+    private static final String PYTHON_COMMAND = "python src/word2vec.py";
 
     public static void process() {
         Process proc;
@@ -21,7 +20,7 @@ public class Word2VecProcessor {
         InputStreamReader isr = null;
         BufferedReader br = null;
         try {
-            proc = Runtime.getRuntime().exec("python src/word2vec.py");
+            proc = Runtime.getRuntime().exec(PYTHON_COMMAND);
             is = proc.getInputStream();
             isr = new InputStreamReader(is);
             br = new BufferedReader(isr);
@@ -47,52 +46,13 @@ public class Word2VecProcessor {
             }
             FileUtils.write("out/vector.txt", builder.toString());
             proc.waitFor();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         } finally {
             IoUtils.close(br);
             IoUtils.close(isr);
             IoUtils.close(is);
         }
-    }
-
-    public static void load() {
-        FileUtils.read("out/vector.txt", new Listener() {
-            @Override
-            public void onReadLine(String line) {
-                String action;
-                String[] vector;
-
-                int index = line.indexOf(" ") + 1;
-                if (index > 1) {
-                    action = line.substring(0, index).trim();
-                    vector = line.substring(index).trim().split(" ");
-
-                    for (String item : vector) {
-                        item = item.replace("[", "");
-                        item = item.replace("]", "");
-                        item = item.trim();
-                        if ("".equals(item)) {
-                            continue;
-                        }
-
-                        Double number = doubleValue(item);
-                        System.out.print(String.format("%.8f", number) + " ");
-                    }
-                    System.out.println(action);
-
-//                    System.out.println(action + " " + Word2VecProcessor.toString(vector));
-                } else {
-                    action = line.trim();
-                    vector = null;
-                    System.out.println(line);
-                }
-
-                vectorMap.put(action, vector);
-            }
-        });
     }
 
     public static String toString(String[] a) {
@@ -104,16 +64,5 @@ public class Word2VecProcessor {
             }
         }
         return builder.toString();
-    }
-
-    private static double doubleValue(String item) {
-        double number;
-        item = item.toLowerCase();
-        if (item.indexOf("e-") > 0) {
-            number = Double.valueOf(item.trim());
-        } else {
-            number = Double.valueOf(item.trim());
-        }
-        return number;
     }
 }
