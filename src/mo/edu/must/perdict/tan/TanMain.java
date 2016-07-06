@@ -18,6 +18,7 @@ public class TanMain {
         for (int fold = 0; fold < CROSS_VALIDATION_FOLDS; fold++) {
             String traningFilePath = "out/tan-data-" + fold + ".txt";
             verifyFilePath = "out/tan-test-" + fold + ".txt";
+            sValidation = "";
 
             // Cross-Validation
             final ArrayList<String> lines = new ArrayList<>();
@@ -84,7 +85,7 @@ public class TanMain {
                     }
                 }
             });
-            
+
             long preditCost = 0;
             int preditTimes = 0;
             long validCost = 0;
