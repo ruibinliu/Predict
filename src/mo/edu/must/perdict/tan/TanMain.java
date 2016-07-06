@@ -18,12 +18,6 @@ public class TanMain {
         for (int fold = 0; fold < CROSS_VALIDATION_FOLDS; fold++) {
             String traningFilePath = "out/tan-data-" + fold + ".txt";
             verifyFilePath = "out/tan-test-" + fold + ".txt";
-            FileUtils.read(verifyFilePath, new Listener() {
-                @Override
-                public void onReadLine(String line) {
-                    sValidation += line + "\n";
-                }
-            });
             final int PREDICT_APP_NUMBERS = 5; // 预测最高概率的5个app
             sValidationTimes = new int[PREDICT_APP_NUMBERS];
             sAccuracySum = new double[PREDICT_APP_NUMBERS];
@@ -51,6 +45,14 @@ public class TanMain {
             }
             FileUtils.write(traningFilePath, trainingBuilder.toString());
             FileUtils.write(verifyFilePath, testBuilder.toString());
+
+            sValidation += "";
+            FileUtils.read(verifyFilePath, new Listener() {
+                @Override
+                public void onReadLine(String line) {
+                    sValidation += line + "\n";
+                }
+            });
 
             // 建立TAN模型
             long t0, t1;
