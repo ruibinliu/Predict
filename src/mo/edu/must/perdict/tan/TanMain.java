@@ -24,6 +24,9 @@ public class TanMain {
                     sValidation += line + "\n";
                 }
             });
+            final int PREDICT_APP_NUMBERS = 5; // 预测最高概率的5个app
+            sValidationTimes = new int[PREDICT_APP_NUMBERS];
+            sAccuracySum = new double[PREDICT_APP_NUMBERS];
 
             // Cross-Validation
             final ArrayList<String> lines = new ArrayList<>();
@@ -128,9 +131,6 @@ public class TanMain {
                     }
                 }
 
-                final int PREDICT_APP_NUMBERS = 5; // 预测最高概率的5个app
-                sValidationTimes = new int[PREDICT_APP_NUMBERS];
-                sAccuracySum = new double[PREDICT_APP_NUMBERS];
                 for (int i = 0; i < PREDICT_APP_NUMBERS; i++) {
                     String[] preditedPackNames = new String[i + 1];
                     for (int j = 0; j <= i; j++) {
@@ -155,7 +155,7 @@ public class TanMain {
                             + " ms");
                     System.out.println("Validation Cost: " + validCost + " ms");
                     System.out.println("Average Accuracy: " + (sAccuracySum[i] / sValidationTimes[i]) + "("
-                            + sAccuracySum + "/" + sValidationTimes + ")");
+                            + sAccuracySum[i] + "/" + sValidationTimes[i] + ")");
                 }
                 System.out.println("===============");
             }
@@ -168,6 +168,9 @@ public class TanMain {
     private static double[] sAccuracySum;
 
     private static double validate(Precondition precondition, String[] preditedPackNames, boolean print) {
+        for (String s : preditedPackNames) {
+            System.out.println("preditedPackName: " + s);
+        }
         String[] lines = sValidation.split("\n");
         double matched = 0;
         double unmatched = 0;
@@ -185,12 +188,17 @@ public class TanMain {
 
         for (String line : lines) {
             if (line.startsWith(preconditionPrefix)) {
+                boolean isMatched = false;
                 for (int i = 0; i < preditedPackNames.length; i++) {
                     if (line.endsWith(preditedPackNames[i])) {
                         matched++;
-                    } else {
-                        unmatched++;
+                        isMatched = true;
+                        break;
                     }
+                }
+
+                if (!isMatched) {
+                    unmatched++;
                 }
             }
         }
