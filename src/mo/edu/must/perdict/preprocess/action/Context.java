@@ -2,7 +2,7 @@
 package mo.edu.must.perdict.preprocess.action;
 
 public class Context {
-    public static final int GAUSSIAN_TIME = 10 * 60 * 1000;
+    public static final int GAUSSIAN_TIME = 60 * 60 * 1000;
 
     private AppOpenAction lastAppOpenAction;
 

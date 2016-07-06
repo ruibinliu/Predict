@@ -11,7 +11,7 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
 public class TanMain {
     static HashMap<String, Double> probabilityMap = new HashMap<String, Double>();
     public static String verifyFilePath;
-    private static final int CROSS_VALIDATION_FOLDS = 10;
+    private static final int CROSS_VALIDATION_FOLDS = 5;
 
     public static void main(String[] args) {
         final String dataFilePath = args[0];
@@ -43,14 +43,16 @@ public class TanMain {
             FileUtils.write(traningFilePath, trainingBuilder.toString());
             FileUtils.write(verifyFilePath, testBuilder.toString());
 
+            // 建立TAN模型
             long t0, t1;
             t0 = System.currentTimeMillis();
             TANTool tool = new TANTool(traningFilePath);
             t1 = System.currentTimeMillis();
             long trainingCost = t1 - t0;
 
+            // 开始做预测
             final ArrayList<String> packNameList = new ArrayList<>();
-            final HashMap<String, Precondition> m = new HashMap<>();
+            final HashMap<String, Precondition> m = new HashMap<>(); // m作为先验数据
 
             FileUtils.read(traningFilePath, new Listener() {
                 @Override
@@ -65,6 +67,9 @@ public class TanMain {
                     if (!packNameList.contains(array[0])) {
                         packNameList.add(array[0]);
                     }
+                    if (!packNameList.contains(array[8])) {
+                        packNameList.add(array[8]);
+                    }
                     precondition.setLastAppOpenAction(array[0]);
                     precondition.setLastAudioCableAction(array[1]);
                     precondition.setLastLocationChangedAction(array[2]);
@@ -73,7 +78,7 @@ public class TanMain {
                     precondition.setLastDataConnectedAction(array[5]);
                     precondition.setLastBluetoothConnectedAction(array[6]);
                     precondition.setLastLightChangedAction(array[7]);
-                    
+
                     if (!m.containsKey(precondition.toString())) {
                         m.put(precondition.toString(), precondition);
                     }
@@ -85,6 +90,7 @@ public class TanMain {
             long validCost = 0;
             int validTimes = 0;
             for (Precondition precondition : m.values()) {
+                // 对于每一种前置条件precondition，要计算每一个分类的可能性probability
                 for (int q = 0; q < packNameList.size(); q++) {
                     t0 = System.currentTimeMillis();
                     String packName = packNameList.get(q);
@@ -100,7 +106,7 @@ public class TanMain {
 
                 ArrayList<String> packList = new ArrayList<>();
                 packList.addAll(probabilityMap.keySet());
-                
+
                 // Sort the packNameList by probability.
                 double[] probabilities = new double[probabilityMap.size()];
                 for (int i = 0; i < probabilityMap.size(); i++) {
@@ -115,18 +121,17 @@ public class TanMain {
                         }
                     }
                 }
-                
-                for (int r = 0; r < packList.size(); r++) {
-                    String preditedPackName = packList.get(r);
-                    t0 = System.currentTimeMillis();
-                    double accuracy = validate(precondition, preditedPackName, true);
-                    t1 = System.currentTimeMillis();
-                    validCost += (t1 - t0);
-                    validTimes++;
-                    if (accuracy != 0) {
-                        sValidationTimes++;
-                        sAccuracySum += accuracy;
-                    }
+
+                String preditedPackName = sortedPackList.get(0);
+                System.out.println("preditedPackName: " + preditedPackName);
+                t0 = System.currentTimeMillis();
+                double accuracy = validate(precondition, preditedPackName, true);
+                t1 = System.currentTimeMillis();
+                validCost += (t1 - t0);
+                validTimes++;
+                if (accuracy >= 0) {
+                    sValidationTimes++;
+                    sAccuracySum += accuracy;
                 }
 
                 System.out.println("Training Cost: " + trainingCost + " ms");
@@ -169,7 +174,8 @@ public class TanMain {
                 precondition.getLastWiFiConnectedAction(),
                 precondition.getLastDataConnectedAction(),
                 precondition.getLastBluetoothConnectedAction(),
-                precondition.getLastLightChangedAction());
+                precondition.getLastLightChangedAction()
+                );
 
         for (String line : lines) {
             if (line.startsWith(preconditionPrefix)) {
@@ -187,6 +193,9 @@ public class TanMain {
         System.out.println(precondition.toString() + ", preditedPackName: " + preditedPackName
                 + ", matched: " + matched + ", unmatched: " + unmatched + ", total: " + total
                 + ", accuracy: " + accuracy);
+        if (total == 0) {
+            return -1;
+        }
         return accuracy;
     }
 
