@@ -18,7 +18,12 @@ public class TanMain {
         for (int fold = 0; fold < CROSS_VALIDATION_FOLDS; fold++) {
             String traningFilePath = "out/tan-data-" + fold + ".txt";
             verifyFilePath = "out/tan-test-" + fold + ".txt";
-            sValidation = "";
+            FileUtils.read(verifyFilePath, new Listener() {
+                @Override
+                public void onReadLine(String line) {
+                    sValidation += line + "\n";
+                }
+            });
 
             // Cross-Validation
             final ArrayList<String> lines = new ArrayList<>();
@@ -123,46 +128,46 @@ public class TanMain {
                     }
                 }
 
-                String preditedPackName = sortedPackList.get(0);
-                System.out.println("preditedPackName: " + preditedPackName);
-                t0 = System.currentTimeMillis();
-                double accuracy = validate(precondition, preditedPackName, true);
-                t1 = System.currentTimeMillis();
-                validCost += (t1 - t0);
-                validTimes++;
-                if (accuracy >= 0) {
-                    sValidationTimes++;
-                    sAccuracySum += accuracy;
-                }
+                final int PREDICT_APP_NUMBERS = 5; // 预测最高概率的5个app
+                sValidationTimes = new int[PREDICT_APP_NUMBERS];
+                sAccuracySum = new double[PREDICT_APP_NUMBERS];
+                for (int i = 0; i < PREDICT_APP_NUMBERS; i++) {
+                    String[] preditedPackNames = new String[i + 1];
+                    for (int j = 0; j <= i; j++) {
+                        preditedPackNames[j] = sortedPackList.get(j);
+                    }
+                    System.out.println("===== Predited app numbers: " + (i + 1) + " =====");
+                    System.out.println("preditedPackNames: " + preditedPackNames);
+                    t0 = System.currentTimeMillis();
+                    double accuracy = validate(precondition, preditedPackNames, true);
+                    t1 = System.currentTimeMillis();
+                    validCost += (t1 - t0);
+                    validTimes++;
+                    if (accuracy >= 0) {
+                        sValidationTimes[i]++;
+                        sAccuracySum[i] += accuracy;
+                    }
 
-                System.out.println("Training Cost: " + trainingCost + " ms");
-                System.out
-                .println("Predit Cost: " + preditCost + " ms, Predit " + preditTimes
-                        + " Times, Average Cost: " + ((double)preditCost / (double)preditTimes)
-                        + " ms");
-                System.out.println("Validation Cost: " + validCost + " ms");
-                System.out.println("Average Accuracy: " + (sAccuracySum / sValidationTimes) + "("
-                        + sAccuracySum + "/" + sValidationTimes + ")");
+                    System.out.println("Training Cost: " + trainingCost + " ms");
+                    System.out
+                    .println("Predit Cost: " + preditCost + " ms, Predit " + preditTimes
+                            + " Times, Average Cost: " + ((double)preditCost / (double)preditTimes)
+                            + " ms");
+                    System.out.println("Validation Cost: " + validCost + " ms");
+                    System.out.println("Average Accuracy: " + (sAccuracySum[i] / sValidationTimes[i]) + "("
+                            + sAccuracySum + "/" + sValidationTimes + ")");
+                }
+                System.out.println("===============");
             }
         }
     }
 
     private static String sValidation = "";
 
-    private static int sValidationTimes = 0;
+    private static int[] sValidationTimes;
+    private static double[] sAccuracySum;
 
-    private static double sAccuracySum = 0;
-
-    private static double validate(Precondition precondition, String preditedPackName, boolean print) {
-        if ("".equals(sValidation.trim())) {
-            FileUtils.read(verifyFilePath, new Listener() {
-                @Override
-                public void onReadLine(String line) {
-                    sValidation += line + "\n";
-                }
-            });
-        }
-
+    private static double validate(Precondition precondition, String[] preditedPackNames, boolean print) {
         String[] lines = sValidation.split("\n");
         double matched = 0;
         double unmatched = 0;
@@ -180,10 +185,12 @@ public class TanMain {
 
         for (String line : lines) {
             if (line.startsWith(preconditionPrefix)) {
-                if (line.endsWith(preditedPackName)) {
-                    matched++;
-                } else {
-                    unmatched++;
+                for (int i = 0; i < preditedPackNames.length; i++) {
+                    if (line.endsWith(preditedPackNames[i])) {
+                        matched++;
+                    } else {
+                        unmatched++;
+                    }
                 }
             }
         }
@@ -191,7 +198,7 @@ public class TanMain {
         double total = matched + unmatched;
         double accuracy = total > 0 ? matched / total : 0;
 
-        System.out.println(precondition.toString() + ", preditedPackName: " + preditedPackName
+        System.out.println(precondition.toString() + ", preditedPackNames: " + preditedPackNames
                 + ", matched: " + matched + ", unmatched: " + unmatched + ", total: " + total
                 + ", accuracy: " + accuracy);
         if (total == 0) {
