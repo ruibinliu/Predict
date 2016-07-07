@@ -82,6 +82,10 @@ public class KnnMain {
         long totalCost = 0;
         int[] totalMatched = new int[TOP_K];
         int[] totalUnmatched = new int[TOP_K];
+        for (int i = 0; i < totalMatched.length; i++) {
+        	totalMatched[i] = 0;
+        	totalUnmatched[i] = 0;
+        }
 
         for (int c = 0; c < TOP_K; c++) {
             for (int i = 0; i < testDatas.size(); i++) {
@@ -94,7 +98,6 @@ public class KnnMain {
 
                 long t0, t1;
                 t0 = System.currentTimeMillis();
-                String[] topClasses = knn.classifyInstance(test);
                 // System.out.println("类别为: " + preditedClass);
                 for (int j = 0; j < datas.size(); j++) {
                     int matched = 0;
@@ -105,6 +108,7 @@ public class KnnMain {
                     List<Double> t = datas.get(j);
                     if (isSamePrecondition(test, t)) {
                         boolean isMatched = false;
+                        String[] topClasses = knn.classifyInstance(test);
                         for (int k = 0; k <= c; k++) {
                             if ("".equals(topClasses[k]))
                                 continue;
@@ -132,8 +136,8 @@ public class KnnMain {
                 totalCost += (t1 - t0);
             }
             System.out.println("===== Predited app numbers: " + (c + 1) + " =====");
-            System.out.println("totalMatched: " + totalMatched + ", totalUnmatched: "
-                    + totalUnmatched + ", totalAccuracy: "
+            System.out.println("totalMatched: " + totalMatched[c] + ", totalUnmatched: "
+                    + totalUnmatched[c] + ", total: " + (totalMatched[c] + totalUnmatched[c]) + ", totalAccuracy: "
                     + ((double)totalMatched[c] / (totalMatched[c] + totalUnmatched[c])));
             System.out.println("==========");
         }

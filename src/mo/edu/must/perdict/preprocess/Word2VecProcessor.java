@@ -44,7 +44,7 @@ public class Word2VecProcessor {
                 builder.append(line);
                 isFirstLine = false;
             }
-            FileUtils.write("out/vector.txt", builder.toString());
+            FileUtils.write("out/vector.txt", builder.toString().trim());
             proc.waitFor();
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
