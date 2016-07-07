@@ -15,12 +15,12 @@ public class KnnNode {
 
     private double distance; // 与测试元组的距离
 
-    private String c; // 所属类别
+    private String cls; // 所属类别
 
     public KnnNode(int index, double distance, String c) {
         this.index = index;
         this.distance = distance;
-        this.c = c;
+        this.cls = c;
     }
 
     public int getIndex() {
@@ -39,11 +39,7 @@ public class KnnNode {
         this.distance = distance;
     }
 
-    public String getC() {
-        return c;
-    }
-
-    public void setC(String c) {
-        this.c = c;
+    public String getClazz() {
+        return cls;
     }
 }

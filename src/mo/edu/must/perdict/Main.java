@@ -1,6 +1,7 @@
 
 package mo.edu.must.perdict;
 
+import mo.edu.must.perdict.lazy.knn.KnnMain;
 import mo.edu.must.perdict.preprocess.PreProcessMain;
 import mo.edu.must.perdict.tan.TanMain;
 
@@ -10,8 +11,10 @@ public class Main {
             "data/meizu2.txt"
         });
 
-        TanMain.main(new String[] {
-            "out/tan-data.txt"
-        });
+//        TanMain.main(new String[] {
+//            "out/tan-data.txt"
+//        });
+
+        KnnMain.main(new String[] {});
     }
 }

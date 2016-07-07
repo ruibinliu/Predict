@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
+import mo.edu.must.perdict.utils.FileUtils;
+import mo.edu.must.perdict.utils.FileUtils.Listener;
+
 public class Preprocess {
     public static void main(String[] args) {
         HashMap<String, String[]> vectorMap = getVectorMap();
@@ -19,29 +22,31 @@ public class Preprocess {
     }
 
     public static HashMap<String, String[]> getVectorMap() {
-        File vectorMapFile = new File(
-                "/Users/ruibin/workspace/adt/Predit/src/com/must/perdit/knn/vector_map.txt");
+        String filePath = "out/vector.txt";
 
-        HashMap<String, String[]> vectorMap = new HashMap<>();
+        final HashMap<String, String[]> vectorMap = new HashMap<>();
 
-        FileReader fr = null;
-        BufferedReader br = null;
-        try {
-            fr = new FileReader(vectorMapFile);
-            br = new BufferedReader(fr);
-
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] split = line.split(" ");
-                String packName = split[0];
-                String[] vector = split[1].split(",");
-                vectorMap.put(packName, vector);
+        // 根据Session Feature，用不同feature的词向量组成一个长的词向量
+        FileUtils.read(filePath, new Listener() {
+            @Override
+            public void onReadLine(String line) {
+                int index = line.indexOf(" ");
+                String event = line.substring(0, index).trim();
+                String vector = line.substring(index).trim();
+                if ("".equals(vector)) {
+                    return;
+                }
+                while(vector.indexOf("  ") >= 0) {
+                    vector = vector.replace("  ", " ");
+                }
+                vector = vector.replace("[", "").replace("]", "");
+                String[] split = vector.split(" ");
+                vectorMap.put(event, split);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            close(br);
-            close(fr);
+        });
+
+        for (Entry<String, String[]> entry : vectorMap.entrySet()) {
+            System.out.println(entry.getKey() + ", " + entry.getValue());
         }
 
         return vectorMap;

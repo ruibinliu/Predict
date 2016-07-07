@@ -2,10 +2,10 @@
 package mo.edu.must.perdict.lazy.knn;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
@@ -88,7 +88,7 @@ public class Knn {
      * @param k 设定的K值
      * @return 测试元组的类别
      */
-    public String classifyInstance(List<Double> testData) {
+    public String[] classifyInstance(List<Double> testData) {
         PriorityQueue<KnnNode> pq = new PriorityQueue<KnnNode>(k, comparator);
         List<Integer> randNum = getRandKNum(k, datas.size());
         for (int i = 0; i < k; i++) {
@@ -117,29 +117,50 @@ public class Knn {
      * @param pq 存储k个最近近邻元组的优先级队列
      * @return 多数类的名称
      */
-    private String getMostClass(PriorityQueue<KnnNode> pq) {
+    private String[] getMostClass(PriorityQueue<KnnNode> pq) {
         // Count
-        Map<String, Integer> classCount = new HashMap<>();
+        final HashMap<String, Integer> classCount = new HashMap<>();
         for (int i = 0; i < pq.size(); i++) {
             KnnNode node = pq.remove();
-            String c = node.getC();
+            String c = node.getClazz();
             if (classCount.containsKey(c)) {
                 classCount.put(c, classCount.get(c) + 1);
             } else {
                 classCount.put(c, 1);
             }
         }
-
-        // Find Max
-        int maxIndex = -1;
-        int maxCount = 0;
-        Object[] classes = classCount.keySet().toArray();
-        for (int i = 0; i < classes.length; i++) {
-            if (classCount.get(classes[i]) > maxCount) {
-                maxIndex = i;
-                maxCount = classCount.get(classes[i]);
+        ArrayList<String> sorted = new ArrayList<>();
+        sorted.addAll(classCount.keySet());
+        Collections.sort(sorted, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return classCount.get(o2) - classCount.get(o1);
+            }
+        });
+//        for (int i = 0; i < sorted.size(); i++) {
+//            String c = sorted.get(i);
+//            System.out.println("Class: " + c + ", Count: " + classCount.get(c));
+//        }
+        String[] topClass = new String[KnnMain.TOP_K];
+        for (int i = 0; i < topClass.length; i++) {
+            if (sorted.size() > i) {
+                topClass[i] = sorted.get(i);
+            } else {
+                topClass[i] = "";
             }
         }
-        return classes[maxIndex].toString();
+        return topClass;
+
+        // Find Max
+//        int maxIndex = -1;
+//        int maxCount = 0;
+//        Object[] classes = classCount.keySet().toArray();
+//        for (int i = 0; i < classes.length; i++) {
+//            if (classCount.get(classes[i]) > maxCount) {
+//                maxIndex = i;
+//                maxCount = classCount.get(classes[i]);
+//            }
+//        }
+//        return classes[maxIndex].toString();
     }
 }
