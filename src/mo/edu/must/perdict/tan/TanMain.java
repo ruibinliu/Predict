@@ -11,7 +11,7 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
 public class TanMain {
     static HashMap<String, Double> probabilityMap = new HashMap<String, Double>();
     public static String verifyFilePath;
-    private static final int CROSS_VALIDATION_FOLDS = 5;
+    public static final int CROSS_VALIDATION_FOLDS = 5;
 
     public static void main(String[] args) {
         final String dataFilePath = args[0];

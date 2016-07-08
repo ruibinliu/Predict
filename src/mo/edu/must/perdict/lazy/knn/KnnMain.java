@@ -1,10 +1,13 @@
 
 package mo.edu.must.perdict.lazy.knn;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
+import mo.edu.must.perdict.tan.TanMain;
 import mo.edu.must.perdict.utils.FileUtils;
 import mo.edu.must.perdict.utils.FileUtils.Listener;
 
@@ -20,6 +23,8 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
 public class KnnMain {
     private static final int K = 100;
     public static final int TOP_K = 5;
+    private static int[] totalMatched = new int[TOP_K];
+    private static int[] totalUnmatched = new int[TOP_K];
 
     /**
      * 程序执行入口
@@ -37,14 +42,30 @@ public class KnnMain {
         records.remove(0); // 第一行是字段的说明
 
         HashMap<String, String[]> vectorMap = Preprocess.getVectorMap();
+
+        for (Entry<String, String[]> e : vectorMap.entrySet()) {
+            System.out.print(e.getKey());
+            for (String s : e.getValue()) {
+                System.out.print(s + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("map.size(): " + vectorMap.size());
+
         StringBuilder builder = new StringBuilder();
+        ArrayList<String> lines = new ArrayList<>();
         HashMap<String, Integer> classMap = new HashMap<>();
+        int skip = 0;
+        int noSkip = 0;
         for (String line : records) {
+            System.out.println(line);
             String vec = "";
             String[] split = line.split(" ");
             boolean isSkip = false;
+
             for (int i = 0; i < split.length - 1; i++) {
                 String[] vector = vectorMap.get(split[i]);
+
                 if ("null".equals(split[i])) {
                     vector = new String[50];
                     for (int k = 0; k < vector.length; k++) {
@@ -60,12 +81,17 @@ public class KnnMain {
                 }
             }
             if (!isSkip) {
+                noSkip++;
                 String clazz = split[split.length - 1];
                 if (!classMap.containsKey(clazz)) {
                     classMap.put(clazz, classMap.size());
                 }
                 int id = classMap.get(clazz);
-                builder.append(vec + id + "\n");
+                String l = vec + id + "\n";
+                builder.append(l);
+                lines.add(l);
+            } else {
+                skip++;
             }
         }
         for (String clazz : classMap.keySet()) {
@@ -73,25 +99,49 @@ public class KnnMain {
         }
         FileUtils.write("out/knn-data.txt", builder.toString());
 
-        String datafile = "out/knn-data.txt";
-        String testfile = "out/knn-data.txt";
+        for (int i = 0; i < totalMatched.length; i++) {
+            totalMatched[i] = 0;
+            totalUnmatched[i] = 0;
+        }
+
+        for (int fold = 0; fold < TanMain.CROSS_VALIDATION_FOLDS; fold++) {
+            String datafile = "out/knn-data-" + fold + ".txt";
+            String testfile = "out/knn-test-" + fold + ".txt";
+
+            int size = lines.size();
+            int foldSize = size / TanMain.CROSS_VALIDATION_FOLDS;
+            int testIndexStart = fold * foldSize;
+            int testIndexEnd = (fold + 1) * foldSize;
+            StringBuilder dataBuilder = new StringBuilder();
+            StringBuilder testBuilder = new StringBuilder();
+            for (int i = 0; i < size; i++) {
+                if (i >= testIndexStart && i < testIndexEnd) {
+                    testBuilder.append(lines.get(i));
+                } else {
+                    dataBuilder.append(lines.get(i));
+                }
+            }
+            FileUtils.write(datafile, dataBuilder.toString());
+            FileUtils.write(testfile, testBuilder.toString());
+
+            runKnn(datafile, testfile);
+        }
+    }
+
+    private static void runKnn(String datafile, String testfile) {
+        File f = new File(datafile);
+        System.out.println("file.length(): " + f.length());
         final List<List<Double>> datas = read(datafile);
         final List<List<Double>> testDatas = read(testfile);
         final Knn knn = new Knn(K, datas);
         int times = 0;
         long totalCost = 0;
-        int[] totalMatched = new int[TOP_K];
-        int[] totalUnmatched = new int[TOP_K];
-        for (int i = 0; i < totalMatched.length; i++) {
-        	totalMatched[i] = 0;
-        	totalUnmatched[i] = 0;
-        }
 
         for (int c = 0; c < TOP_K; c++) {
             for (int i = 0; i < testDatas.size(); i++) {
                 final List<Double> test = testDatas.get(i);
 
-//                System.out.println("=== 测试元组 " + i + " ===");
+                // System.out.println("=== 测试元组 " + i + " ===");
                 // for (int j = 0; j < test.size(); j++) {
                 // System.out.print(test.get(j) + " ");
                 // }
@@ -99,38 +149,30 @@ public class KnnMain {
                 long t0, t1;
                 t0 = System.currentTimeMillis();
                 // System.out.println("类别为: " + preditedClass);
-                for (int j = 0; j < datas.size(); j++) {
-                    int matched = 0;
-                    int unmatched = 0;
-                    if (j == i)
-                        continue;
-                    // 在测试数据中寻找相同Context的记录，然后做比较
-                    List<Double> t = datas.get(j);
-                    if (isSamePrecondition(test, t)) {
-                        boolean isMatched = false;
-                        String[] topClasses = knn.classifyInstance(test);
-                        for (int k = 0; k <= c; k++) {
-                            if ("".equals(topClasses[k]))
-                                continue;
-                            int preditedClass = Math.round(Float.parseFloat((topClasses[k])));
-                            if (preditedClass == t.get(t.size() - 1)) {
-                                isMatched = true;
-                                break;
-                            }
-                        }
-                        if (isMatched) {
-                            matched++;
-                        } else {
-                            unmatched++;
+                int matched = 0;
+                int unmatched = 0;
+                // 在测试数据中寻找相同Context的记录，然后做比较
+                List<Double> t = testDatas.get(i);
+                if (isSamePrecondition(test, t)) {
+                    boolean isMatched = false;
+                    String[] topClasses = knn.classifyInstance(test);
+                    for (int k = 0; k <= c; k++) {
+                        if ("".equals(topClasses[k]))
+                            continue;
+                        int preditedClass = Math.round(Float.parseFloat((topClasses[k])));
+                        if (preditedClass == t.get(t.size() - 1)) {
+                            isMatched = true;
+                            break;
                         }
                     }
-                    totalMatched[c] += matched;
-                    totalUnmatched[c] += unmatched;
-//                    int total = matched + unmatched;
-//                    double accuracy = total == 0 ? 0 : (double)((double)matched / total);
-//                    System.out.println("matched: " + matched + ", unmatched: " + unmatched
-//                            + ", Accuracy: " + accuracy + " (" + matched + "/" + total + ")");
+                    if (isMatched) {
+                        matched++;
+                    } else {
+                        unmatched++;
+                    }
                 }
+                totalMatched[c] += matched;
+                totalUnmatched[c] += unmatched;
                 t1 = System.currentTimeMillis();
                 times++;
                 totalCost += (t1 - t0);

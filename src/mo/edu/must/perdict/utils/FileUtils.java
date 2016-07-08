@@ -33,6 +33,10 @@ public class FileUtils {
     }
 
     public static void write(String filePath, String content) {
+        write(filePath, content, false);
+    }
+
+    public static void write(String filePath, String content, boolean append) {
         FileOutputStream fos = null;
 
         File directory = new File(filePath).getParentFile();
@@ -40,7 +44,7 @@ public class FileUtils {
             directory.mkdirs();
         }
         try {
-            fos = new FileOutputStream(filePath, false);
+            fos = new FileOutputStream(filePath, append);
 
             fos.write(content.getBytes());
             fos.flush();

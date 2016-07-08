@@ -141,6 +141,7 @@ public class Knn {
 //            String c = sorted.get(i);
 //            System.out.println("Class: " + c + ", Count: " + classCount.get(c));
 //        }
+
         String[] topClass = new String[KnnMain.TOP_K];
         for (int i = 0; i < topClass.length; i++) {
             if (sorted.size() > i) {

@@ -31,15 +31,22 @@ public class Preprocess {
             @Override
             public void onReadLine(String line) {
                 int index = line.indexOf(" ");
-                String event = line.substring(0, index).trim();
-                String vector = line.substring(index).trim();
+                String event;
+                String vector;
+                if (index == -1) {
+                    event = line;
+                    vector = "";
+                } else {
+                    event = line.substring(0, index).trim();
+                    vector = line.substring(index).trim();
+                }
                 if ("".equals(vector)) {
                     return;
                 }
                 while(vector.indexOf("  ") >= 0) {
                     vector = vector.replace("  ", " ");
                 }
-                vector = vector.replace("[", "").replace("]", "");
+                vector = vector.replace("[", "").replace("]", "").trim();
                 String[] split = vector.split(" ");
                 vectorMap.put(event, split);
             }
