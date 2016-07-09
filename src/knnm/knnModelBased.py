@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cross_validation import KFold
 from sklearn import metrics
 import operator
+import time
 
 def getDistanceMatrix(x):
     return squareform(pdist(x, 'euclidean'))
@@ -57,7 +58,7 @@ def train(X,y, erd):
         for i in maxNeighbourhood:
             states[i] = 1
         ungrouped = getUngrouped(states)
-        #print(len(representatives), len(representatives[len(representatives)-1][1]))
+        print(len(representatives), len(representatives[len(representatives)-1][1]))
     return representatives
 
 def classify2(x, representatives, topK):
@@ -91,12 +92,24 @@ def classify(x, representatives):
 
 def classifyAll(X,representatives,topK):
     predicted_labels_list = list()
+    start = time.clock()
+    classifyTimes = 0;
     for k in range(1, topK + 1):
         predicted_labels = list()
         for i in range(X.shape[0]):
             labels = classify2(X[i], representatives, k)
             predicted_labels.append(labels)
+            classifyTimes += 1
         predicted_labels_list.append(predicted_labels)
+    end = time.clock()
+    print("Classify "),
+    print(classifyTimes),
+    print(" times. Cost "),
+    print((end - start)),
+    print(" seconds. Average classify cost "),
+    print((end - start) / classifyTimes),
+    print(" seconds")
+
     return predicted_labels_list
 
 def kfoldCrossValidation(X,labels, k):

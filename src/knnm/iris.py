@@ -1,6 +1,7 @@
 import numpy as np
 from knnModelBased import *
 from sklearn import metrics
+import time
 
 def main():
     #read data
@@ -18,7 +19,12 @@ def main():
     classes, y = np.unique(y, return_inverse=True)
 
     #train with all data
+    start = time.clock()
     representatives = train(X,y,0)
+    end = time.clock()
+    print("Training cost "),
+    print((end - start)),
+    print(" seconds.")
     #predicted_labels = classifyAll(X,representatives, 5)
     accuracyList = kfoldCrossValidation(X,y,5)
     for i in range(0, len(accuracyList)):
