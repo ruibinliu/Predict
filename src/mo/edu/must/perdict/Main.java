@@ -8,7 +8,7 @@ import mo.edu.must.perdict.tan.TanMain;
 public class Main {
     public static void main(String[] args) {
         PreProcessMain.main(new String[] {
-            "data/meizu1.txt"
+            "data/meizu2.txt"
         });
 
 //        TanMain.main(new String[] {
