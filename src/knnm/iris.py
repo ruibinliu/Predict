@@ -19,8 +19,11 @@ def main():
 
     #train with all data
     representatives = train(X,y,0)
-    predicted_labels = classifyAll(X,representatives)
-    print("5 fold cross validation avg accuracy: {}".format(kfoldCrossValidation(X,y,5)))
+    #predicted_labels = classifyAll(X,representatives, 5)
+    accuracyList = kfoldCrossValidation(X,y,5)
+    for i in range(0, len(accuracyList)):
+        print("===== Predicting ", i, " apps =====")
+        print("5 fold cross validation avg accuracy: {}".format(kfoldCrossValidation(X,y,5)))
 
 #     graph number of representatives for different values of erd
 

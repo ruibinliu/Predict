@@ -3,6 +3,7 @@ from scipy.spatial import distance
 import numpy as np
 from sklearn.cross_validation import KFold
 from sklearn import metrics
+import operator
 
 def getDistanceMatrix(x):
     return squareform(pdist(x, 'euclidean'))
@@ -56,12 +57,26 @@ def train(X,y, erd):
         for i in maxNeighbourhood:
             states[i] = 1
         ungrouped = getUngrouped(states)
-        print(len(representatives), len(representatives[len(representatives)-1][1]))
+        #print(len(representatives), len(representatives[len(representatives)-1][1]))
     return representatives
 
-def classify2(x, representatives):
-    label = min(representatives, key = lambda k: getDistance(x, k[0][1]))[2]
-    return label
+def classify2(x, representatives, topK):
+    labelDistanceList = list()
+    for representative in representatives:
+        distance = getDistance(x, representative[0][1])
+        labelDistanceList.append((representative, distance))
+
+    # Sort the result by their distance against x
+    labelDistanceList.sort(key=lambda x:x[1])
+
+    # Select the nearest k labels as the return value
+    labels = list()
+    for i in range(0, topK):
+        lableDistance = labelDistanceList[i]
+        representative = lableDistance[0]
+        labels.append(representative[2])
+    #label = min(representatives, key = lambda k: getDistance(x, k[0][1]))[2]
+    return labels
 
 def classify(x, representatives):
     covered = [r for r in representatives if getDistance(r[0][1],x) < r[3]]
@@ -74,16 +89,20 @@ def classify(x, representatives):
         label = min(representatives, key = lambda k: getDistance(x, k[0][1]))[2]
         return label
 
-def classifyAll(X,representatives):
-    predicted_labels = list()
-    for i in range(X.shape[0]):
-        predicted_labels.append(classify2(X[i], representatives))
-    return predicted_labels
+def classifyAll(X,representatives,topK):
+    predicted_labels_list = list()
+    for k in range(1, topK + 1):
+        predicted_labels = list()
+        for i in range(X.shape[0]):
+            labels = classify2(X[i], representatives, k)
+            predicted_labels.append(labels)
+        predicted_labels_list.append(predicted_labels)
+    return predicted_labels_list
 
 def kfoldCrossValidation(X,labels, k):
     kf = KFold(len(X), n_folds=k)
     # The accuracy of each fold testing.
-    all_metrics = list()
+    all_metrics_list = list()
     for train_index, test_index in kf:
         X_train = X[train_index]
         labels_train = labels[train_index]
@@ -93,14 +112,35 @@ def kfoldCrossValidation(X,labels, k):
         # Construct the kNN Model, which is founded by a list of cluster
         representatives = train(X_train, labels_train, 1)
 
-        predictedLabels = classifyAll(X_test,representatives)
-        print("test: "),
-        print(labels_test)
-        print("Predicted: "),
-        print(predictedLabels)
+        topK = 5;
+        predictedLabelsList = classifyAll(X_test,representatives,topK)
+        totalMatched = list()
+        totalUnmatched = list()
 
-        accuracy = metrics.accuracy_score(labels_test, predictedLabels)
-        all_metrics.append([accuracy])
+        for k in range(0, topK):
+            totalMatched.append(0)
+            totalUnmatched.append(0)
+
+            print("")
+            print("===== Predicting ", (k + 1), " apps =====")
+            all_metrics = list()
+            predictedLabels = predictedLabelsList[k]
+
+            for i in range(0, len(predictedLabels)):
+                matched = False
+                for j in range(0, k + 1):
+                    if (labels_test[i] == predictedLabels[i][j]): 
+                        matched = True
+                    #print(predictedLabels[i][j])
+                if (matched):
+                    totalMatched[k] = totalMatched[k]+1
+                else:
+                    totalUnmatched[k] = totalUnmatched[k]+1
+            accuracy = float(float(totalMatched[k]) / (totalMatched[k] + totalUnmatched[k]))
+            print("accuracy", accuracy, "totalMatched", totalMatched[k], "totalUnmatched", totalUnmatched[k])
 
     # Returns the average of the array elements
-    return np.mean(all_metrics,axis=0)
+    means = list()
+    for all_metrics in all_metrics_list:
+        means.append(np.mean(all_metrics,axis=0))
+    return means
