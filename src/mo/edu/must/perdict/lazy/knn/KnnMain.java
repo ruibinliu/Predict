@@ -21,7 +21,7 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
  * @data 2011.03.25
  */
 public class KnnMain {
-    private static final int K = 100;
+    private static final int K = 5;
     public static final int TOP_K = 5;
     private static int[] totalMatched = new int[TOP_K];
     private static int[] totalUnmatched = new int[TOP_K];

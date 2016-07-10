@@ -1,0 +1,93 @@
+===== K = 100 =====
+===== Predited app numbers: 1 =====
+totalMatched: 618, totalUnmatched: 882, total: 1500, totalAccuracy: 0.412
+==========
+===== Predited app numbers: 2 =====
+totalMatched: 909, totalUnmatched: 591, total: 1500, totalAccuracy: 0.606
+==========
+===== Predited app numbers: 3 =====
+totalMatched: 1113, totalUnmatched: 387, total: 1500, totalAccuracy: 0.742
+==========
+===== Predited app numbers: 4 =====
+totalMatched: 1213, totalUnmatched: 287, total: 1500, totalAccuracy: 0.8086666666666666
+==========
+===== Predited app numbers: 5 =====
+totalMatched: 1295, totalUnmatched: 205, total: 1500, totalAccuracy: 0.8633333333333333
+==========
+Cost 6722 ms, Test 1500 times, Average 4 ms.
+
+
+===== K = 10 =====
+===== Predited app numbers: 1 =====
+totalMatched: 1052, totalUnmatched: 448, total: 1500, totalAccuracy: 0.7013333333333334
+==========
+===== Predited app numbers: 2 =====
+totalMatched: 1319, totalUnmatched: 181, total: 1500, totalAccuracy: 0.8793333333333333
+==========
+===== Predited app numbers: 3 =====
+totalMatched: 1370, totalUnmatched: 130, total: 1500, totalAccuracy: 0.9133333333333333
+==========
+===== Predited app numbers: 4 =====
+totalMatched: 1385, totalUnmatched: 115, total: 1500, totalAccuracy: 0.9233333333333333
+==========
+===== Predited app numbers: 5 =====
+totalMatched: 1389, totalUnmatched: 111, total: 1500, totalAccuracy: 0.926
+==========
+Cost 6445 ms, Test 1500 times, Average 4 ms.
+
+
+===== K = 5 ======
+===== Predited app numbers: 1 =====
+totalMatched: 1288, totalUnmatched: 212, total: 1500, totalAccuracy: 0.8586666666666667
+==========
+===== Predited app numbers: 2 =====
+totalMatched: 1367, totalUnmatched: 133, total: 1500, totalAccuracy: 0.9113333333333333
+==========
+===== Predited app numbers: 3 =====
+totalMatched: 1388, totalUnmatched: 112, total: 1500, totalAccuracy: 0.9253333333333333
+==========
+===== Predited app numbers: 4 =====
+totalMatched: 1389, totalUnmatched: 111, total: 1500, totalAccuracy: 0.926
+==========
+===== Predited app numbers: 5 =====
+totalMatched: 1390, totalUnmatched: 110, total: 1500, totalAccuracy: 0.9266666666666666
+==========
+Cost 6152 ms, Test 1500 times, Average 4 ms.
+
+
+===== K = 3 =====
+===== Predited app numbers: 1 =====
+totalMatched: 1315, totalUnmatched: 185, total: 1500, totalAccuracy: 0.8766666666666667
+==========
+===== Predited app numbers: 2 =====
+totalMatched: 1389, totalUnmatched: 111, total: 1500, totalAccuracy: 0.926
+==========
+===== Predited app numbers: 3 =====
+totalMatched: 1389, totalUnmatched: 111, total: 1500, totalAccuracy: 0.926
+==========
+===== Predited app numbers: 4 =====
+totalMatched: 1388, totalUnmatched: 112, total: 1500, totalAccuracy: 0.9253333333333333
+==========
+===== Predited app numbers: 5 =====
+totalMatched: 1389, totalUnmatched: 111, total: 1500, totalAccuracy: 0.926
+==========
+Cost 5936 ms, Test 1500 times, Average 3 ms.
+
+
+===== K = 1 =====
+===== Predited app numbers: 1 =====
+totalMatched: 1372, totalUnmatched: 128, total: 1500, totalAccuracy: 0.9146666666666666
+==========
+===== Predited app numbers: 2 =====
+totalMatched: 1372, totalUnmatched: 128, total: 1500, totalAccuracy: 0.9146666666666666
+==========
+===== Predited app numbers: 3 =====
+totalMatched: 1372, totalUnmatched: 128, total: 1500, totalAccuracy: 0.9146666666666666
+==========
+===== Predited app numbers: 4 =====
+totalMatched: 1372, totalUnmatched: 128, total: 1500, totalAccuracy: 0.9146666666666666
+==========
+===== Predited app numbers: 5 =====
+totalMatched: 1372, totalUnmatched: 128, total: 1500, totalAccuracy: 0.9146666666666666
+==========
+Cost 2990 ms, Test 1500 times, Average 1 ms.
