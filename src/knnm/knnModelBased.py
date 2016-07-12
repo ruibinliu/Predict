@@ -1,9 +1,6 @@
 from scipy.spatial.distance import pdist, squareform, euclidean
-from scipy.spatial import distance
 import numpy as np
 from sklearn.cross_validation import KFold
-from sklearn import metrics
-import operator
 import time
 
 def getDistanceMatrix(x):
@@ -117,6 +114,7 @@ def kfoldCrossValidation(X,labels, k):
     # The accuracy of each fold testing.
     all_metrics_list = list()
     for train_index, test_index in kf:
+        print("train_index: %s" % train_index)
         X_train = X[train_index]
         labels_train = labels[train_index]
         X_test = X[test_index]

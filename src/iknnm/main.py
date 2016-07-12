@@ -8,14 +8,9 @@ def main():
     x = data[:, 0:400]
     y = data[:, 400]
 
-    # shuffle
-    p = np.random.permutation(len(x))
-    x = x[p]
-    y = y[p]
-
     classes, y = np.unique(y, return_inverse=True)
 
-    kfoldCrossValidation(x, y, 5)
+    kfold_cross_validation(x, y, 10)
 
 if __name__ == "__main__":
     main()
