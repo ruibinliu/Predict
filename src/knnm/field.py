@@ -15,7 +15,7 @@ def main():
     #train with all data
     # representatives = train(X,y,0)
     # predicted_labels = classifyAll(X,representatives)
-    print("5 fold cross validation avg accuracy: {}".format(kfoldCrossValidation(X,y, 5)))
+    print("5 fold cross validation avg accuracy: {}".format(kfold_cross_validation(X, y, 5)))
 
 if __name__ == "__main__":
     main()
