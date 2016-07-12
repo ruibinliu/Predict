@@ -284,56 +284,73 @@ def classify(x, representatives, top_k):
     label_distance_list.sort(key=lambda a: a[1])
 
     labels = list()
-    if len(in_reps) > 0:
-        is_same_class = True
-        for i in range(0, len(in_reps)):
-            for j in range(0, len(in_reps)):
-                if i == j:
-                    continue
-                if in_reps[i][2] != in_reps[j][2]:
-                    is_same_class = False
-                    break
-        if is_same_class:
-            cls = in_reps[0][2]
-            labels.append(cls)
+    for k in range(0, top_k):
+        if len(in_reps) > 0:
+            is_same_class = True
+            for i in range(0, len(in_reps)):
+                for j in range(0, len(in_reps)):
+                    if i == j:
+                        continue
+                    if in_reps[i][2] != in_reps[j][2]:
+                        is_same_class = False
+                        break
+            if is_same_class:
+                cls = in_reps[0][2]
+                in_reps.remove(in_reps[0])
+                labels.append(cls)
+            else:
+                print("in_reps: ")
+                for rep in in_reps:
+                    print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
+
+                max_lay = max(in_reps, key=lambda a: a[4])[4]
+                print("max_lay = ", max_lay)
+                max_lay_in_reps = list()
+                for rep in in_reps:
+                    if rep[4] == max_lay:
+                        max_lay_in_reps.append(rep)
+
+                cls = max_lay_in_reps[0][2]
+                max_num = 0
+                r = max_lay_in_reps[0]
+                for rep in max_lay_in_reps:
+                    if len(rep[1]) > max_num:
+                        cls = rep[2]
+                        max_num = rep[1]
+                        r = rep
+                print("Covered. Selected cls: %d" % cls)
+                print("len(in_reps)=%d, len(r)=%d" % (len(in_reps[0]), len(r)))
+                new_in_reps = list()
+                for rep in in_reps:
+                    if same(rep, r):
+                        continue
+                    else:
+                        new_in_reps.append(rep)
+                in_reps = new_in_reps
+
+                labels.append(cls)
         else:
-            print("in_reps: ")
-            for rep in in_reps:
-                print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
+            # Not covered by any cluster
+            max_lay = max(label_distance_list, key=lambda a: a[0][4])[0][4]
+            label_distance_list.sort(key=lambda a: a[0][4])  # Sort by layer
+            same_lay = list()
+            for label_distance in label_distance_list:
+                if label_distance[0][4] == max_lay:
+                    same_lay.append(label_distance)
 
-            max_lay = max(in_reps, key=lambda a: a[4])[4]
-            print("max_lay = ", max_lay)
-            max_lay_in_reps = list()
-            for rep in in_reps:
-                if rep[4] == max_lay:
-                    max_lay_in_reps.append(rep)
-
-            cls = max_lay_in_reps[0][2]
-            max_num = 0
-            for rep in max_lay_in_reps:
-                if len(rep[1]) > max_num:
-                    cls = rep[2]
-                    max_num = rep[1]
-            print("Covered. Selected cls: %d" % cls)
-
+            print("same_layer: ")
+            for rep in same_lay:
+                print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0][0], len(rep[0][1]), rep[0][2], rep[0][3], rep[0][4]))
+            new_label_distance_list = list()
+            for label_distance_2 in label_distance_list:
+                if same(same_lay[0][0], label_distance_2[0]) and same_lay[0][1] == label_distance_2[1]:
+                    continue
+                else:
+                    new_label_distance_list.append(label_distance_2)
+            label_distance_list = new_label_distance_list
+            cls = same_lay[0][0][2]
+            print("Not covered. Selected cls: %d" % cls)
             labels.append(cls)
-    else:
-        # Not covered by any cluster
-        label_distance = label_distance_list[0]
-
-        max_lay = max(label_distance_list, key=lambda a: a[0][4])[0][4]
-        label_distance_list.sort(key=lambda a: a[0][4])
-        same_lay = list()
-        for label_distance in label_distance_list:
-            if label_distance[0][4] == max_lay:
-                same_lay.append(label_distance)
-
-        print("same_layer: ")
-        for rep in same_lay:
-            print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0][0], len(rep[0][1]), rep[0][2], rep[0][3], rep[0][4]))
-        cls = same_lay[0][0][2]
-        print("Not covered. Selected cls: %d" % cls)
-        labels.append(cls)
 
     # Select the nearest k labels as the return value
 
@@ -342,6 +359,7 @@ def classify(x, representatives, top_k):
     #     representative = label_distance[0]
     #     cls = representative[2]
     #     labels.append(cls)
+    print("predicted labels = ", labels)
 
     return labels
 
@@ -373,6 +391,8 @@ def kfold_cross_validation(x, labels, k):
     kf = KFold(len(x), n_folds=k)
     fold_size = len(x) / k
 
+    total_matched_fold = list()
+    total_unmatched_fold = list()
     for train_index, test_index in kf:
         train_index_knnm = list()
         train_index_iknnm_list = list()
@@ -433,11 +453,15 @@ def kfold_cross_validation(x, labels, k):
         print("Representatives After:")
         print_model(iknnm)
 
-        top_k = 1
+        top_k = 5
         predicted_labels_list = classify_all(x_test, iknnm, top_k)
         total_matched = list()
         total_unmatched = list()
 
+        if len(total_matched_fold) < top_k:
+            for m in range(0, top_k):
+                total_matched_fold.append(0)
+                total_unmatched_fold.append(0)
         for m in range(0, top_k):
             total_matched.append(0)
             total_unmatched.append(0)
@@ -461,3 +485,8 @@ def kfold_cross_validation(x, labels, k):
             print("predicted_labels = %s" % predicted_labels)
             accuracy = float(total_matched[m]) / (total_matched[m] + total_unmatched[m])
             print("Accuracy %f, totalMatched %d, totalUnmatched %d" % (accuracy, total_matched[m], total_unmatched[m]))
+
+            total_matched_fold[m] += total_matched[m]
+            total_unmatched_fold[m] += total_unmatched[m]
+            average_accuracy = float(total_matched_fold[m]) / (total_matched_fold[m] + total_unmatched_fold[m])
+            print("Average Accuracy %f, total_matched_fold %d, total_unmatched_fold %d" % (average_accuracy, total_matched_fold[m], total_unmatched_fold[m]))
