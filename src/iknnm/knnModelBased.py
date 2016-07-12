@@ -220,7 +220,7 @@ def train_iknnm(representatives, x, y, erd):
     distance_matrix = get_distance_matrix(x)
     new_reps = list()
 
-    lay = max(representatives, key=lambda b: b[4])[4]
+    lay = 0
 
     while len(not_covered) > 0:
         max_neighbourhood = list()
@@ -252,7 +252,6 @@ def train_iknnm(representatives, x, y, erd):
         # representatives format (rep(di), all_tuples in neighbourhood, class(di), Sim(di))
         rep = (tuple_max_neighbourhood, x[tuple_max_neighbourhood])
         num = max_neighbourhood
-        print("tuple_max_neighbourhood = %s" % tuple_max_neighbourhood)
         cls = labels[tuple_max_neighbourhood]
         sim = distance_matrix[tuple_max_neighbourhood, max_neighbourhood[-1]]
         new_reps.append((rep, num, cls, sim, lay))
@@ -299,10 +298,6 @@ def classify(x, representatives, top_k):
                 in_reps.remove(in_reps[0])
                 labels.append(cls)
             else:
-                print("in_reps: ")
-                for rep in in_reps:
-                    print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
-
                 max_lay = max(in_reps, key=lambda a: a[4])[4]
                 print("max_lay = ", max_lay)
                 max_lay_in_reps = list()
@@ -338,9 +333,6 @@ def classify(x, representatives, top_k):
                 if label_distance[0][4] == max_lay:
                     same_lay.append(label_distance)
 
-            print("same_layer: ")
-            for rep in same_lay:
-                print("<rep=%s, num=%d, cls=%d, sim=%s, lay=%d>" % (rep[0][0][0], len(rep[0][1]), rep[0][2], rep[0][3], rep[0][4]))
             new_label_distance_list = list()
             for label_distance_2 in label_distance_list:
                 if same(same_lay[0][0], label_distance_2[0]) and same_lay[0][1] == label_distance_2[1]:
