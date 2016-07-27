@@ -36,13 +36,26 @@ public class DataProcessor {
                 e.printStackTrace();
             }
 
-            if (!"insertTarget".equals(packName)) {
+            if (!"insertTarget".equals(packName)) { // App Open Action
+                if (i + 1 < size) {
+                    Record nextRecord = recordList.get(i + 1);
+                    if (packName.equals(nextRecord.get(Record.PACKNAME))) {
+                        continue;
+                    }
+                }
                 // App Open
                 actionList.add(new AppOpenAction(time, packName));
             } else {
                 // Event
                 String event = record.get(Record.EVENT);
                 String data1 = record.get(Record.DATA1);
+
+                if (i + 1 < size) {
+                    Record nextRecord = recordList.get(i + 1);
+                    if (event.equals(nextRecord.get(Record.EVENT))) {
+                        continue;
+                    }
+                }
 
                 if ("LightChanged".equals(event)) {
                     actionList.add(new LightChangedAction(time, data1));

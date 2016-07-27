@@ -19,6 +19,7 @@ public class Record extends HashMap<String, String> {
     public static final String LIGHT = "light";
     public static final String ACTION = "action";
     public static final String NOTIFICATION = "notification";
+    public static final String DAY_OF_YEAR = "dayOfYear";
     public static final String EVENT = "event";
     public static final String DATA1 = "data1";
     public static final String LOCATION = "location";
@@ -41,8 +42,13 @@ public class Record extends HashMap<String, String> {
         put(Record.LIGHT, words[12]);
         put(Record.ACTION, words[13]);
         put(Record.NOTIFICATION, words[14]);
+        put(Record.DAY_OF_YEAR, words[15]);
         put(Record.EVENT, words[16]);
-        put(Record.DATA1, words[17]);
-        put(Record.LOCATION, words[18]);
+        if (words.length < 18) {
+            put(Record.DATA1, "null");
+        } else {
+            put(Record.DATA1, words[17]);
+        }
+//        put(Record.LOCATION, words[18]);
     }
 }

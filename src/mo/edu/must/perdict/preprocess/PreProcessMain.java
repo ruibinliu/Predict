@@ -30,6 +30,9 @@ public class PreProcessMain {
         @Override
         public void onDone() {
             ArrayList<Action> actionList = DataProcessor.recordToAction(recordList);
+            for (Action a : actionList) {
+                System.out.println("Filtered: " + a);
+            }
             HashSet<String> actionSet = new HashSet<>();
             for (Action action : actionList) {
                 String actionString = action.toString();

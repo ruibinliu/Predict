@@ -247,7 +247,7 @@ public class TanMain {
                 lastLightChanged,
                 packName);
         double prop = tool.calHappenedPro(queryStr);
-        System.out.println("queryStr=" + queryStr + ", " + prop);
+//        System.out.println("queryStr=" + queryStr + ", " + prop);
         return prop;
     }
 
