@@ -56,7 +56,7 @@ def train_knnm(x, labels, erd, representatives=list()):
         cls = labels[tuple_max_neighbourhood]
         sim = distance_matrix[tuple_max_neighbourhood, max_neighbourhood[-1]]
         lay = 0
-        representatives.append((rep, num, cls, sim, lay))
+        representatives.append([rep, num, cls, sim, lay])
 
         # update states array
         for i in max_neighbourhood:
@@ -72,7 +72,7 @@ def same(rep1, rep2):
     return rep1[0][0] == rep2[0][0] and rep1[1] == rep2[1] and rep1[2] == rep2[2] and rep1[3] == rep2[3]
 
 
-def train_iknnm(representatives, x, y, erd):
+def train_iknnm(representatives, x, y, erd, is_crop=False):
     states = np.zeros(len(x))  # Mark all the instance as 'not covered'
     distance_matrix = get_distance_matrix(x)
 
@@ -147,7 +147,7 @@ def train_iknnm(representatives, x, y, erd):
                     if can_extend:
                         rep1[1].append(i)
                         distance = get_distance(rep1[0][1], d)
-                        representatives[m] = (rep1[0], rep1[1], rep1[2], distance, rep1[4])
+                        representatives[m] = [rep1[0], rep1[1], rep1[2], distance, rep1[4]]
                         states[i] = 1
                         break
 
@@ -203,7 +203,7 @@ def train_iknnm(representatives, x, y, erd):
             for j in range(0, len(representatives)):
                 r = representatives[j]
                 if same(r, rep):
-                    representatives[j] = (rep[0], rep[1], rep[2], rep[3], rep[4] + 1)
+                    representatives[j] = [rep[0], rep[1], rep[2], rep[3], rep[4] + 1]
                     break
 
     not_covered = get_not_covered(states)
@@ -254,7 +254,7 @@ def train_iknnm(representatives, x, y, erd):
         num = max_neighbourhood
         cls = labels[tuple_max_neighbourhood]
         sim = distance_matrix[tuple_max_neighbourhood, max_neighbourhood[-1]]
-        new_reps.append((rep, num, cls, sim, lay))
+        new_reps.append([rep, num, cls, sim, lay])
 
         # update states array
         for i in max_neighbourhood:
@@ -269,7 +269,7 @@ def train_iknnm(representatives, x, y, erd):
     return representatives
 
 
-def classify(x, representatives, top_k):
+def classify(x, representatives, top_k, is_crop=False):
     label_distance_list = list()
     in_reps = list()
     for rep in representatives:
@@ -294,12 +294,15 @@ def classify(x, representatives, top_k):
                         is_same_class = False
                         break
             if is_same_class:
+                if is_crop:
+                    for r in in_reps:
+                        r[6] += 1 # Increase the correctly classified instance number
                 cls = in_reps[0][2]
                 in_reps.remove(in_reps[0])
                 labels.append(cls)
             else:
                 max_lay = max(in_reps, key=lambda a: a[4])[4]
-                print("max_lay = ", max_lay)
+                # print("max_lay = ", max_lay)
                 max_lay_in_reps = list()
                 for rep in in_reps:
                     if rep[4] == max_lay:
@@ -313,8 +316,8 @@ def classify(x, representatives, top_k):
                         cls = rep[2]
                         max_num = rep[1]
                         r = rep
-                print("Covered. Selected cls: %d" % cls)
-                print("len(in_reps)=%d, len(r)=%d" % (len(in_reps[0]), len(r)))
+                # print("Covered. Selected cls: %d" % cls)
+                # print("len(in_reps)=%d, len(r)=%d" % (len(in_reps[0]), len(r)))
                 new_in_reps = list()
                 for rep in in_reps:
                     if same(rep, r):
@@ -340,8 +343,10 @@ def classify(x, representatives, top_k):
                 else:
                     new_label_distance_list.append(label_distance_2)
             label_distance_list = new_label_distance_list
+            if is_crop:
+                same_lay[0][0][6] += 1
             cls = same_lay[0][0][2]
-            print("Not covered. Selected cls: %d" % cls)
+            # print("Not covered. Selected cls: %d" % cls)
             labels.append(cls)
 
     # Select the nearest k labels as the return value
@@ -351,19 +356,26 @@ def classify(x, representatives, top_k):
     #     representative = label_distance[0]
     #     cls = representative[2]
     #     labels.append(cls)
-    print("predicted labels = ", labels)
+
+    # print("predicted labels = ", labels)
 
     return labels
 
 
-def classify_all(x, representatives, top_k):
+def classify_all(x, representatives, top_k, is_crop=False):
+    if is_crop:
+        for rep in representatives:
+            if len(rep) <= 5:
+                rep.append(0) # Delete factor
+                rep.append(0) # Correctly classified instance number
+
     predicted_labels_list = list()
     start = time.clock()
     classify_times = 0
     for k in range(1, top_k + 1):
         predicted_labels = list()
         for i in range(x.shape[0]):
-            labels = classify(x[i], representatives, k)
+            labels = classify(x[i], representatives, k, is_crop)
             predicted_labels.append(labels)
             classify_times += 1
         predicted_labels_list.append(predicted_labels)
@@ -371,12 +383,21 @@ def classify_all(x, representatives, top_k):
     print("Classify %d times. Cost %f seconds. Average classify cost %f seconds." %
           (classify_times, (end - start), ((end - start) / classify_times)))
 
+    for rep in representatives:
+        if len(rep) > 6:
+            if rep[6] == 0:
+                rep[5] += 1
+
     return predicted_labels_list
 
 
 def print_model(model):
+    print("Model size: %d" % len(model))
     for rep in model:
-        print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
+        if len(rep) > 5:
+            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s, fac=%s, cor=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4], rep[5], rep[6]))
+        else:
+            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
 
 
 def kfold_cross_validation(x, labels, k):
@@ -432,21 +453,34 @@ def kfold_cross_validation(x, labels, k):
         print("Representatives Before:")
         print_model(knnm)
 
-        start = time.clock()
+        top_k = 5
+        is_crop = True
+        k_delete_factor = 5
+
         iknnm = knnm
         for i in range(0, len(x_train_iknnm_list)):
-            print("===== IKNNM training the %d fold =====" % i)
+            start = time.clock()
+            print("===== IKNNM training the %d fold =====" % (i + 1))
             x_train_iknnm = x_train_iknnm_list[i]
             labels_train_iknnm = labels_train_iknnm_list[i]
+            if is_crop:
+                classify_all(x_train_iknnm, iknnm, top_k, is_crop)
+                print_model(iknnm)
+                new_iknnm = list()
+                for rep in iknnm:
+                    if rep[5] <= k_delete_factor:
+                        new_iknnm.append(rep)
+                iknnm = new_iknnm
+
             iknnm = train_iknnm(iknnm, x_train_iknnm, labels_train_iknnm, 1)
-        end = time.clock()
-        print("IKnnm training cost %f seconds" % (end - start))
+            end = time.clock()
+            max_lay = max(iknnm, key=lambda a: a[4])[4]
+            print("IKnnm training cost %f seconds. Max lay is %d." % (end - start, max_lay))
 
         print("Representatives After:")
         print_model(iknnm)
 
-        top_k = 5
-        predicted_labels_list = classify_all(x_test, iknnm, top_k)
+        predicted_labels_list = classify_all(x_test, iknnm, top_k, is_crop)
         total_matched = list()
         total_unmatched = list()
 
