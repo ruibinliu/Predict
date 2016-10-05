@@ -1,0 +1,5955 @@
+akncapserver,1251782109
+Messaging,1251782122
+Messaging,1251782123
+Messaging,1251782124
+Mail for Exchange,1251782163
+Mail for Exchange,1251782164
+Messaging,1251782169
+Mail for Exchange,1251782171
+Mail for Exchange,1251782172
+Messaging,1251782224
+Mail for Exchange,1251782228
+Mail for Exchange,1251782229
+Messaging,1251782272
+Mail for Exchange,1251782283
+Messaging,1251782284
+Mail for Exchange,1251782286
+Mail for Exchange,1251782287
+Messaging,1251782300
+Messaging,1251782301
+Standby mode,1251782302
+Messaging,1251785197
+Mail for Exchange,1251785201
+Messaging,1251785226
+Messaging,1251785227
+Telephone,1251787485
+Telephone,1251787486
+MMFControllerProxyServer-1c52,1251787503
+akncapserver,1251788783
+Maps,1251792394
+Maps,1251792395
+Maps,1251792408
+Maps,1251792410
+Maps,1251792417
+Maps,1251792420
+Standby mode,1251792422
+Maps,1251792436
+Maps,1251792437
+Maps,1251792445
+Local-c83984e8,1251792472
+Maps,1251792491
+akncapserver,1251792517
+Maps,1251792598
+Local-c8391400,1251792615
+psdk_lmsrvapp,1251792639
+Maps,1251792676
+Maps,1251792677
+Local-c837df90,1251792678
+Standby mode,1251792688
+File manager,1251803505
+File manager,1251803511
+Notes,1251803517
+Notes,1251803520
+File manager,1251803672
+Notes,1251803677
+File manager,1251803681
+File manager,1251803689
+Standby mode,1251803691
+Log,1251803803
+Telephone,1251803826
+Standby mode,1251803959
+EPFLscope,1251803963
+Messaging,1251804002
+Messaging,1251804004
+Text message,1251804006
+Text message,1251804007
+Text message,1251804009
+Text message,1251804010
+Text message,1251804082
+Messaging,1251804083
+Messaging,1251804084
+Messaging,1251804138
+Messaging,1251804139
+EPFLscope,1251804142
+Py_1094174346,1251804617
+Messaging,1251805334
+Messaging,1251805336
+Messaging,1251805339
+Messaging,1251805340
+Messaging,1251805341
+Log,1251805345
+Standby mode,1251805348
+Messaging,1251806188
+Standby mode,1251806191
+Web,1251806194
+Web,1251806196
+Standby mode,1251806267
+Telephone,1251807322
+Web,1251807324
+Web,1251807327
+Web,1251807328
+akncapserver,1251807409
+Web,1251807410
+Messaging,1251807415
+Messaging,1251807416
+Messaging,1251807417
+Messaging,1251807418
+Standby mode,1251807419
+EPFLscope,1251807876
+Py_1058072711,1251808998
+Web,1251810118
+Web,1251810119
+Web,1251810249
+akncapserver,1251810259
+Messaging,1251811888
+Messaging,1251811890
+Messaging,1251811897
+Messaging,1251811898
+Standby mode,1251811899
+Messaging,1251813356
+Messaging,1251813357
+Messaging,1251813403
+Messaging,1251813436
+Standby mode,1251813439
+Messaging,1251813607
+Messaging,1251813611
+Messaging,1251813618
+Messaging,1251813623
+Text message,1251813628
+Messaging,1251813640
+Text message,1251813653
+Messaging,1251813671
+Messaging,1251813686
+Messaging,1251813687
+Standby mode,1251813688
+Telephone,1251813729
+Web,1251813731
+Web,1251813733
+Standby mode,1251813813
+App. manager,1251816847
+App. manager,1251816848
+App. manager,1251816851
+App. manager,1251816918
+File manager,1251816961
+File manager,1251816966
+RealPlayer,1251816984
+RealPlayer,1251816985
+AudioFramerDecoder(7976),1251817083
+File manager,1251817085
+File manager,1251817090
+File manager,1251817109
+File manager,1251817118
+File manager,1251817124
+File manager,1251817129
+File manager,1251817134
+Mass memory,1251817145
+Mass memory,1251817154
+Standby mode,1251817177
+Messaging,1251817296
+Messaging,1251817297
+Messaging,1251817300
+akncapserver,1251818570
+Messaging,1251818571
+EPFLscope,1251818757
+Messaging,1251819272
+Messaging,1251819273
+Messaging,1251819274
+Text message,1251819276
+Text message,1251819283
+Text message,1251819284
+Messaging,1251819401
+Messaging,1251819402
+Text message,1251819585
+Text message,1251819586
+Text message,1251819593
+Messaging,1251819605
+Messaging,1251819606
+Messaging,1251819608
+Messaging,1251819610
+Messaging,1251819699
+Text message,1251819703
+Text message,1251819707
+Messaging,1251819793
+Messaging,1251819802
+Messaging,1251819854
+Messaging,1251819858
+Standby mode,1251819859
+FG THREAD,1251819883
+EPFLscope,1251820244
+Standby mode,1251820249
+Messaging,1251820252
+Messaging,1251820253
+Messaging,1251820255
+Messaging,1251820257
+Messaging,1251820258
+Standby mode,1251820259
+EPFLscope,1251820495
+Standby mode,1251820544
+EPFLscope,1251820626
+Standby mode,1251820640
+EPFLscope,1251820643
+Standby mode,1251820691
+Standby mode,1251820692
+EPFLscope,1251820744
+Messaging,1251820867
+Messaging,1251820868
+Messaging,1251820869
+Messaging,1251820874
+Standby mode,1251820880
+EPFLscope,1251820883
+Standby mode,1251821053
+Log,1251821056
+Telephone,1251821059
+Messaging,1251821121
+Messaging,1251821125
+Messaging,1251821127
+Messaging,1251821129
+Messaging,1251821130
+Standby mode,1251821133
+Calendar,1251821136
+Standby mode,1251821196
+Py_247573977,1251821297
+Telephone,1251821372
+MMFControllerProxyServer-1fe3,1251821378
+akncapserver,1251822132
+Log,1251822139
+Log,1251822140
+Telephone,1251822141
+Telephone,1251822142
+Standby mode,1251822154
+akncapserver,1251822155
+Messaging,1251822158
+Messaging,1251822160
+Messaging,1251822162
+Messaging,1251822163
+Telephone,1251822166
+Telephone,1251822167
+Standby mode,1251823122
+Messaging,1251823140
+Mail for Exchange,1251823145
+Mail for Exchange,1251823146
+Messaging,1251823156
+Messaging,1251823157
+Messaging,1251823158
+Log,1251823214
+Standby mode,1251823216
+Log,1251824342
+Log,1251824353
+Standby mode,1251824355
+Messaging,1251824390
+Text message,1251824396
+Messaging,1251824439
+Standby mode,1251824451
+Messaging,1251824576
+Telephone,1251824580
+MMFControllerProxyServer-2024,1251824581
+Messaging,1251825113
+Standby mode,1251825114
+akncapserver,1251825539
+Messaging,1251826290
+Mail for Exchange,1251826294
+Mail for Exchange,1251826295
+Messaging,1251826302
+Messaging,1251826306
+Standby mode,1251826308
+Calendar,1251826311
+Standby mode,1251826349
+EPFLscope,1251829009
+Messaging,1251830954
+Messaging,1251830955
+WidgetUI,1251830964
+WidgetUi,1251831028
+Telephone,1251832655
+akncapserver,1251832658
+akncapserver,1251832694
+Log,1251832697
+Standby mode,1251832698
+Standby mode,1251832699
+Contacts,1251832902
+Contacts,1251832904
+Telephone,1251832937
+Telephone,1251832938
+Contacts,1251832970
+Standby mode,1251832971
+Standby mode,1251832972
+Contacts,1251832979
+Contacts,1251832980
+Standby mode,1251832984
+Standby mode,1251832985
+Telephone,1251833751
+MMFControllerProxyServer-20e5,1251833754
+akncapserver,1251833815
+EPFLscope,1251834388
+Contacts,1251836059
+Contacts,1251836098
+Contacts,1251836107
+Contacts,1251836135
+Internet tel.,1251836222
+Internet tel.,1251836227
+Internet tel.,1251836231
+Internet tel.,1251836233
+Internet tel.,1251836239
+Internet tel.,1251836252
+Standby mode,1251836254
+EPFLscope,1251836258
+IM,1251836262
+EPFLscope,1251836264
+IM,1251836268
+EPFLscope,1251836278
+EPFLscope,1251836279
+Contacts,1251836284
+Contacts,1251836291
+Contacts,1251836292
+Contacts,1251836300
+Contacts,1251836303
+EPFLscope,1251836379
+Contacts,1251836390
+Contacts,1251836391
+Contacts,1251836401
+Contacts,1251836472
+Contacts,1251836474
+Contacts,1251836475
+Standby mode,1251836484
+Messaging,1251837697
+Messaging,1251837698
+Clock,1251837711
+Clock,1251837712
+Clock,1251837721
+Messaging,1251837724
+Mail for Exchange,1251837739
+Messaging,1251837771
+Messaging,1251837773
+Messaging,1251837774
+EPFLscope,1251837778
+EPFLscope,1251865826
+Clock,1251865835
+Clock,1251865848
+Standby mode,1251865849
+Messaging,1251871231
+Messaging,1251871233
+Standby mode,1251871235
+FG THREAD,1251872033
+Messaging,1251873034
+Mail for Exchange,1251873041
+Messaging,1251873052
+Messaging,1251873057
+Telephone,1251873556
+MMFControllerProxyServer-2180,1251873565
+akncapserver,1251874109
+Log,1251874206
+Log,1251874207
+Telephone,1251874209
+Standby mode,1251874920
+Telephone,1251876107
+Web,1251876110
+Web,1251876112
+Web,1251876118
+Web,1251876150
+Standby mode,1251876191
+Web,1251876192
+Telephone,1251880022
+MMFControllerProxyServer-2200,1251880034
+akncapserver,1251881224
+Messaging,1251881231
+Messaging,1251881232
+Mail for Exchange,1251881236
+Mail for Exchange,1251881237
+Messaging,1251882052
+Mail for Exchange,1251882057
+Mail for Exchange,1251882058
+Messaging,1251882063
+Messaging,1251882064
+Standby mode,1251882065
+Telephone,1251883034
+MMFControllerProxyServer-2254,1251883039
+akncapserver,1251883190
+akncapserver,1251883191
+Telephone,1251887114
+MMFControllerProxyServer-2281,1251887123
+akncapserver,1251887963
+Messaging,1251887969
+Messaging,1251887970
+Messaging,1251887971
+Standby mode,1251887972
+Messaging,1251891078
+Messaging,1251891079
+Telephone,1251891874
+MMFControllerProxyServer-22d8,1251891876
+Messaging,1251891878
+Telephone,1251894442
+MMFControllerProxyServer-22f7,1251894448
+Messaging,1251894449
+Telephone,1251897946
+MMFControllerProxyServer-2334,1251897970
+akncapserver,1251897971
+Telephone,1251899105
+akncapserver,1251899151
+MMFControllerProxyServer-2344,1251899152
+Telephone,1251899224
+akncapserver,1251899264
+Messaging,1251901959
+Text message,1251901962
+Messaging,1251901963
+Messaging,1251901964
+akncapserver,1251901965
+Log,1251901967
+Telephone,1251901974
+Standby mode,1251902183
+Telephone,1251905043
+MMFControllerProxyServer-239a,1251905048
+akncapserver,1251905142
+Messaging,1251906143
+Mail for Exchange,1251906146
+Mail for Exchange,1251906147
+Messaging,1251906151
+Messaging,1251906152
+Standby mode,1251906153
+Messaging,1251906394
+Messaging,1251906395
+Mail for Exchange,1251906397
+Mail for Exchange,1251906398
+Messaging,1251906406
+Mail for Exchange,1251906411
+Messaging,1251906501
+Standby mode,1251906503
+Messaging,1251907853
+Messaging,1251907855
+Standby mode,1251907861
+EPFLscope,1251907868
+Log,1251907887
+Log,1251907888
+Standby mode,1251907893
+Standby mode,1251907906
+Calendar,1251907909
+Standby mode,1251907984
+Standby mode,1251908003
+FG THREAD,1251908329
+Log,1251908482
+Log,1251908483
+Telephone,1251908484
+akncapserver,1251908552
+Messaging,1251910630
+Messaging,1251910631
+Mail for Exchange,1251910634
+Messaging,1251910665
+Standby mode,1251910666
+Messaging,1251910699
+Mail for Exchange,1251910702
+Messaging,1251911931
+Messaging,1251911932
+Messaging,1251911934
+Standby mode,1251911935
+Calendar,1251911938
+Standby mode,1251912806
+Standby mode,1251914832
+Calendar,1251914834
+Standby mode,1251914847
+WidgetUI,1251917006
+WidgetUi,1251917026
+Standby mode,1251917027
+Messaging,1251919958
+Messaging,1251919960
+Messaging,1251919988
+Standby mode,1251919991
+Messaging,1251920931
+Messaging,1251920932
+Messaging,1251920961
+Messaging,1251920963
+Messaging,1251920992
+Messaging,1251920995
+Log,1251921000
+Standby mode,1251921004
+Clock,1251922951
+Clock,1251953019
+Clock,1251953032
+Messaging,1251953036
+Messaging,1251953038
+Messaging,1251953091
+Messaging,1251953092
+Standby mode,1251953093
+Messaging,1251957648
+Messaging,1251957649
+Messaging,1251957652
+Standby mode,1251957653
+Text message,1251957722
+Standby mode,1251958032
+Calendar,1251958056
+Standby mode,1251958123
+Messaging,1251958150
+Messaging,1251958152
+Telephone,1251958156
+Telephone,1251958157
+Standby mode,1251958314
+Maps,1251958436
+Maps,1251958441
+Local-c83c34a0,1251958453
+Maps,1251958459
+Maps,1251958528
+Maps,1251958531
+Standby mode,1251958587
+Telephone,1251958594
+Web,1251958597
+Web,1251958598
+Standby mode,1251958599
+Text message,1251958602
+Messaging,1251958604
+Standby mode,1251958606
+EPFLscope,1251958608
+Py_271969944,1251960337
+Standby mode,1251960663
+Calendar,1251960666
+Standby mode,1251960802
+Messaging,1251960814
+Messaging,1251960817
+Mail for Exchange,1251960841
+Messaging,1251961314
+Messaging,1251961316
+Standby mode,1251961317
+Messaging,1251962142
+Messaging,1251962145
+Mail for Exchange,1251962154
+Mail for Exchange,1251962155
+Messaging,1251962171
+Mail for Exchange,1251962173
+Mail for Exchange,1251962174
+Messaging,1251962179
+Mail for Exchange,1251962181
+akncapserver,1251962241
+Messaging,1251963001
+Messaging,1251963002
+Mail for Exchange,1251963005
+Messaging,1251963051
+Messaging,1251963054
+Standby mode,1251963055
+Messaging,1251963329
+Messaging,1251963330
+Messaging,1251963332
+Mail for Exchange,1251963336
+Messaging,1251963385
+Messaging,1251963387
+Standby mode,1251963388
+Messaging,1251964827
+Messaging,1251964828
+Messaging,1251964829
+Messaging,1251964850
+Standby mode,1251964851
+EPFLscope,1251965807
+Standby mode,1251965860
+Messaging,1251965864
+Messaging,1251965865
+Messaging,1251965866
+Mail for Exchange,1251965871
+Mail for Exchange,1251965872
+Messaging,1251965883
+Standby mode,1251965886
+Py_1625693767,1251966184
+Messaging,1251966694
+Mail for Exchange,1251966700
+Messaging,1251966707
+Messaging,1251966710
+EPFLscope,1251966713
+Py_2050854877,1251966786
+NaviGo,1251972653
+akncapserver,1251972665
+Messaging,1251972667
+Messaging,1251972668
+Mail for Exchange,1251972700
+Messaging,1251972703
+Standby mode,1251972704
+Messaging,1251972989
+Messaging,1251972991
+Messaging,1251972997
+Standby mode,1251972998
+EPFLscope,1251973006
+FG THREAD,1251973051
+Messaging,1251973862
+Messaging,1251973863
+Messaging,1251973864
+Mail for Exchange,1251973869
+Mail for Exchange,1251973870
+Messaging,1251973891
+Messaging,1251973892
+Messaging,1251973893
+Standby mode,1251973894
+EPFLscope,1251975774
+Messaging,1251975954
+Messaging,1251975955
+Messaging,1251975959
+Messaging,1251975960
+Standby mode,1251975961
+Py_1464922737,1251975978
+Messaging,1251976604
+Messaging,1251976605
+Messaging,1251976607
+Telephone,1251978481
+akncapserver,1251978649
+EPFLscope,1251980329
+Py_1714631792,1251980522
+Standby mode,1251980769
+EPFLscope,1251980773
+Py_1048523024,1251980822
+Messaging,1251986712
+Messaging,1251986713
+Messaging,1251986714
+Messaging,1251986715
+Messaging,1251986716
+Standby mode,1251986719
+Telephone,1251987989
+MMFControllerProxyServer-2873,1251987998
+akncapserver,1251990284
+Messaging,1251990609
+Messaging,1251990612
+Messaging,1251990613
+Standby mode,1251990614
+Contacts,1251990708
+Contacts,1251990714
+Telephone,1251990716
+Standby mode,1251990797
+Messaging,1251993868
+Messaging,1251993869
+Mail for Exchange,1251993871
+Messaging,1251993970
+Messaging,1251993971
+Standby mode,1251993972
+Messaging,1251996480
+Messaging,1251996481
+Mail for Exchange,1251996486
+Messaging,1251996568
+Messaging,1251996569
+Messaging,1251996570
+Standby mode,1251996571
+Contacts,1251996573
+Contacts,1251996574
+EPFLscope,1252002006
+Py_224896854,1252006371
+Messaging,1252006531
+Messaging,1252006533
+Mail for Exchange,1252006573
+Messaging,1252006663
+Messaging,1252006743
+Messaging,1252006745
+WidgetUI,1252006764
+WidgetUi,1252006822
+WidgetUI,1252006828
+WidgetUI,1252006829
+WidgetUI,1252006830
+WidgetUI,1252007242
+Web,1252007454
+Web,1252007456
+aknnfysrv,1252007457
+ICLThread.00063420270759184625.0077B1B0,1252007577
+WidgetUI,1252007680
+WidgetUi,1252007805
+EPFLscope,1252007820
+Friend View,1252007857
+Web,1252007873
+Web,1252007879
+Friend View,1252007951
+MMFControllerProxyServer-2a11,1252007955
+Contacts,1252007959
+Contacts,1252007961
+Standby mode,1252008012
+Messaging,1252008087
+Messaging,1252008089
+Messaging,1252008124
+Standby mode,1252008125
+Camera,1252008126
+Camera,1252008128
+MMFControllerProxyServer-2a43,1252008132
+Messaging,1252009081
+Messaging,1252009084
+Messaging,1252009123
+Standby mode,1252009124
+Clock,1252009130
+Clock,1252009139
+Standby mode,1252009140
+Standby mode,1252041013
+Messaging,1252041038
+Messaging,1252041039
+Mail for Exchange,1252041093
+Messaging,1252041117
+Messaging,1252041118
+Standby mode,1252041119
+Messaging,1252044398
+Standby mode,1252044411
+Standby mode,1252044417
+Telephone,1252044418
+Web,1252044420
+Web,1252044421
+aknnfysrv,1252044428
+akncapserver,1252044784
+Calendar,1252046739
+Contacts,1252047092
+Contacts,1252047114
+Calendar,1252047144
+Contacts,1252047157
+Calendar,1252047174
+Contacts,1252047182
+Contacts,1252047190
+Calendar,1252047191
+Standby mode,1252047193
+EPFLscope,1252047200
+Py_1585843264,1252047501
+Contacts,1252047732
+Telephone,1252047737
+Standby mode,1252048430
+Messaging,1252052827
+Messaging,1252052828
+Text message,1252052829
+Text message,1252052842
+Text message,1252052978
+Messaging,1252052983
+Standby mode,1252053124
+Messaging,1252053973
+Mail for Exchange,1252053983
+Messaging,1252056316
+Standby mode,1252056317
+Log,1252056318
+Log,1252056319
+Telephone,1252056346
+Standby mode,1252056561
+Log,1252057492
+Telephone,1252059323
+MMFControllerProxyServer-2b95,1252059327
+akncapserver,1252059430
+Telephone,1252059626
+MMFControllerProxyServer-2ba2,1252059637
+akncapserver,1252059656
+Messaging,1252060272
+Messaging,1252060276
+Messaging,1252060324
+Standby mode,1252060325
+akncapserver,1252063720
+Contacts,1252063722
+Contacts,1252063723
+Py_2006187994,1252063894
+Telephone,1252064306
+MMFControllerProxyServer-2be6,1252064326
+EPFLscope,1252064327
+FG THREAD,1252066615
+Telephone,1252069985
+Telephone,1252069986
+MMFControllerProxyServer-2c1e,1252069991
+akncapserver,1252070011
+FG THREAD,1252070255
+akncapserver,1252073794
+akncapserver,1252073797
+Messaging,1252073801
+Standby mode,1252073802
+Calendar,1252079350
+Calendar,1252079351
+Standby mode,1252079360
+Messaging,1252079825
+Messaging,1252079826
+Messaging,1252079830
+Messaging,1252079832
+Log,1252081491
+Telephone,1252081496
+Standby mode,1252081564
+EPFLscope,1252081571
+Py_1433023789,1252081731
+Standby mode,1252082751
+Log,1252082757
+Contacts,1252083758
+Telephone,1252083764
+akncapserver,1252084038
+Messaging,1252089125
+Mail for Exchange,1252089129
+Messaging,1252089157
+Messaging,1252089158
+Standby mode,1252089159
+Messaging,1252095636
+Messaging,1252095638
+E-mail,1252095697
+E-mail,1252095703
+Messaging,1252095780
+Messaging,1252095806
+Standby mode,1252095808
+Contacts,1252095843
+EPFLscope,1252095847
+Standby mode,1252133071
+Messaging,1252133075
+Messaging,1252133076
+Messaging,1252133078
+Messaging,1252133203
+Messaging,1252138471
+Messaging,1252138700
+Standby mode,1252138702
+Camera,1252142155
+Camera,1252142156
+Camera,1252142157
+Camera,1252142168
+Local-c838c9b0,1252142170
+Camera,1252142180
+Camera,1252142184
+Camera,1252142198
+Camera,1252142201
+akncapserver,1252142207
+akncapserver,1252145735
+EPFLscope,1252145736
+Messaging,1252145740
+Messaging,1252145742
+EPFLscope,1252145797
+Messaging,1252145800
+FG THREAD,1252145856
+EPFLscope,1252145866
+Standby mode,1252152755
+Camera,1252152756
+Camera,1252152757
+Camera,1252152796
+Camera,1252152826
+Camera,1252152839
+Camera,1252152856
+Camera,1252152881
+Camera,1252152888
+Camera,1252152896
+Camera,1252152900
+MMFControllerProxyServer-2e73,1252152903
+akncapserver,1252152904
+Messaging,1252162708
+Messaging,1252162709
+Mail for Exchange,1252162717
+Standby mode,1252162819
+Messaging,1252162903
+Messaging,1252162904
+Messaging,1252162952
+Standby mode,1252162953
+EPFLscope,1252165921
+Messaging,1252165927
+Messaging,1252165928
+Messaging,1252165985
+Messaging,1252165986
+Messaging,1252165989
+Messaging,1252165990
+Messaging,1252165992
+Messaging,1252166019
+Messaging,1252166023
+Standby mode,1252166025
+Py_722128687,1252166242
+Messaging,1252178456
+Messaging,1252178457
+Messaging,1252178458
+Mail for Exchange,1252178522
+Messaging,1252178554
+Messaging,1252178558
+Messaging,1252178580
+Messaging,1252178607
+Standby mode,1252178609
+Messaging,1252178610
+Messaging,1252180215
+Messaging,1252180217
+Messaging,1252180250
+Standby mode,1252180251
+Clock,1252180255
+Clock,1252183144
+Web,1252183148
+Web,1252183149
+Web,1252183962
+Web,1252183966
+Web,1252184012
+Messaging,1252184015
+Messaging,1252184016
+Messaging,1252184037
+Messaging,1252184038
+Standby mode,1252184039
+Standby mode,1252213041
+Clock,1252213048
+EPFLscope,1252213064
+Clock,1252213067
+EPFLscope,1252213068
+Standby mode,1252213078
+Messaging,1252213082
+Messaging,1252213083
+Messaging,1252213084
+Messaging,1252213111
+Py_271923420,1252217641
+EPFLscope,1252219370
+Standby mode,1252219375
+Messaging,1252219381
+Messaging,1252219382
+Messaging,1252219416
+Standby mode,1252219417
+FG THREAD,1252219459
+Messaging,1252223852
+Messaging,1252223855
+Text message,1252223860
+Text message,1252223928
+Messaging,1252223930
+Messaging,1252223948
+Standby mode,1252223949
+EPFLscope,1252239170
+Messaging,1252239177
+Messaging,1252239178
+Messaging,1252239179
+Messaging,1252239216
+Py_1817901121,1252239515
+Standby mode,1252249795
+EPFLscope,1252249796
+EPFLscope,1252249797
+Py_1539629928,1252250399
+Telephone,1252254088
+MMFControllerProxyServer-3115,1252254110
+FG THREAD,1252255844
+Contacts,1252255898
+Contacts,1252255899
+Messaging,1252255935
+Messaging,1252255936
+EPFLscope,1252255956
+Contacts,1252255959
+Contacts,1252255960
+Messaging,1252255964
+Messaging,1252255969
+Contacts,1252255970
+EPFLscope,1252255979
+EPFLscope,1252255980
+Py_6486270,1252256163
+Contacts,1252256456
+Contacts,1252256457
+Contacts,1252256593
+Contacts,1252256723
+Contacts,1252256727
+IM,1252256743
+IM,1252257050
+EPFLscope,1252257120
+Messaging,1252257168
+akncapserver,1252257171
+EPFLscope,1252257172
+Telephone,1252257180
+MMFControllerProxyServer-3186,1252257189
+Text message,1252257201
+akncapserver,1252257238
+akncapserver,1252257239
+EPFLscope,1252257248
+IM,1252257341
+IM,1252257342
+EPFLscope,1252257411
+Standby mode,1252257414
+EPFLscope,1252257424
+Standby mode,1252257427
+Contacts,1252257447
+Standby mode,1252257454
+Messaging,1252257482
+Messaging,1252257484
+Text message,1252257492
+Messaging,1252257522
+akncapserver,1252257523
+Messaging,1252257541
+Clock,1252270196
+Clock,1252270206
+Maps,1252270209
+Maps,1252270211
+Maps,1252270222
+Maps,1252270223
+Maps,1252270224
+Local-c83c5368,1252270225
+Standby mode,1252270242
+Standby mode,1252270243
+EPFLscope,1252270249
+Py_107036968,1252279869
+akncapserver,1252300514
+Messaging,1252301229
+Messaging,1252301230
+Mail for Exchange,1252301258
+Mail for Exchange,1252301259
+Messaging,1252301270
+Messaging,1252301272
+Standby mode,1252301273
+Log,1252305862
+Telephone,1252305864
+Standby mode,1252306051
+EPFLscope,1252309665
+EPFLscope,1252309666
+Py_1515277797,1252311338
+Messaging,1252315802
+Messaging,1252315803
+Messaging,1252315804
+Mail for Exchange,1252315810
+Messaging,1252315834
+Messaging,1252315835
+Messaging,1252315836
+Messaging,1252315866
+Telephone,1252316345
+akncapserver,1252316431
+Messaging,1252316754
+Mail for Exchange,1252316758
+Messaging,1252316764
+Mail for Exchange,1252316766
+Messaging,1252316775
+Messaging,1252316776
+Mail for Exchange,1252316778
+Messaging,1252316788
+Messaging,1252316789
+Messaging,1252316790
+Telephone,1252316796
+Web,1252316799
+Web,1252316800
+Web,1252316801
+Standby mode,1252317030
+Telephone,1252317104
+Web,1252317107
+Web,1252317109
+Standby mode,1252317182
+EPFLscope,1252318308
+Telephone,1252318411
+EPFLscope,1252318427
+FG THREAD,1252318594
+akncapserver,1252319630
+Settings,1252319638
+Settings,1252319640
+Settings,1252319641
+Settings,1252319648
+Settings,1252319655
+Settings,1252319656
+Settings,1252319795
+Settings,1252319796
+Settings,1252319797
+Settings,1252319800
+Settings,1252319802
+Settings,1252319824
+Settings,1252319825
+Settings,1252319884
+Settings,1252319896
+Settings,1252320000
+Settings,1252320001
+Settings,1252320003
+akncapserver,1252320005
+Log,1252320008
+Telephone,1252320009
+Standby mode,1252320362
+Telephone,1252321896
+akncapserver,1252321913
+Log,1252321920
+Standby mode,1252321921
+Standby mode,1252321922
+Messaging,1252322465
+Messaging,1252322466
+Messaging,1252322467
+Messaging,1252322468
+Standby mode,1252322469
+EPFLscope,1252322471
+Standby mode,1252322481
+Messaging,1252323073
+Messaging,1252323074
+Mail for Exchange,1252323076
+Mail for Exchange,1252323077
+Messaging,1252323106
+Messaging,1252323107
+Standby mode,1252323108
+FG THREAD,1252324038
+Telephone,1252324133
+akncapserver,1252324408
+Messaging,1252325165
+Messaging,1252325166
+Messaging,1252325167
+Standby mode,1252325168
+Telephone,1252325783
+Web,1252325785
+Web,1252325787
+akncapserver,1252326666
+Messaging,1252326668
+Messaging,1252326669
+Messaging,1252326670
+Standby mode,1252326671
+Telephone,1252326769
+Web,1252326771
+Web,1252326773
+Standby mode,1252326774
+Standby mode,1252326781
+Web,1252326787
+Web,1252326788
+Standby mode,1252326883
+Telephone,1252328724
+akncapserver,1252329864
+Messaging,1252329869
+Messaging,1252329882
+Messaging,1252329883
+Standby mode,1252329884
+Telephone,1252331010
+akncapserver,1252331041
+Messaging,1252331178
+Messaging,1252331187
+Mail for Exchange,1252331201
+Messaging,1252331214
+Messaging,1252331215
+Messaging,1252333585
+Messaging,1252333587
+Mail for Exchange,1252333589
+Messaging,1252333596
+akncapserver,1252333597
+Log,1252334185
+Telephone,1252334187
+Standby mode,1252334481
+Telephone,1252334523
+akncapserver,1252334602
+EPFLscope,1252336853
+EPFLscope,1252336854
+EPFLscope,1252336859
+Standby mode,1252336860
+FG THREAD,1252338543
+Messaging,1252339335
+Messaging,1252339336
+Standby mode,1252340148
+Messaging,1252340153
+Messaging,1252340154
+Messaging,1252340157
+Standby mode,1252340158
+EPFLscope,1252340160
+Py_1404485852,1252340358
+Standby mode,1252340399
+Log,1252340400
+Telephone,1252340402
+akncapserver,1252340678
+Contacts,1252345320
+IM,1252345352
+Contacts,1252345358
+Telephone,1252345374
+Standby mode,1252345425
+Contacts,1252345542
+IM,1252345553
+Contacts,1252345562
+Standby mode,1252345573
+EPFLscope,1252346504
+Standby mode,1252346507
+Standby mode,1252346508
+Log,1252346519
+Log,1252346520
+Log,1252346521
+Standby mode,1252346528
+akncapserver,1252392313
+Messaging,1252392317
+Messaging,1252392318
+Standby mode,1252392319
+Messaging,1252392320
+EPFLscope,1252392322
+Py_1375122896,1252392520
+Messaging,1252395046
+Messaging,1252395047
+Mail for Exchange,1252395050
+Mail for Exchange,1252395051
+Messaging,1252395067
+Mail for Exchange,1252395069
+Mail for Exchange,1252395070
+Messaging,1252395082
+Messaging,1252395083
+Messaging,1252395085
+Standby mode,1252396308
+Telephone,1252396664
+Standby mode,1252396667
+akncapserver,1252396850
+Messaging,1252396855
+Messaging,1252396856
+Mail for Exchange,1252396863
+Messaging,1252396885
+Messaging,1252396886
+Messaging,1252396887
+Mail for Exchange,1252396893
+Messaging,1252396929
+Mail for Exchange,1252396932
+Mail for Exchange,1252396933
+Messaging,1252396951
+Messaging,1252396952
+Messaging,1252396954
+Messaging,1252397752
+Mail for Exchange,1252397756
+Mail for Exchange,1252397757
+Messaging,1252397764
+Mail for Exchange,1252397770
+Messaging,1252398013
+Messaging,1252398015
+Standby mode,1252398016
+screensaver,1252400765
+Messaging,1252401796
+Mail for Exchange,1252401800
+Mail for Exchange,1252401802
+Messaging,1252401846
+Messaging,1252401849
+Standby mode,1252401850
+screensaver,1252401942
+Standby mode,1252401984
+Sports Tracker,1252401998
+Sports Tracker,1252401999
+Sports Tracker,1252402018
+screensaver,1252402131
+SecureWidgetUI,1252402307
+Standby mode,1252402325
+screensaver,1252402419
+Messaging,1252402463
+Messaging,1252402464
+Messaging,1252402465
+Mail for Exchange,1252402467
+Mail for Exchange,1252402468
+Messaging,1252402474
+Messaging,1252402476
+Contacts,1252402491
+Contacts,1252402495
+Comp. directory,1252402509
+Comp. directory,1252402510
+Comp. directory,1252402511
+Telephone,1252402526
+Standby mode,1252402557
+screensaver,1252402650
+Messaging,1252403398
+Messaging,1252403399
+Mail for Exchange,1252403402
+Messaging,1252403470
+Messaging,1252403475
+Standby mode,1252403476
+screensaver,1252403569
+Standby mode,1252403920
+screensaver,1252404064
+Telephone,1252405842
+MMFControllerProxyServer-2e9,1252405852
+akncapserver,1252405894
+screensaver,1252405988
+Telephone,1252407480
+MMFControllerProxyServer-305,1252407488
+akncapserver,1252407654
+Telephone,1252407673
+MMFControllerProxyServer-307,1252407681
+akncapserver,1252407745
+Messaging,1252407752
+Messaging,1252407753
+Messaging,1252407758
+Standby mode,1252407759
+screensaver,1252407853
+Standby mode,1252409148
+Telephone,1252409606
+Telephone,1252409607
+Standby mode,1252409609
+Standby mode,1252409613
+Messaging,1252409647
+Messaging,1252409660
+Messaging,1252409663
+Messaging,1252409664
+screensaver,1252409756
+Standby mode,1252410744
+Comp. directory,1252410746
+Standby mode,1252410749
+EPFLscope,1252410751
+screensaver,1252410844
+Messaging,1252411449
+Messaging,1252411455
+Mail for Exchange,1252411460
+Messaging,1252411466
+Messaging,1252411467
+Standby mode,1252411468
+screensaver,1252411561
+FG THREAD,1252411742
+Standby mode,1252412943
+screensaver,1252413077
+akncapserver,1252413238
+Standby mode,1252413285
+screensaver,1252413375
+Standby mode,1252413421
+screensaver,1252413566
+Standby mode,1252413725
+screensaver,1252413818
+akncapserver,1252413907
+screensaver,1252413997
+Standby mode,1252414315
+Messaging,1252414319
+Messaging,1252414321
+Messaging,1252414338
+screensaver,1252414431
+Messaging,1252414882
+Messaging,1252414884
+Messaging,1252414890
+screensaver,1252414981
+Standby mode,1252415125
+Telephone,1252415126
+aknnfysrv,1252415151
+akncapserver,1252415902
+Py_991193825,1252415956
+screensaver,1252416151
+EPFLscope,1252416173
+screensaver,1252416385
+EPFLscope,1252416411
+File manager,1252416530
+screensaver,1252416638
+akncapserver,1252418921
+screensaver,1252419012
+Messaging,1252420556
+Messaging,1252420557
+Mail for Exchange,1252420561
+Messaging,1252420564
+Messaging,1252420565
+screensaver,1252420655
+Messaging,1252421213
+screensaver,1252421304
+Messaging,1252425092
+Carousel,1252425095
+Messaging,1252425102
+Standby mode,1252425110
+Barcode reader,1252425131
+Barcode reader,1252425136
+Barcode reader,1252425144
+Barcode reader,1252425211
+screensaver,1252425304
+Barcode reader,1252425718
+Barcode reader,1252425719
+Barcode reader,1252425738
+screensaver,1252425829
+Barcode reader,1252425978
+Barcode reader,1252425980
+screensaver,1252426156
+Barcode reader,1252426222
+Barcode reader,1252426235
+screensaver,1252426358
+Barcode reader,1252426439
+Barcode reader,1252426615
+Barcode reader,1252426629
+Barcode reader,1252426647
+Barcode reader,1252426682
+Contacts,1252426692
+File manager,1252426813
+File manager,1252426830
+File manager,1252426859
+Notes,1252426876
+File manager,1252426889
+Notes,1252426894
+File manager,1252426907
+Notes,1252426914
+File manager,1252426929
+Notes,1252426936
+File manager,1252426949
+GFLM work thread,1252426960
+File manager,1252426963
+File manager,1252426978
+Notes,1252426984
+File manager,1252427000
+GFLM work thread,1252427001
+File manager,1252427002
+Maps,1252427018
+Maps,1252427019
+File manager,1252427049
+File manager,1252427052
+File manager,1252427057
+Notes,1252427062
+File manager,1252427068
+File manager,1252427070
+Standby mode,1252427072
+screensaver,1252427165
+Standby mode,1252427855
+Log,1252427858
+Telephone,1252427861
+Standby mode,1252428132
+screensaver,1252428226
+Messaging,1252428596
+Messaging,1252428597
+Messaging,1252428598
+Standby mode,1252428600
+screensaver,1252428702
+Standby mode,1252429211
+screensaver,1252429304
+Standby mode,1252430119
+EPFLscope,1252430121
+screensaver,1252430243
+Py_1248749581,1252430417
+EPFLscope,1252431010
+Messaging,1252431013
+Messaging,1252431014
+Messaging,1252431016
+Mail for Exchange,1252431028
+akncapserver,1252431096
+screensaver,1252431170
+Py_1149695499,1252431569
+EPFLscope,1252441035
+screensaver,1252441159
+EPFLscope,1252443872
+Messaging,1252443876
+Messaging,1252443900
+Log,1252443905
+WidgetUI,1252443914
+WidgetUI,1252443918
+WidgetUI,1252443919
+WidgetUi,1252443975
+Contacts,1252443980
+Contacts,1252443982
+Contacts,1252444011
+Contacts,1252444012
+Contacts,1252444016
+Contacts,1252444018
+Contacts,1252444023
+Contacts,1252444025
+Contacts,1252444032
+Contacts,1252444033
+Contacts,1252444037
+Contacts,1252444038
+Contacts,1252444041
+Contacts,1252444042
+SecureWidgetUI,1252444064
+Local-c8365328,1252444273
+YouTube,1252444416
+SymbianThreadImpl_1,1252444443
+EPFLscope,1252444448
+screensaver,1252444543
+screensaver,1252462644
+EPFLscope,1252475278
+Messaging,1252475284
+Messaging,1252475285
+Messaging,1252475286
+Mail for Exchange,1252475364
+Mail for Exchange,1252475365
+Messaging,1252475397
+Mail for Exchange,1252475402
+Mail for Exchange,1252475403
+Messaging,1252475424
+Mail for Exchange,1252475427
+Mail for Exchange,1252475428
+Messaging,1252475441
+Mail for Exchange,1252475442
+Mail for Exchange,1252475446
+Messaging,1252475473
+Mail for Exchange,1252475478
+Messaging,1252475499
+Mail for Exchange,1252475508
+Messaging,1252475619
+Messaging,1252475620
+Messaging,1252475621
+Mail for Exchange,1252475626
+screensaver,1252475716
+Mail for Exchange,1252475788
+Messaging,1252475790
+Messaging,1252475791
+Messaging,1252475792
+Standby mode,1252475793
+screensaver,1252475891
+Py_1200750863,1252478373
+Messaging,1252478742
+Mail for Exchange,1252478754
+Messaging,1252478917
+Messaging,1252478920
+Standby mode,1252478921
+screensaver,1252479025
+Standby mode,1252481778
+Standby mode,1252481782
+Calendar,1252481785
+Standby mode,1252481816
+screensaver,1252481909
+Standby mode,1252482009
+EPFLscope,1252482017
+screensaver,1252482131
+EPFLscope,1252482204
+Messaging,1252482374
+Messaging,1252482375
+Mail for Exchange,1252482377
+Messaging,1252482455
+Mail for Exchange,1252482469
+Messaging,1252482484
+Messaging,1252482493
+Standby mode,1252482494
+screensaver,1252482587
+Standby mode,1252482733
+screensaver,1252482826
+Messaging,1252485622
+Standby mode,1252485625
+screensaver,1252485717
+Standby mode,1252487282
+Messaging,1252487291
+Messaging,1252487293
+Messaging,1252487295
+screensaver,1252487391
+Messaging,1252487394
+screensaver,1252487483
+Messaging,1252487732
+screensaver,1252487822
+Messaging,1252488076
+screensaver,1252488166
+Messaging,1252489419
+akncapserver,1252489420
+Messaging,1252489423
+Messaging,1252489424
+Telephone,1252489428
+Web,1252489430
+Web,1252489432
+screensaver,1252489590
+Web,1252489612
+Standby mode,1252489616
+screensaver,1252489709
+Standby mode,1252490093
+screensaver,1252490194
+Telephone,1252493427
+MMFControllerProxyServer-8db,1252493430
+akncapserver,1252493852
+screensaver,1252493942
+Py_549047995,1252495362
+Standby mode,1252495636
+Messaging,1252495641
+Messaging,1252495642
+Messaging,1252495643
+Mail for Exchange,1252495647
+Messaging,1252495679
+Messaging,1252495680
+Messaging,1252495681
+Standby mode,1252495683
+screensaver,1252495778
+Messaging,1252495868
+Messaging,1252495869
+Mail for Exchange,1252495871
+screensaver,1252495961
+akncapserver,1252496701
+Messaging,1252496742
+Standby mode,1252496744
+EPFLscope,1252496755
+akncapserver,1252496818
+Messaging,1252496820
+Messaging,1252496821
+Messaging,1252496822
+Standby mode,1252496823
+screensaver,1252496916
+Standby mode,1252496956
+EPFLscope,1252496957
+screensaver,1252497085
+EPFLscope,1252497390
+Standby mode,1252497391
+Py_1356239770,1252497487
+screensaver,1252497489
+Messaging,1252497665
+Messaging,1252497666
+Mail for Exchange,1252497669
+Mail for Exchange,1252497670
+Messaging,1252497677
+Messaging,1252497679
+Standby mode,1252497680
+screensaver,1252497773
+akncapserver,1252500305
+screensaver,1252500399
+Standby mode,1252501719
+WLAN wizard,1252501905
+Standby mode,1252501935
+Settings,1252501951
+Settings,1252501952
+Access Point Settings UI Delete Operation,1252501974
+Settings,1252501990
+Standby mode,1252501992
+Web,1252502037
+Web,1252502135
+screensaver,1252502228
+Web,1252502344
+Standby mode,1252502347
+EPFLscope,1252502349
+screensaver,1252502563
+EPFLscope,1252503060
+screensaver,1252503150
+EPFLscope,1252503385
+akncapserver,1252503476
+screensaver,1252503567
+Standby mode,1252503615
+screensaver,1252503755
+Standby mode,1252504431
+EPFLscope,1252504436
+screensaver,1252504527
+EPFLscope,1252504531
+screensaver,1252504753
+EPFLscope,1252504786
+akncapserver,1252505039
+Messaging,1252505090
+Messaging,1252505091
+Standby mode,1252505092
+EPFLscope,1252505112
+EPFLscope,1252507013
+screensaver,1252507175
+Standby mode,1252507245
+Telephone,1252507246
+Standby mode,1252507278
+Telephone,1252507320
+Standby mode,1252507350
+Telephone,1252507351
+Standby mode,1252507370
+Standby mode,1252507377
+Telephone,1252507383
+Standby mode,1252507460
+Standby mode,1252507461
+Telephone,1252507462
+Standby mode,1252507486
+Telephone,1252507495
+Standby mode,1252507510
+Settings,1252507520
+Settings,1252507522
+Standby mode,1252507526
+Telephone,1252507527
+akncapserver,1252507528
+Telephone,1252507530
+akncapserver,1252507531
+Telephone,1252507534
+Standby mode,1252507535
+screensaver,1252507629
+Standby mode,1252507644
+Bluetooth,1252507650
+Bluetooth,1252507672
+Standby mode,1252507673
+screensaver,1252507766
+Messaging,1252509273
+Telephone,1252509274
+Standby mode,1252509283
+Standby mode,1252509296
+Telephone,1252509298
+Standby mode,1252509303
+Standby mode,1252509315
+Telephone,1252509317
+Telephone,1252509320
+screensaver,1252509439
+Standby mode,1252510254
+Camera,1252510259
+Camera,1252510287
+Camera,1252510292
+Camera,1252510312
+Camera,1252510331
+Camera,1252510351
+screensaver,1252510445
+Camera,1252511826
+Standby mode,1252511833
+Standby mode,1252511845
+Telephone,1252511846
+Web,1252511849
+Web,1252511851
+Web,1252511855
+Standby mode,1252511860
+Web,1252511871
+Web,1252511872
+screensaver,1252512027
+Web,1252512972
+screensaver,1252513061
+Telephone,1252513316
+MMFControllerProxyServer-abc,1252513321
+Web,1252513322
+akncapserver,1252513343
+screensaver,1252513433
+Messaging,1252513617
+Standby mode,1252513619
+Log,1252513621
+Telephone,1252513626
+Standby mode,1252513876
+EPFLscope,1252513885
+screensaver,1252513980
+EPFLscope,1252516448
+Messaging,1252516462
+Messaging,1252516463
+screensaver,1252516611
+Messaging,1252518970
+Messaging,1252518972
+Messaging,1252518973
+Standby mode,1252518974
+screensaver,1252519067
+akncapserver,1252521635
+screensaver,1252521715
+Messaging,1252522520
+Messaging,1252522523
+Standby mode,1252522524
+Standby mode,1252522530
+EPFLscope,1252522532
+WidgetUI,1252522557
+WidgetUI,1252522559
+WidgetUI,1252522563
+WidgetUi,1252522581
+WidgetUI,1252522588
+WidgetUI,1252522589
+WidgetUI,1252522594
+WidgetUi,1252522779
+Web,1252522788
+Web,1252522789
+Web,1252522976
+Standby mode,1252523004
+screensaver,1252523097
+Standby mode,1252523285
+screensaver,1252523382
+Standby mode,1252523821
+EPFLscope,1252523823
+Standby mode,1252523830
+Telephone,1252523875
+Standby mode,1252523882
+Telephone,1252523883
+Standby mode,1252523894
+screensaver,1252523988
+Standby mode,1252526010
+Messaging,1252526021
+Mail for Exchange,1252526058
+Messaging,1252526065
+Mail for Exchange,1252526080
+Messaging,1252526082
+Mail for Exchange,1252526092
+Mail for Exchange,1252526093
+Messaging,1252526170
+Mail for Exchange,1252526176
+screensaver,1252526276
+Mail for Exchange,1252526367
+Messaging,1252526393
+Mail for Exchange,1252526401
+Messaging,1252526415
+Messaging,1252526419
+Messaging,1252526420
+Standby mode,1252526421
+screensaver,1252526514
+Standby mode,1252529840
+Clock,1252529847
+Clock,1252529852
+Standby mode,1252529853
+screensaver,1252529946
+Standby mode,1252530560
+Messaging,1252530565
+Messaging,1252530566
+Mail for Exchange,1252530571
+Messaging,1252530585
+Messaging,1252530586
+Messaging,1252530588
+Mail for Exchange,1252530600
+Messaging,1252530603
+Messaging,1252530604
+Mail for Exchange,1252530617
+Messaging,1252530642
+Messaging,1252530649
+Standby mode,1252530650
+WidgetUI,1252530670
+WidgetUI,1252530672
+WidgetUi,1252531063
+WidgetUI,1252531077
+WidgetUi,1252531107
+Log,1252531122
+Messaging,1252531130
+Messaging,1252531131
+Messaging,1252531241
+Messaging,1252531244
+SecureWidgetUI,1252531257
+securewidgetui,1252531273
+SecureWidgetUI,1252531280
+SecureWidgetUI,1252531281
+akncapserver,1252531912
+Standby mode,1252531913
+EPFLscope,1252531955
+Standby mode,1252531972
+Web,1252532069
+Web,1252532073
+aknnfysrv,1252532074
+Web,1252532087
+EPFLscope,1252532124
+EPFLscope,1252532125
+Standby mode,1252532144
+SecureWidgetUI,1252532174
+Local-c839a670,1252532232
+Standby mode,1252532255
+App. manager,1252532277
+App. manager,1252532281
+App. manager,1252532319
+Friend View,1252532332
+Friend View,1252532333
+MMFControllerProxyServer-c80,1252532383
+Contacts,1252532395
+Contacts,1252532397
+Contacts,1252532424
+Contacts,1252532431
+Contacts,1252532433
+Contacts,1252532436
+Contacts,1252532444
+Contacts,1252532452
+SecureWidgetUI,1252532490
+securewidgetui,1252532512
+Standby mode,1252532517
+Messaging,1252532522
+Messaging,1252532523
+Mail for Exchange,1252532557
+Messaging,1252532572
+Messaging,1252532574
+Standby mode,1252532581
+Settings,1252532624
+Settings,1252532625
+Settings,1252532626
+Settings,1252532633
+Settings,1252532638
+Settings,1252532639
+Settings,1252532641
+Settings,1252532643
+Settings,1252532649
+Settings,1252532697
+Settings,1252532700
+Settings,1252532701
+Standby mode,1252532702
+Settings,1252532718
+akncapserver,1252532725
+Settings,1252532733
+Settings,1252532827
+Settings,1252532828
+Settings,1252532829
+Settings,1252532830
+Standby mode,1252532832
+screensaver,1252532968
+Standby mode,1252557294
+Messaging,1252557300
+Messaging,1252557301
+Messaging,1252557302
+Mail for Exchange,1252557345
+Mail for Exchange,1252557346
+Messaging,1252557363
+Mail for Exchange,1252557365
+Mail for Exchange,1252557366
+Messaging,1252557379
+Mail for Exchange,1252557381
+Mail for Exchange,1252557382
+Messaging,1252557401
+Mail for Exchange,1252557411
+Messaging,1252557418
+Messaging,1252557419
+Clock,1252557461
+Clock,1252557470
+Standby mode,1252557471
+screensaver,1252557564
+Telephone,1252565466
+akncapserver,1252565467
+Log,1252565506
+Messaging,1252565519
+Messaging,1252565520
+Messaging,1252565525
+Standby mode,1252565526
+screensaver,1252565765
+Log,1252566022
+Telephone,1252566024
+Standby mode,1252566299
+EPFLscope,1252566304
+EPFLscope,1252566311
+screensaver,1252566409
+EPFLscope,1252566867
+Standby mode,1252566879
+EPFLscope,1252566881
+Web,1252566887
+Web,1252566888
+Web,1252567359
+EPFLscope,1252567363
+Telephone,1252567455
+Telephone,1252567456
+screensaver,1252567562
+Themes,1252568266
+Themes,1252568267
+Barcode reader,1252568282
+Barcode reader,1252568299
+Barcode reader,1252568305
+Barcode reader,1252568437
+Barcode reader,1252568442
+akncapserver,1252568461
+Barcode reader,1252568560
+Barcode reader,1252568561
+Barcode reader,1252568565
+Barcode reader,1252568571
+Barcode reader,1252568572
+akncapserver,1252568576
+screensaver,1252568667
+Py_2010347023,1252569624
+Standby mode,1252571068
+Camera,1252571072
+Camera,1252571073
+Camera,1252571084
+Camera,1252571092
+akncapserver,1252571096
+screensaver,1252571186
+Standby mode,1252572674
+EPFLscope,1252572676
+screensaver,1252572767
+EPFLscope,1252572873
+EPFLscope,1252572874
+screensaver,1252573002
+EPFLscope,1252573800
+screensaver,1252573890
+Telephone,1252575994
+MMFControllerProxyServer-29f,1252575998
+screensaver,1252576109
+EPFLscope,1252576893
+screensaver,1252576988
+Telephone,1252577298
+MMFControllerProxyServer-2ac,1252577303
+screensaver,1252577567
+EPFLscope,1252577941
+SecureWidgetUI,1252577953
+securewidgetui,1252578012
+screensaver,1252578122
+EPFLscope,1252578625
+screensaver,1252578779
+EPFLscope,1252579221
+Messaging,1252579225
+Messaging,1252579228
+Mail for Exchange,1252579235
+Mail for Exchange,1252579236
+Messaging,1252579267
+Messaging,1252579268
+Standby mode,1252579269
+screensaver,1252579362
+Standby mode,1252579579
+Log,1252579580
+Telephone,1252579584
+Standby mode,1252579608
+Messaging,1252579614
+Messaging,1252579615
+Messaging,1252579640
+Telephone,1252579669
+EPFLscope,1252580342
+screensaver,1252580438
+EPFLscope,1252580495
+screensaver,1252580622
+EPFLscope,1252583111
+Log,1252583123
+EPFLscope,1252583124
+Messaging,1252583156
+Messaging,1252583157
+Messaging,1252583159
+Mail for Exchange,1252583174
+Messaging,1252583192
+Messaging,1252583194
+Messaging,1252583196
+Messaging,1252583224
+Messaging,1252583227
+SecureWidgetUI,1252583244
+securewidgetui,1252583259
+SecureWidgetUI,1252583269
+SecureWidgetUI,1252583270
+Local-c8353870,1252583332
+akncapserver,1252583479
+E-mail setup,1252583489
+E-mail setup,1252583494
+E-mail setup,1252583625
+SecureWidgetUI,1252583722
+E-mail setup,1252583737
+Nokia Messaging email,1252583752
+Nokia Messaging email,1252583911
+Standby mode,1252583920
+Nokia Messaging email,1252583922
+Nokia Messaging email,1252583927
+Settings,1252583971
+E-mail setup,1252583988
+akncapserver,1252583994
+Settings,1252583995
+Nokia Messaging email,1252583999
+E-mail setup,1252584007
+E-mail setup,1252584041
+Standby mode,1252584061
+Messaging,1252584064
+Messaging,1252584065
+Messaging,1252584069
+Messaging,1252584070
+E-mail setup,1252584074
+Nokia Messaging email,1252584077
+Nokia Messaging email,1252584083
+E-mail setup,1252584121
+E-mail setup,1252584127
+E-mail setup,1252584147
+E-mail setup,1252584168
+Settings,1252584169
+Nokia Messaging email,1252584174
+Nokia Messaging email,1252584180
+Nokia Messaging email,1252584198
+Nokia Messaging email,1252584227
+Nokia Messaging email,1252584234
+Nokia Messaging email,1252584238
+Nokia Messaging email,1252584241
+Nokia Messaging email,1252584260
+Nokia Messaging email,1252584326
+Settings,1252584339
+Nokia Messaging email,1252584350
+Nokia Messaging email,1252584361
+EPFLscope,1252584366
+screensaver,1252584460
+akncapserver,1252586715
+screensaver,1252586805
+EPFLscope,1252587463
+Messaging,1252587466
+Messaging,1252587467
+Messaging,1252587468
+Mail for Exchange,1252587474
+EPFLscope,1252587642
+screensaver,1252587729
+EPFLscope,1252590073
+screensaver,1252590163
+EPFLscope,1252590189
+screensaver,1252590279
+EPFLscope,1252590336
+screensaver,1252590434
+EPFLscope,1252590974
+Messaging,1252590977
+Messaging,1252590978
+Messaging,1252590981
+Messaging,1252590983
+Mail for Exchange,1252590987
+Mail for Exchange,1252590988
+Messaging,1252591009
+Messaging,1252591014
+Standby mode,1252591015
+screensaver,1252591109
+Messaging,1252594800
+Standby mode,1252594802
+Barcode reader,1252594813
+Barcode reader,1252594819
+Barcode reader,1252594824
+Barcode reader,1252594825
+Standby mode,1252594829
+screensaver,1252594923
+Standby mode,1252595662
+Log,1252595663
+Telephone,1252595665
+Standby mode,1252596834
+screensaver,1252596927
+Messaging,1252599249
+Mail for Exchange,1252599259
+Messaging,1252599261
+Messaging,1252599262
+Standby mode,1252599263
+screensaver,1252599356
+Standby mode,1252599658
+EPFLscope,1252599663
+screensaver,1252599764
+EPFLscope,1252599797
+Messaging,1252599803
+Messaging,1252599807
+Standby mode,1252599809
+Calendar,1252599815
+Standby mode,1252599855
+Calendar,1252599858
+Standby mode,1252599894
+Calendar,1252599899
+Standby mode,1252599923
+screensaver,1252600019
+Standby mode,1252600165
+Calendar,1252600169
+Standby mode,1252600230
+screensaver,1252600324
+screensaver,1252600325
+Standby mode,1252600607
+Nokia Messaging email,1252600615
+EPFLscope,1252600631
+Contacts,1252600649
+Contacts,1252600650
+Contacts,1252600652
+Contacts,1252600658
+Contacts,1252600659
+Contacts,1252600660
+Log,1252600694
+screensaver,1252600791
+WidgetUI,1252601331
+WidgetUI,1252601332
+WidgetUI,1252601334
+screensaver,1252601592
+WidgetUI,1252601601
+WidgetUi,1252601943
+WidgetUI,1252601949
+WidgetUI,1252601950
+WidgetUI,1252601951
+WidgetUi,1252602057
+YouTube,1252602064
+SymbianThreadImpl_1,1252602094
+WidgetUI,1252602104
+WidgetUI,1252602106
+screensaver,1252602491
+WidgetUI,1252602495
+WidgetUi,1252603054
+Contacts,1252603059
+Contacts,1252603061
+Contacts,1252603090
+Contacts,1252603096
+WidgetUI,1252603119
+WidgetUi,1252603136
+WidgetUI,1252603141
+WidgetUi,1252603163
+Standby mode,1252603173
+Nokia Messaging email,1252603177
+EPFLscope,1252603186
+screensaver,1252603286
+EPFLscope,1252603740
+Messaging,1252603743
+Messaging,1252603744
+Text message,1252603747
+Text message,1252603770
+Messaging,1252603885
+Messaging,1252603886
+Messaging,1252603910
+Messaging,1252603912
+EPFLscope,1252603916
+screensaver,1252604010
+EPFLscope,1252604064
+Messaging,1252604070
+Messaging,1252604071
+Text message,1252604073
+Text message,1252604084
+Messaging,1252604309
+Messaging,1252604310
+Text message,1252604311
+akncapserver,1252604400
+Text message,1252604401
+Messaging,1252604508
+Messaging,1252604512
+Standby mode,1252604522
+Standby mode,1252604523
+screensaver,1252604719
+Messaging,1252604723
+Messaging,1252604725
+Text message,1252604732
+Text message,1252604830
+Messaging,1252604832
+Nokia Messaging email,1252604863
+Nokia Messaging email,1252604870
+Nokia Messaging email,1252604872
+Nokia Messaging email,1252604893
+Settings,1252604896
+Nokia Messaging email,1252604958
+Standby mode,1252604960
+Messaging,1252604970
+Messaging,1252604971
+Mail for Exchange,1252604978
+Messaging,1252604994
+Mail for Exchange,1252604997
+Mail for Exchange,1252604998
+Messaging,1252605011
+Standby mode,1252605013
+Calendar,1252605032
+Standby mode,1252605042
+screensaver,1252605137
+Messaging,1252607361
+Messaging,1252607362
+Nokia Messaging email,1252607383
+Standby mode,1252607387
+screensaver,1252607492
+Standby mode,1252608071
+screensaver,1252608165
+Standby mode,1252608883
+Clock,1252608897
+Clock,1252608906
+Messaging,1252608911
+Messaging,1252608912
+Messaging,1252608913
+Mail for Exchange,1252608944
+Messaging,1252609133
+Mail for Exchange,1252609139
+Mail for Exchange,1252609140
+Messaging,1252609148
+Messaging,1252609150
+Messaging,1252609151
+EPFLscope,1252609156
+EPFLscope,1252609173
+Carousel,1252609212
+EPFLscope,1252609216
+Standby mode,1252609235
+screensaver,1252609330
+Standby mode,1252612591
+Standby mode,1252612592
+Messaging,1252612599
+Messaging,1252612601
+Messaging,1252612627
+Standby mode,1252612628
+screensaver,1252612721
+Standby mode,1252645311
+App. manager,1252645321
+App. manager,1252645322
+App. manager,1252645326
+Clock,1252645329
+screensaver,1252645425
+Clock,1252646942
+Clock,1252646943
+Messaging,1252646947
+Messaging,1252646948
+Messaging,1252646949
+Mail for Exchange,1252647026
+Mail for Exchange,1252647027
+Messaging,1252647032
+Mail for Exchange,1252647034
+Mail for Exchange,1252647035
+Messaging,1252647053
+Mail for Exchange,1252647055
+Mail for Exchange,1252647056
+Messaging,1252647061
+Mail for Exchange,1252647064
+Mail for Exchange,1252647065
+Messaging,1252647166
+Mail for Exchange,1252647168
+Messaging,1252647212
+Messaging,1252647213
+Messaging,1252647214
+Messaging,1252647215
+Messaging,1252647216
+screensaver,1252647311
+Messaging,1252647556
+Messaging,1252647557
+Messaging,1252647567
+Text message,1252647571
+screensaver,1252647668
+Text message,1252647805
+Standby mode,1252647810
+Gallery,1252647813
+Gallery,1252647816
+Multimedia,1252647828
+Multimedia,1252647829
+Carousel,1252647897
+Carousel,1252647898
+Music player,1252647918
+screensaver,1252648033
+Music player,1252649509
+Music player,1252649510
+Multimedia,1252649512
+Gallery,1252649521
+Gallery,1252649522
+Text message,1252649526
+Messaging,1252649529
+Messaging,1252649531
+Messaging,1252649533
+Standby mode,1252649537
+screensaver,1252649637
+Standby mode,1252651298
+EPFLscope,1252651312
+screensaver,1252651481
+EPFLscope,1252651483
+Standby mode,1252651644
+EPFLscope,1252651649
+Standby mode,1252651717
+EPFLscope,1252651720
+Contacts,1252651781
+Telephone,1252651790
+Telephone,1252651791
+Py_355899186,1252652083
+Standby mode,1252654041
+screensaver,1252654135
+Standby mode,1252654165
+Calendar,1252654167
+Standby mode,1252654177
+Messaging,1252654262
+Standby mode,1252654267
+Log,1252654299
+Log,1252654300
+Telephone,1252654301
+Standby mode,1252654498
+screensaver,1252654591
+Standby mode,1252654823
+EPFLscope,1252654825
+Standby mode,1252654830
+Log,1252654833
+screensaver,1252654927
+Messaging,1252656084
+Messaging,1252656086
+Mail for Exchange,1252656088
+Messaging,1252656094
+Messaging,1252656095
+Standby mode,1252656097
+screensaver,1252656188
+Standby mode,1252656504
+screensaver,1252656659
+Standby mode,1252657752
+Messaging,1252657756
+Messaging,1252657757
+Messaging,1252657758
+File manager,1252657763
+File manager,1252657764
+File manager,1252657765
+File manager,1252657771
+screensaver,1252657942
+Telephone,1252659700
+Standby mode,1252659751
+screensaver,1252659844
+Telephone,1252659863
+MMFControllerProxyServer-6b6,1252659874
+akncapserver,1252659936
+screensaver,1252660027
+Standby mode,1252660073
+screensaver,1252660162
+Messaging,1252665055
+Mail for Exchange,1252665059
+Py_901027360,1252665074
+Messaging,1252665109
+Messaging,1252665111
+Standby mode,1252665112
+screensaver,1252665209
+Messaging,1252668717
+Messaging,1252668718
+Standby mode,1252668721
+screensaver,1252668814
+Standby mode,1252669637
+Log,1252669639
+Telephone,1252669641
+Standby mode,1252669672
+screensaver,1252669769
+Standby mode,1252669859
+screensaver,1252669950
+Standby mode,1252670157
+Log,1252670161
+Telephone,1252670172
+Standby mode,1252670422
+screensaver,1252670532
+Telephone,1252683317
+Telephone,1252683318
+MMFControllerProxyServer-7d1,1252683321
+akncapserver,1252683454
+akncapserver,1252683455
+screensaver,1252683545
+Messaging,1252684816
+Messaging,1252684817
+Messaging,1252684822
+Standby mode,1252684823
+Contacts,1252684828
+Log,1252684832
+Nokia Messaging email,1252684834
+Nokia Messaging email,1252684835
+Standby mode,1252684840
+EPFLscope,1252684846
+screensaver,1252685073
+Py_1927385733,1252685083
+EPFLscope,1252685143
+screensaver,1252685386
+Py_1529098256,1252685683
+EPFLscope,1252685798
+Messaging,1252685802
+Messaging,1252685803
+Mail for Exchange,1252685806
+Mail for Exchange,1252685809
+Messaging,1252685953
+Messaging,1252685954
+Log,1252686112
+Telephone,1252686114
+Standby mode,1252686132
+Standby mode,1252686138
+Messaging,1252686195
+Messaging,1252686197
+Standby mode,1252686198
+screensaver,1252686328
+Standby mode,1252686926
+Log,1252686951
+screensaver,1252687159
+screensaver,1252687160
+Log,1252687162
+EPFLscope,1252687202
+Standby mode,1252687206
+Log,1252687218
+Telephone,1252687221
+Py_731274147,1252687387
+Standby mode,1252687653
+screensaver,1252687871
+Standby mode,1252688950
+Telephone,1252688951
+Web,1252688955
+Web,1252688956
+Standby mode,1252688957
+Search,1252689014
+Standby mode,1252689041
+screensaver,1252689133
+Messaging,1252689802
+Mail for Exchange,1252689806
+Mail for Exchange,1252689808
+Messaging,1252689821
+Messaging,1252689822
+Standby mode,1252689823
+screensaver,1252689916
+Standby mode,1252691117
+EPFLscope,1252691118
+Log,1252691134
+EPFLscope,1252691135
+Messaging,1252691138
+Messaging,1252691139
+Messaging,1252691142
+Standby mode,1252691145
+screensaver,1252691239
+Py_103984282,1252691315
+Standby mode,1252692367
+EPFLscope,1252692369
+screensaver,1252692471
+EPFLscope,1252692731
+Messaging,1252692736
+Messaging,1252692737
+Text message,1252692741
+Messaging,1252692743
+screensaver,1252692883
+Standby mode,1252698323
+Camera,1252698328
+Camera,1252698339
+EPFLscope,1252698396
+Messaging,1252698438
+Messaging,1252698439
+Messaging,1252698445
+Messaging,1252698468
+Messaging,1252698476
+Messaging,1252698479
+Messaging,1252698480
+screensaver,1252698577
+Standby mode,1252700072
+Messaging,1252700104
+Messaging,1252700105
+Messaging,1252700107
+Messaging,1252700144
+Messaging,1252700147
+WidgetUI,1252700155
+WidgetUI,1252700160
+WidgetUI,1252700161
+WidgetUi,1252700544
+WidgetUI,1252700547
+WidgetUI,1252700548
+WidgetUI,1252700550
+WidgetUi,1252700573
+WidgetUI,1252700581
+WidgetUI,1252700582
+akncapserver,1252700583
+aknnfysrv,1252700585
+WidgetUI,1252700598
+WidgetUi,1252700601
+WidgetUI,1252700603
+WidgetUI,1252700605
+WidgetUI,1252700606
+WidgetUi,1252700637
+EPFLscope,1252700642
+WidgetUI,1252700663
+WidgetUI,1252700666
+WidgetUi,1252700700
+WidgetUI,1252700709
+WidgetUi,1252700733
+SecureWidgetUI,1252700738
+securewidgetui,1252701036
+Standby mode,1252701038
+screensaver,1252701133
+screensaver,1252735294
+Messaging,1252735668
+Messaging,1252735670
+Messaging,1252735685
+Standby mode,1252735686
+screensaver,1252735780
+Standby mode,1252736690
+screensaver,1252736802
+Standby mode,1252742779
+Messaging,1252742784
+Messaging,1252742785
+Messaging,1252742797
+Messaging,1252742837
+Standby mode,1252742838
+Nokia Messaging email,1252742840
+WidgetUI,1252742862
+WidgetUI,1252742864
+WidgetUI,1252742866
+screensaver,1252743577
+WidgetUI,1252743607
+WidgetUi,1252743753
+Contacts,1252743759
+EPFLscope,1252743804
+SecureWidgetUI,1252743821
+securewidgetui,1252744200
+screensaver,1252744291
+Messaging,1252744489
+Messaging,1252744493
+akncapserver,1252744544
+screensaver,1252744618
+Standby mode,1252748670
+EPFLscope,1252748671
+Nokia Messaging email,1252748674
+Messaging,1252748678
+Messaging,1252748679
+Messaging,1252748684
+Messaging,1252748706
+Messaging,1252748707
+Standby mode,1252748708
+EPFLscope,1252748748
+Py_1171943667,1252748836
+screensaver,1252748838
+EPFLscope,1252748913
+screensaver,1252749003
+EPFLscope,1252749056
+Py_232648952,1252749073
+screensaver,1252749146
+EPFLscope,1252749378
+Standby mode,1252749381
+EPFLscope,1252749385
+screensaver,1252749480
+Py_622424224,1252749554
+EPFLscope,1252750545
+screensaver,1252750638
+Py_1746000156,1252750786
+EPFLscope,1252755599
+Messaging,1252755611
+Messaging,1252755612
+Mail for Exchange,1252755635
+Messaging,1252755710
+Messaging,1252755711
+Messaging,1252755712
+Standby mode,1252755713
+Py_1974033490,1252755751
+screensaver,1252755819
+Standby mode,1252756826
+EPFLscope,1252756828
+Py_1106291356,1252756895
+screensaver,1252756968
+EPFLscope,1252757396
+screensaver,1252757508
+Py_379370715,1252757524
+Messaging,1252764530
+Messaging,1252764531
+Messaging,1252764532
+EPFLscope,1252764545
+Messaging,1252764552
+Mail for Exchange,1252764571
+Messaging,1252764597
+Messaging,1252764598
+Messaging,1252764600
+screensaver,1252764693
+EPFLscope,1252769093
+Messaging,1252769098
+Messaging,1252769100
+Messaging,1252769125
+Messaging,1252769126
+Standby mode,1252769127
+screensaver,1252769220
+Standby mode,1252769339
+Contacts,1252769344
+screensaver,1252769484
+Contacts,1252770343
+screensaver,1252770595
+Contacts,1252774548
+screensaver,1252774645
+Py_1689844796,1252774985
+Contacts,1252780248
+Contacts,1252780252
+Standby mode,1252780258
+Messaging,1252780264
+Messaging,1252780265
+Messaging,1252780266
+Mail for Exchange,1252780300
+Mail for Exchange,1252780301
+Messaging,1252780396
+Mail for Exchange,1252780398
+Mail for Exchange,1252780399
+Messaging,1252780422
+Messaging,1252780424
+Messaging,1252780427
+Standby mode,1252780429
+screensaver,1252780524
+Standby mode,1252783644
+Messaging,1252783651
+Messaging,1252783652
+Messaging,1252783654
+screensaver,1252783762
+Messaging,1252783779
+screensaver,1252783870
+Messaging,1252784230
+screensaver,1252784320
+Messaging,1252784620
+Messaging,1252784630
+Standby mode,1252784631
+EPFLscope,1252784635
+screensaver,1252784872
+EPFLscope,1252788452
+screensaver,1252788542
+EPFLscope,1252790052
+Messaging,1252790058
+Messaging,1252790059
+Messaging,1252790061
+Messaging,1252790062
+Messaging,1252790094
+Web,1252790099
+Web,1252790100
+Web,1252790466
+EPFLscope,1252790474
+screensaver,1252790569
+EPFLscope,1252793236
+Messaging,1252793240
+Messaging,1252793241
+Messaging,1252793270
+Messaging,1252793271
+Standby mode,1252793272
+screensaver,1252793363
+Standby mode,1252794961
+Telephone,1252794965
+Web,1252794967
+Web,1252794969
+Web,1252794970
+Web,1252795144
+Standby mode,1252795145
+Messaging,1252795152
+Messaging,1252795154
+Messaging,1252795191
+screensaver,1252795285
+Standby mode,1252795659
+Messaging,1252795663
+Messaging,1252795664
+screensaver,1252795793
+Standby mode,1252820885
+Messaging,1252820889
+Messaging,1252820891
+Messaging,1252820922
+Standby mode,1252820925
+Telephone,1252820926
+Web,1252820929
+Web,1252820930
+Web,1252820933
+screensaver,1252821545
+Web,1252821909
+screensaver,1252821999
+Standby mode,1252822014
+screensaver,1252822106
+Standby mode,1252829287
+Messaging,1252829304
+Messaging,1252829305
+Messaging,1252829306
+Mail for Exchange,1252829315
+Mail for Exchange,1252829317
+Standby mode,1252829382
+Web,1252829388
+Web,1252829394
+Web,1252829395
+aknnfysrv,1252829400
+EPFLscope,1252829414
+EPFLscope,1252829415
+Nokia Messaging email,1252829438
+Settings,1252829446
+E-mail setup,1252829520
+E-mail setup,1252829530
+E-mail setup,1252829554
+E-mail setup,1252829636
+E-mail setup,1252829644
+E-mail setup,1252829741
+akncapserver,1252829974
+Settings,1252829979
+Nokia Messaging email,1252829983
+EPFLscope,1252829988
+screensaver,1252830082
+EPFLscope,1252830496
+EPFLscope,1252830497
+Contacts,1252830503
+Web,1252830542
+aknnfysrv,1252830546
+ICLThread.00063421094808799625.00726C90,1252831612
+EPFLscope,1252831968
+Nokia Messaging email,1252831973
+Standby mode,1252831978
+screensaver,1252832072
+screensaver,1252832073
+Standby mode,1252834942
+EPFLscope,1252834954
+screensaver,1252835050
+EPFLscope,1252842026
+EPFLscope,1252842027
+Messaging,1252842030
+Messaging,1252842031
+Messaging,1252842070
+Standby mode,1252842071
+Nokia Messaging email,1252842075
+Help,1252842084
+Nokia Messaging email,1252842086
+Standby mode,1252842087
+screensaver,1252842181
+Standby mode,1252842907
+Messaging,1252842917
+Messaging,1252842918
+Messaging,1252842921
+Messaging,1252842948
+Standby mode,1252842949
+EPFLscope,1252842957
+Standby mode,1252842965
+Calendar,1252842969
+screensaver,1252843070
+Calendar,1252843089
+Standby mode,1252843134
+Calendar,1252843137
+Standby mode,1252843146
+screensaver,1252843239
+Standby mode,1252848334
+Contacts,1252848338
+Contacts,1252848339
+screensaver,1252848450
+Contacts,1252850206
+screensaver,1252850305
+Contacts,1252851956
+screensaver,1252852056
+EPFLscope,1252852477
+Contacts,1252852490
+Contacts,1252852527
+Contacts,1252852557
+Contacts,1252852558
+Contacts,1252852593
+Contacts,1252852594
+Contacts,1252852597
+Contacts,1252852600
+Contacts,1252852606
+Sports Tracker,1252852624
+Sports Tracker,1252852627
+Sports Tracker,1252852630
+Sports Tracker,1252852649
+Sports Tracker,1252852651
+Sports Tracker,1252852657
+Sports Tracker,1252852675
+Sports Tracker,1252852681
+Sports Tracker,1252852683
+Sports Tracker,1252852711
+Messaging,1252852723
+Messaging,1252852725
+Messaging,1252852756
+Standby mode,1252852757
+screensaver,1252852852
+Standby mode,1252853885
+screensaver,1252854004
+Standby mode,1252856821
+Contacts,1252856826
+Contacts,1252856827
+screensaver,1252856998
+Contacts,1252857313
+screensaver,1252857446
+Contacts,1252857896
+screensaver,1252858011
+Contacts,1252858967
+screensaver,1252859067
+Contacts,1252859224
+Contacts,1252859237
+Contacts,1252859255
+Contacts,1252859256
+Contacts,1252859273
+Contacts,1252859281
+Contacts,1252859289
+EPFLscope,1252859294
+Contacts,1252859304
+Contacts,1252859305
+screensaver,1252859400
+Contacts,1252860170
+screensaver,1252860263
+Contacts,1252860553
+Contacts,1252860559
+Messaging,1252860564
+Messaging,1252860565
+Messaging,1252860568
+screensaver,1252860670
+Messaging,1252860729
+Messaging,1252860732
+Messaging,1252860734
+Contacts,1252860744
+screensaver,1252860857
+EPFLscope,1252861877
+WidgetUI,1252861901
+WidgetUi,1252861957
+screensaver,1252862084
+Contacts,1252862705
+screensaver,1252862850
+Contacts,1252863276
+screensaver,1252863371
+Contacts,1252863882
+screensaver,1252863978
+Contacts,1252864120
+screensaver,1252864216
+Contacts,1252864494
+screensaver,1252864671
+Contacts,1252864684
+screensaver,1252864774
+Contacts,1252865043
+screensaver,1252865133
+Contacts,1252865309
+screensaver,1252865404
+Contacts,1252866657
+screensaver,1252866756
+Contacts,1252867375
+WidgetUI,1252867390
+WidgetUI,1252867391
+WidgetUI,1252867395
+WidgetUi,1252867579
+Web,1252867585
+Web,1252867586
+Web,1252867587
+Web,1252867866
+Web,1252867869
+Web,1252867935
+Messaging,1252867939
+Messaging,1252867941
+Messaging,1252867968
+Messaging,1252867970
+Contacts,1252867982
+Nokia Messaging email,1252867987
+Contacts,1252867997
+Standby mode,1252868007
+EPFLscope,1252868016
+Contacts,1252868062
+EPFLscope,1252868070
+Contacts,1252868076
+EPFLscope,1252868150
+screensaver,1252868251
+EPFLscope,1252873892
+EPFLscope,1252873893
+Clock,1252873897
+Clock,1252873898
+Clock,1252873903
+Standby mode,1252873904
+screensaver,1252874000
+akncapserver,1252905312
+Messaging,1252905321
+Messaging,1252905322
+Mail for Exchange,1252905354
+Messaging,1252905359
+Messaging,1252905361
+Standby mode,1252905362
+screensaver,1252905455
+Messaging,1252909842
+Messaging,1252909843
+Messaging,1252909844
+Messaging,1252909845
+Messaging,1252909848
+Standby mode,1252909849
+screensaver,1252909947
+Messaging,1252910766
+Messaging,1252910767
+Mail for Exchange,1252910776
+Messaging,1252910780
+Messaging,1252910782
+Standby mode,1252910786
+EPFLscope,1252910861
+screensaver,1252911179
+Py_1914169808,1252911494
+EPFLscope,1252911604
+Py_1731175430,1252911737
+screensaver,1252911795
+EPFLscope,1252912539
+Messaging,1252912543
+Messaging,1252912547
+Messaging,1252912549
+Standby mode,1252912551
+screensaver,1252912645
+Messaging,1252914846
+Messaging,1252914848
+Text message,1252914853
+Text message,1252914854
+Messaging,1252914901
+Messaging,1252914903
+Standby mode,1252914904
+Text message,1252914905
+Text message,1252914953
+Standby mode,1252914957
+screensaver,1252915049
+Standby mode,1252915862
+EPFLscope,1252915865
+screensaver,1252915955
+EPFLscope,1252916090
+screensaver,1252916183
+EPFLscope,1252916400
+screensaver,1252916491
+EPFLscope,1252916547
+Web,1252916755
+Web,1252916756
+Web,1252916757
+Web,1252916832
+screensaver,1252916924
+Standby mode,1252917044
+Standby mode,1252917069
+screensaver,1252917323
+Standby mode,1252918636
+screensaver,1252918725
+Standby mode,1252919130
+screensaver,1252919223
+Standby mode,1252922497
+screensaver,1252922586
+Standby mode,1252923209
+Download!,1252923215
+Download!,1252923216
+SecureWidgetUI,1252923297
+Download!,1252923310
+Download!,1252923313
+akncapserver,1252923400
+SecureWidgetUI,1252923450
+SecureWidgetUI,1252923451
+screensaver,1252923549
+SecureWidgetUI,1252925069
+securewidgetui,1252925071
+screensaver,1252925234
+akncapserver,1252925326
+Messaging,1252925329
+Messaging,1252925334
+Standby mode,1252925335
+screensaver,1252925428
+Py_1499237051,1252925915
+Standby mode,1252926037
+Log,1252926038
+Log,1252926039
+Telephone,1252926040
+Telephone,1252926041
+Standby mode,1252926214
+screensaver,1252926306
+Messaging,1252927795
+Messaging,1252927796
+Standby mode,1252927797
+screensaver,1252927891
+Standby mode,1252930510
+EPFLscope,1252930512
+screensaver,1252930647
+EPFLscope,1252931311
+SecureWidgetUI,1252931331
+securewidgetui,1252931344
+App. manager,1252931404
+App. manager,1252931405
+App. manager,1252931409
+App. manager,1252931414
+App. manager,1252931453
+akncapserver,1252931456
+Messaging,1252931458
+Messaging,1252931459
+Messaging,1252931461
+Messaging,1252931463
+Standby mode,1252931464
+screensaver,1252931557
+Standby mode,1252931807
+Standby mode,1252931809
+WLAN wizard,1252931817
+Web,1252931848
+Web,1252931849
+EPFLscope,1252931854
+screensaver,1252932022
+File manager,1252932351
+File manager,1252932352
+File manager,1252932360
+Notes,1252932365
+Notes,1252932366
+screensaver,1252932464
+Notes,1252933289
+File manager,1252933292
+File manager,1252933293
+screensaver,1252933385
+Standby mode,1252933436
+screensaver,1252933527
+Standby mode,1252933596
+screensaver,1252933686
+Messaging,1252936758
+Messaging,1252936759
+Standby mode,1252936761
+EPFLscope,1252936762
+Standby mode,1252936772
+EPFLscope,1252936777
+screensaver,1252937000
+EPFLscope,1252937724
+Messaging,1252937729
+Messaging,1252937730
+Mail for Exchange,1252937733
+screensaver,1252937833
+Mail for Exchange,1252938006
+screensaver,1252938096
+Mail for Exchange,1252939529
+Messaging,1252939532
+Messaging,1252939533
+Standby mode,1252939535
+EPFLscope,1252939601
+screensaver,1252939741
+EPFLscope,1252941820
+screensaver,1252941915
+EPFLscope,1252942922
+Contacts,1252942928
+akncapserver,1252942931
+Messaging,1252942934
+Messaging,1252942935
+Standby mode,1252942955
+Log,1252942960
+Telephone,1252942962
+Standby mode,1252942993
+screensaver,1252943086
+Telephone,1252943122
+MMFControllerProxyServer-10a1,1252943131
+akncapserver,1252943258
+screensaver,1252943348
+Standby mode,1252943399
+Barcode reader,1252943452
+Barcode reader,1252943456
+Barcode reader,1252943484
+Barcode reader,1252943486
+Web,1252943497
+Web,1252943498
+SecureWidgetUI,1252943530
+Web,1252943632
+Web,1252943660
+Standby mode,1252943680
+Standby mode,1252943700
+Nokia Messaging email,1252943703
+screensaver,1252943797
+Nokia Messaging email,1252944075
+Nokia Messaging email,1252944076
+screensaver,1252944165
+Nokia Messaging email,1252944505
+screensaver,1252944595
+Nokia Messaging email,1252945357
+Messaging,1252945364
+Messaging,1252945365
+Text message,1252945368
+Messaging,1252945376
+Messaging,1252945377
+Messaging,1252945379
+Log,1252945446
+Telephone,1252945497
+Standby mode,1252945551
+EPFLscope,1252945568
+screensaver,1252945873
+screensaver,1252945874
+EPFLscope,1252945879
+Messaging,1252945884
+Messaging,1252945885
+Mail for Exchange,1252945887
+Mail for Exchange,1252945888
+Mail for Exchange,1252945892
+Mail for Exchange,1252945894
+Py_1125031677,1252946074
+screensaver,1252946726
+Mail for Exchange,1252946764
+Messaging,1252947066
+Mail for Exchange,1252947067
+Messaging,1252947072
+Standby mode,1252947075
+screensaver,1252947168
+Standby mode,1252947221
+Contacts,1252947225
+screensaver,1252947335
+Contacts,1252947337
+Contacts,1252947344
+Standby mode,1252947350
+screensaver,1252947443
+Standby mode,1252948416
+Contacts,1252948419
+screensaver,1252948528
+Contacts,1252949904
+Telephone,1252949909
+Standby mode,1252950599
+Contacts,1252950603
+Telephone,1252950608
+Standby mode,1252951122
+Contacts,1252951126
+screensaver,1252951294
+Contacts,1252952671
+screensaver,1252952792
+Contacts,1252954235
+Standby mode,1252954244
+EPFLscope,1252954247
+Log,1252954254
+Log,1252954255
+Standby mode,1252954257
+Nokia Messaging email,1252954259
+Nokia Messaging email,1252954262
+Nokia Messaging email,1252954264
+Nokia Messaging email,1252954286
+Settings,1252954294
+Settings,1252954295
+Nokia Messaging email,1252954306
+Standby mode,1252954311
+Standby mode,1252954312
+screensaver,1252954405
+Standby mode,1252957213
+Messaging,1252957217
+Messaging,1252957218
+Messaging,1252957219
+Messaging,1252957249
+Standby mode,1252957257
+Standby mode,1252957258
+Messaging,1252957262
+Messaging,1252957263
+Standby mode,1252957265
+EPFLscope,1252957296
+SecureWidgetUI,1252957317
+Contacts,1252957346
+Contacts,1252957347
+Contacts,1252957369
+Contacts,1252957389
+Contacts,1252957395
+Contacts,1252957398
+Contacts,1252957402
+Contacts,1252957405
+Contacts,1252957423
+Contacts,1252957427
+Contacts,1252957431
+Contacts,1252957433
+Contacts,1252957436
+Contacts,1252957438
+Contacts,1252957462
+Contacts,1252957464
+SecureWidgetUI,1252957477
+securewidgetui,1252957492
+SecureWidgetUI,1252957500
+securewidgetui,1252957773
+WidgetUI,1252957787
+WidgetUI,1252957788
+WidgetUI,1252957790
+WidgetUi,1252958078
+Web,1252958090
+Web,1252958091
+Web,1252958092
+Web,1252958701
+Standby mode,1252958703
+Messaging,1252958708
+Messaging,1252958718
+Messaging,1252958745
+Standby mode,1252958746
+screensaver,1252958840
+screensaver,1252980868
+Standby mode,1252991467
+Messaging,1252991477
+Messaging,1252991479
+Messaging,1252991511
+Standby mode,1252991512
+screensaver,1252991605
+Standby mode,1252994481
+EPFLscope,1252994487
+Nokia Messaging email,1252994496
+Nokia Messaging email,1252994507
+Nokia Messaging email,1252994511
+Messaging,1252994519
+Messaging,1252994520
+Messaging,1252994521
+Messaging,1252994522
+screensaver,1252994615
+Py_896992973,1252996051
+Telephone,1252997887
+MMFControllerProxyServer-1284,1252997891
+screensaver,1252998163
+Messaging,1252999861
+Messaging,1252999862
+Messaging,1252999863
+Mail for Exchange,1252999866
+Messaging,1252999879
+Messaging,1252999881
+Messaging,1252999882
+Standby mode,1252999883
+screensaver,1252999977
+Standby mode,1253000709
+Calculator,1253000717
+Calculator,1253000762
+screensaver,1253000856
+Web,1253001190
+Web,1253001191
+screensaver,1253001328
+Web,1253001393
+Web,1253001409
+Standby mode,1253001429
+screensaver,1253001523
+Telephone,1253002999
+MMFControllerProxyServer-12e9,1253003014
+akncapserver,1253003760
+screensaver,1253003852
+Standby mode,1253009952
+Calendar,1253009955
+Standby mode,1253009964
+screensaver,1253010058
+Telephone,1253010122
+MMFControllerProxyServer-1334,1253010129
+akncapserver,1253010581
+screensaver,1253010733
+akncapserver,1253012413
+Camera,1253012424
+Camera,1253012425
+MMFControllerProxyServer-134c,1253012429
+screensaver,1253012526
+akncapserver,1253015106
+Messaging,1253015113
+Messaging,1253015115
+screensaver,1253015240
+Standby mode,1253016223
+Camera,1253016224
+Camera,1253016225
+Camera,1253016240
+Camera,1253016251
+MMFControllerProxyServer-138e,1253016254
+akncapserver,1253016255
+screensaver,1253016343
+Standby mode,1253018112
+Telephone,1253018113
+Standby mode,1253018115
+screensaver,1253018205
+Telephone,1253018236
+Standby mode,1253018238
+EPFLscope,1253018240
+screensaver,1253018364
+akncapserver,1253020260
+screensaver,1253020350
+EPFLscope,1253020380
+screensaver,1253020533
+akncapserver,1253020576
+screensaver,1253020666
+akncapserver,1253020756
+screensaver,1253020836
+EPFLscope,1253020871
+akncapserver,1253020908
+akncapserver,1253020909
+Messaging,1253020911
+Messaging,1253020912
+Messaging,1253020914
+Log,1253021029
+Telephone,1253021032
+Standby mode,1253021123
+EPFLscope,1253021129
+Py_312046798,1253021140
+screensaver,1253021231
+EPFLscope,1253021280
+Py_701020202,1253021442
+Messaging,1253021453
+Messaging,1253021454
+Messaging,1253021461
+EPFLscope,1253021466
+Messaging,1253021574
+Messaging,1253021575
+Messaging,1253021580
+screensaver,1253021670
+akncapserver,1253022301
+Messaging,1253022402
+Messaging,1253022404
+Messaging,1253022405
+screensaver,1253022495
+screensaver,1253023352
+screensaver,1253023690
+screensaver,1253024255
+screensaver,1253026069
+Telephone,1253026292
+MMFControllerProxyServer-1438,1253026305
+screensaver,1253026472
+Messaging,1253027408
+Messaging,1253027409
+Messaging,1253027411
+Messaging,1253027413
+Messaging,1253027414
+Messaging,1253027416
+Nokia Messaging email,1253027419
+Nokia Messaging email,1253027424
+Nokia Messaging email,1253027426
+Nokia Messaging email,1253027432
+Contacts,1253027472
+Log,1253027516
+Standby mode,1253027531
+EPFLscope,1253027533
+Nokia Messaging email,1253027550
+EPFLscope,1253027557
+Nokia Messaging email,1253027619
+Standby mode,1253027631
+EPFLscope,1253027636
+Connection mgr.,1253027730
+Connection mgr.,1253027731
+Connection mgr.,1253027738
+Connection mgr.,1253027741
+Connection mgr.,1253027745
+Connection mgr.,1253027747
+Standby mode,1253027749
+EPFLscope,1253027752
+Standby mode,1253027757
+Nokia Messaging email,1253027760
+Nokia Messaging email,1253027764
+Settings,1253027768
+Nokia Messaging email,1253027826
+akncapserver,1253027827
+Messaging,1253027830
+Messaging,1253027832
+Mail for Exchange,1253027840
+Mail for Exchange,1253027841
+Messaging,1253027850
+Mail for Exchange,1253027854
+Messaging,1253027862
+Mail for Exchange,1253027865
+Mail for Exchange,1253027866
+Messaging,1253027883
+Mail for Exchange,1253027894
+Messaging,1253027902
+Mail for Exchange,1253027908
+Messaging,1253027918
+Messaging,1253027921
+Standby mode,1253027922
+EPFLscope,1253027924
+Connection mgr.,1253027965
+EPFLscope,1253028027
+screensaver,1253028284
+Messaging,1253045045
+Messaging,1253045046
+Messaging,1253045047
+Messaging,1253045049
+Messaging,1253045050
+Messaging,1253045051
+Standby mode,1253045054
+Nokia Messaging email,1253045126
+screensaver,1253045245
+screensaver,1253046205
+WidgetUI,1253047420
+WidgetUI,1253047421
+WidgetUI,1253047422
+WidgetUi,1253047440
+WidgetUI,1253047444
+WidgetUI,1253047445
+WidgetUI,1253047447
+screensaver,1253047574
+WidgetUI,1253048973
+screensaver,1253049089
+WidgetUI,1253075786
+WidgetUi,1253075790
+EPFLscope,1253075795
+Messaging,1253075816
+Messaging,1253075817
+Messaging,1253075818
+Mail for Exchange,1253075867
+Messaging,1253076181
+Messaging,1253076186
+Messaging,1253076187
+Standby mode,1253076188
+screensaver,1253076282
+Standby mode,1253076939
+screensaver,1253077137
+Standby mode,1253080615
+screensaver,1253080714
+Py_1780168844,1253081420
+Standby mode,1253082290
+EPFLscope,1253082296
+Messaging,1253082306
+Messaging,1253082307
+Messaging,1253082309
+Nokia Messaging email,1253082312
+Settings,1253082318
+Nokia Messaging email,1253082320
+Messaging,1253082323
+Messaging,1253082324
+Text message,1253082327
+Text message,1253082332
+Text message,1253082333
+akncapserver,1253082424
+Messaging,1253082441
+Text message,1253082443
+Messaging,1253082472
+Py_1129074976,1253082477
+screensaver,1253082666
+Standby mode,1253082762
+EPFLscope,1253082765
+screensaver,1253082913
+Py_2116093301,1253083560
+EPFLscope,1253084434
+Messaging,1253084437
+Messaging,1253084438
+Mail for Exchange,1253084443
+Mail for Exchange,1253084444
+Messaging,1253084448
+Mail for Exchange,1253084451
+Messaging,1253084498
+Messaging,1253084499
+Standby mode,1253084569
+Camera,1253084570
+MMFControllerProxyServer-1598,1253084577
+screensaver,1253084690
+Py_928784273,1253084705
+akncapserver,1253085308
+screensaver,1253085417
+Messaging,1253092092
+screensaver,1253092188
+Messaging,1253092548
+Messaging,1253092549
+Standby mode,1253092550
+screensaver,1253092649
+Telephone,1253099099
+Text message,1253099115
+Telephone,1253099126
+akncapserver,1253099129
+Messaging,1253099199
+Messaging,1253099201
+Text message,1253099209
+Text message,1253099210
+Messaging,1253099230
+Messaging,1253099231
+akncapserver,1253099232
+akncapserver,1253099233
+screensaver,1253099537
+Standby mode,1253099653
+EPFLscope,1253099654
+Messaging,1253099774
+Messaging,1253099780
+Mail for Exchange,1253099796
+Mail for Exchange,1253099797
+Messaging,1253100021
+Messaging,1253100022
+Standby mode,1253100023
+screensaver,1253100116
+Standby mode,1253101062
+Maps,1253101080
+Local-c83f7b28,1253101091
+Standby mode,1253101152
+EPFLscope,1253101155
+screensaver,1253101248
+akncapserver,1253101512
+Nokia Messaging email,1253101746
+EPFLscope,1253101747
+screensaver,1253101920
+Py_2008665036,1253102067
+EPFLscope,1253104816
+akncapserver,1253104824
+Messaging,1253104827
+Standby mode,1253104833
+screensaver,1253104943
+akncapserver,1253105103
+screensaver,1253105196
+Messaging,1253106121
+Messaging,1253106123
+Messaging,1253106128
+Camera,1253106135
+Standby mode,1253106142
+screensaver,1253106333
+Messaging,1253108780
+Messaging,1253108784
+Messaging,1253108786
+Messaging,1253108787
+Mail for Exchange,1253108790
+Mail for Exchange,1253108791
+Messaging,1253108799
+Standby mode,1253108801
+screensaver,1253108894
+Telephone,1253109577
+MMFControllerProxyServer-1715,1253109583
+akncapserver,1253109681
+screensaver,1253109772
+Messaging,1253110624
+Messaging,1253110627
+Mail for Exchange,1253110631
+Messaging,1253110635
+Mail for Exchange,1253110641
+Messaging,1253110643
+Messaging,1253110647
+Standby mode,1253110651
+screensaver,1253110744
+Standby mode,1253111239
+Messaging,1253111244
+Messaging,1253111245
+Mail for Exchange,1253111251
+Mail for Exchange,1253111258
+Messaging,1253111261
+Mail for Exchange,1253111264
+Messaging,1253111273
+Messaging,1253111274
+Messaging,1253111275
+Standby mode,1253111276
+screensaver,1253111369
+Telephone,1253114145
+MMFControllerProxyServer-175b,1253114152
+akncapserver,1253114363
+akncapserver,1253114364
+screensaver,1253114455
+Messaging,1253115043
+Contacts,1253115046
+screensaver,1253115138
+Contacts,1253115168
+Barcode reader,1253115177
+Barcode reader,1253115178
+Barcode reader,1253115182
+Barcode reader,1253115265
+Barcode reader,1253115291
+Barcode reader,1253115301
+Barcode reader,1253115317
+screensaver,1253115407
+Barcode reader,1253115430
+Barcode reader,1253115432
+Barcode reader,1253115435
+Standby mode,1253115439
+Messaging,1253115445
+Messaging,1253115447
+screensaver,1253115611
+Messaging,1253117787
+Messaging,1253117791
+Messaging,1253117812
+Messaging,1253117814
+Nokia Messaging email,1253117820
+Settings,1253117836
+Nokia Messaging email,1253117855
+Nokia Messaging email,1253117909
+Nokia Messaging email,1253117928
+akncapserver,1253117962
+screensaver,1253118036
+akncapserver,1253118695
+Messaging,1253118698
+Messaging,1253118699
+Messaging,1253118701
+Standby mode,1253118702
+screensaver,1253118843
+Standby mode,1253119560
+EPFLscope,1253119564
+Standby mode,1253119644
+Log,1253119646
+Telephone,1253119650
+Standby mode,1253119846
+Log,1253119849
+EPFLscope,1253119852
+screensaver,1253119949
+EPFLscope,1253120001
+screensaver,1253120098
+Py_415243321,1253120240
+EPFLscope,1253123827
+Nokia Messaging email,1253123843
+Messaging,1253123858
+Messaging,1253123859
+Contacts,1253123863
+screensaver,1253123986
+Contacts,1253125147
+Standby mode,1253125154
+EPFLscope,1253125157
+screensaver,1253125251
+EPFLscope,1253125737
+Contacts,1253125741
+Contacts,1253125743
+screensaver,1253125831
+Contacts,1253128245
+screensaver,1253128335
+Contacts,1253128517
+Standby mode,1253128565
+Nokia Messaging email,1253128567
+Settings,1253128577
+Nokia Messaging email,1253128589
+Standby mode,1253128591
+screensaver,1253128684
+Standby mode,1253129933
+EPFLscope,1253129935
+screensaver,1253130033
+EPFLscope,1253132104
+EPFLscope,1253132115
+Messaging,1253132121
+Messaging,1253132122
+Messaging,1253132157
+Messaging,1253132158
+Nokia Messaging email,1253132163
+Standby mode,1253132203
+Connection mgr.,1253132221
+Connection mgr.,1253132222
+Connection mgr.,1253132223
+Connection mgr.,1253132224
+Standby mode,1253132225
+EPFLscope,1253132236
+EPFLscope,1253132237
+Contacts,1253132266
+Contacts,1253132267
+Contacts,1253132290
+aknnfysrv,1253132313
+WidgetUi,1253132317
+Web,1253132322
+Web,1253132323
+Web,1253132324
+Web,1253132387
+Web,1253132390
+Web,1253132391
+Web,1253132742
+WidgetUI,1253132758
+WidgetUI,1253132760
+WidgetUI,1253132761
+WidgetUi,1253132785
+WidgetUI,1253132790
+WidgetUI,1253132792
+WidgetUI,1253132796
+Clock,1253132982
+Clock,1253132983
+Standby mode,1253132988
+WidgetUI,1253132991
+Standby mode,1253133059
+Messaging,1253133063
+Messaging,1253133064
+Messaging,1253133112
+Standby mode,1253133118
+SecureWidgetUI,1253133137
+EPFLscope,1253133362
+Standby mode,1253133366
+SecureWidgetUI,1253133373
+Nokia Messaging email,1253133405
+SecureWidgetUI,1253133415
+securewidgetui,1253133468
+Standby mode,1253133470
+EPFLscope,1253133474
+Standby mode,1253133478
+EPFLscope,1253133484
+Nokia Messaging email,1253133491
+EPFLscope,1253133496
+Standby mode,1253133505
+screensaver,1253133602
+Standby mode,1253133729
+screensaver,1253133819
+akncapserver,1253164513
+screensaver,1253164603
+Standby mode,1253165083
+Messaging,1253165088
+Messaging,1253165089
+Messaging,1253165091
+Mail for Exchange,1253165135
+Messaging,1253165232
+Messaging,1253165237
+Standby mode,1253165238
+screensaver,1253165331
+Messaging,1253168131
+Messaging,1253168132
+Mail for Exchange,1253168135
+Mail for Exchange,1253168136
+Messaging,1253168196
+Mail for Exchange,1253168198
+Messaging,1253168236
+Messaging,1253168238
+Standby mode,1253168241
+screensaver,1253168337
+Standby mode,1253168853
+EPFLscope,1253168855
+screensaver,1253169012
+Py_599023499,1253169096
+Telephone,1253169139
+MMFControllerProxyServer-1932,1253169151
+Py_621841890,1253169396
+screensaver,1253172723
+EPFLscope,1253172783
+screensaver,1253172873
+EPFLscope,1253173408
+Messaging,1253173411
+Messaging,1253173413
+Text message,1253173415
+Messaging,1253173418
+Messaging,1253173419
+Standby mode,1253173420
+Messaging,1253173562
+Messaging,1253173563
+Mail for Exchange,1253173567
+Messaging,1253173572
+Mail for Exchange,1253173579
+Messaging,1253173595
+Mail for Exchange,1253173597
+Messaging,1253173618
+Messaging,1253173620
+Messaging,1253173621
+Mail for Exchange,1253173628
+Mail for Exchange,1253173629
+Messaging,1253173684
+Messaging,1253173685
+Standby mode,1253173686
+screensaver,1253173779
+Messaging,1253175357
+Mail for Exchange,1253175360
+Mail for Exchange,1253175361
+Messaging,1253175442
+Messaging,1253175446
+Standby mode,1253175447
+Messaging,1253175448
+screensaver,1253175540
+Telephone,1253175756
+MMFControllerProxyServer-198a,1253175764
+akncapserver,1253175863
+screensaver,1253175960
+Telephone,1253177908
+MMFControllerProxyServer-19bd,1253177914
+akncapserver,1253177927
+Telephone,1253177960
+MMFControllerProxyServer-19c0,1253177967
+akncapserver,1253179115
+screensaver,1253179206
+Telephone,1253179359
+MMFControllerProxyServer-19d3,1253179361
+akncapserver,1253179389
+screensaver,1253179480
+Log,1253179632
+Telephone,1253179634
+akncapserver,1253179719
+screensaver,1253179809
+akncapserver,1253180704
+screensaver,1253180842
+Telephone,1253183566
+MMFControllerProxyServer-1a02,1253183570
+akncapserver,1253183662
+screensaver,1253183753
+Messaging,1253184365
+Messaging,1253184376
+Messaging,1253184378
+screensaver,1253184471
+akncapserver,1253186116
+EPFLscope,1253190105
+screensaver,1253190461
+EPFLscope,1253190797
+akncapserver,1253191231
+EPFLscope,1253191235
+screensaver,1253191362
+akncapserver,1253191501
+screensaver,1253191593
+EPFLscope,1253191671
+screensaver,1253191766
+EPFLscope,1253202295
+Contacts,1253202297
+Telephone,1253202304
+akncapserver,1253202887
+screensaver,1253203073
+Messaging,1253203161
+Text message,1253203170
+Text message,1253203171
+Messaging,1253203176
+Telephone,1253203177
+Telephone,1253203178
+akncapserver,1253203204
+screensaver,1253203295
+EPFLscope,1253204510
+akncapserver,1253205306
+Py_2062124311,1253205360
+screensaver,1253205484
+EPFLscope,1253205534
+Messaging,1253205541
+Messaging,1253205542
+Messaging,1253205546
+Contacts,1253205548
+Telephone,1253205553
+Standby mode,1253205780
+screensaver,1253205874
+Standby mode,1253206054
+EPFLscope,1253206057
+Messaging,1253206138
+Messaging,1253206139
+Messaging,1253206140
+Mail for Exchange,1253206142
+Mail for Exchange,1253206143
+Messaging,1253206227
+Messaging,1253206229
+Messaging,1253206230
+screensaver,1253206329
+Standby mode,1253208054
+Standby mode,1253208055
+screensaver,1253208157
+Standby mode,1253208429
+Standby mode,1253208430
+Messaging,1253208434
+Messaging,1253208435
+Messaging,1253208436
+Contacts,1253208443
+Contacts,1253208444
+screensaver,1253208559
+Contacts,1253208968
+screensaver,1253209067
+Contacts,1253211029
+screensaver,1253211121
+Contacts,1253211926
+screensaver,1253212126
+Contacts,1253212545
+screensaver,1253212624
+Contacts,1253212952
+screensaver,1253213008
+Contacts,1253213434
+screensaver,1253213525
+Contacts,1253214882
+screensaver,1253214972
+Contacts,1253215378
+EPFLscope,1253215417
+Web,1253215449
+Web,1253215450
+Web,1253215453
+screensaver,1253215611
+Web,1253216079
+Web,1253216094
+Web,1253216095
+SecureWidgetUI,1253216199
+Web,1253216299
+Web,1253216337
+Web,1253216338
+Web,1253216339
+securewidgetui,1253216383
+Nokia Messaging email,1253216389
+Settings,1253216407
+Nokia Messaging email,1253216419
+Nokia Messaging email,1253216427
+Nokia Messaging email,1253216444
+SecureWidgetUI,1253216459
+securewidgetui,1253216732
+WidgetUI,1253216746
+WidgetUi,1253216785
+WidgetUI,1253216797
+WidgetUI,1253216798
+WidgetUI,1253216800
+WidgetUi,1253217076
+Web,1253217081
+Web,1253217082
+Web,1253217083
+Web,1253217444
+Web,1253217447
+Messaging,1253217702
+Mail for Exchange,1253217715
+Messaging,1253217724
+Messaging,1253217727
+Messaging,1253217731
+Messaging,1253217733
+Messaging,1253217734
+Maps,1253217751
+Local-c83fa548,1253217753
+Maps,1253217786
+Maps,1253217801
+Web,1253217805
+Web,1253217808
+Web,1253217815
+Maps,1253217816
+psdk_lmsrvapp,1253217870
+Maps,1253217871
+Maps,1253217891
+Maps,1253217897
+Maps,1253217902
+Maps,1253217911
+Maps,1253217946
+Maps,1253217948
+Maps,1253217951
+Maps,1253217954
+Maps,1253217956
+EPFLscope,1253217975
+Bluetooth,1253218001
+Bluetooth,1253218007
+Bluetooth,1253218009
+Bluetooth,1253218010
+Bluetooth,1253218012
+Bluetooth,1253218013
+Clock,1253218041
+Clock,1253218048
+Standby mode,1253218050
+screensaver,1253218144
+Standby mode,1253249841
+Clock,1253249847
+Clock,1253249855
+Messaging,1253249860
+Messaging,1253249861
+Messaging,1253249862
+Mail for Exchange,1253249916
+Mail for Exchange,1253249917
+Messaging,1253249945
+Mail for Exchange,1253249950
+EPFLscope,1253249960
+Mail for Exchange,1253250022
+Messaging,1253250115
+Mail for Exchange,1253250119
+Messaging,1253250135
+Mail for Exchange,1253250139
+Messaging,1253250159
+Mail for Exchange,1253250163
+Messaging,1253250233
+Mail for Exchange,1253250236
+Mail for Exchange,1253250237
+Messaging,1253250247
+Messaging,1253250253
+Messaging,1253250254
+Messaging,1253250384
+Messaging,1253250386
+Messaging,1253250387
+Mail for Exchange,1253250392
+Messaging,1253250493
+Standby mode,1253250494
+screensaver,1253250587
+Standby mode,1253251450
+Messaging,1253251458
+Messaging,1253251523
+Messaging,1253251524
+Standby mode,1253251525
+Web,1253251532
+Web,1253251533
+Web,1253251724
+screensaver,1253251817
+EPFLscope,1253252847
+EPFLscope,1253252849
+EPFLscope,1253261503
+Py_882952468,1253261528
+screensaver,1253261596
+EPFLscope,1253264094
+screensaver,1253264210
+EPFLscope,1253264248
+screensaver,1253264337
+EPFLscope,1253264418
+screensaver,1253264508
+EPFLscope,1253265319
+screensaver,1253265409
+EPFLscope,1253265518
+screensaver,1253265612
+EPFLscope,1253266364
+screensaver,1253266460
+EPFLscope,1253269542
+Bluetooth,1253269551
+Bluetooth,1253269560
+akncapserver,1253269561
+screensaver,1253269652
+Standby mode,1253271799
+Log,1253271800
+Telephone,1253271803
+Standby mode,1253272100
+screensaver,1253272193
+akncapserver,1253274303
+screensaver,1253274422
+Standby mode,1253274656
+EPFLscope,1253274659
+screensaver,1253274756
+EPFLscope,1253275613
+Log,1253275617
+Telephone,1253275619
+Standby mode,1253275705
+Barcode reader,1253275729
+Barcode reader,1253275731
+Barcode reader,1253275738
+Barcode reader,1253275763
+Barcode reader,1253275764
+Standby mode,1253275773
+Web,1253275778
+Web,1253275840
+Standby mode,1253275842
+screensaver,1253275935
+akncapserver,1253279718
+screensaver,1253279833
+Barcode reader,1253280021
+Barcode reader,1253280047
+akncapserver,1253280055
+screensaver,1253280144
+Standby mode,1253280730
+screensaver,1253280824
+Standby mode,1253280964
+Barcode reader,1253280974
+Barcode reader,1253280995
+Barcode reader,1253281019
+screensaver,1253281115
+Messaging,1253287514
+screensaver,1253287612
+Text message,1253288510
+Telephone,1253288515
+akncapserver,1253288670
+Messaging,1253289642
+Standby mode,1253289643
+Camera,1253289644
+MMFControllerProxyServer-1ff0,1253289648
+Standby mode,1253289649
+Contacts,1253289657
+screensaver,1253289747
+Contacts,1253290414
+Contacts,1253290417
+Messaging,1253290420
+Text message,1253290422
+Messaging,1253290430
+Text message,1253290433
+Text message,1253290438
+Messaging,1253290501
+Messaging,1253290502
+Standby mode,1253290504
+Messaging,1253290602
+Messaging,1253290603
+Messaging,1253290605
+Text message,1253290607
+Messaging,1253290612
+Text message,1253290614
+Standby mode,1253290615
+screensaver,1253290708
+Standby mode,1253291926
+screensaver,1253292015
+Messaging,1253294042
+Messaging,1253294044
+Standby mode,1253294045
+screensaver,1253294136
+Standby mode,1253298483
+Log,1253298494
+Telephone,1253298495
+Standby mode,1253298603
+EPFLscope,1253298609
+screensaver,1253298709
+Py_216086936,1253299146
+EPFLscope,1253301367
+screensaver,1253301467
+EPFLscope,1253301580
+screensaver,1253301681
+EPFLscope,1253301990
+EPFLscope,1253301999
+Nokia Messaging email,1253302001
+screensaver,1253302120
+Nokia Messaging email,1253302924
+EPFLscope,1253302927
+akncapserver,1253304495
+EPFLscope,1253304534
+screensaver,1253304629
+EPFLscope,1253304653
+screensaver,1253304794
+EPFLscope,1253304822
+Messaging,1253304830
+Messaging,1253304831
+Mail for Exchange,1253304864
+Messaging,1253304910
+Messaging,1253304914
+Nokia Messaging email,1253304918
+Settings,1253304925
+Nokia Messaging email,1253304934
+Settings,1253304945
+Settings,1253304946
+Nokia Messaging email,1253304975
+Nokia Messaging email,1253304979
+Standby mode,1253305033
+Web,1253305132
+Web,1253305133
+screensaver,1253305359
+Web,1253305534
+Web,1253305578
+EPFLscope,1253305585
+EPFLscope,1253305586
+screensaver,1253305685
+EPFLscope,1253307696
+Messaging,1253307709
+Messaging,1253307710
+Messaging,1253307712
+Messaging,1253307742
+Messaging,1253307743
+EPFLscope,1253307746
+screensaver,1253307851
+EPFLscope,1253341644
+Messaging,1253341664
+Messaging,1253341667
+Mail for Exchange,1253341710
+Mail for Exchange,1253341711
+Messaging,1253341776
+Messaging,1253341779
+EPFLscope,1253341785
+Nokia Messaging email,1253341791
+Standby mode,1253341833
+screensaver,1253341972
+Standby mode,1253348301
+Messaging,1253348305
+Messaging,1253348306
+Messaging,1253348354
+Standby mode,1253348355
+screensaver,1253348448
+Standby mode,1253348511
+EPFLscope,1253348517
+Web,1253348535
+Web,1253348536
+Web,1253348537
+Web,1253348589
+Maps,1253348609
+Maps,1253348610
+Local-c83f50f0,1253348614
+Maps,1253348709
+Maps,1253348711
+Maps,1253348713
+Maps,1253348714
+Maps,1253348719
+Maps,1253348721
+Maps,1253348742
+Maps,1253348743
+EPFLscope,1253348864
+screensaver,1253348987
+EPFLscope,1253349677
+Web,1253349691
+Web,1253349692
+Web,1253349693
+Web,1253350069
+Messaging,1253350072
+Messaging,1253350075
+Mail for Exchange,1253350079
+Messaging,1253350081
+screensaver,1253350203
+Py_1815380662,1253353069
+Messaging,1253354852
+Messaging,1253354854
+EPFLscope,1253354858
+screensaver,1253354961
+Py_1119833104,1253355116
+EPFLscope,1253355129
+EPFLscope,1253355130
+Messaging,1253355143
+Messaging,1253355144
+Messaging,1253355145
+Messaging,1253355171
+Messaging,1253355172
+Standby mode,1253355173
+screensaver,1253355267
+Py_736364920,1253355417
+Standby mode,1253358310
+EPFLscope,1253358312
+Py_525023764,1253358328
+screensaver,1253358460
+EPFLscope,1253360587
+Py_1256290239,1253360763
+screensaver,1253360765
+EPFLscope,1253360832
+screensaver,1253360970
+EPFLscope,1253360991
+Py_1185950627,1253361060
+screensaver,1253361084
+EPFLscope,1253365418
+Messaging,1253365423
+Messaging,1253365425
+Mail for Exchange,1253365451
+Messaging,1253365492
+Messaging,1253365498
+Messaging,1253365499
+Standby mode,1253365500
+Py_1814972236,1253365504
+screensaver,1253365593
+EPFLscope,1253368097
+screensaver,1253368196
+EPFLscope,1253368364
+Contacts,1253368368
+Telephone,1253368413
+Standby mode,1253368463
+Messaging,1253368526
+Messaging,1253368530
+akncapserver,1253368538
+Contacts,1253368539
+EPFLscope,1253368544
+screensaver,1253368638
+screensaver,1253368639
+EPFLscope,1253368699
+screensaver,1253368801
+Py_1361471632,1253368903
+EPFLscope,1253370442
+Messaging,1253370452
+Messaging,1253370453
+Messaging,1253370454
+screensaver,1253370547
+Messaging,1253370580
+Py_805271741,1253370651
+screensaver,1253370698
+Messaging,1253373023
+Messaging,1253373052
+Messaging,1253373060
+Nokia Messaging email,1253373065
+Settings,1253373071
+Nokia Messaging email,1253373088
+Standby mode,1253373166
+EPFLscope,1253373173
+screensaver,1253373269
+Py_1925647968,1253373370
+EPFLscope,1253374757
+Web,1253374763
+Web,1253374764
+Web,1253375232
+Contacts,1253375237
+Contacts,1253375239
+Telephone,1253375277
+Standby mode,1253375324
+Standby mode,1253375325
+screensaver,1253375417
+Standby mode,1253375771
+Contacts,1253375777
+Standby mode,1253375785
+EPFLscope,1253375792
+Web,1253375826
+akncapserver,1253375827
+Nokia Messaging email,1253375828
+Settings,1253375832
+Nokia Messaging email,1253375847
+Web,1253375850
+Web,1253375851
+Web,1253375859
+Web,1253376046
+aknnfysrv,1253376050
+Web,1253376156
+WidgetUI,1253376178
+WidgetUI,1253376180
+akncapserver,1253376534
+screensaver,1253376616
+EPFLscope,1253378340
+Messaging,1253378342
+Messaging,1253378343
+Text message,1253378346
+Text message,1253378351
+Messaging,1253378419
+Messaging,1253378422
+Standby mode,1253378423
+screensaver,1253378520
+Standby mode,1253382166
+Contacts,1253382172
+screensaver,1253382271
+Contacts,1253382642
+Contacts,1253382652
+Video centre,1253382653
+Video centre,1253382654
+My videos,1253382666
+My videos,1253382667
+Video centre,1253382680
+Standby mode,1253382681
+Contacts,1253382687
+Contacts,1253382689
+screensaver,1253382784
+Contacts,1253384587
+screensaver,1253384680
+Standby mode,1253384946
+Standby mode,1253384947
+Calendar,1253384949
+Calendar,1253384950
+Standby mode,1253384951
+akncapserver,1253384961
+akncapserver,1253384962
+akncapserver,1253384965
+screensaver,1253385051
+Standby mode,1253385548
+EPFLscope,1253385550
+Search,1253385556
+EPFLscope,1253385557
+EPFLscope,1253385558
+Contacts,1253385567
+Contacts,1253385571
+screensaver,1253385660
+Contacts,1253385677
+screensaver,1253385780
+Contacts,1253386791
+Standby mode,1253386801
+EPFLscope,1253386804
+screensaver,1253386970
+EPFLscope,1253386980
+screensaver,1253387079
+akncapserver,1253392207
+akncapserver,1253392208
+screensaver,1253392298
+Standby mode,1253431070
+Telephone,1253431153
+Web,1253431159
+Web,1253431160
+Web,1253431165
+Web,1253431214
+Web,1253431224
+Web,1253431226
+Contacts,1253431233
+Contacts,1253431289
+Contacts,1253431290
+EPFLscope,1253431304
+Nokia Messaging email,1253431317
+Nokia Messaging email,1253431324
+Nokia Messaging email,1253431326
+Nokia Messaging email,1253431332
+WidgetUI,1253431349
+WidgetUI,1253431353
+WidgetUI,1253431354
+WidgetUi,1253431509
+Standby mode,1253431512
+screensaver,1253431605
+Standby mode,1253443576
+EPFLscope,1253443578
+Contacts,1253443586
+Contacts,1253443587
+Standby mode,1253443624
+screensaver,1253443722
+Standby mode,1253446989
+screensaver,1253447078
+Standby mode,1253449980
+Contacts,1253449984
+Contacts,1253449986
+Telephone,1253450006
+Standby mode,1253451990
+Contacts,1253451994
+Standby mode,1253452017
+EPFLscope,1253452021
+screensaver,1253452189
+EPFLscope,1253461695
+EPFLscope,1253461696
+Messaging,1253461704
+Messaging,1253461705
+Messaging,1253461706
+Messaging,1253461740
+Messaging,1253461744
+Web,1253461751
+Web,1253462128
+screensaver,1253462218
+NaviGo,1253463676
+screensaver,1253463920
+NaviGo,1253464391
+Standby mode,1253464574
+Web,1253464589
+Web,1253464590
+Web,1253464615
+SecureWidgetUI,1253464629
+securewidgetui,1253465175
+Web,1253465187
+Web,1253465188
+Installer,1253465377
+Installer,1253465378
+Web,1253465418
+Web,1253465420
+Opera Mini 5 beta,1253465432
+screensaver,1253465887
+Opera Mini 5 beta,1253465915
+Standby mode,1253466993
+Opera Mini 5 beta,1253466997
+Standby mode,1253467020
+EPFLscope,1253467084
+Messaging,1253467135
+Messaging,1253467136
+Messaging,1253467183
+Messaging,1253467199
+Messaging,1253467200
+Messaging,1253467201
+Messaging,1253467230
+Messaging,1253467231
+Settings,1253467241
+Settings,1253467242
+Settings,1253467249
+Settings,1253467257
+Settings,1253467261
+Settings,1253467265
+Settings,1253467268
+Settings,1253467269
+Settings,1253467274
+Settings,1253467279
+Settings,1253467286
+Settings,1253467288
+Settings,1253467289
+Log,1253467299
+Log,1253467302
+Log,1253467303
+Log,1253467307
+Messaging,1253467322
+Messaging,1253467325
+Messaging,1253467334
+Service comm.,1253467338
+Service comm.,1253467339
+Messaging,1253467341
+Messaging,1253467397
+Standby mode,1253467398
+screensaver,1253467516
+Standby mode,1253470610
+EPFLscope,1253470613
+screensaver,1253470748
+EPFLscope,1253474271
+Messaging,1253474290
+Messaging,1253474291
+screensaver,1253474403
+Messaging,1253474445
+Messaging,1253474452
+Mail for Exchange,1253474485
+Messaging,1253474510
+Messaging,1253474511
+Messaging,1253474513
+Messaging,1253474516
+screensaver,1253474606
+Messaging,1253474846
+Messaging,1253474847
+Messaging,1253474848
+Mail for Exchange,1253474857
+Mail for Exchange,1253474858
+Messaging,1253474861
+Standby mode,1253474875
+Calendar,1253474888
+Standby mode,1253474890
+Opera Mini 5 beta,1253474975
+Opera Mini 5 beta,1253474976
+EPFLscope,1253475502
+Opera Mini 5 beta,1253475510
+EPFLscope,1253475558
+Standby mode,1253475570
+screensaver,1253475679
+Standby mode,1253511556
+Messaging,1253511561
+Messaging,1253511562
+Messaging,1253511571
+Mail for Exchange,1253511600
+Mail for Exchange,1253511601
+Messaging,1253511611
+Messaging,1253511615
+Standby mode,1253511616
+EPFLscope,1253511628
+Opera Mini 5 beta,1253511649
+Standby mode,1253512003
+screensaver,1253512097
+Standby mode,1253515312
+screensaver,1253515410
+Standby mode,1253516302
+EPFLscope,1253516308
+screensaver,1253516463
+Py_11558883,1253517079
+EPFLscope,1253517181
+screensaver,1253517305
+screensaver,1253517632
+Standby mode,1253517667
+EPFLscope,1253517670
+Messaging,1253517693
+Messaging,1253517694
+Messaging,1253517697
+Messaging,1253517698
+Standby mode,1253517719
+screensaver,1253517847
+Py_1326360075,1253518014
+Standby mode,1253518192
+EPFLscope,1253518193
+Py_2022699912,1253518314
+screensaver,1253518458
+EPFLscope,1253518714
+Messaging,1253518719
+Messaging,1253518733
+Messaging,1253518765
+Messaging,1253518769
+Standby mode,1253518771
+Calendar,1253518775
+Standby mode,1253518846
+Py_1899135743,1253518916
+screensaver,1253518940
+Standby mode,1253521439
+Messaging,1253521443
+Messaging,1253521445
+Mail for Exchange,1253521472
+Mail for Exchange,1253521473
+Messaging,1253521482
+Mail for Exchange,1253521484
+Mail for Exchange,1253521485
+Messaging,1253521489
+Messaging,1253521498
+Standby mode,1253521499
+EPFLscope,1253521501
+Py_223567696,1253521646
+screensaver,1253521656
+EPFLscope,1253522614
+Maps,1253522634
+Maps,1253522635
+Local-c832e528,1253522647
+Standby mode,1253522919
+EPFLscope,1253522923
+Messaging,1253522943
+Messaging,1253522951
+NaviGo,1253522978
+Standby mode,1253523055
+Messaging,1253523059
+Messaging,1253523061
+Standby mode,1253523062
+Py_1589647141,1253523145
+screensaver,1253523155
+Standby mode,1253523228
+Maps,1253523239
+Maps,1253523240
+Maps,1253523250
+Local-c832a300,1253523251
+Standby mode,1253523467
+Standby mode,1253523468
+Maps,1253523479
+Maps,1253523481
+Maps,1253523486
+Local-c8319938,1253523491
+Standby mode,1253523518
+EPFLscope,1253523520
+screensaver,1253523624
+EPFLscope,1253523689
+Py_219678534,1253523774
+screensaver,1253523781
+EPFLscope,1253523864
+Py_284423451,1253524074
+EPFLscope,1253524105
+Messaging,1253524109
+Messaging,1253524110
+Messaging,1253524144
+Messaging,1253524145
+Standby mode,1253524146
+screensaver,1253524240
+Standby mode,1253524267
+Maps,1253524278
+Maps,1253524285
+Local-c832bc58,1253524286
+Standby mode,1253524344
+Standby mode,1253524345
+Py_2058692321,1253524376
+screensaver,1253524438
+Standby mode,1253524454
+EPFLscope,1253524469
+screensaver,1253524574
+Py_32193073,1253524675
+akncapserver,1253525207
+screensaver,1253525297
+Standby mode,1253527166
+Messaging,1253527178
+Messaging,1253527179
+Messaging,1253527188
+Messaging,1253527192
+Messaging,1253527237
+screensaver,1253527331
+Messaging,1253529968
+Messaging,1253529985
+Mail for Exchange,1253530012
+Mail for Exchange,1253530013
+Messaging,1253530073
+Messaging,1253530074
+Messaging,1253530075
+screensaver,1253530170
+Standby mode,1253530888
+Messaging,1253530900
+Messaging,1253530901
+Messaging,1253530902
+Mail for Exchange,1253530930
+Mail for Exchange,1253530931
+Messaging,1253530965
+Mail for Exchange,1253530969
+Messaging,1253530987
+Messaging,1253530989
+Standby mode,1253531892
+screensaver,1253531996
+Standby mode,1253532356
+Camera,1253532361
+Camera,1253532382
+Camera,1253532387
+MMFControllerProxyServer-505,1253532389
+Standby mode,1253532390
+Music player,1253532398
+Music player,1253532400
+Music player,1253532414
+screensaver,1253532555
+Messaging,1253533166
+Messaging,1253533167
+Messaging,1253533177
+Mail for Exchange,1253533205
+Mail for Exchange,1253533216
+Mail for Exchange,1253533217
+Messaging,1253533221
+Mail for Exchange,1253533236
+Mail for Exchange,1253533238
+Messaging,1253533648
+Messaging,1253533692
+Messaging,1253533693
+Messaging,1253533695
+Messaging,1253533696
+Text message,1253533698
+Text message,1253533759
+Messaging,1253533825
+akncapserver,1253533831
+Standby mode,1253533834
+Log,1253534073
+Log,1253534074
+Telephone,1253534075
+Standby mode,1253534104
+screensaver,1253534203
+Standby mode,1253534641
+Messaging,1253534664
+Messaging,1253534665
+Messaging,1253534672
+Messaging,1253534693
+Standby mode,1253534694
+screensaver,1253534808
+Standby mode,1253536757
+Messaging,1253536762
+Messaging,1253536763
+Mail for Exchange,1253536806
+Mail for Exchange,1253536810
+Messaging,1253536874
+Messaging,1253536891
+Standby mode,1253536892
+Camera,1253536894
+MMFControllerProxyServer-5da,1253536899
+Standby mode,1253536900
+screensaver,1253536995
+Standby mode,1253537685
+Messaging,1253537689
+Messaging,1253537701
+Mail for Exchange,1253537742
+Messaging,1253537770
+Messaging,1253537779
+Standby mode,1253537780
+screensaver,1253537873
+Standby mode,1253538673
+Messaging,1253538681
+Messaging,1253538682
+Messaging,1253538684
+Messaging,1253538739
+Messaging,1253538740
+Standby mode,1253538741
+screensaver,1253538841
+Messaging,1253540663
+Messaging,1253540668
+akncapserver,1253540712
+screensaver,1253540802
+Standby mode,1253541803
+Messaging,1253541810
+Messaging,1253541811
+Messaging,1253541813
+Messaging,1253541839
+Standby mode,1253541840
+NaviGo,1253541885
+screensaver,1253542005
+NaviGo,1253542884
+Messaging,1253542899
+Messaging,1253542903
+screensaver,1253543032
+Messaging,1253543041
+Standby mode,1253543042
+Camera,1253543044
+Standby mode,1253543048
+Messaging,1253543065
+Messaging,1253543066
+Messaging,1253543074
+Log,1253543079
+screensaver,1253543235
+screensaver,1253544260
+Messaging,1253544283
+Standby mode,1253544296
+Messaging,1253544362
+Standby mode,1253544369
+Messaging,1253544373
+Messaging,1253544377
+screensaver,1253544573
+Messaging,1253546316
+Text message,1253546376
+Messaging,1253546382
+Text message,1253546387
+Messaging,1253546392
+Messaging,1253546403
+Messaging,1253546406
+Standby mode,1253546407
+screensaver,1253546528
+Messaging,1253546989
+Messaging,1253546990
+Messaging,1253547001
+Messaging,1253547004
+Standby mode,1253547005
+Web,1253547060
+Web,1253547061
+Web,1253547109
+Standby mode,1253547153
+screensaver,1253547302
+Messaging,1253551186
+Standby mode,1253551227
+screensaver,1253551324
+Standby mode,1253554404
+Standby mode,1253554407
+Calendar,1253554410
+screensaver,1253554505
+Standby mode,1253558401
+Camera,1253558402
+Camera,1253558403
+screensaver,1253558498
+Standby mode,1253560991
+screensaver,1253561084
+Standby mode,1253561141
+File manager,1253561171
+Installer,1253561184
+Installer,1253561185
+File manager,1253561202
+File manager,1253561204
+File manager,1253561208
+GFLM work thread,1253561209
+Standby mode,1253561213
+screensaver,1253561304
+Standby mode,1253562907
+Log,1253563024
+Messaging,1253563183
+Standby mode,1253563189
+Opera Mini 5 beta,1253563209
+Opera Mini 5 beta,1253563211
+App. manager,1253563257
+App. manager,1253563258
+App. manager,1253563262
+Clock,1253563265
+Clock,1253563277
+screensaver,1253563367
+Clock,1253563482
+Clock,1253563484
+Opera Mini 5 beta,1253563488
+screensaver,1253563590
+Standby mode,1253564864
+screensaver,1253564957
+Standby mode,1253595316
+Clock,1253595327
+Clock,1253595335
+Messaging,1253595339
+Messaging,1253595340
+Messaging,1253595343
+Mail for Exchange,1253595391
+Mail for Exchange,1253595392
+Messaging,1253595403
+Mail for Exchange,1253595405
+Mail for Exchange,1253595407
+Messaging,1253595471
+Messaging,1253595473
+Messaging,1253595474
+Messaging,1253595476
+Messaging,1253595477
+EPFLscope,1253595483
+screensaver,1253595578
+screensaver,1253595579
+EPFLscope,1253596969
+Contacts,1253596977
+Contacts,1253596981
+Contacts,1253596985
+Contacts,1253597033
+Messaging,1253597037
+Messaging,1253597039
+Text message,1253597042
+screensaver,1253597149
+Text message,1253597710
+Messaging,1253597713
+Messaging,1253597714
+Messaging,1253597715
+screensaver,1253597808
+Py_828546319,1253599511
+Standby mode,1253599704
+EPFLscope,1253599707
+screensaver,1253599802
+Py_1367222505,1253599813
+Telephone,1253600022
+MMFControllerProxyServer-8f8,1253600039
+Py_110486400,1253600051
+screensaver,1253600129
+Telephone,1253601300
+Telephone,1253601301
+MMFControllerProxyServer-907,1253601317
+Py_766731044,1253601497
+screensaver,1253601641
+EPFLscope,1253603408
+Messaging,1253603411
+Messaging,1253603412
+Contacts,1253603413
+Telephone,1253603417
+akncapserver,1253603457
+Py_1637573331,1253603513
+screensaver,1253603552
+Standby mode,1253604063
+Log,1253604067
+Telephone,1253604068
+Standby mode,1253604133
+screensaver,1253604226
+Standby mode,1253605163
+screensaver,1253605258
+akncapserver,1253605501
+screensaver,1253605595
+aknnfysrv,1253605614
+screensaver,1253605845
+aknnfysrv,1253605922
+screensaver,1253606023
+Messaging,1253612184
+Messaging,1253612186
+Text message,1253612195
+Text message,1253612196
+Messaging,1253612221
+screensaver,1253612321
+Messaging,1253615125
+Standby mode,1253615126
+screensaver,1253615220
+screensaver,1253615851
+Standby mode,1253616117
+Log,1253616144
+EPFLscope,1253616147
+Contacts,1253616151
+Messaging,1253616181
+Messaging,1253616182
+Messaging,1253616266
+Standby mode,1253616268
+Messaging,1253616297
+Text message,1253616299
+Text message,1253616314
+Messaging,1253616315
+Standby mode,1253616333
+screensaver,1253616426
+Standby mode,1253616438
+Maps,1253616457
+Maps,1253616458
+Local-c839f060,1253616463
+screensaver,1253616590
+Maps,1253616641
+Local-c837f9b0,1253616643
+Standby mode,1253616646
+Standby mode,1253616647
+Calendar,1253616653
+Standby mode,1253616662
+screensaver,1253616756
+Standby mode,1253616810
+Standby mode,1253616815
+Standby mode,1253616844
+screensaver,1253616949
+Messaging,1253618845
+Messaging,1253618846
+Messaging,1253618848
+Maps,1253618863
+Maps,1253618871
+Maps,1253618872
+Local-c83846f0,1253618875
+Maps,1253618975
+Maps,1253618981
+Opera Mini 5 beta,1253619024
+Standby mode,1253619637
+Calendar,1253619643
+Standby mode,1253619673
+Messaging,1253619805
+Messaging,1253619806
+Messaging,1253619809
+Messaging,1253619810
+Standby mode,1253619811
+screensaver,1253620001
+Messaging,1253624164
+Text message,1253624171
+Messaging,1253624273
+akncapserver,1253624274
+akncapserver,1253624275
+Text message,1253624401
+Messaging,1253624402
+Messaging,1253624403
+Standby mode,1253624404
+Telephone,1253624418
+MMFControllerProxyServer-aef,1253624429
+akncapserver,1253625150
+screensaver,1253625251
+akncapserver,1253627106
+screensaver,1253627196
+screensaver,1253627197
+Py_1488843628,1253628525
+Standby mode,1253628653
+screensaver,1253628823
+Standby mode,1253629866
+Standby mode,1253629870
+screensaver,1253629965
+akncapserver,1253630706
+screensaver,1253630796
+Messaging,1253631871
+Messaging,1253631872
+Messaging,1253631874
+Maps,1253631877
+Maps,1253631878
+Standby mode,1253631880
+screensaver,1253631992
+Telephone,1253632134
+MMFControllerProxyServer-b3c,1253632144
+akncapserver,1253632387
+screensaver,1253632489
+Messaging,1253634502
+Messaging,1253634503
+Messaging,1253634504
+Standby mode,1253634505
+screensaver,1253634597
+Messaging,1253636370
+Text message,1253636372
+Messaging,1253636374
+Messaging,1253636378
+screensaver,1253636471
+Standby mode,1253636650
+screensaver,1253636900
+Standby mode,1253637000
+Log,1253637120
+Telephone,1253637123
+Standby mode,1253637152
+screensaver,1253637246
+Messaging,1253637609
+Messaging,1253637611
+Telephone,1253637614
+Text message,1253637617
+Messaging,1253637976
+Messaging,1253637977
+screensaver,1253638072
+Messaging,1253640846
+Standby mode,1253640854
+Log,1253640856
+Log,1253640859
+Telephone,1253640862
+Standby mode,1253641798
+EPFLscope,1253641802
+screensaver,1253641916
+EPFLscope,1253646151
+Opera Mini 5 beta,1253646724
+EPFLscope,1253647389
+Opera Mini 5 beta,1253647393
+EPFLscope,1253647479
+akncapserver,1253647483
+Standby mode,1253647484
+Opera Mini 5 beta,1253647486
+Standby mode,1253647576
+screensaver,1253647665
+Standby mode,1253649416
+screensaver,1253649507
+Standby mode,1253649587
+Standby mode,1253649588
+NaviGo,1253649598
+screensaver,1253649784
+NaviGo,1253649940
+Clock,1253649954
+Clock,1253649962
+Standby mode,1253649963
+Log,1253649973
+EPFLscope,1253649977
+screensaver,1253650075
+NaviGo,1253681727
+WidgetUI,1253681767
+WidgetUi,1253681795
+Messaging,1253681799
+Messaging,1253681800
+Messaging,1253681801
+Mail for Exchange,1253681852
+Messaging,1253681861
+Mail for Exchange,1253681864
+Messaging,1253681873
+Mail for Exchange,1253681874
+Mail for Exchange,1253681876
+Messaging,1253681898
+Mail for Exchange,1253681901
+Mail for Exchange,1253681902
+Messaging,1253681985
+Messaging,1253681987
+Messaging,1253681988
+Messaging,1253681992
+Messaging,1253681993
+Nokia Messaging email,1253682006
+Nokia Messaging email,1253682007
+Nokia Messaging email,1253682070
+Nokia Messaging email,1253682074
+Nokia Messaging email,1253682075
+Settings,1253682081
+Nokia Messaging email,1253682096
+Nokia Messaging email,1253682136
+Nokia Messaging email,1253682138
+Settings,1253682165
+Nokia Messaging email,1253682192
+Nokia Messaging email,1253682193
+Nokia Messaging email,1253682225
+Nokia Messaging email,1253682230
+Nokia Messaging email,1253682235
+Nokia Messaging email,1253682241
+Nokia Messaging email,1253682251
+Nokia Messaging email,1253682293
+Nokia Messaging email,1253682294
+Nokia Messaging email,1253682302
+Nokia Messaging email,1253682303
+Nokia Messaging email,1253682305
+Nokia Messaging email,1253682310
+EPFLscope,1253682320
+Messaging,1253682343
+Messaging,1253682344
+Messaging,1253682345
+Messaging,1253682371
+Messaging,1253682374
+Standby mode,1253682377
+Clock,1253682389
+Clock,1253682399
+Clock,1253682402
+Clock,1253682405
+Clock,1253682408
+Clock,1253682409
+screensaver,1253682587
+Clock,1253683345
+Clock,1253683346
+Messaging,1253683350
+Messaging,1253683352
+Messaging,1253683385
+Messaging,1253683386
+Standby mode,1253683387
+screensaver,1253683480
+Standby mode,1253685872
+NaviGo,1253685889
+Standby mode,1253685969
+screensaver,1253686062
+Standby mode,1253686197
+Messaging,1253686203
+Messaging,1253686204
+Messaging,1253686208
+Messaging,1253686230
+Messaging,1253686231
+Standby mode,1253686232
+NaviGo,1253686256
+Standby mode,1253686294
+screensaver,1253686446
+Standby mode,1253686680
+EPFLscope,1253686682
+File manager,1253686916
+File manager,1253686918
+File manager,1253686925
+File manager,1253686931
+Notes,1253686936
+Notes,1253686937
+File manager,1253687018
+File manager,1253687020
+Standby mode,1253687022
+EPFLscope,1253687024
+Settings,1253687111
+Settings,1253687112
+Settings,1253687115
+Settings,1253687120
+Settings,1253687125
+Settings,1253687126
+Settings,1253687127
+Standby mode,1253687134
+akncapserver,1253687163
+Messaging,1253687357
+Messaging,1253687359
+Mail for Exchange,1253687386
+Mail for Exchange,1253687387
+Messaging,1253687417
+Contacts,1253687423
+EPFLscope,1253687430
+Contacts,1253687435
+Telephone,1253687459
+Standby mode,1253687496
+screensaver,1253687587
+Telephone,1253687602
+MMFControllerProxyServer-d13,1253687614
+akncapserver,1253687696
+screensaver,1253687825
+Standby mode,1253688061
+EPFLscope,1253688063
+screensaver,1253688158
+screensaver,1253688159
+EPFLscope,1253688223
+Standby mode,1253688229
+EPFLscope,1253688274
+Contacts,1253688322
+EPFLscope,1253688345
+Standby mode,1253688354
+Standby mode,1253688381
+EPFLscope,1253688383
+Messaging,1253688427
+Messaging,1253688428
+Messaging,1253688431
+Messaging,1253688433
+Messaging,1253688435
+EPFLscope,1253688446
+Standby mode,1253688456
+Settings,1253688466
+Settings,1253688467
+Settings,1253688468
+Settings,1253688470
+Settings,1253688475
+Standby mode,1253688476
+EPFLscope,1253688479
+Py_279260321,1253688880
+screensaver,1253688882
+Telephone,1253691310
+MMFControllerProxyServer-d6e,1253691319
+screensaver,1253691555
+akncapserver,1253691912
+screensaver,1253692010
+Standby mode,1253692488
+EPFLscope,1253692490
+screensaver,1253692613
+EPFLscope,1253692805
+screensaver,1253692917
+EPFLscope,1253693956
+Settings,1253694000
+Settings,1253694001
+Settings,1253694002
+Settings,1253694013
+akncapserver,1253694014
+Messaging,1253694082
+Mail for Exchange,1253694087
+Mail for Exchange,1253694088
+Messaging,1253694106
+Standby mode,1253694107
+screensaver,1253694196
+Standby mode,1253694567
+screensaver,1253694729
+Standby mode,1253696294
+Maps,1253696314
+Maps,1253696450
+Maps,1253696469
+Maps,1253696490
+Local-c82c9270,1253696491
+screensaver,1253696584
+File manager,1253696749
+File manager,1253696750
+File manager,1253696755
+Installer,1253696758
+Messaging,1253696913
+Standby mode,1253696915
+EPFLscope,1253696942
+screensaver,1253697063
+Telephone,1253697414
+MMFControllerProxyServer-e5e,1253697427
+EPFLscope,1253697436
+screensaver,1253697955
+EPFLscope,1253698256
+Maps,1253698274
+Maps,1253698276
+Local-c8337700,1253698379
+GPS data,1253698461
+GPS data,1253698490
+GPS data,1253698564
+Maps,1253698571
+Carousel,1253698683
+Maps,1253698685
+Standby mode,1253698717
+Python,1253698841
+Python,1253698842
+EPFLscope,1253698847
+Standby mode,1253698865
+WLAN wizard,1253698873
+EPFLscope,1253698925
+screensaver,1253699399
+EPFLscope,1253699463
+screensaver,1253699554
+EPFLscope,1253700540
+screensaver,1253700662
+EPFLscope,1253700968
+screensaver,1253701060
+Py_2111930379,1253701227
+EPFLscope,1253704784
+Web,1253704793
+Web,1253704794
+EPFLscope,1253704795
+Settings,1253704890
+Settings,1253704892
+Settings,1253704899
+akncapserver,1253704903
+Py_1823524207,1253704982
+screensaver,1253704992
+Settings,1253705801
+Settings,1253705803
+Opera Mini 5 beta,1253705861
+akncapserver,1253706211
+akncapserver,1253706303
+screensaver,1253706394
+File manager,1253707146
+File manager,1253707147
+File manager,1253707151
+Notes,1253707158
+Notes,1253707160
+File manager,1253707194
+GFLM work thread,1253707198
+File manager,1253707200
+screensaver,1253707297
+Contacts,1253707377
+Telephone,1253707413
+Standby mode,1253707451
+Log,1253707455
+Contacts,1253707466
+Contacts,1253707468
+Contacts,1253707470
+screensaver,1253707567
+Standby mode,1253708023
+screensaver,1253708118
+akncapserver,1253709903
+Telephone,1253710104
+MMFControllerProxyServer-fc5,1253710107
+akncapserver,1253710120
+Messaging,1253710153
+Text message,1253710155
+akncapserver,1253710158
+screensaver,1253710248
+Standby mode,1253712784
+Log,1253712786
+Telephone,1253712789
+Standby mode,1253712934
+screensaver,1253713025
+Messaging,1253713735
+Standby mode,1253713761
+screensaver,1253713855
+Messaging,1253715987
+Messaging,1253715988
+Mail for Exchange,1253715991
+screensaver,1253716102
+Telephone,1253717153
+MMFControllerProxyServer-1036,1253717156
+Mail for Exchange,1253717173
+Messaging,1253717400
+screensaver,1253717490
+Messaging,1253718079
+Messaging,1253718081
+Calendar,1253718085
+screensaver,1253718196
+Calendar,1253718701
+screensaver,1253718792
+Calendar,1253719164
+akncapserver,1253719186
+Messaging,1253719188
+Messaging,1253719189
+Standby mode,1253719246
+Standby mode,1253719343
+NaviGo,1253719476
+Standby mode,1253719507
+screensaver,1253719606
+Standby mode,1253719647
+Log,1253719649
+EPFLscope,1253719651
+Messaging,1253719657
+Messaging,1253719658
+Log,1253719659
+Telephone,1253719661
+Standby mode,1253719712
+screensaver,1253719847
+Standby mode,1253719901
+EPFLscope,1253719904
+EPFLscope,1253719905
+Log,1253719909
+EPFLscope,1253719910
+Py_474369397,1253720051
+screensaver,1253720142
+EPFLscope,1253720346
+Contacts,1253720350
+Contacts,1253720351
+Telephone,1253720357
+Py_905687802,1253720595
+Standby mode,1253720949
+screensaver,1253721098
+Standby mode,1253721164
+Settings,1253721172
+Settings,1253721173
+Settings,1253721175
+Settings,1253721178
+Contacts,1253721181
+EPFLscope,1253721186
+Py_1122311774,1253721195
+screensaver,1253721382
+EPFLscope,1253721585
+Standby mode,1253721588
+Calendar,1253721590
+Standby mode,1253721654
+screensaver,1253721755
+Standby mode,1253724236
+Messaging,1253724241
+Calendar,1253724245
+Standby mode,1253724246
+Messaging,1253724251
+Messaging,1253724253
+Messaging,1253724260
+Messaging,1253724262
+Standby mode,1253724263
+screensaver,1253724414
+Standby mode,1253724957
+screensaver,1253725064
+Messaging,1253734895
+Messaging,1253734896
+Messaging,1253734898
+Settings,1253734913
+Settings,1253734916
+Paramu00e8tres,1253735112
+Paramu00e8tres,1253735116
+Paramu00e8tres,1253735132
+screensaver,1253735246
+Paramu00e8tres,1253735618
+Paramu00e8tres,1253735625
+Paramu00e8tres,1253735626
+Paramu00e8tres,1253735628
+Paramu00e8tres,1253735632
+screensaver,1253735843
+akncapserver,1253736475
+Messaging,1253736487
+Messaging,1253736488
+Messaging,1253736518
+Standby mode,1253736520
+Gallery,1253736524
+EPFLscope,1253736531
+Opera Mini 5 beta,1253736542
+Opera Mini 5 beta,1253736543
+Contacts,1253736925
+Contacts,1253736927
+Contacts,1253736941
+Contacts,1253736943
+Contacts,1253736945
+Contacts,1253736946
+Contacts,1253736948
+SecureWidgetUI,1253736976
+securewidgetui,1253736983
+SecureWidgetUI,1253736990
+securewidgetui,1253737117
+EPFLscope,1253737127
+Carousel,1253737145
+EPFLscope,1253737147
+Clock,1253737154
+Clock,1253737155
+Clock,1253737161
+Standby mode,1253737162
+screensaver,1253737255
+screensaver,1253764408
+akncapserver,1253769307
+Messaging,1253769316
+Messaging,1253769318
+Messaging,1253769320
+Mail for Exchange,1253769361
+Mail for Exchange,1253769362
+Messaging,1253769373
+Mail for Exchange,1253769376
+Messaging,1253769387
+Mail for Exchange,1253769390
+Mail for Exchange,1253769391
+Messaging,1253769410
+Messaging,1253769415
+Messaging,1253769424
+Mail for Exchange,1253769426
+Mail for Exchange,1253769427
+Messaging,1253769430
+Messaging,1253769431
+Standby mode,1253769432
+screensaver,1253769526
+Standby mode,1253769584
+Carousel,1253769588
+Maps,1253769621
+Maps,1253769622
+Standby mode,1253769632
+MapsAudioThread[10282e68],1253769633
+EPFLscope,1253769636
+screensaver,1253769734
+Messaging,1253770087
+Messaging,1253770088
+Standby mode,1253770089
+EPFLscope,1253770092
+Standby mode,1253770093
+Messaging,1253770097
+Messaging,1253770099
+Mail for Exchange,1253770111
+Mail for Exchange,1253770112
+Messaging,1253770127
+Messaging,1253770135
+Standby mode,1253770142
+screensaver,1253770240
+Standby mode,1253773308
+EPFLscope,1253773310
+screensaver,1253773602
+EPFLscope,1253773821
+Messaging,1253773826
+Messaging,1253773827
+Messaging,1253773829
+Mail for Exchange,1253773831
+Messaging,1253773876
+Messaging,1253773878
+screensaver,1253773970
+EPFLscope,1253774315
+screensaver,1253774410
+EPFLscope,1253774847
+screensaver,1253774952
+screensaver,1253774953
+EPFLscope,1253775029
+screensaver,1253775117
+EPFLscope,1253775119
+Mail for Exchange,1253775152
+Messaging,1253775209
+Messaging,1253775210
+Standby mode,1253775211
+EPFLscope,1253775285
+Py_1357307457,1253775324
+screensaver,1253775496
+EPFLscope,1253775630
+akncapserver,1253775634
+Messaging,1253775637
+Messaging,1253775638
+Mail for Exchange,1253775641
+Mail for Exchange,1253775642
+Messaging,1253775674
+Mail for Exchange,1253775676
+Messaging,1253775713
+Messaging,1253775716
+Standby mode,1253775717
+screensaver,1253775810
+Py_43383506,1253775927
+Standby mode,1253776173
+Calendar,1253776181
+Standby mode,1253776261
+screensaver,1253776354
+screensaver,1253776355
+Standby mode,1253776452
+EPFLscope,1253776453
+Py_297526432,1253776528
+screensaver,1253776594
+EPFLscope,1253777072
+Log,1253777089
+Log,1253777092
+Log,1253777093
+Log,1253777096
+Log,1253777098
+Standby mode,1253777101
+Py_1918967020,1253777128
+EPFLscope,1253777138
+screensaver,1253777230
+EPFLscope,1253777231
+screensaver,1253777321
+EPFLscope,1253777329
+Py_503573836,1253777430
+screensaver,1253777431
+EPFLscope,1253777468
+Messaging,1253777480
+Messaging,1253777481
+Messaging,1253777506
+Messaging,1253777510
+Messaging,1253777511
+Standby mode,1253777512
+EPFLscope,1253777585
+Py_1535300832,1253777671
+screensaver,1253777824
+EPFLscope,1253778005
+screensaver,1253778239
+Py_1483164728,1253778295
+akncapserver,1253778309
+Messaging,1253778333
+Mail for Exchange,1253778336
+Mail for Exchange,1253778337
+Messaging,1253778498
+Messaging,1253778499
+Messaging,1253778500
+Standby mode,1253778501
+Py_169064106,1253778594
+Standby mode,1253779251
+screensaver,1253779381
+Standby mode,1253780103
+screensaver,1253780217
+Telephone,1253781815
+MMFControllerProxyServer-3b2,1253781819
+akncapserver,1253781876
+screensaver,1253781968
+Messaging,1253785628
+Messaging,1253785631
+Standby mode,1253785632
+Nokia Messaging email,1253785641
+Settings,1253785645
+Nokia Messaging email,1253785660
+Nokia Messaging email,1253785666
+Nokia Messaging email,1253785667
+Settings,1253785676
+Nokia Messaging email,1253785679
+Messaging,1253785709
+Messaging,1253785712
+Nokia Messaging email,1253785715
+Standby mode,1253785724
+Nokia Messaging email,1253785727
+Nokia Messaging email,1253785732
+Standby mode,1253785734
+screensaver,1253785834
+Telephone,1253787662
+MMFControllerProxyServer-40c,1253787664
+akncapserver,1253787824
+Messaging,1253787831
+Standby mode,1253787836
+Standby mode,1253787837
+screensaver,1253787929
+EPFLscope,1253790122
+screensaver,1253790380
+screensaver,1253790711
+EPFLscope,1253791936
+screensaver,1253792245
+EPFLscope,1253792703
+screensaver,1253792795
+akncapserver,1253796303
+screensaver,1253796446
+EPFLscope,1253797502
+Messaging,1253797517
+Messaging,1253797518
+akncapserver,1253797519
+Standby mode,1253797575
+screensaver,1253797672
+Messaging,1253799386
+Messaging,1253799388
+Text message,1253799402
+Text message,1253799403
+Text message,1253799433
+Messaging,1253799435
+screensaver,1253799533
+Messaging,1253799761
+Messaging,1253799763
+Standby mode,1253799764
+Web,1253799777
+Web,1253799779
+Web,1253799993
+Opera Mini 5 beta,1253800014
+Opera Mini 5 beta,1253800015
+screensaver,1253800133
+Opera Mini 5 beta,1253800789
+Opera Mini 5 beta,1253800790
+Web,1253800990
+Web,1253800991
+Web,1253801076
+Web,1253801128
+Web,1253801194
+Web,1253801213
+Web,1253801266
+Opera Mini 5 beta,1253801289
+Opera Mini 5 beta,1253801290
+akncapserver,1253801396
+Telephone,1253801406
+MMFControllerProxyServer-521,1253801410
+akncapserver,1253801574
+screensaver,1253801665
+Messaging,1253803629
+Messaging,1253803630
+Messaging,1253803631
+EPFLscope,1253803635
+screensaver,1253803731
+Py_205966661,1253803914
+EPFLscope,1253803931
+Messaging,1253803934
+Messaging,1253803935
+Text message,1253803943
+Messaging,1253804166
+Messaging,1253804183
+Messaging,1253804184
+Standby mode,1253804185
+EPFLscope,1253804200
+Standby mode,1253804215
+Py_2026663209,1253804218
+Standby mode,1253804223
+screensaver,1253804314
+Standby mode,1253804598
+EPFLscope,1253804599
+screensaver,1253804695
+EPFLscope,1253804808
+Py_420698018,1253804843
+screensaver,1253804902
+EPFLscope,1253805513
+screensaver,1253805660
+screensaver,1253805661
+Py_1572058237,1253805685
+Telephone,1253805813
+MMFControllerProxyServer-599,1253805819
+EPFLscope,1253805820
+Contacts,1253805875
+Telephone,1253805880
+Telephone,1253805881
+Standby mode,1253805911
+Py_1476221527,1253805988
+screensaver,1253806005
+Standby mode,1253806615
+Contacts,1253806617
+EPFLscope,1253806620
+Standby mode,1253806625
+screensaver,1253806720
+Py_888516276,1253806889
+Telephone,1253807016
+MMFControllerProxyServer-5b6,1253807023
+akncapserver,1253807168
+akncapserver,1253807169
+EPFLscope,1253807177
+screensaver,1253807370
+Py_1869278712,1253807433
+EPFLscope,1253807494
+screensaver,1253807609
+EPFLscope,1253807638
+Py_1806581188,1253807751
+screensaver,1253807827
+EPFLscope,1253808210
+screensaver,1253808305
+EPFLscope,1253809753
+Standby mode,1253809755
+Standby mode,1253809845
+screensaver,1253809972
+Standby mode,1253813043
+EPFLscope,1253813058
+screensaver,1253813170
+EPFLscope,1253816641
+screensaver,1253816730
+EPFLscope,1253817115
+screensaver,1253817291
+EPFLscope,1253817509
+screensaver,1253817711
+EPFLscope,1253817813
+screensaver,1253817902
+EPFLscope,1253817997
+screensaver,1253818085
+EPFLscope,1253818297
+screensaver,1253818388
+EPFLscope,1253818595
+screensaver,1253818684
+EPFLscope,1253818896
+screensaver,1253818985
+EPFLscope,1253819196
+screensaver,1253819285
+EPFLscope,1253819495
+screensaver,1253819583
+EPFLscope,1253819795
+screensaver,1253819884
+EPFLscope,1253820095
+screensaver,1253820184
+EPFLscope,1253820398
+EPFLscope,1253820422
+Messaging,1253820427
+Messaging,1253820428
+Messaging,1253820430
+Messaging,1253821195
+akncapserver,1253821231
+akncapserver,1253821232
+screensaver,1253821314
+EPFLscope,1253821761
+EPFLscope,1253821762
+Clock,1253821770
+Clock,1253821775
+Standby mode,1253821777
+screensaver,1253821871
+Standby mode,1253829313
+EPFLscope,1253829323
+Standby mode,1253829334
+screensaver,1253829427
+screensaver,1253854767
+Standby mode,1253854768
+Standby mode,1253854769
+Clock,1253854782
+Clock,1253854792
+Messaging,1253854796
+Messaging,1253854798
+Mail for Exchange,1253854835
+Mail for Exchange,1253854836
+Messaging,1253854872
+Messaging,1253854874
+Messaging,1253854875
+Standby mode,1253854876
+screensaver,1253854969
+Standby mode,1253855758
+Messaging,1253855764
+Messaging,1253855765
+Messaging,1253855767
+Standby mode,1253855825
+screensaver,1253855918
+Standby mode,1253858759
+EPFLscope,1253858761
+Web,1253858783
+Web,1253858785
+Web,1253858810
+Web,1253858814
+Web,1253858815
+Web,1253858816
+Web,1253859106
+screensaver,1253859199
+Messaging,1253860266
+Messaging,1253860273
+Messaging,1253860283
+Messaging,1253860285
+Standby mode,1253860286
+EPFLscope,1253860288
+screensaver,1253860381
+Py_1002393803,1253860538
+Telephone,1253860628
+EPFLscope,1253860636
+Py_1060432777,1253860777
+EPFLscope,1253861089
+Messaging,1253861094
+Messaging,1253861096
+Text message,1253861099
+Text message,1253861151
+Text message,1253861152
+Py_559697965,1253861261
+Messaging,1253861353
+Messaging,1253861355
+Text message,1253861373
+Messaging,1253861376
+Messaging,1253861401
+Messaging,1253861404
+Standby mode,1253861405
+Log,1253861409
+Telephone,1253861411
+akncapserver,1253861580
+Messaging,1253861587
+Messaging,1253861589
+Text message,1253861594
+Text message,1253861603
+Messaging,1253861660
+Messaging,1253861664
+Text message,1253861671
+Text message,1253861831
+Messaging,1253861832
+Messaging,1253861848
+Standby mode,1253861850
+screensaver,1253861944
+Messaging,1253862066
+Messaging,1253862067
+Messaging,1253862068
+Mail for Exchange,1253862077
+Mail for Exchange,1253862078
+Messaging,1253862123
+Messaging,1253862124
+Standby mode,1253862130
+screensaver,1253862223
+screensaver,1253862224
+Standby mode,1253863442
+EPFLscope,1253863443
+screensaver,1253863537
+screensaver,1253863538
+Py_1716297194,1253863636
+EPFLscope,1253865644
+Messaging,1253865656
+Messaging,1253865657
+Mail for Exchange,1253865659
+Mail for Exchange,1253865660
+Messaging,1253865736
+Messaging,1253865738
+Messaging,1253865739
+File manager,1253865743
+GFLM work thread,1253865744
+File manager,1253865745
+File manager,1253865746
+File manager,1253865748
+File manager,1253865758
+File manager,1253865760
+EPFLscope,1253865895
+screensaver,1253865993
+Telephone,1253868953
+MMFControllerProxyServer-35f,1253868958
+akncapserver,1253868968
+screensaver,1253869059
+EPFLscope,1253869074
+akncapserver,1253869077
+Log,1253869079
+akncapserver,1253869177
+Messaging,1253869184
+Standby mode,1253869185
+screensaver,1253869280
+Standby mode,1253869506
+Messaging,1253869509
+Messaging,1253869510
+Messaging,1253869512
+Standby mode,1253869513
+screensaver,1253869606
+Standby mode,1253870548
+Log,1253870550
+Log,1253870551
+Log,1253870552
+Log,1253870553
+Telephone,1253870555
+Standby mode,1253870628
+screensaver,1253870719
+Messaging,1253871918
+Messaging,1253871920
+Text message,1253871926
+Messaging,1253871965
+Messaging,1253872007
+screensaver,1253872101
+Telephone,1253872385
+MMFControllerProxyServer-39e,1253872388
+akncapserver,1253872467
+screensaver,1253872557
+Messaging,1253873851
+Messaging,1253873856
+Messaging,1253873859
+Standby mode,1253873860
+screensaver,1253873952
+Py_2023365979,1253874264
+Messaging,1253875576
+Messaging,1253875578
+Mail for Exchange,1253875582
+Mail for Exchange,1253875583
+Messaging,1253875700
+Messaging,1253875703
+Standby mode,1253875704
+screensaver,1253875802
+Standby mode,1253875804
+EPFLscope,1253875806
+Py_1684671687,1253875885
+screensaver,1253875900
+EPFLscope,1253877359
+Messaging,1253877363
+Messaging,1253877365
+Messaging,1253877368
+Standby mode,1253877369
+screensaver,1253877463
+Py_2057869946,1253877598
+Standby mode,1253877782
+Log,1253877787
+Telephone,1253877790
+Standby mode,1253877846
+screensaver,1253878019
+Standby mode,1253879013
+screensaver,1253879106
+Messaging,1253882779
+Messaging,1253882781
+screensaver,1253882874
+Standby mode,1253883440
+Contacts,1253883449
+Contacts,1253883457
+Telephone,1253883458
+Standby mode,1253883564
+screensaver,1253883680
+Telephone,1253884292
+MMFControllerProxyServer-467,1253884305
+akncapserver,1253885564
+Messaging,1253885570
+Messaging,1253885572
+Messaging,1253885573
+Standby mode,1253885574
+Log,1253885603
+Telephone,1253885670
+Standby mode,1253885715
+screensaver,1253885808
+Standby mode,1253887041
+Calendar,1253887044
+Standby mode,1253887047
+screensaver,1253887238
+Messaging,1253887292
+Messaging,1253887316
+Standby mode,1253887317
+Log,1253887320
+Contacts,1253887325
+EPFLscope,1253887328
+screensaver,1253887422
+EPFLscope,1253887502
+screensaver,1253887700
+EPFLscope,1253887827
+Py_138662302,1253887883
+screensaver,1253887963
+EPFLscope,1253887964
+screensaver,1253888054
+Py_992819128,1253888154
+EPFLscope,1253888188
+Messaging,1253888221
+Messaging,1253888223
+Mail for Exchange,1253888226
+Messaging,1253888266
+Messaging,1253888267
+screensaver,1253888360
+Py_42872635,1253888453
+Messaging,1253889101
+Messaging,1253889102
+Mail for Exchange,1253889105
+screensaver,1253889201
+Mail for Exchange,1253889318
+Mail for Exchange,1253889319
+Mail for Exchange,1253889320
+Messaging,1253889337
+Messaging,1253889338
+Messaging,1253889339
+screensaver,1253889432
+Telephone,1253895268
+MMFControllerProxyServer-501,1253895276
+akncapserver,1253895400
+screensaver,1253895481
+EPFLscope,1253897977
+EPFLscope,1253897978
+screensaver,1253898229
+EPFLscope,1253898893
+screensaver,1253898987
+Py_1901021364,1253899161
+EPFLscope,1253899378
+screensaver,1253899468
+EPFLscope,1253899896
+Messaging,1253899906
+Messaging,1253899908
+Mail for Exchange,1253899914
+Messaging,1253899921
+Mail for Exchange,1253899923
+Messaging,1253899933
+Messaging,1253899935
+Standby mode,1253899936
+screensaver,1253900029
+Py_138214217,1253901115
+Standby mode,1253901567
+Contacts,1253901571
+Contacts,1253901573
+screensaver,1253901704
+Contacts,1253903629
+Contacts,1253903634
+Standby mode,1253903636
+Calendar,1253903638
+Standby mode,1253903665
+screensaver,1253903759
+Standby mode,1253905271
+Contacts,1253905281
+Contacts,1253905287
+Contacts,1253905289
+EPFLscope,1253905302
+screensaver,1253905398
+EPFLscope,1253905489
+Messaging,1253905692
+Messaging,1253905693
+Messaging,1253905694
+Messaging,1253905721
+Messaging,1253905723
+Messaging,1253905747
+Messaging,1253905750
+Opera Mini 5 beta,1253905762
+Standby mode,1253906963
+Clock,1253906982
+Clock,1253906990
+Standby mode,1253906992
+screensaver,1253907085
+Standby mode,1253907598
+Messaging,1253907606
+Messaging,1253907607
+Standby mode,1253907608
+Calendar,1253907610
+Standby mode,1253907622
+Calendar,1253907623
+Messaging,1253907629
+Messaging,1253907630
+Messaging,1253907671
+Standby mode,1253907674
+Web,1253907687
+aknnfysrv,1253907688
+Web,1253907706
+Web,1253907709
+Web,1253907710
+Web,1253908186
+EPFLscope,1253908191
+screensaver,1253908286
+EPFLscope,1253943421
+Messaging,1253943430
+Messaging,1253943431
+Messaging,1253943433
+Messaging,1253943486
+Messaging,1253943487
+screensaver,1253943581
+Standby mode,1253943991
+screensaver,1253944081
+akncapserver,1253946650
+screensaver,1253946740
+akncapserver,1253950218
+Contacts,1253950318
+Contacts,1253950321
+screensaver,1253950411
+Contacts,1253950468
+Contacts,1253950473
+screensaver,1253950566
+Py_425412768,1253951639
+Standby mode,1253955063
+screensaver,1253955160
+Standby mode,1253955347
+Telephone,1253955433
+screensaver,1253955528
+Telephone,1253956313
+screensaver,1253956404
+akncapserver,1253956794
+akncapserver,1253956795
+Standby mode,1253956798
+Maps,1253956828
+Maps,1253956887
+Maps,1253956926
+Maps,1253956959
+Maps,1253956984
+Maps,1253956986
+Maps,1253956988
+screensaver,1253957135
+Maps,1253957339
+Local-c8377238,1253957363
+screensaver,1253957481
+Maps,1253957505
+Local-c8368808,1253957506
+screensaver,1253957599
+Maps,1253957883
+MapsAudioThread[101f4cd2],1253957886
+Calculator,1253957891
+Calculator,1253957950
+screensaver,1253958043
+EPFLscope,1253959093
+Py_276979151,1253959150
+screensaver,1253959249
+EPFLscope,1253960814
+EPFLscope,1253960815
+Messaging,1253960823
+Messaging,1253960824
+Messaging,1253960825
+Messaging,1253960847
+Messaging,1253960849
+EPFLscope,1253960860
+screensaver,1253960955
+EPFLscope,1253961967
+screensaver,1253962064
+Py_90506703,1253962176
+EPFLscope,1253966336
+Messaging,1253966350
+Messaging,1253966372
+screensaver,1253966488
+Messaging,1253972311
+screensaver,1253972435
+Messaging,1253972580
+Messaging,1253972584
+Messaging,1253972585
+Contacts,1253972589
+Contacts,1253972591
+screensaver,1253972702
+screensaver,1253979636
+Contacts,1253983265
+screensaver,1253983357
+Contacts,1253983501
+screensaver,1253983600
+Contacts,1253983841
+screensaver,1253983934
+Contacts,1253983991
+Telephone,1253984068
+Standby mode,1253984100
+EPFLscope,1253984105
+Contacts,1253984109
+screensaver,1253984205
+Contacts,1253984350
+screensaver,1253984445
+Contacts,1253984755
+screensaver,1253984849
+Contacts,1253985228
+screensaver,1253985329
+Contacts,1253985422
+screensaver,1253985651
+Contacts,1253988111
+Telephone,1253988120
+Standby mode,1253989488
+Standby mode,1253989489
+Messaging,1253989492
+Standby mode,1253989495
+Contacts,1253989498
+screensaver,1253989633
+Contacts,1253989845
+screensaver,1253989934
+Contacts,1253990146
+screensaver,1253990235
+Contacts,1253990446
+screensaver,1253990535
+Contacts,1253990754
+screensaver,1253990843
+Contacts,1253991054
+Standby mode,1253991096
+Messaging,1253991117
+Messaging,1253991118
+Messaging,1253991119
+Standby mode,1253991146
+screensaver,1253991239
+screensaver,1254036747
+Standby mode,1254040076
+screensaver,1254040301
+Standby mode,1254047308
+EPFLscope,1254047310
+screensaver,1254047408
+Py_262854825,1254047417
+EPFLscope,1254050385
+Py_1565700885,1254050387
+screensaver,1254050488
+EPFLscope,1254051781
+screensaver,1254051889
+Py_1585350360,1254051892
+EPFLscope,1254064827
+Contacts,1254064830
+Contacts,1254064832
+Contacts,1254064840
+screensaver,1254064934
+EPFLscope,1254065506
+screensaver,1254065601
+EPFLscope,1254081407
+EPFLscope,1254081426
+WidgetUI,1254081439
+WidgetUI,1254081440
+WidgetUI,1254081441
+WidgetUi,1254081664
+SecureWidgetUI,1254081679
+Clock,1254081743
+Clock,1254081757
+Standby mode,1254081762
+screensaver,1254081856
+Standby mode,1254083617
+screensaver,1254083707
