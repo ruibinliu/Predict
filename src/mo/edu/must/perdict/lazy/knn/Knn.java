@@ -75,8 +75,10 @@ public class Knn {
     public double calDistance(List<Double> d1, List<Double> d2) {
         double distance = 0.00;
         for (int i = 0; i < d1.size(); i++) {
-            distance += (d1.get(i) - d2.get(i)) * (d1.get(i) - d2.get(i));
+            Double d = d1.get(i) - d2.get(i);
+            distance += d * d;
         }
+        distance = Math.sqrt(distance);
         return distance;
     }
 
@@ -137,6 +139,7 @@ public class Knn {
                 return classCount.get(o2) - classCount.get(o1);
             }
         });
+
 //        for (int i = 0; i < sorted.size(); i++) {
 //            String c = sorted.get(i);
 //            System.out.println("Class: " + c + ", Count: " + classCount.get(c));

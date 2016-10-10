@@ -2,17 +2,15 @@
 package mo.edu.must.perdict;
 
 import mo.edu.must.perdict.lazy.knn.KnnMain;
-import mo.edu.must.perdict.preprocess.PreProcessMain;
-import mo.edu.must.perdict.tan.TanMain;
 
 public class Main {
     public static void main(String[] args) {
-        PreProcessMain.main(new String[] {
-            "data/edvard.txt"
-        });
+//        PreProcessMain.main(new String[] {
+//            "data/meizu2.txt"
+//        });
 
 //        TanMain.main(new String[] {
-//            "out/tan-data.txt"
+//            "data/mdc-out.txt"
 //        });
 
         KnnMain.main(new String[] {});

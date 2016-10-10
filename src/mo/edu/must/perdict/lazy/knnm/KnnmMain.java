@@ -9,8 +9,8 @@ import mo.edu.must.perdict.lazy.knn.KnnMain;
 public class KnnmMain {
 
     public static void main(String[] args) {
-        String datafile = "/Users/ruibin/workspace/adt/Predit/data/knn-data.txt";
-        String testfile = "/Users/ruibin/workspace/adt/Predit/data/knn-test.txt";
+        String datafile = "data/knnm-data.txt";
+        String testfile = "data/knnm-test.txt";
         try {
             final List<List<Double>> dataList = KnnMain.read(datafile);
             final List<List<Double>> testDatas = KnnMain.read(testfile);

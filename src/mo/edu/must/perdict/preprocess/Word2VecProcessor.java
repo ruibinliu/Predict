@@ -55,6 +55,48 @@ public class Word2VecProcessor {
         }
     }
 
+    public static void similarity() {
+        Process proc;
+
+        InputStream is = null;
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+        try {
+            proc = Runtime.getRuntime().exec("python src/similarity.py");
+            is = proc.getInputStream();
+            isr = new InputStreamReader(is);
+            br = new BufferedReader(isr);
+
+            StringBuilder builder = new StringBuilder();
+            String line;
+//            boolean isFirstLine = true;
+            while ((line = br.readLine()) != null) {
+                // 换行，每个词向量一行
+//                if (!isFirstLine && line.startsWith("AppOpenAction")
+//                        || line.startsWith("WiFiConnectedAction")
+//                        || line.startsWith("DataConnectedAction")
+//                        || line.startsWith("BluetoothConnectedAction")
+//                        || line.startsWith("LightChangedAction")
+//                        || line.startsWith("ContextTriggeredAction")
+//                        || line.startsWith("AudioCableAction")
+//                        || line.startsWith("ChargeCableAction")
+//                        || line.startsWith("LocationChangedAction")) {
+                    builder.append("\n");
+//                }
+                builder.append(line);
+//                isFirstLine = false;
+            }
+            FileUtils.write("out/similarity.txt", builder.toString().trim());
+            proc.waitFor();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            IoUtils.close(br);
+            IoUtils.close(isr);
+            IoUtils.close(is);
+        }
+    }
+
     public static String toString(String[] a) {
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < a.length; i++) {

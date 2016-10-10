@@ -115,5 +115,6 @@ public class Context {
                 + lastDataConnectedAction + " "
                 + lastBluetoothConnectedAction + " "
                 + lastLightChangedAction;
+//                return lastAppOpenAction + "";
     }
 }

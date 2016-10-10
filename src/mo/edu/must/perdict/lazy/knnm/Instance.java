@@ -19,9 +19,9 @@ public class Instance {
         double distance = 0.00;
 
         for (int i = 0; i < vector.size(); i++) {
-            distance += (vector.get(i) - instance.vector.get(i))
-                    * (vector.get(i) - instance.vector.get(i));
+            distance += Math.pow(vector.get(i) - instance.vector.get(i), 2);
         }
+        distance = Math.sqrt(distance);
         return distance;
     }
 

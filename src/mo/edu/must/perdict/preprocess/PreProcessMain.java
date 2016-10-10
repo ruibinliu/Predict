@@ -15,6 +15,7 @@ public class PreProcessMain {
         FileUtils.read(args[0], l);
 
         Word2VecProcessor.process();
+        Word2VecProcessor.similarity();
     }
 
     static Listener l = new Listener() {

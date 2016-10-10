@@ -1,10 +1,7 @@
 
 package mo.edu.must.perdict.lazy.knn;
 
-import java.io.BufferedReader;
 import java.io.Closeable;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map.Entry;
