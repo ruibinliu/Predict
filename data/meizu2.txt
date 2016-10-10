@@ -1,15 +1,15 @@
 insertTarget 20160612234657 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.android.settings 20160612234657 _23_24 0 0.0 0.0 no no "liu" no monday no very_drak idle null 164 null null school
-insertTarget 20160612234657 null 0 23.13273 113.37209 null null null null null null null null null null WiFiConnected "liu" company
-com.immomo.momo 20160612234848 _23_24 154 0.0 0.0 no no "liu" no monday no very_drak idle middle 164 null null school
-com.android.settings 20160612235041 _23_24 0 23.13277 113.372086 no no "liu" no monday no very_drak move null 164 null null company
+com.android.settings 20160612234657 _23_24 0 0.0 0.0 no no liu no monday no very_drak idle null 164 null null school
+insertTarget 20160612234657 null 0 23.13273 113.37209 null null null null null null null null null null WiFiConnected liu company
+com.immomo.momo 20160612234848 _23_24 154 0.0 0.0 no no liu no monday no very_drak idle middle 164 null null school
+com.android.settings 20160612235041 _23_24 0 23.13277 113.372086 no no liu no monday no very_drak move null 164 null null company
 insertTarget 20160612235041 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.evernote 20160612235111 _23_24 5 23.13279 113.3721 no no "liu" no monday no very_drak idle null 164 null null company
-com.tencent.mm 20160612235116 _23_24 5 23.132793 113.37205 no no "liu" no monday no very_drak idle null 164 null null company
-com.meizu.safe 20160612235137 _23_24 15 0.0 0.0 no no "liu" no monday no very_drak idle null 164 null null school
-com.tencent.mm 20160612235222 _23_24 85 23.13276 113.37201 no no "liu" no monday no very_drak idle null 164 null null company
-com.supercell.clashroyale 20160613000008 _0_1 0 0.0 0.0 no no "liu" no tueday no very_drak idle null 165 null null school
-com.google.android.gms 20160613000027 _0_1 0 0.0 0.0 no no "liu" no tueday no very_drak idle middle 165 null null school
+com.evernote 20160612235111 _23_24 5 23.13279 113.3721 no no liu no monday no very_drak idle null 164 null null company
+com.tencent.mm 20160612235116 _23_24 5 23.132793 113.37205 no no liu no monday no very_drak idle null 164 null null company
+com.meizu.safe 20160612235137 _23_24 15 0.0 0.0 no no liu no monday no very_drak idle null 164 null null school
+com.tencent.mm 20160612235222 _23_24 85 23.13276 113.37201 no no liu no monday no very_drak idle null 164 null null company
+com.supercell.clashroyale 20160613000008 _0_1 0 0.0 0.0 no no liu no tueday no very_drak idle null 165 null null school
+com.google.android.gms 20160613000027 _0_1 0 0.0 0.0 no no liu no tueday no very_drak idle middle 165 null null school
 insertTarget 20160613000037 null 350 23.132813 113.37213 null null null null null null null null null null DataConnected gprs company
 com.tencent.mm 20160613000558 _0_1 0 23.132862 113.37209 no yes null no tueday no very_drak idle null 165 null null company
 insertTarget 20160613000800 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
@@ -146,9 +146,9 @@ insertTarget 20160613185842 null 0 0.0 0.0 null null null null null null null nu
 com.tencent.mm 20160613190419 _19_20 0 23.126223 113.38936 no yes null no tueday no very_drak idle null 165 null null home
 insertTarget 20160613190420 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
 com.tencent.mm 20160613192229 _19_20 0 23.126223 113.38936 no yes null no tueday no very_drak idle null 165 null null home
-insertTarget 20160613192244 null 0 23.126223 113.38936 null null null null null null null null null null WiFiConnected "liu" home
-com.supercell.clashroyale 20160613192310 _19_20 35 0.0 0.0 no no "liu" no tueday no very_drak idle null 165 null null school
-insertTarget 20160613192403 null 0 23.126335 113.389366 null null null null null null null null null null WiFiConnected "liu" home
+insertTarget 20160613192244 null 0 23.126223 113.38936 null null null null null null null null null null WiFiConnected liu home
+com.supercell.clashroyale 20160613192310 _19_20 35 0.0 0.0 no no liu no tueday no very_drak idle null 165 null null school
+insertTarget 20160613192403 null 0 23.126335 113.389366 null null null null null null null null null null WiFiConnected liu home
 com.tencent.mobileqq 20160613194034 _19_20 0 23.126223 113.38921 no yes null no tueday no very_drak idle middle 165 null null home
 insertTarget 20160613194306 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.android.dialer 20160613194328 _19_20 0 23.126225 113.38927 no yes null no tueday no very_drak idle null 165 null null home
@@ -320,32 +320,32 @@ insertTarget 20160614124403 null 0 0.0 0.0 null null null null null null null nu
 com.android.incallui 20160614124404 _12_13 60 23.126223 113.38936 no yes null no wednesday no very_drak idle urge 166 null null home
 insertTarget 20160614124459 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
 com.alibaba.aliyun 20160614124552 _12_13 0 23.126223 113.38936 no yes null no wednesday no very_drak idle null 166 null null home
-insertTarget 20160614124836 null 0 23.126223 113.38936 null null null null null null null null null null WiFiConnected "EXCOMM-R2" home
-com.ishowedu.peiyin 20160614124922 _12_13 0 23.126223 113.38936 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null home
-com.tencent.mm 20160614124927 _12_13 215 23.126223 113.38936 no no "EXCOMM-R2" no wednesday no very_drak idle urge 166 null null home
-com.alibaba.aliyun 20160614125023 _12_13 75 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null school
-com.tencent.mm 20160614125138 _12_13 540 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null school
-com.alibaba.aliyun 20160614130039 _13_14 0 23.126183 113.38925 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
-insertTarget 20160614130453 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "EXCOMM-R2" school
-com.alibaba.aliyun 20160614131333 _13_14 0 23.126207 113.38923 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
+insertTarget 20160614124836 null 0 23.126223 113.38936 null null null null null null null null null null WiFiConnected EXCOMM-R2 home
+com.ishowedu.peiyin 20160614124922 _12_13 0 23.126223 113.38936 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null home
+com.tencent.mm 20160614124927 _12_13 215 23.126223 113.38936 no no EXCOMM-R2 no wednesday no very_drak idle urge 166 null null home
+com.alibaba.aliyun 20160614125023 _12_13 75 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null school
+com.tencent.mm 20160614125138 _12_13 540 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null school
+com.alibaba.aliyun 20160614130039 _13_14 0 23.126183 113.38925 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
+insertTarget 20160614130453 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected EXCOMM-R2 school
+com.alibaba.aliyun 20160614131333 _13_14 0 23.126207 113.38923 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
 insertTarget 20160614131333 null 50 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.alibaba.aliyun 20160614131438 _13_14 0 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null school
-com.android.mms 20160614131507 _13_14 35 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null school
-com.alibaba.aliyun 20160614131608 _13_14 0 23.126213 113.389244 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null home
-insertTarget 20160614132017 null 294 0.0 0.0 null null null null null null null null null null WiFiConnected "EXCOMM-R2" school
-com.tencent.mm 20160614132511 _13_14 0 23.126266 113.38934 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
+com.alibaba.aliyun 20160614131438 _13_14 0 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null school
+com.android.mms 20160614131507 _13_14 35 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null school
+com.alibaba.aliyun 20160614131608 _13_14 0 23.126213 113.389244 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null home
+insertTarget 20160614132017 null 294 0.0 0.0 null null null null null null null null null null WiFiConnected EXCOMM-R2 school
+com.tencent.mm 20160614132511 _13_14 0 23.126266 113.38934 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
 insertTarget 20160614132512 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.browser 20160614132551 _13_14 50 23.126266 113.38934 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null home
-com.tencent.mm 20160614132905 _13_14 0 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null school
-com.android.mms 20160614133044 _13_14 0 0.0 0.0 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null school
-insertTarget 20160614133451 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "EXCOMM-R2" school
-com.tencent.mm 20160614133925 _13_14 0 23.12628 113.389366 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
+com.android.browser 20160614132551 _13_14 50 23.126266 113.38934 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null home
+com.tencent.mm 20160614132905 _13_14 0 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null school
+com.android.mms 20160614133044 _13_14 0 0.0 0.0 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null school
+insertTarget 20160614133451 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected EXCOMM-R2 school
+com.tencent.mm 20160614133925 _13_14 0 23.12628 113.389366 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
 insertTarget 20160614133926 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160614133936 _13_14 5 23.126219 113.38919 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
+com.tencent.mm 20160614133936 _13_14 5 23.126219 113.38919 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
 insertTarget 20160614134254 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.supercell.clashroyale 20160614134456 _13_14 0 23.126213 113.38918 no no "EXCOMM-R2" no wednesday no very_drak idle null 166 null null home
+com.supercell.clashroyale 20160614134456 _13_14 0 23.126213 113.38918 no no EXCOMM-R2 no wednesday no very_drak idle null 166 null null home
 insertTarget 20160614134459 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.google.android.gms 20160614134501 _13_14 15 23.126213 113.38918 no no "EXCOMM-R2" no wednesday no very_drak idle middle 166 null null home
+com.google.android.gms 20160614134501 _13_14 15 23.126213 113.38918 no no EXCOMM-R2 no wednesday no very_drak idle middle 166 null null home
 insertTarget 20160614134513 null 15 23.126223 113.38936 null null null null null null null null null null DataConnected gprs home
 com.supercell.clashroyale 20160614134527 _13_14 10 23.126223 113.38936 no yes null no wednesday no very_drak move null 166 null null home
 com.tencent.mm 20160614134612 _13_14 5 23.126223 113.38936 no yes null no wednesday no very_drak idle null 166 null null home
@@ -466,8 +466,8 @@ com.tencent.mm 20160615015759 _1_2 0 23.132862 113.37209 no yes null no thurday 
 insertTarget 20160615015800 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
 com.tencent.mobileqq 20160615015805 _1_2 25 23.132862 113.37209 no yes null no thurday no very_drak idle null 167 null null company
 com.tencent.mm 20160615015830 _1_2 0 23.132862 113.37209 no yes null no thurday no very_drak idle null 167 null null company
-insertTarget 20160615020001 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected "liu" company
-com.supercell.clashroyale 20160615020225 _2_3 0 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
+insertTarget 20160615020001 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected liu company
+com.supercell.clashroyale 20160615020225 _2_3 0 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
 insertTarget 20160615020236 null 0 23.132761 113.37205 null null null null null null null null null null DataConnected gprs company
 com.google.android.gms 20160615020305 _2_3 40 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
 com.android.browser 20160615020305 _2_3 10 23.132862 113.37209 no yes null no thurday no very_drak idle null 167 null null company
@@ -498,17 +498,17 @@ com.android.alarmclock 20160615093420 _9_10 0 23.132862 113.37209 no yes null no
 insertTarget 20160615093730 null 302 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mm 20160615094232 _9_10 0 23.132862 113.37209 no yes null no thurday no very_drak idle null 167 null null company
 insertTarget 20160615094232 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160615094337 _9_10 5 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
-com.tencent.mobileqq 20160615094354 _9_10 0 0.0 0.0 no no "liu" no thurday no very_drak idle middle 167 null null school
-insertTarget 20160615094650 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160615095644 _9_10 2824 0.0 0.0 no no "liu" no thurday no very_drak idle middle 167 null null school
+com.tencent.mm 20160615094337 _9_10 5 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
+com.tencent.mobileqq 20160615094354 _9_10 0 0.0 0.0 no no liu no thurday no very_drak idle middle 167 null null school
+insertTarget 20160615094650 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160615095644 _9_10 2824 0.0 0.0 no no liu no thurday no very_drak idle middle 167 null null school
 insertTarget 20160615103354 null 135 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160615103609 _10_11 5 23.132719 113.372025 no no "liu" no thurday no very_drak idle null 167 null null company
-com.tencent.mobileqq 20160615103614 _10_11 10 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
-com.tencent.mm 20160615103625 _10_11 630 23.132719 113.37206 no no "liu" no thurday no very_drak idle null 167 null null company
-com.tencent.mobileqq 20160615104655 _10_11 175 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
-com.android.email 20160615104950 _10_11 171 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
-com.supercell.clashroyale 20160615105252 _10_11 0 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615103609 _10_11 5 23.132719 113.372025 no no liu no thurday no very_drak idle null 167 null null company
+com.tencent.mobileqq 20160615103614 _10_11 10 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615103625 _10_11 630 23.132719 113.37206 no no liu no thurday no very_drak idle null 167 null null company
+com.tencent.mobileqq 20160615104655 _10_11 175 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
+com.android.email 20160615104950 _10_11 171 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
+com.supercell.clashroyale 20160615105252 _10_11 0 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
 insertTarget 20160615105552 null 190 23.132744 113.37209 null null null null null null null null null null DataConnected gprs company
 com.tencent.mm 20160615105951 _10_11 0 23.132862 113.37209 no yes null no thurday no very_drak move null 167 null null company
 insertTarget 20160615105951 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
@@ -640,26 +640,26 @@ com.supercell.clashroyale 20160615171710 _17_18 0 23.126223 113.38936 no yes nul
 insertTarget 20160615171710 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
 com.tencent.mm 20160615171929 _17_18 130 23.126223 113.38936 no yes null no thurday no very_drak idle urge 167 null null home
 insertTarget 20160615171952 null 18 23.126223 113.38936 null null null null null null null null null null DataConnected gprs home
-com.android.incallui 20160615172644 _17_18 0 23.126226 113.38922 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
+com.android.incallui 20160615172644 _17_18 0 23.126226 113.38922 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
 insertTarget 20160615172648 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.android.incallui 20160615172833 _17_18 0 23.126202 113.38926 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
-insertTarget 20160615173252 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "EXCOMM-R2" school
-com.tencent.mm 20160615173307 _17_18 0 23.126204 113.389244 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
+com.android.incallui 20160615172833 _17_18 0 23.126202 113.38926 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
+insertTarget 20160615173252 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected EXCOMM-R2 school
+com.tencent.mm 20160615173307 _17_18 0 23.126204 113.389244 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
 insertTarget 20160615173307 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160615173312 _17_18 5 23.126287 113.389305 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
-com.tencent.mm 20160615173317 _17_18 133 23.126276 113.389336 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
-com.tencent.mobileqq 20160615173531 _17_18 5 23.126274 113.389305 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
-com.tencent.mm 20160615173541 _17_18 110 23.126299 113.38933 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
+com.tencent.mobileqq 20160615173312 _17_18 5 23.126287 113.389305 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
+com.tencent.mm 20160615173317 _17_18 133 23.126276 113.389336 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
+com.tencent.mobileqq 20160615173531 _17_18 5 23.126274 113.389305 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
+com.tencent.mm 20160615173541 _17_18 110 23.126299 113.38933 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
 insertTarget 20160615174504 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.tencent.mm 20160615175423 _17_18 0 0.0 0.0 no no "EXCOMM-R2" no thurday no very_drak idle middle 167 null null school
+com.tencent.mm 20160615175423 _17_18 0 0.0 0.0 no no EXCOMM-R2 no thurday no very_drak idle middle 167 null null school
 insertTarget 20160615175804 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
-com.tencent.mm 20160615180116 _18_19 0 23.126211 113.389244 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
+com.tencent.mm 20160615180116 _18_19 0 23.126211 113.389244 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
 insertTarget 20160615180117 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160615180339 _18_19 0 23.126211 113.389244 no no "EXCOMM-R2" no thurday no very_drak idle middle 167 null null home
+com.tencent.mobileqq 20160615180339 _18_19 0 23.126211 113.389244 no no EXCOMM-R2 no thurday no very_drak idle middle 167 null null home
 insertTarget 20160615180452 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160615180534 _18_19 0 23.12626 113.38929 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null home
+com.tencent.mm 20160615180534 _18_19 0 23.12626 113.38929 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null home
 insertTarget 20160615180535 null 30 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160615181219 _18_19 0 0.0 0.0 no no "EXCOMM-R2" no thurday no very_drak idle null 167 null null school
+com.tencent.mm 20160615181219 _18_19 0 0.0 0.0 no no EXCOMM-R2 no thurday no very_drak idle null 167 null null school
 insertTarget 20160615181221 null 0 23.12621 113.38926 null null null null null null null null null null LightChanged draker home
 com.tencent.mm 20160615181607 _18_19 0 23.125086 113.389534 no yes null no thurday no very_drak idle null 167 null null home
 insertTarget 20160615181617 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
@@ -722,24 +722,24 @@ com.tencent.mobileqq 20160615211957 _21_22 0 0.0 0.0 no yes null no thurday no v
 insertTarget 20160615212101 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mobileqq 20160615212141 _21_22 0 0.0 0.0 no yes null no thurday no very_drak idle middle 167 null null school
 insertTarget 20160615212232 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
-com.android.incallui 20160615234010 _23_24 0 23.132772 113.372055 no no "liu" no thurday no very_drak idle null 167 null null company
+com.android.incallui 20160615234010 _23_24 0 23.132772 113.372055 no no liu no thurday no very_drak idle null 167 null null company
 insertTarget 20160615234011 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.settings 20160615234756 _23_24 5 23.132753 113.372025 no no "liu" no thurday no very_drak idle null 167 null null company
-com.tencent.mm 20160615234807 _23_24 0 0.0 0.0 no no "liu" no thurday no very_drak idle null 167 null null school
+com.android.settings 20160615234756 _23_24 5 23.132753 113.372025 no no liu no thurday no very_drak idle null 167 null null company
+com.tencent.mm 20160615234807 _23_24 0 0.0 0.0 no no liu no thurday no very_drak idle null 167 null null school
 insertTarget 20160615234848 null 0 23.132734 113.37205 null null null null null null null null null null ChargeCable  company
-com.supercell.clashroyale 20160615235112 _23_24 0 23.132769 113.372 no no "liu" no thurday no very_drak idle null 167 null null company
+com.supercell.clashroyale 20160615235112 _23_24 0 23.132769 113.372 no no liu no thurday no very_drak idle null 167 null null company
 insertTarget 20160615235118 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
 com.tencent.mm 20160616011254 _1_2 0 23.132862 113.37209 no yes null no fridNay no very_drak idle null 168 null null company
-insertTarget 20160616011335 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected "liu" company
-com.tencent.mm 20160616011830 _1_2 340 23.132862 113.37209 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.tmgp.carrot3 20160616012015 _1_2 65 23.132757 113.37207 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616012120 _1_2 0 23.132757 113.37207 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.tmgp.carrot3 20160616012136 _1_2 1120 23.132757 113.37207 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616014327 _1_2 5 23.132746 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.tmgp.carrot3 20160616014332 _1_2 275 23.132746 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.alarmclock 20160616014818 _1_2 0 23.13274 113.37199 no no "liu" no fridNay no very_drak idle null 168 null null company
-insertTarget 20160616015255 null 975 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.sina.weibo 20160616020916 _2_3 180 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
+insertTarget 20160616011335 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected liu company
+com.tencent.mm 20160616011830 _1_2 340 23.132862 113.37209 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.tmgp.carrot3 20160616012015 _1_2 65 23.132757 113.37207 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616012120 _1_2 0 23.132757 113.37207 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.tmgp.carrot3 20160616012136 _1_2 1120 23.132757 113.37207 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616014327 _1_2 5 23.132746 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.tmgp.carrot3 20160616014332 _1_2 275 23.132746 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.alarmclock 20160616014818 _1_2 0 23.13274 113.37199 no no liu no fridNay no very_drak idle null 168 null null company
+insertTarget 20160616015255 null 975 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.sina.weibo 20160616020916 _2_3 180 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
 insertTarget 20160616021616 null 0 23.132788 113.37199 null null null null null null null null null null DataConnected gprs company
 com.android.alarmclock 20160616083002 _8_9 0 23.132765 113.37211 no yes null no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616083002 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
@@ -776,104 +776,104 @@ insertTarget 20160616112537 null 0 0.0 0.0 null null null null null null null nu
 com.android.email 20160616134749 _13_14 5 23.13278 113.37206 no yes null no fridNay no very_drak idle null 168 null null company
 com.tencent.mm 20160616134804 _13_14 0 23.1328 113.37204 no yes null no fridNay no very_drak idle null 168 null null company
 com.tencent.mobileqq 20160616134945 _13_14 105 23.1328 113.37204 no yes null no fridNay no very_drak idle middle 168 null null company
-insertTarget 20160616135016 null 0 23.132801 113.37207 null null null null null null null null null null WiFiConnected "liu" company
-com.tencent.mobileqq 20160616140221 _14_15 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+insertTarget 20160616135016 null 0 23.132801 113.37207 null null null null null null null null null null WiFiConnected liu company
+com.tencent.mobileqq 20160616140221 _14_15 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616140224 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
-com.tencent.mobileqq 20160616140411 _14_15 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.tencent.mobileqq 20160616140411 _14_15 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616140418 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
-com.tencent.mobileqq 20160616144030 _14_15 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.tencent.mobileqq 20160616144030 _14_15 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616144315 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
-com.tencent.mobileqq 20160616144752 _14_15 0 23.13279 113.37206 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616144752 _14_15 0 23.13279 113.37206 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616144752 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616144943 _14_15 115 23.13279 113.37206 no no "liu" no fridNay no very_drak idle ignore 168 null null company
-com.tencent.mobileqq 20160616145219 _14_15 0 23.132769 113.37213 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.meizu.mstore 20160616145542 _14_15 0 23.132769 113.37213 no no "liu" no fridNay no very_drak idle ignore 168 null null company
-com.tencent.mobileqq 20160616150100 _15_16 0 23.132769 113.37213 no no "liu" no fridNay no very_drak idle middle 168 null null company
-insertTarget 20160616150108 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160616150203 _15_16 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.tencent.mm 20160616150712 _15_16 0 23.132748 113.372086 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616144943 _14_15 115 23.13279 113.37206 no no liu no fridNay no very_drak idle ignore 168 null null company
+com.tencent.mobileqq 20160616145219 _14_15 0 23.132769 113.37213 no no liu no fridNay no very_drak idle middle 168 null null company
+com.meizu.mstore 20160616145542 _14_15 0 23.132769 113.37213 no no liu no fridNay no very_drak idle ignore 168 null null company
+com.tencent.mobileqq 20160616150100 _15_16 0 23.132769 113.37213 no no liu no fridNay no very_drak idle middle 168 null null company
+insertTarget 20160616150108 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160616150203 _15_16 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.tencent.mm 20160616150712 _15_16 0 23.132748 113.372086 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616150712 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616150719 _15_16 20 23.132748 113.372086 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.meizu.voiceassistant 20160616150732 _15_16 0 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.tencent.mm 20160616150737 _15_16 0 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-insertTarget 20160616150739 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.adobe.reader 20160616150744 _15_16 15 23.132734 113.37209 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616150804 _15_16 50 23.132782 113.3721 no no "liu" no fridNay no very_drak move null 168 null null company
-com.meizu.filemanager 20160616150854 _15_16 5 23.132774 113.372086 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616150900 _15_16 5 23.132774 113.372086 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.speedsoftware.rootexplorer 20160616150910 _15_16 10 23.132784 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616150925 _15_16 5 23.132784 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.meizu.documentsui 20160616150931 _15_16 5 23.132769 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.speedsoftware.rootexplorer 20160616150936 _15_16 25 23.132769 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616151001 _15_16 0 23.132769 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616151337 _15_16 0 23.132769 113.37204 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616151449 _15_16 290 23.132769 113.37204 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mobileqq 20160616151524 _15_16 65 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.adobe.reader 20160616151602 _15_16 0 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.tencent.mm 20160616151704 _15_16 65 0.0 0.0 no no "liu" no fridNay no very_drak idle urge 168 null null school
-com.adobe.reader 20160616151807 _15_16 30 23.132744 113.372025 no no "liu" no fridNay no very_drak car null 168 null null company
-com.tencent.mm 20160616151843 _15_16 90 23.132763 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616152014 _15_16 10 23.132755 113.372086 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616152024 _15_16 40 23.132772 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616152104 _15_16 5 23.132782 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616152109 _15_16 5 23.132782 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616152115 _15_16 0 23.132782 113.37201 no no "liu" no fridNay no very_drak move null 168 null null company
-insertTarget 20160616152244 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160616152346 _15_16 75 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.adobe.reader 20160616152359 _15_16 0 23.132765 113.37207 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616150719 _15_16 20 23.132748 113.372086 no no liu no fridNay no very_drak idle urge 168 null null company
+com.meizu.voiceassistant 20160616150732 _15_16 0 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.tencent.mm 20160616150737 _15_16 0 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+insertTarget 20160616150739 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.adobe.reader 20160616150744 _15_16 15 23.132734 113.37209 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616150804 _15_16 50 23.132782 113.3721 no no liu no fridNay no very_drak move null 168 null null company
+com.meizu.filemanager 20160616150854 _15_16 5 23.132774 113.372086 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616150900 _15_16 5 23.132774 113.372086 no no liu no fridNay no very_drak idle null 168 null null company
+com.speedsoftware.rootexplorer 20160616150910 _15_16 10 23.132784 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616150925 _15_16 5 23.132784 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.meizu.documentsui 20160616150931 _15_16 5 23.132769 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
+com.speedsoftware.rootexplorer 20160616150936 _15_16 25 23.132769 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616151001 _15_16 0 23.132769 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616151337 _15_16 0 23.132769 113.37204 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616151449 _15_16 290 23.132769 113.37204 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mobileqq 20160616151524 _15_16 65 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.adobe.reader 20160616151602 _15_16 0 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.tencent.mm 20160616151704 _15_16 65 0.0 0.0 no no liu no fridNay no very_drak idle urge 168 null null school
+com.adobe.reader 20160616151807 _15_16 30 23.132744 113.372025 no no liu no fridNay no very_drak car null 168 null null company
+com.tencent.mm 20160616151843 _15_16 90 23.132763 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616152014 _15_16 10 23.132755 113.372086 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616152024 _15_16 40 23.132772 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616152104 _15_16 5 23.132782 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616152109 _15_16 5 23.132782 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616152115 _15_16 0 23.132782 113.37201 no no liu no fridNay no very_drak move null 168 null null company
+insertTarget 20160616152244 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160616152346 _15_16 75 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.adobe.reader 20160616152359 _15_16 0 23.132765 113.37207 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616152400 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616152442 _15_16 45 23.132765 113.37207 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mobileqq 20160616152450 _15_16 55 23.132734 113.37203 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.adobe.reader 20160616152540 _15_16 0 23.132744 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616152550 _15_16 10 23.132744 113.372055 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mobileqq 20160616152608 _15_16 0 23.132736 113.37203 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.adobe.reader 20160616152645 _15_16 0 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.tencent.mm 20160616152654 _15_16 10 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.tencent.mobileqq 20160616152710 _15_16 5 23.132711 113.372025 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616152716 _15_16 40 23.132711 113.372025 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616152756 _15_16 15 23.132711 113.372025 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616152811 _15_16 5 23.132734 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616152816 _15_16 0 23.132734 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616153102 _15_16 170 23.132734 113.37201 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616153106 _15_16 40 23.132723 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616153147 _15_16 0 23.132723 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616153201 _15_16 15 23.132723 113.37202 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.adobe.reader 20160616153212 _15_16 35 23.13275 113.37195 no no "liu" no fridNay no very_drak move null 168 null null company
-com.tencent.mm 20160616153247 _15_16 30 23.132748 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616153317 _15_16 0 23.132763 113.37199 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616153500 _15_16 0 23.132763 113.37199 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616153516 _15_16 120 23.132763 113.37199 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.adobe.reader 20160616153538 _15_16 0 23.132748 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616153603 _15_16 30 23.132748 113.37201 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.android.email 20160616153608 _15_16 15 23.132715 113.37196 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616153623 _15_16 5 23.13276 113.371956 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.adobe.reader 20160616153628 _15_16 20 23.13276 113.371956 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.supercell.clashroyale 20160616153654 _15_16 55 23.13276 113.371956 no no "liu" no fridNay no very_drak move null 168 null null company
-com.tencent.mm 20160616153754 _15_16 5 23.132746 113.37192 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616153804 _15_16 25 23.132746 113.37192 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616153830 _15_16 15 23.132746 113.37192 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616153845 _15_16 40 23.132769 113.37198 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616153925 _15_16 45 23.132723 113.37206 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616154010 _15_16 10 23.132751 113.372 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616154026 _15_16 0 23.132751 113.372 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616154106 _15_16 0 23.132751 113.372 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616154518 _15_16 293 23.132751 113.372 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.android.email 20160616154625 _15_16 0 23.132792 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616154652 _15_16 30 23.132792 113.37203 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.android.email 20160616154730 _15_16 35 23.132751 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616154810 _15_16 90 23.132751 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616154941 _15_16 0 23.132776 113.37208 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616155003 _15_16 5 23.132776 113.37208 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mm 20160616155021 _15_16 30 23.132793 113.37206 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616155052 _15_16 141 23.13281 113.37205 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616155318 _15_16 0 23.132792 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616160110 _16_17 0 23.132792 113.37204 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616160236 _16_17 560 23.132792 113.37204 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mobileqq 20160616160239 _16_17 0 23.132746 113.37192 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616160540 _16_17 185 23.132746 113.37192 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.android.chrome 20160616160700 _16_17 10 23.132776 113.37208 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616160710 _16_17 0 23.132776 113.37208 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616160908 _16_17 130 23.132776 113.37208 no no "liu" no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616152442 _15_16 45 23.132765 113.37207 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mobileqq 20160616152450 _15_16 55 23.132734 113.37203 no no liu no fridNay no very_drak idle middle 168 null null company
+com.adobe.reader 20160616152540 _15_16 0 23.132744 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616152550 _15_16 10 23.132744 113.372055 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mobileqq 20160616152608 _15_16 0 23.132736 113.37203 no no liu no fridNay no very_drak idle middle 168 null null company
+com.adobe.reader 20160616152645 _15_16 0 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.tencent.mm 20160616152654 _15_16 10 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.tencent.mobileqq 20160616152710 _15_16 5 23.132711 113.372025 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616152716 _15_16 40 23.132711 113.372025 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616152756 _15_16 15 23.132711 113.372025 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616152811 _15_16 5 23.132734 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616152816 _15_16 0 23.132734 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616153102 _15_16 170 23.132734 113.37201 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616153106 _15_16 40 23.132723 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616153147 _15_16 0 23.132723 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616153201 _15_16 15 23.132723 113.37202 no no liu no fridNay no very_drak idle urge 168 null null company
+com.adobe.reader 20160616153212 _15_16 35 23.13275 113.37195 no no liu no fridNay no very_drak move null 168 null null company
+com.tencent.mm 20160616153247 _15_16 30 23.132748 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616153317 _15_16 0 23.132763 113.37199 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616153500 _15_16 0 23.132763 113.37199 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616153516 _15_16 120 23.132763 113.37199 no no liu no fridNay no very_drak idle urge 168 null null company
+com.adobe.reader 20160616153538 _15_16 0 23.132748 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616153603 _15_16 30 23.132748 113.37201 no no liu no fridNay no very_drak idle middle 168 null null company
+com.android.email 20160616153608 _15_16 15 23.132715 113.37196 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616153623 _15_16 5 23.13276 113.371956 no no liu no fridNay no very_drak idle null 168 null null company
+com.adobe.reader 20160616153628 _15_16 20 23.13276 113.371956 no no liu no fridNay no very_drak idle null 168 null null company
+com.supercell.clashroyale 20160616153654 _15_16 55 23.13276 113.371956 no no liu no fridNay no very_drak move null 168 null null company
+com.tencent.mm 20160616153754 _15_16 5 23.132746 113.37192 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616153804 _15_16 25 23.132746 113.37192 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616153830 _15_16 15 23.132746 113.37192 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616153845 _15_16 40 23.132769 113.37198 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616153925 _15_16 45 23.132723 113.37206 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616154010 _15_16 10 23.132751 113.372 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616154026 _15_16 0 23.132751 113.372 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616154106 _15_16 0 23.132751 113.372 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616154518 _15_16 293 23.132751 113.372 no no liu no fridNay no very_drak idle urge 168 null null company
+com.android.email 20160616154625 _15_16 0 23.132792 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616154652 _15_16 30 23.132792 113.37203 no no liu no fridNay no very_drak idle urge 168 null null company
+com.android.email 20160616154730 _15_16 35 23.132751 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616154810 _15_16 90 23.132751 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616154941 _15_16 0 23.132776 113.37208 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616155003 _15_16 5 23.132776 113.37208 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mm 20160616155021 _15_16 30 23.132793 113.37206 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616155052 _15_16 141 23.13281 113.37205 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616155318 _15_16 0 23.132792 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616160110 _16_17 0 23.132792 113.37204 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616160236 _16_17 560 23.132792 113.37204 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mobileqq 20160616160239 _16_17 0 23.132746 113.37192 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616160540 _16_17 185 23.132746 113.37192 no no liu no fridNay no very_drak idle urge 168 null null company
+com.android.chrome 20160616160700 _16_17 10 23.132776 113.37208 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616160710 _16_17 0 23.132776 113.37208 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616160908 _16_17 130 23.132776 113.37208 no no liu no fridNay no very_drak idle middle 168 null null company
 insertTarget 20160616161119 null 0 23.13275 113.37201 null null null null null null null null null null DataConnected gprs company
 com.android.email 20160616161119 _16_17 15 23.13275 113.37201 no yes null no fridNay no very_drak idle ignore 168 null null company
 com.supercell.clashroyale 20160616161125 _16_17 0 23.132862 113.37209 no yes null no fridNay no very_drak idle null 168 null null company
@@ -914,121 +914,121 @@ com.taobao.fleamarket 20160616170614 _17_18 55 23.132862 113.37209 no yes null n
 com.tencent.mobileqq 20160616170714 _17_18 0 23.132862 113.37209 no yes null no fridNay no very_drak idle middle 168 null null company
 com.ishowedu.peiyin 20160616170714 _17_18 10 23.132862 113.37209 no yes null no fridNay no very_drak idle middle 168 null null company
 com.tencent.mm 20160616170721 _17_18 5 23.132862 113.37209 no yes null no fridNay no very_drak idle middle 168 null null company
-insertTarget 20160616170725 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected "liu" company
-com.android.chrome 20160616170741 _17_18 15 23.13275 113.37205 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616170756 _17_18 5 23.13275 113.37205 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.chrome 20160616170801 _17_18 135 23.13275 113.37205 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616171017 _17_18 70 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.speedsoftware.rootexplorer 20160616171132 _17_18 310 23.132713 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616171642 _17_18 0 23.132723 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
+insertTarget 20160616170725 null 0 23.132862 113.37209 null null null null null null null null null null WiFiConnected liu company
+com.android.chrome 20160616170741 _17_18 15 23.13275 113.37205 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616170756 _17_18 5 23.13275 113.37205 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.chrome 20160616170801 _17_18 135 23.13275 113.37205 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616171017 _17_18 70 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.speedsoftware.rootexplorer 20160616171132 _17_18 310 23.132713 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616171642 _17_18 0 23.132723 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616171714 null 0 23.132723 113.37203 null null null null null null null null null null DataConnected gprs company
-com.tencent.mm 20160616171748 _17_18 0 23.132776 113.37205 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616171942 _17_18 125 23.132776 113.37205 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.adobe.reader 20160616171953 _17_18 0 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.tencent.mm 20160616172223 _17_18 153 0.0 0.0 no no "liu" no fridNay no very_drak idle urge 168 null null school
-com.tencent.mobileqq 20160616172252 _17_18 0 23.132713 113.372086 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.android.email 20160616172313 _17_18 0 23.132713 113.372086 no no "liu" no fridNay no very_drak move middle 168 null null company
-com.tencent.mobileqq 20160616172313 _17_18 55 23.132713 113.372086 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616172323 _17_18 5 23.132727 113.37205 no no "liu" no fridNay no very_drak move urge 168 null null company
-com.youdao.dict 20160616172332 _17_18 25 23.132727 113.37205 no no "liu" no fridNay no very_drak move null 168 null null company
-com.tencent.mobileqq 20160616172417 _17_18 30 23.132727 113.37205 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616172439 _17_18 5 23.132723 113.37208 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mobileqq 20160616172503 _17_18 5 23.132778 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616172508 _17_18 230 23.132778 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616172859 _17_18 15 23.13277 113.372025 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616172914 _17_18 0 23.13277 113.372025 no no "liu" no fridNay no very_drak move null 168 null null company
-com.tencent.mobileqq 20160616173228 _17_18 0 23.13277 113.372025 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616173330 _17_18 290 23.13277 113.372025 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.tencent.mobileqq 20160616173404 _17_18 23 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-insertTarget 20160616173932 null 10 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160616173942 _17_18 0 23.132753 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616171748 _17_18 0 23.132776 113.37205 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616171942 _17_18 125 23.132776 113.37205 no no liu no fridNay no very_drak idle middle 168 null null company
+com.adobe.reader 20160616171953 _17_18 0 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.tencent.mm 20160616172223 _17_18 153 0.0 0.0 no no liu no fridNay no very_drak idle urge 168 null null school
+com.tencent.mobileqq 20160616172252 _17_18 0 23.132713 113.372086 no no liu no fridNay no very_drak idle middle 168 null null company
+com.android.email 20160616172313 _17_18 0 23.132713 113.372086 no no liu no fridNay no very_drak move middle 168 null null company
+com.tencent.mobileqq 20160616172313 _17_18 55 23.132713 113.372086 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616172323 _17_18 5 23.132727 113.37205 no no liu no fridNay no very_drak move urge 168 null null company
+com.youdao.dict 20160616172332 _17_18 25 23.132727 113.37205 no no liu no fridNay no very_drak move null 168 null null company
+com.tencent.mobileqq 20160616172417 _17_18 30 23.132727 113.37205 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616172439 _17_18 5 23.132723 113.37208 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mobileqq 20160616172503 _17_18 5 23.132778 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616172508 _17_18 230 23.132778 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616172859 _17_18 15 23.13277 113.372025 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616172914 _17_18 0 23.13277 113.372025 no no liu no fridNay no very_drak move null 168 null null company
+com.tencent.mobileqq 20160616173228 _17_18 0 23.13277 113.372025 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616173330 _17_18 290 23.13277 113.372025 no no liu no fridNay no very_drak idle urge 168 null null company
+com.tencent.mobileqq 20160616173404 _17_18 23 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+insertTarget 20160616173932 null 10 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160616173942 _17_18 0 23.132753 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616173942 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160616173947 _17_18 5 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.tencent.mobileqq 20160616173947 _17_18 5 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616173956 null 0 23.132746 113.37192 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160616174429 _17_18 273 23.132746 113.37192 no no "liu" no fridNay no very_drak idle urge 168 null null company
+com.tencent.mm 20160616174429 _17_18 273 23.132746 113.37192 no no liu no fridNay no very_drak idle urge 168 null null company
 insertTarget 20160616174436 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
-com.android.email 20160616175657 _17_18 0 0.0 0.0 no no "liu" no fridNay no very_drak move middle 168 null null school
-com.tencent.mm 20160616175700 _17_18 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.android.email 20160616175657 _17_18 0 0.0 0.0 no no liu no fridNay no very_drak move middle 168 null null school
+com.tencent.mm 20160616175700 _17_18 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616175744 null 0 23.132746 113.37192 null null null null null null null null null null ChargeCable  company
-com.android.mms 20160616181306 _18_19 0 23.132751 113.37205 no no "liu" no fridNay no very_drak idle middle 168 null null company
+com.android.mms 20160616181306 _18_19 0 23.132751 113.37205 no no liu no fridNay no very_drak idle middle 168 null null company
 insertTarget 20160616181458 null 0 23.132751 113.37205 null null null null null null null null null null ChargeCable  company
-com.android.email 20160616183312 _18_19 305 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.android.email 20160616183312 _18_19 305 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616183314 null 16 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.supercell.clashroyale 20160616183335 _18_19 0 23.132738 113.37201 no no "liu" no fridNay no very_drak move null 168 null null company
-com.tencent.mobileqq 20160616183541 _18_19 285 23.132738 113.37201 no no "liu" no fridNay no very_drak idle middle 168 null null company
-insertTarget 20160616184332 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160616190928 _19_20 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.android.mms 20160616191031 _19_20 1625 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-com.tencent.mobileqq 20160616191037 _19_20 0 23.132675 113.372025 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.supercell.clashroyale 20160616183335 _18_19 0 23.132738 113.37201 no no liu no fridNay no very_drak move null 168 null null company
+com.tencent.mobileqq 20160616183541 _18_19 285 23.132738 113.37201 no no liu no fridNay no very_drak idle middle 168 null null company
+insertTarget 20160616184332 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160616190928 _19_20 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.android.mms 20160616191031 _19_20 1625 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+com.tencent.mobileqq 20160616191037 _19_20 0 23.132675 113.372025 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616191037 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.tmgp.jxqy 20160616191333 _19_20 0 23.132767 113.37204 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.tmgp.carrot3 20160616191348 _19_20 0 23.132767 113.37204 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mobileqq 20160616191425 _19_20 75 23.132767 113.37204 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616191449 _19_20 10 23.132751 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.tmgp.jxqy 20160616191459 _19_20 725 23.132751 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616192851 _19_20 214 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.android.email 20160616193226 _19_20 265 23.132778 113.37198 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616193652 _19_20 125 23.13275 113.371925 no no "liu" no fridNay no very_drak idle null 168 null null company
-insertTarget 20160616194806 null 14 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.android.email 20160616194821 _19_20 0 23.13277 113.37197 no no "liu" no fridNay no very_drak move null 168 null null company
+com.tencent.tmgp.jxqy 20160616191333 _19_20 0 23.132767 113.37204 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.tmgp.carrot3 20160616191348 _19_20 0 23.132767 113.37204 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mobileqq 20160616191425 _19_20 75 23.132767 113.37204 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616191449 _19_20 10 23.132751 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.tmgp.jxqy 20160616191459 _19_20 725 23.132751 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616192851 _19_20 214 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.android.email 20160616193226 _19_20 265 23.132778 113.37198 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616193652 _19_20 125 23.13275 113.371925 no no liu no fridNay no very_drak idle null 168 null null company
+insertTarget 20160616194806 null 14 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.android.email 20160616194821 _19_20 0 23.13277 113.37197 no no liu no fridNay no very_drak move null 168 null null company
 insertTarget 20160616194821 null 30 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616194851 _19_20 95 23.132715 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616195031 _19_20 248 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.tencent.mm 20160616195440 _19_20 0 23.13277 113.372055 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616195720 _19_20 185 23.13277 113.372055 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616195751 _19_20 5 23.132757 113.37203 no no "liu" no fridNay no very_drak idle urge 168 null null company
-com.android.email 20160616195800 _19_20 15 23.132786 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616195816 _19_20 35 23.132786 113.37202 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616195851 _19_20 15 23.132767 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mm 20160616195911 _19_20 35 23.132769 113.37201 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.chrome 20160616195946 _19_20 5 0.0 0.0 no no "liu" no fridNay no very_drak idle null 168 null null school
-com.android.email 20160616195952 _19_20 130 23.132782 113.37207 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.chrome 20160616200217 _20_21 0 23.13277 113.372 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.tencent.mobileqq 20160616200406 _20_21 270 23.13277 113.372 no no "liu" no fridNay no very_drak move middle 168 null null company
-com.tencent.mm 20160616200713 _20_21 135 0.0 0.0 no no "liu" no fridNay no very_drak move null 168 null null school
-com.tencent.mobileqq 20160616200929 _20_21 0 23.13279 113.37209 no no "liu" no fridNay no very_drak idle null 168 null null company
-insertTarget 20160616201412 null 187 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160616201720 _20_21 0 23.132753 113.372 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616194851 _19_20 95 23.132715 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616195031 _19_20 248 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.tencent.mm 20160616195440 _19_20 0 23.13277 113.372055 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616195720 _19_20 185 23.13277 113.372055 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616195751 _19_20 5 23.132757 113.37203 no no liu no fridNay no very_drak idle urge 168 null null company
+com.android.email 20160616195800 _19_20 15 23.132786 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616195816 _19_20 35 23.132786 113.37202 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616195851 _19_20 15 23.132767 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616195911 _19_20 35 23.132769 113.37201 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.chrome 20160616195946 _19_20 5 0.0 0.0 no no liu no fridNay no very_drak idle null 168 null null school
+com.android.email 20160616195952 _19_20 130 23.132782 113.37207 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.chrome 20160616200217 _20_21 0 23.13277 113.372 no no liu no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616200406 _20_21 270 23.13277 113.372 no no liu no fridNay no very_drak move middle 168 null null company
+com.tencent.mm 20160616200713 _20_21 135 0.0 0.0 no no liu no fridNay no very_drak move null 168 null null school
+com.tencent.mobileqq 20160616200929 _20_21 0 23.13279 113.37209 no no liu no fridNay no very_drak idle null 168 null null company
+insertTarget 20160616201412 null 187 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160616201720 _20_21 0 23.132753 113.372 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616201720 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616201721 _20_21 5 23.132753 113.372 no no "liu" no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616201721 _20_21 5 23.132753 113.372 no no liu no fridNay no very_drak idle middle 168 null null company
 insertTarget 20160616201820 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mobileqq 20160616202714 _20_21 1616 23.13277 113.37204 no no "liu" no fridNay no very_drak idle middle 168 null null company
-com.tencent.mm 20160616204441 _20_21 10 23.132748 113.37202 no no "liu" no fridNay no very_drak idle urge 168 null null company
-insertTarget 20160616205302 null 78 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160616205421 _20_21 0 23.132807 113.37203 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mobileqq 20160616202714 _20_21 1616 23.13277 113.37204 no no liu no fridNay no very_drak idle middle 168 null null company
+com.tencent.mm 20160616204441 _20_21 10 23.132748 113.37202 no no liu no fridNay no very_drak idle urge 168 null null company
+insertTarget 20160616205302 null 78 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160616205421 _20_21 0 23.132807 113.37203 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616205421 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616220810 _22_23 0 23.133747 113.37311 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.tencent.mm 20160616220810 _22_23 0 23.133747 113.37311 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616220810 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160616220811 _22_23 25 23.133747 113.37311 no no "liu" no fridNay no very_drak idle ignore 168 null null company
-com.android.email 20160616221249 _22_23 254 23.132776 113.37201 no no "liu" no fridNay no very_drak move ignore 168 null null company
-insertTarget 20160616221833 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.android.email 20160616221906 _22_23 37 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
+com.tencent.mm 20160616220811 _22_23 25 23.133747 113.37311 no no liu no fridNay no very_drak idle ignore 168 null null company
+com.android.email 20160616221249 _22_23 254 23.132776 113.37201 no no liu no fridNay no very_drak move ignore 168 null null company
+insertTarget 20160616221833 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.android.email 20160616221906 _22_23 37 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
 insertTarget 20160616221911 null 10 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.dialer 20160616221920 _22_23 5 23.132776 113.3721 no no "liu" no fridNay no very_drak idle null 168 null null company
-com.android.email 20160616221926 _22_23 5 23.132776 113.3721 no no "liu" no fridNay no very_drak idle null 168 null null company
-insertTarget 20160616222758 null 1524 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160616225323 _22_23 0 23.132776 113.3721 no no "liu" no fridNay no very_drak move null 168 null null company
+com.android.dialer 20160616221920 _22_23 5 23.132776 113.3721 no no liu no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616221926 _22_23 5 23.132776 113.3721 no no liu no fridNay no very_drak idle null 168 null null company
+insertTarget 20160616222758 null 1524 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160616225323 _22_23 0 23.132776 113.3721 no no liu no fridNay no very_drak move null 168 null null company
 insertTarget 20160616225323 null 165 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.email 20160616230729 _23_24 0 0.0 0.0 no no "liu" no fridNay no very_drak idle middle 168 null null school
-insertTarget 20160616231236 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160616234106 _23_24 0 23.132763 113.372086 no no "liu" no fridNay no very_drak idle null 168 null null company
+com.android.email 20160616230729 _23_24 0 0.0 0.0 no no liu no fridNay no very_drak idle middle 168 null null school
+insertTarget 20160616231236 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160616234106 _23_24 0 23.132763 113.372086 no no liu no fridNay no very_drak idle null 168 null null company
 insertTarget 20160616234106 null 555 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160617000946 _0_1 0 23.132755 113.372055 yes no "liu" no saturday no very_drak idle null 169 null null company
+com.tencent.mm 20160617000946 _0_1 0 23.132755 113.372055 yes no liu no saturday no very_drak idle null 169 null null company
 insertTarget 20160617000946 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160617030040 _3_4 0 23.1327 113.37202 yes no "liu" no saturday no very_drak idle null 169 null null company
+com.tencent.mm 20160617030040 _3_4 0 23.1327 113.37202 yes no liu no saturday no very_drak idle null 169 null null company
 insertTarget 20160617030040 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.alarmclock 20160617030045 _3_4 25 0.0 0.0 yes no "liu" no saturday no very_drak idle null 169 null null school
-insertTarget 20160617030710 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.supercell.clashroyale 20160617041134 _4_5 10 23.1328 113.372 yes no "liu" no saturday no very_drak idle null 169 null null company
-com.android.alarmclock 20160617041145 _4_5 0 23.1328 113.372 yes no "liu" no saturday no very_drak idle null 169 null null company
+com.android.alarmclock 20160617030045 _3_4 25 0.0 0.0 yes no liu no saturday no very_drak idle null 169 null null school
+insertTarget 20160617030710 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.supercell.clashroyale 20160617041134 _4_5 10 23.1328 113.372 yes no liu no saturday no very_drak idle null 169 null null company
+com.android.alarmclock 20160617041145 _4_5 0 23.1328 113.372 yes no liu no saturday no very_drak idle null 169 null null company
 insertTarget 20160617041305 null 0 23.1328 113.372 null null null null null null null null null null DataConnected gprs company
-com.android.alarmclock 20160617090001 _9_10 0 23.132757 113.37201 yes no "liu" no saturday no very_drak idle null 169 null null company
+com.android.alarmclock 20160617090001 _9_10 0 23.132757 113.37201 yes no liu no saturday no very_drak idle null 169 null null company
 insertTarget 20160617090001 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.alarmclock 20160617090012 _9_10 0 23.132757 113.37201 yes no "liu" no saturday no very_drak idle urge 169 null null company
-insertTarget 20160617091427 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160617092931 _9_10 0 0.0 0.0 yes no "liu" no saturday no very_drak idle middle 169 null null school
-insertTarget 20160617094131 null 115 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.supercell.clashroyale 20160617094331 _9_10 0 23.13278 113.37212 yes no "liu" no saturday no very_drak idle null 169 null null company
+com.android.alarmclock 20160617090012 _9_10 0 23.132757 113.37201 yes no liu no saturday no very_drak idle urge 169 null null company
+insertTarget 20160617091427 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160617092931 _9_10 0 0.0 0.0 yes no liu no saturday no very_drak idle middle 169 null null school
+insertTarget 20160617094131 null 115 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.supercell.clashroyale 20160617094331 _9_10 0 23.13278 113.37212 yes no liu no saturday no very_drak idle null 169 null null company
 insertTarget 20160617095157 null 0 23.13278 113.37212 null null null null null null null null null null DataConnected gprs company
 com.tencent.mobileqq 20160617095427 _9_10 0 23.13278 113.37212 yes yes null no saturday no very_drak idle middle 169 null null company
 com.tencent.mm 20160617101509 _10_11 5 23.132862 113.37209 yes yes null no saturday no very_drak idle ignore 169 null null company
@@ -1418,11 +1418,11 @@ com.tencent.tmgp.carrot3 20160618232131 _23_24 1445 22.993675 114.71246 yes yes 
 insertTarget 20160618235000 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mm 20160618235500 _23_24 0 22.993675 114.71246 yes yes null no sunday no very_drak idle null 170 null null else
 insertTarget 20160618235500 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.supercell.clashroyale 20160619001720 _0_1 0 22.994423 114.71239 no no "J&D" no monday no very_drak idle null 171 null null else
+com.supercell.clashroyale 20160619001720 _0_1 0 22.994423 114.71239 no no J&D no monday no very_drak idle null 171 null null else
 insertTarget 20160619001721 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.incallui 20160619001816 _0_1 0 22.994423 114.71239 no no "J&D" no monday no very_drak idle urge 171 null null else
+com.android.incallui 20160619001816 _0_1 0 22.994423 114.71239 no no J&D no monday no very_drak idle urge 171 null null else
 insertTarget 20160619001817 null 378 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160619003759 _0_1 0 0.0 0.0 no no "J&D" no monday no very_drak run null 171 null null school
+com.tencent.mm 20160619003759 _0_1 0 0.0 0.0 no no J&D no monday no very_drak run null 171 null null school
 insertTarget 20160619003817 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected <unknown ssid> school
 com.tencent.mm 20160619014949 _1_2 0 22.97968 114.73885 no yes null no monday no very_drak idle null 171 null null else
 insertTarget 20160619014950 null 50 0.0 0.0 null null null null null null null null null null LocationChanged  school
@@ -1514,15 +1514,15 @@ com.tencent.mm 20160619225716 _22_23 5 22.990421 114.71633 no yes null no monday
 com.supercell.clashroyale 20160619225727 _22_23 40 22.990421 114.71633 no yes null no monday no very_drak idle null 171 null null else
 com.tencent.mm 20160619225823 _22_23 575 22.990421 114.71633 no yes null no monday no very_drak idle null 171 null null else
 com.android.settings 20160619230759 _23_24 0 22.99068 114.71835 no yes null no monday no very_drak idle null 171 null null else
-insertTarget 20160619230821 null 0 22.99068 114.71835 null null null null null null null null null null WiFiConnected "FFFFFFFF" else
-com.tencent.mm 20160619230824 _23_24 1473 22.990662 114.71834 no no "FFFFFFFF" no monday no very_drak idle null 171 null null else
-com.supercell.clashroyale 20160619233434 _23_24 275 22.990595 114.71835 no no "FFFFFFFF" no monday no very_drak idle null 171 null null else
-com.tencent.tmgp.jxqy 20160619233915 _23_24 0 0.0 0.0 no no "FFFFFFFF" no monday no very_drak idle null 171 null null school
-com.tencent.tmgp.carrot3 20160619233925 _23_24 230 0.0 0.0 no no "FFFFFFFF" no monday no very_drak idle middle 171 null null school
-com.tencent.mm 20160619234311 _23_24 0 22.990965 114.71837 no no "FFFFFFFF" no monday no very_drak idle null 171 null null else
+insertTarget 20160619230821 null 0 22.99068 114.71835 null null null null null null null null null null WiFiConnected FFFFFFFF else
+com.tencent.mm 20160619230824 _23_24 1473 22.990662 114.71834 no no FFFFFFFF no monday no very_drak idle null 171 null null else
+com.supercell.clashroyale 20160619233434 _23_24 275 22.990595 114.71835 no no FFFFFFFF no monday no very_drak idle null 171 null null else
+com.tencent.tmgp.jxqy 20160619233915 _23_24 0 0.0 0.0 no no FFFFFFFF no monday no very_drak idle null 171 null null school
+com.tencent.tmgp.carrot3 20160619233925 _23_24 230 0.0 0.0 no no FFFFFFFF no monday no very_drak idle middle 171 null null school
+com.tencent.mm 20160619234311 _23_24 0 22.990965 114.71837 no no FFFFFFFF no monday no very_drak idle null 171 null null else
 insertTarget 20160619234436 null 0 22.990965 114.71837 null null null null null null null null null null ChargeCable  else
-com.tencent.mm 20160620002224 _0_1 2442 22.990965 114.71837 no no "FFFFFFFF" no tueday no very_drak idle middle 172 null null else
-com.tencent.tmgp.carrot3 20160620002353 _0_1 0 22.990702 114.718315 no no "FFFFFFFF" no tueday no very_drak move null 172 null null else
+com.tencent.mm 20160620002224 _0_1 2442 22.990965 114.71837 no no FFFFFFFF no tueday no very_drak idle middle 172 null null else
+com.tencent.tmgp.carrot3 20160620002353 _0_1 0 22.990702 114.718315 no no FFFFFFFF no tueday no very_drak move null 172 null null else
 insertTarget 20160620002407 null 25 22.990702 114.718315 null null null null null null null null null null DataConnected gprs else
 com.tencent.mm 20160620002418 _0_1 5 22.990421 114.71633 no yes null no tueday no very_drak idle null 172 null null else
 com.tencent.tmgp.carrot3 20160620002424 _0_1 0 22.990421 114.71633 no yes null no tueday no very_drak idle null 172 null null else
@@ -1538,8 +1538,8 @@ com.taobao.fleamarket 20160620013852 _1_2 0 22.990421 114.71633 no yes null no t
 insertTarget 20160620013852 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
 com.ishowedu.peiyin 20160620013920 _1_2 609 22.990421 114.71633 no yes null no tueday no very_drak idle middle 172 null null else
 com.tencent.mm 20160620014907 _1_2 0 22.990421 114.71633 no yes null no tueday no very_drak idle null 172 null null else
-insertTarget 20160620014925 null 0 22.990421 114.71633 null null null null null null null null null null WiFiConnected "FFFFFFFF" else
-com.tencent.mm 20160620023008 _2_3 2547 22.990421 114.71633 no no "FFFFFFFF" no tueday no very_drak idle urge 172 null null else
+insertTarget 20160620014925 null 0 22.990421 114.71633 null null null null null null null null null null WiFiConnected FFFFFFFF else
+com.tencent.mm 20160620023008 _2_3 2547 22.990421 114.71633 no no FFFFFFFF no tueday no very_drak idle urge 172 null null else
 insertTarget 20160620023138 null 10 22.990723 114.718254 null null null null null null null null null null DataConnected gprs else
 com.supercell.clashroyale 20160620023144 _2_3 0 22.990421 114.71633 no yes null no tueday no very_drak idle null 172 null null else
 insertTarget 20160620023236 null 350 22.990421 114.71633 null null null null null null null null null null DataConnected gprs else
@@ -1637,30 +1637,30 @@ com.tencent.mm 20160620111206 _11_12 5 23.132854 113.37209 no yes null no tueday
 com.tencent.mobileqq 20160620111211 _11_12 0 23.132854 113.37209 no yes null no tueday no very_drak idle null 172 null null company
 insertTarget 20160620111213 null 5 23.132854 113.37209 null null null null null null null null null null ChargeCable  company
 com.tencent.mm 20160620112320 _11_12 665 23.132854 113.37209 no yes null no tueday no very_drak idle urge 172 null null company
-insertTarget 20160620112327 null 0 23.132751 113.37207 null null null null null null null null null null WiFiConnected "liu" company
-com.tencent.mobileqq 20160620112528 _11_12 0 23.132801 113.37207 no no "liu" no tueday no very_drak idle null 172 null null company
+insertTarget 20160620112327 null 0 23.132751 113.37207 null null null null null null null null null null WiFiConnected liu company
+com.tencent.mobileqq 20160620112528 _11_12 0 23.132801 113.37207 no no liu no tueday no very_drak idle null 172 null null company
 insertTarget 20160620112530 null 20 23.132801 113.37207 null null null null null null null null null null ChargeCable  company
-com.meizu.notepaper 20160620112559 _11_12 10 23.132809 113.37205 no no "liu" no tueday no very_drak idle null 172 null null company
-com.tencent.mm 20160620112609 _11_12 5 23.1328 113.37206 no no "liu" no tueday no very_drak idle null 172 null null company
+com.meizu.notepaper 20160620112559 _11_12 10 23.132809 113.37205 no no liu no tueday no very_drak idle null 172 null null company
+com.tencent.mm 20160620112609 _11_12 5 23.1328 113.37206 no no liu no tueday no very_drak idle null 172 null null company
 insertTarget 20160620112651 null 0 23.1328 113.37206 null null null null null null null null null null ChargeCable  company
-com.tencent.mobileqq 20160620112723 _11_12 0 23.1328 113.37206 no no "liu" no tueday no very_drak idle middle 172 null null company
+com.tencent.mobileqq 20160620112723 _11_12 0 23.1328 113.37206 no no liu no tueday no very_drak idle middle 172 null null company
 insertTarget 20160620112734 null 0 23.1328 113.37206 null null null null null null null null null null ChargeCable  company
-com.android.email 20160620114947 _11_12 1412 23.1328 113.37206 no no "liu" no tueday no very_drak idle ignore 172 null null company
-com.tencent.mobileqq 20160620114952 _11_12 0 23.132809 113.37192 no no "liu" no tueday no very_drak idle null 172 null null company
+com.android.email 20160620114947 _11_12 1412 23.1328 113.37206 no no liu no tueday no very_drak idle ignore 172 null null company
+com.tencent.mobileqq 20160620114952 _11_12 0 23.132809 113.37192 no no liu no tueday no very_drak idle null 172 null null company
 insertTarget 20160620115016 null 0 23.132809 113.37192 null null null null null null null null null null ChargeCable  company
-com.tencent.mobileqq 20160620115308 _11_12 0 23.132809 113.37192 no no "liu" no tueday no very_drak idle urge 172 null null company
+com.tencent.mobileqq 20160620115308 _11_12 0 23.132809 113.37192 no no liu no tueday no very_drak idle urge 172 null null company
 insertTarget 20160620115446 null 0 23.132809 113.37192 null null null null null null null null null null ChargeCable  company
-com.tencent.mobileqq 20160620120017 _12_13 0 23.132786 113.37209 no no "liu" no tueday no very_drak move null 172 null null company
+com.tencent.mobileqq 20160620120017 _12_13 0 23.132786 113.37209 no no liu no tueday no very_drak move null 172 null null company
 insertTarget 20160620120018 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160620120220 _12_13 0 23.132786 113.37209 no no "liu" no tueday no very_drak idle urge 172 null null company
+com.tencent.mobileqq 20160620120220 _12_13 0 23.132786 113.37209 no no liu no tueday no very_drak idle urge 172 null null company
 insertTarget 20160620120317 null 0 23.132786 113.37209 null null null null null null null null null null ChargeCable  company
-com.example.debug 20160620122836 _12_13 0 23.132797 113.37188 no no "liu" no tueday no very_drak idle null 172 null null company
+com.example.debug 20160620122836 _12_13 0 23.132797 113.37188 no no liu no tueday no very_drak idle null 172 null null company
 insertTarget 20160620122922 null 0 23.132797 113.37188 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160620123244 _12_13 250 23.132797 113.37188 no no "liu" no tueday no very_drak idle ignore 172 null null company
+com.tencent.mm 20160620123244 _12_13 250 23.132797 113.37188 no no liu no tueday no very_drak idle ignore 172 null null company
 insertTarget 20160620123322 null 0 23.132847 113.37194 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160620123655 _12_13 0 23.132847 113.37194 no no "liu" no tueday no very_drak idle urge 172 null null company
+com.tencent.mm 20160620123655 _12_13 0 23.132847 113.37194 no no liu no tueday no very_drak idle urge 172 null null company
 insertTarget 20160620123704 null 0 23.132847 113.37194 null null null null null null null null null null ChargeCable  company
-com.android.email 20160620124228 _12_13 0 23.132849 113.37193 no no "liu" no tueday no very_drak idle middle 172 null null company
+com.android.email 20160620124228 _12_13 0 23.132849 113.37193 no no liu no tueday no very_drak idle middle 172 null null company
 insertTarget 20160620124611 null 0 23.132849 113.37193 null null null null null null null null null null DataConnected gprs company
 com.android.settings 20160620124838 _12_13 0 23.132772 113.37208 no yes null no tueday no very_drak idle null 172 null null company
 insertTarget 20160620124847 null 0 23.132772 113.37208 null null null null null null null null null null LocationChanged  company
@@ -1838,8 +1838,8 @@ com.tencent.mobileqq 20160620222431 _22_23 0 0.0 0.0 no yes null no tueday no ve
 insertTarget 20160620233439 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mm 20160621001321 _0_1 0 23.132854 113.37209 no yes null no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621001322 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160621001853 _0_1 130 23.132769 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.supercell.clashroyale 20160621002109 _0_1 0 23.132778 113.37201 no no "liu" no wednesday no very_drak move null 173 null null company
+com.tencent.mobileqq 20160621001853 _0_1 130 23.132769 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.supercell.clashroyale 20160621002109 _0_1 0 23.132778 113.37201 no no liu no wednesday no very_drak move null 173 null null company
 insertTarget 20160621002225 null 2151 23.132778 113.37201 null null null null null null null null null null DataConnected gprs company
 com.tencent.tmgp.carrot3 20160621005706 _0_1 20 23.132854 113.37209 no yes null no wednesday no very_drak move null 173 null null company
 com.tencent.mm 20160621005726 _0_1 5 23.132854 113.37209 no yes null no wednesday no very_drak idle null 173 null null company
@@ -1981,95 +1981,95 @@ com.android.incallui 20160621140153 _14_15 0 23.132854 113.37209 no yes null yes
 insertTarget 20160621140256 null 65 23.132854 113.37209 null null null null null null null null null null ChargeCable  company
 com.tencent.mm 20160621140359 _14_15 60 23.132854 113.37209 no yes null yes wednesday no very_drak idle urge 173 null null company
 insertTarget 20160621140411 null 45 23.132854 113.37209 null null null null null null null null null null ChargeCable  company
-com.android.chrome 20160621140450 _14_15 0 23.132854 113.37209 no no "liu" yes wednesday no very_drak idle null 173 null null company
-insertTarget 20160621140450 null 10 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621140657 _14_15 0 23.132792 113.37205 no no "liu" yes wednesday no very_drak idle null 173 null null company
+com.android.chrome 20160621140450 _14_15 0 23.132854 113.37209 no no liu yes wednesday no very_drak idle null 173 null null company
+insertTarget 20160621140450 null 10 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621140657 _14_15 0 23.132792 113.37205 no no liu yes wednesday no very_drak idle null 173 null null company
 insertTarget 20160621140712 null 0 23.132792 113.37205 null null null null null null null null null null ChargeCable  company
-com.android.mms 20160621143757 _14_15 1863 23.132792 113.37205 no no "liu" yes wednesday no very_drak idle urge 173 null null company
+com.android.mms 20160621143757 _14_15 1863 23.132792 113.37205 no no liu yes wednesday no very_drak idle urge 173 null null company
 insertTarget 20160621143817 null 0 23.132786 113.372025 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160621143949 _14_15 105 23.132786 113.372025 no no "liu" yes wednesday no very_drak idle urge 173 null null company
+com.tencent.mm 20160621143949 _14_15 105 23.132786 113.372025 no no liu yes wednesday no very_drak idle urge 173 null null company
 insertTarget 20160621144017 null 0 23.132784 113.37204 null null null null null null null null null null ChargeCable  company
-com.android.incallui 20160621144901 _14_15 551 23.132784 113.37204 no no "liu" yes wednesday no very_drak idle urge 173 null null company
-com.tencent.mm 20160621145521 _14_15 381 23.132734 113.37205 no no "liu" yes wednesday no very_drak idle urge 173 null null company
-com.supercell.clashroyale 20160621145530 _14_15 0 23.132706 113.372 no no "liu" yes wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621144901 _14_15 551 23.132784 113.37204 no no liu yes wednesday no very_drak idle urge 173 null null company
+com.tencent.mm 20160621145521 _14_15 381 23.132734 113.37205 no no liu yes wednesday no very_drak idle urge 173 null null company
+com.supercell.clashroyale 20160621145530 _14_15 0 23.132706 113.372 no no liu yes wednesday no very_drak idle null 173 null null company
 insertTarget 20160621145555 null 110 23.132706 113.372 null null null null null null null null null null DataConnected gprs company
-com.tencent.mobileqq 20160621145928 _14_15 284 23.132854 113.37209 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.android.incallui 20160621150205 _15_16 0 23.132792 113.37202 no no "liu" no wednesday no very_drak idle null 173 null null company
-insertTarget 20160621150603 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.android.incallui 20160621151047 _15_16 287 0.0 0.0 no no "liu" no wednesday no very_drak idle urge 173 null null school
+com.tencent.mobileqq 20160621145928 _14_15 284 23.132854 113.37209 no no liu no wednesday no very_drak idle middle 173 null null company
+com.android.incallui 20160621150205 _15_16 0 23.132792 113.37202 no no liu no wednesday no very_drak idle null 173 null null company
+insertTarget 20160621150603 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.android.incallui 20160621151047 _15_16 287 0.0 0.0 no no liu no wednesday no very_drak idle urge 173 null null school
 insertTarget 20160621151051 null 193 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160621152129 _15_16 0 23.132763 113.37209 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621152129 _15_16 0 23.132763 113.37209 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621152141 null 0 23.132763 113.37209 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160621152800 _15_16 0 23.132763 113.37209 no no "liu" no wednesday no very_drak idle urge 173 null null company
+com.tencent.mm 20160621152800 _15_16 0 23.132763 113.37209 no no liu no wednesday no very_drak idle urge 173 null null company
 insertTarget 20160621152813 null 0 23.132763 113.37209 null null null null null null null null null null ChargeCable  company
-com.android.email 20160621160554 _16_17 1012 23.132769 113.372 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.android.dialer 20160621160629 _16_17 5 23.132786 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.incallui 20160621160634 _16_17 83 23.132782 113.37205 no no "liu" no wednesday no very_drak move null 173 null null company
-com.tencent.mm 20160621161034 _16_17 153 23.132774 113.37207 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.android.chrome 20160621161219 _16_17 20 23.132786 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621161239 _16_17 0 23.132776 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.incallui 20160621161435 _16_17 118 23.132776 113.37206 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.tencent.mm 20160621161749 _16_17 0 23.132813 113.37207 no no "liu" no wednesday no very_drak idle null 173 null null company
-insertTarget 20160621163144 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160621163241 _16_17 412 0.0 0.0 no no "liu" no wednesday no very_drak idle middle 173 null null school
-com.tencent.mm 20160621163837 _16_17 0 23.13276 113.372086 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.email 20160621160554 _16_17 1012 23.132769 113.372 no no liu no wednesday no very_drak idle middle 173 null null company
+com.android.dialer 20160621160629 _16_17 5 23.132786 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621160634 _16_17 83 23.132782 113.37205 no no liu no wednesday no very_drak move null 173 null null company
+com.tencent.mm 20160621161034 _16_17 153 23.132774 113.37207 no no liu no wednesday no very_drak idle urge 173 null null company
+com.android.chrome 20160621161219 _16_17 20 23.132786 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621161239 _16_17 0 23.132776 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621161435 _16_17 118 23.132776 113.37206 no no liu no wednesday no very_drak idle urge 173 null null company
+com.tencent.mm 20160621161749 _16_17 0 23.132813 113.37207 no no liu no wednesday no very_drak idle null 173 null null company
+insertTarget 20160621163144 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160621163241 _16_17 412 0.0 0.0 no no liu no wednesday no very_drak idle middle 173 null null school
+com.tencent.mm 20160621163837 _16_17 0 23.13276 113.372086 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621163837 null 114 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.dialer 20160621164031 _16_17 5 23.132826 113.37202 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.incallui 20160621164037 _16_17 254 23.132816 113.37203 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.dialer 20160621164451 _16_17 0 23.132797 113.37209 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.mms 20160621164521 _16_17 0 23.132797 113.37209 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.tencent.mm 20160621165030 _16_17 340 23.132797 113.37209 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.adobe.reader 20160621165058 _16_17 65 23.132792 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621165203 _16_17 10 23.132767 113.372055 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.adobe.reader 20160621165214 _16_17 5 23.132765 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621165219 _16_17 20 23.132765 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.adobe.reader 20160621165239 _16_17 0 23.132807 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mobileqq 20160621165725 _16_17 0 23.132807 113.37206 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.tencent.mm 20160621165803 _16_17 325 23.132807 113.37206 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.tencent.mobileqq 20160621165921 _16_17 35 23.132788 113.37201 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621165956 _16_17 0 23.132788 113.37201 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.meizu.media.music 20160621165957 _16_17 0 23.132788 113.37201 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.android.email 20160621165958 _16_17 5 23.132788 113.37201 no no "liu" no wednesday no very_drak idle ignore 173 null null company
-com.adobe.reader 20160621170021 _17_18 65 23.132788 113.37201 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.email 20160621170127 _17_18 5 23.13279 113.372 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621170132 _17_18 5 23.13279 113.372 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.adobe.reader 20160621170137 _17_18 0 23.13279 113.372 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621170319 _17_18 105 23.13279 113.372 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.adobe.reader 20160621170358 _17_18 185 23.1328 113.37201 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mobileqq 20160621170838 _17_18 98 23.132746 113.371956 no no "liu" no wednesday no very_drak move urge 173 null null company
-com.tencent.mm 20160621170907 _17_18 0 23.132795 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.email 20160621171412 _17_18 307 23.132795 113.37206 no no "liu" no wednesday no very_drak idle urge 173 null null company
-insertTarget 20160621171943 null 705 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621173329 _17_18 80 23.132832 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.incallui 20160621173449 _17_18 0 23.132801 113.371994 no no "liu" no wednesday no very_drak run null 173 null null company
-insertTarget 20160621173929 null 781 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160621175234 _17_18 5 23.132824 113.37203 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.tencent.mm 20160621175236 _17_18 180 23.132784 113.37197 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mobileqq 20160621175537 _17_18 20 23.132795 113.37208 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.dialer 20160621175557 _17_18 5 23.132793 113.37207 no no "liu" no wednesday no very_drak move null 173 null null company
-com.android.incallui 20160621175602 _17_18 169 23.132793 113.37207 no no "liu" no wednesday no very_drak idle null 173 null null company
-insertTarget 20160621180451 null 139 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621180716 _18_19 0 23.132837 113.372025 no no "liu" no wednesday no very_drak idle null 173 null null company
-insertTarget 20160621181151 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.android.email 20160621181752 _18_19 0 0.0 0.0 no no "liu" no wednesday no very_drak idle middle 173 null null school
-com.tencent.mm 20160621181754 _18_19 365 0.0 0.0 no no "liu" no wednesday no very_drak idle middle 173 null null school
-com.android.email 20160621181756 _18_19 0 23.132792 113.37205 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.dialer 20160621164031 _16_17 5 23.132826 113.37202 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621164037 _16_17 254 23.132816 113.37203 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.dialer 20160621164451 _16_17 0 23.132797 113.37209 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.mms 20160621164521 _16_17 0 23.132797 113.37209 no no liu no wednesday no very_drak idle middle 173 null null company
+com.tencent.mm 20160621165030 _16_17 340 23.132797 113.37209 no no liu no wednesday no very_drak idle urge 173 null null company
+com.adobe.reader 20160621165058 _16_17 65 23.132792 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621165203 _16_17 10 23.132767 113.372055 no no liu no wednesday no very_drak idle null 173 null null company
+com.adobe.reader 20160621165214 _16_17 5 23.132765 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621165219 _16_17 20 23.132765 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.adobe.reader 20160621165239 _16_17 0 23.132807 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mobileqq 20160621165725 _16_17 0 23.132807 113.37206 no no liu no wednesday no very_drak idle middle 173 null null company
+com.tencent.mm 20160621165803 _16_17 325 23.132807 113.37206 no no liu no wednesday no very_drak idle urge 173 null null company
+com.tencent.mobileqq 20160621165921 _16_17 35 23.132788 113.37201 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621165956 _16_17 0 23.132788 113.37201 no no liu no wednesday no very_drak idle null 173 null null company
+com.meizu.media.music 20160621165957 _16_17 0 23.132788 113.37201 no no liu no wednesday no very_drak idle middle 173 null null company
+com.android.email 20160621165958 _16_17 5 23.132788 113.37201 no no liu no wednesday no very_drak idle ignore 173 null null company
+com.adobe.reader 20160621170021 _17_18 65 23.132788 113.37201 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.email 20160621170127 _17_18 5 23.13279 113.372 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621170132 _17_18 5 23.13279 113.372 no no liu no wednesday no very_drak idle null 173 null null company
+com.adobe.reader 20160621170137 _17_18 0 23.13279 113.372 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621170319 _17_18 105 23.13279 113.372 no no liu no wednesday no very_drak idle urge 173 null null company
+com.adobe.reader 20160621170358 _17_18 185 23.1328 113.37201 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mobileqq 20160621170838 _17_18 98 23.132746 113.371956 no no liu no wednesday no very_drak move urge 173 null null company
+com.tencent.mm 20160621170907 _17_18 0 23.132795 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.email 20160621171412 _17_18 307 23.132795 113.37206 no no liu no wednesday no very_drak idle urge 173 null null company
+insertTarget 20160621171943 null 705 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621173329 _17_18 80 23.132832 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621173449 _17_18 0 23.132801 113.371994 no no liu no wednesday no very_drak run null 173 null null company
+insertTarget 20160621173929 null 781 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160621175234 _17_18 5 23.132824 113.37203 no no liu no wednesday no very_drak idle middle 173 null null company
+com.tencent.mm 20160621175236 _17_18 180 23.132784 113.37197 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mobileqq 20160621175537 _17_18 20 23.132795 113.37208 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.dialer 20160621175557 _17_18 5 23.132793 113.37207 no no liu no wednesday no very_drak move null 173 null null company
+com.android.incallui 20160621175602 _17_18 169 23.132793 113.37207 no no liu no wednesday no very_drak idle null 173 null null company
+insertTarget 20160621180451 null 139 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621180716 _18_19 0 23.132837 113.372025 no no liu no wednesday no very_drak idle null 173 null null company
+insertTarget 20160621181151 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.android.email 20160621181752 _18_19 0 0.0 0.0 no no liu no wednesday no very_drak idle middle 173 null null school
+com.tencent.mm 20160621181754 _18_19 365 0.0 0.0 no no liu no wednesday no very_drak idle middle 173 null null school
+com.android.email 20160621181756 _18_19 0 23.132792 113.37205 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621181757 null 5 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160621181802 _18_19 15 23.132792 113.37205 no no "liu" no wednesday no very_drak move null 173 null null company
+com.tencent.mm 20160621181802 _18_19 15 23.132792 113.37205 no no liu no wednesday no very_drak move null 173 null null company
 insertTarget 20160621181930 null 0 23.1328 113.37197 null null null null null null null null null null DataConnected gprs company
 com.tencent.mm 20160621183243 _18_19 491 0.0 0.0 no yes null no wednesday no very_drak idle middle 173 null null school
 insertTarget 20160621183248 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
 com.tencent.mm 20160621184116 _18_19 0 23.13258 113.3729 no yes null no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621184119 null 0 23.13258 113.3729 null null null null null null null null null null LocationChanged  company
-com.tencent.mobileqq 20160621184257 _18_19 155 23.13258 113.3729 no no "liu" no wednesday no very_drak idle middle 173 null null company
-insertTarget 20160621184849 null 753 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621190123 _19_20 5 23.132853 113.37192 no no "liu" no wednesday no very_drak move urge 173 null null company
-insertTarget 20160621190848 null 872 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621192321 _19_20 0 23.132843 113.37201 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.tencent.mobileqq 20160621184257 _18_19 155 23.13258 113.3729 no no liu no wednesday no very_drak idle middle 173 null null company
+insertTarget 20160621184849 null 753 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621190123 _19_20 5 23.132853 113.37192 no no liu no wednesday no very_drak move urge 173 null null company
+insertTarget 20160621190848 null 872 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621192321 _19_20 0 23.132843 113.37201 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621192323 null 10 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.mms 20160621192331 _19_20 0 23.13283 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621192347 _19_20 15 23.132826 113.37203 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.supercell.clashroyale 20160621192407 _19_20 0 23.132826 113.37203 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.mms 20160621192331 _19_20 0 23.13283 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621192347 _19_20 15 23.132826 113.37203 no no liu no wednesday no very_drak idle null 173 null null company
+com.supercell.clashroyale 20160621192407 _19_20 0 23.132826 113.37203 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621192425 null 0 23.132826 113.37203 null null null null null null null null null null DataConnected gprs company
 com.tencent.mobileqq 20160621193327 _19_20 0 23.132826 113.37203 no yes null no wednesday no very_drak idle middle 173 null null company
 com.android.incallui 20160621194602 _19_20 1315 23.132826 113.37203 no yes null no wednesday no very_drak idle urge 173 null null company
@@ -2083,37 +2083,37 @@ insertTarget 20160621211523 null 0 0.0 0.0 null null null null null null null nu
 com.tencent.mm 20160621211524 _21_22 237 23.132854 113.37209 no yes null no wednesday no very_drak idle urge 173 null null company
 com.meizu.safe 20160621211920 _21_22 0 23.132847 113.37125 no yes null no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621212059 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
-com.android.incallui 20160621213513 _21_22 0 23.132854 113.37209 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621213513 _21_22 0 23.132854 113.37209 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621213514 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.incallui 20160621213520 _21_22 57 23.132854 113.37209 no no "liu" no wednesday no very_drak idle urge 173 null null company
-com.meizu.safe 20160621213612 _21_22 0 23.132755 113.371925 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621220133 _22_23 1524 23.132755 113.371925 no no "liu" no wednesday no very_drak idle ignore 173 null null company
-com.android.browser 20160621220137 _22_23 0 23.132744 113.37206 no no "liu" no wednesday no very_drak idle ignore 173 null null company
-insertTarget 20160621220615 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mm 20160621222604 _22_23 0 23.132744 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.incallui 20160621213520 _21_22 57 23.132854 113.37209 no no liu no wednesday no very_drak idle urge 173 null null company
+com.meizu.safe 20160621213612 _21_22 0 23.132755 113.371925 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621220133 _22_23 1524 23.132755 113.371925 no no liu no wednesday no very_drak idle ignore 173 null null company
+com.android.browser 20160621220137 _22_23 0 23.132744 113.37206 no no liu no wednesday no very_drak idle ignore 173 null null company
+insertTarget 20160621220615 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mm 20160621222604 _22_23 0 23.132744 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621222605 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.settings 20160621222650 _22_23 0 23.132723 113.372055 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.android.settings 20160621222650 _22_23 0 23.132723 113.372055 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621222654 null 0 23.132723 113.372055 null null null null null null null null null null ChargeCable  company
-com.ruibin.demo 20160621222705 _22_23 0 23.132742 113.37206 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.ruibin.demo 20160621222705 _22_23 0 23.132742 113.37206 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621222720 null 35 23.132742 113.37206 null null null null null null null null null null ChargeCable  company
-com.android.dialer 20160621222746 _22_23 0 0.0 0.0 no no "liu" no wednesday no very_drak idle null 173 null null school
+com.android.dialer 20160621222746 _22_23 0 0.0 0.0 no no liu no wednesday no very_drak idle null 173 null null school
 insertTarget 20160621222803 null 20 23.132862 113.37181 null null null null null null null null null null ChargeCable  company
-com.ruibin.demo 20160621222806 _22_23 25 23.132854 113.37189 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.dialer 20160621222836 _22_23 0 23.132847 113.37191 no no "liu" no wednesday no very_drak idle null 173 null null company
+com.ruibin.demo 20160621222806 _22_23 25 23.132854 113.37189 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.dialer 20160621222836 _22_23 0 23.132847 113.37191 no no liu no wednesday no very_drak idle null 173 null null company
 insertTarget 20160621222903 null 0 23.132847 113.37191 null null null null null null null null null null ChargeCable  company
-com.tencent.mobileqq 20160621224032 _22_23 0 23.13275 113.37207 no no "liu" no wednesday no very_drak idle middle 173 null null company
+com.tencent.mobileqq 20160621224032 _22_23 0 23.13275 113.37207 no no liu no wednesday no very_drak idle middle 173 null null company
 insertTarget 20160621224105 null 0 23.13275 113.37207 null null null null null null null null null null ChargeCable  company
 com.android.email 20160621225936 _22_23 1276 23.13275 113.37207 no yes null no wednesday no very_drak idle middle 173 null null company
 insertTarget 20160621225959 null 0 23.13282 113.37209 null null null null null null null null null null ChargeCable  company
 com.tencent.mobileqq 20160621230027 _23_24 0 23.13282 113.37209 no yes null no wednesday no very_drak idle middle 173 null null company
-insertTarget 20160621230031 null 0 23.13282 113.37209 null null null null null null null null null null WiFiConnected "liu" company
-com.tencent.mm 20160621234945 _23_24 3009 23.13282 113.37209 no no "liu" no wednesday no very_drak idle middle 173 null null company
-com.android.email 20160621235049 _23_24 5 23.132828 113.37192 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621235054 _23_24 0 23.132828 113.37192 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.email 20160621235407 _23_24 193 23.132828 113.37192 no no "liu" no wednesday no very_drak idle ignore 173 null null company
-com.tencent.mm 20160621235439 _23_24 290 23.132816 113.37204 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.android.alarmclock 20160621235934 _23_24 10 23.132795 113.37202 no no "liu" no wednesday no very_drak idle null 173 null null company
-com.tencent.mm 20160621235945 _23_24 5 23.132795 113.37202 no no "liu" no wednesday no very_drak idle null 173 null null company
+insertTarget 20160621230031 null 0 23.13282 113.37209 null null null null null null null null null null WiFiConnected liu company
+com.tencent.mm 20160621234945 _23_24 3009 23.13282 113.37209 no no liu no wednesday no very_drak idle middle 173 null null company
+com.android.email 20160621235049 _23_24 5 23.132828 113.37192 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621235054 _23_24 0 23.132828 113.37192 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.email 20160621235407 _23_24 193 23.132828 113.37192 no no liu no wednesday no very_drak idle ignore 173 null null company
+com.tencent.mm 20160621235439 _23_24 290 23.132816 113.37204 no no liu no wednesday no very_drak idle null 173 null null company
+com.android.alarmclock 20160621235934 _23_24 10 23.132795 113.37202 no no liu no wednesday no very_drak idle null 173 null null company
+com.tencent.mm 20160621235945 _23_24 5 23.132795 113.37202 no no liu no wednesday no very_drak idle null 173 null null company
 com.android.alarmclock 20160622070004 _7_8 0 0.0 0.0 no no null no thurday no very_drak move null 174 null null school
 insertTarget 20160622082808 null 0 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mobileqq 20160622082812 _8_9 9 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
@@ -2131,8 +2131,8 @@ insertTarget 20160622083843 null 0 0.0 0.0 null null null null null null null nu
 com.tencent.mobileqq 20160622085029 _8_9 495 0.0 0.0 no yes null no thurday no very_drak idle middle 174 null null school
 com.android.email 20160622085032 _8_9 0 23.132011 113.37311 no yes null no thurday no very_drak idle null 174 null null company
 insertTarget 20160622085033 null 45 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.android.email 20160622090924 _9_10 0 0.0 0.0 no no "liu" no thurday no very_drak idle middle 174 null null school
-com.tencent.mobileqq 20160622090925 _9_10 898 0.0 0.0 no no "liu" no thurday no very_drak idle urge 174 null null school
+com.android.email 20160622090924 _9_10 0 0.0 0.0 no no liu no thurday no very_drak idle middle 174 null null school
+com.tencent.mobileqq 20160622090925 _9_10 898 0.0 0.0 no no liu no thurday no very_drak idle urge 174 null null school
 insertTarget 20160622090929 null 19 0.0 0.0 null null null null null null null null null null DataConnected gprs school
 com.tencent.mm 20160622090946 _9_10 0 23.132858 113.372086 no yes null no thurday no very_drak idle null 174 null null company
 insertTarget 20160622090948 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
@@ -2156,57 +2156,57 @@ com.tencent.mobileqq 20160622094549 _9_10 0 23.125757 113.38971 no yes null no t
 insertTarget 20160622094550 null 0 23.125813 113.38956 null null null null null null null null null null LightChanged lighter home
 com.tencent.mobileqq 20160622094848 _9_10 0 23.12589 113.38963 no yes null no thurday no very_drak move middle 174 null null home
 insertTarget 20160622095019 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.tencent.mobileqq 20160622095403 _9_10 0 23.126234 113.389175 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mobileqq 20160622095403 _9_10 0 23.126234 113.389175 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622095418 null 0 23.126234 113.389175 null null null null null null null null null null ChargeCable  home
-com.excomm.deviceinfo 20160622095753 _9_10 35 23.126293 113.38928 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.excomm.deviceinfo 20160622095753 _9_10 35 23.126293 113.38928 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622100019 null 0 23.126299 113.389305 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622100212 _10_11 175 23.126299 113.389305 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622100212 _10_11 175 23.126299 113.389305 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622100219 null 0 23.126316 113.38939 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622104559 _10_11 1321 0.0 0.0 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null school
+com.tencent.mm 20160622104559 _10_11 1321 0.0 0.0 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null school
 insertTarget 20160622104602 null 55 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160622105044 _10_11 229 23.126347 113.38935 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622105044 _10_11 229 23.126347 113.38935 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622105130 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.android.email 20160622105244 _10_11 120 23.126356 113.38938 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mobileqq 20160622105313 _10_11 0 23.12629 113.389336 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mm 20160622105334 _10_11 50 23.12629 113.389336 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
-com.tencent.mobileqq 20160622105343 _10_11 5 23.126347 113.38935 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.tencent.mm 20160622105408 _10_11 0 23.12629 113.38933 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.android.email 20160622105244 _10_11 120 23.126356 113.38938 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mobileqq 20160622105313 _10_11 0 23.12629 113.389336 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622105334 _10_11 50 23.12629 113.389336 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
+com.tencent.mobileqq 20160622105343 _10_11 5 23.126347 113.38935 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622105408 _10_11 0 23.12629 113.38933 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622105919 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160622110417 _11_12 0 23.126202 113.38916 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622110417 _11_12 0 23.126202 113.38916 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622110421 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.tencent.mm 20160622111238 _11_12 500 23.126278 113.38925 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622111238 _11_12 500 23.126278 113.38925 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622111259 null 0 23.126295 113.38936 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622111416 _11_12 0 23.126295 113.38936 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622111416 _11_12 0 23.126295 113.38936 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622111446 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160622111947 _11_12 0 23.12622 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622111947 _11_12 0 23.12622 113.38923 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622112004 null 0 23.12622 113.38923 null null null null null null null null null null ChargeCable  home
-com.android.mms 20160622112413 _11_12 0 23.12622 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.android.mms 20160622112413 _11_12 0 23.12622 113.38923 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622112505 null 0 23.12622 113.38923 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622113009 _11_12 0 23.12622 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622113009 _11_12 0 23.12622 113.38923 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622113030 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.android.email 20160622113328 _11_12 821 23.12622 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.android.email 20160622113328 _11_12 821 23.12622 113.38923 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622113407 null 0 23.12623 113.38909 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622114751 _11_12 861 23.12623 113.38909 no no "EXCOMM-R2" no thurday no very_drak idle ignore 174 null null home
-com.meizu.media.camera 20160622114807 _11_12 15 23.126307 113.38936 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.tencent.mm 20160622114822 _11_12 0 23.126366 113.38938 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.android.email 20160622115528 _11_12 426 23.126366 113.38938 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mm 20160622115539 _11_12 0 23.126293 113.38939 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-insertTarget 20160622120018 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "EXCOMM-R2" school
-com.tencent.mm 20160622120556 _12_13 0 23.126293 113.38939 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622114751 _11_12 861 23.12623 113.38909 no no EXCOMM-R2 no thurday no very_drak idle ignore 174 null null home
+com.meizu.media.camera 20160622114807 _11_12 15 23.126307 113.38936 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622114822 _11_12 0 23.126366 113.38938 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.android.email 20160622115528 _11_12 426 23.126366 113.38938 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622115539 _11_12 0 23.126293 113.38939 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+insertTarget 20160622120018 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected EXCOMM-R2 school
+com.tencent.mm 20160622120556 _12_13 0 23.126293 113.38939 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622120557 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160622120557 _12_13 0 23.126293 113.38939 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622120557 _12_13 0 23.126293 113.38939 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622120612 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160622121320 _12_13 0 23.12634 113.389435 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622121320 _12_13 0 23.12634 113.389435 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622121321 null 142 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.meizu.media.camera 20160622121543 _12_13 10 23.12625 113.3894 no no "EXCOMM-R2" no thurday no very_drak move null 174 null null home
-com.tencent.mm 20160622121553 _12_13 0 23.12625 113.3894 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.android.email 20160622121736 _12_13 104 23.12625 113.3894 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mm 20160622121744 _12_13 5 23.126305 113.38937 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.tencent.mobileqq 20160622121924 _12_13 0 23.126305 113.38937 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.meizu.media.camera 20160622121543 _12_13 10 23.12625 113.3894 no no EXCOMM-R2 no thurday no very_drak move null 174 null null home
+com.tencent.mm 20160622121553 _12_13 0 23.12625 113.3894 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.android.email 20160622121736 _12_13 104 23.12625 113.3894 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622121744 _12_13 5 23.126305 113.38937 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.tencent.mobileqq 20160622121924 _12_13 0 23.126305 113.38937 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622121936 null 468 0.0 0.0 null null null null null null null null null null LightChanged lighter school
-com.tencent.mm 20160622122722 _12_13 0 23.126303 113.38934 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622122722 _12_13 0 23.126303 113.38934 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622122724 null 92 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160622122725 _12_13 0 23.126328 113.3894 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622122725 _12_13 0 23.126328 113.3894 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622122730 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
 com.supercell.clashroyale 20160622123327 _12_13 0 23.126225 113.38935 no yes null no thurday no very_drak idle null 174 null null home
 insertTarget 20160622123538 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
@@ -2233,32 +2233,32 @@ com.tencent.mobileqq 20160622130542 _13_14 20 23.126225 113.38935 no yes null no
 insertTarget 20160622130715 null 0 23.126225 113.38935 null null null null null null null null null null ChargeCable  home
 com.tencent.mm 20160622131737 _13_14 696 23.126225 113.38935 no yes null no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622131747 null 0 23.126225 113.38935 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622132100 _13_14 0 23.126268 113.38934 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622132100 _13_14 0 23.126268 113.38934 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622132248 null 0 23.126268 113.38934 null null null null null null null null null null ChargeCable  home
-com.tencent.mobileqq 20160622132405 _13_14 185 23.126268 113.38934 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mobileqq 20160622132405 _13_14 185 23.126268 113.38934 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622132549 null 0 23.126198 113.38923 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622133117 _13_14 335 23.126198 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null home
+com.tencent.mm 20160622133117 _13_14 335 23.126198 113.38923 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622133150 null 0 23.126299 113.38938 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622133423 _13_14 0 23.126308 113.38943 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622133423 _13_14 0 23.126308 113.38943 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622133450 null 30 23.126308 113.38943 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622133714 _13_14 0 23.12618 113.38923 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622133714 _13_14 0 23.12618 113.38923 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622133715 null 0 23.12618 113.38923 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622134139 _13_14 0 23.126278 113.389336 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mm 20160622134139 _13_14 0 23.126278 113.389336 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622134151 null 0 23.126278 113.389336 null null null null null null null null null null ChargeCable  home
-com.tencent.mobileqq 20160622141814 _14_15 0 23.126255 113.3894 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mobileqq 20160622141814 _14_15 0 23.126255 113.3894 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622141958 null 0 23.126255 113.3894 null null null null null null null null null null ChargeCable  home
-com.tencent.mobileqq 20160622142435 _14_15 0 23.126312 113.38941 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.tencent.mobileqq 20160622142435 _14_15 0 23.126312 113.38941 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622142559 null 0 23.126312 113.38941 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622143632 _14_15 0 23.126312 113.38941 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622143632 _14_15 0 23.126312 113.38941 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622143634 null 0 0.0 0.0 null null null null null null null null null null LightChanged draker school
-com.tencent.mm 20160622144442 _14_15 0 23.126425 113.38958 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622144442 _14_15 0 23.126425 113.38958 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622144502 null 0 23.126425 113.38958 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622144855 _14_15 0 23.126425 113.38958 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622144855 _14_15 0 23.126425 113.38958 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622144903 null 0 23.126425 113.38958 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622145234 _14_15 5 23.126396 113.38952 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
-com.android.email 20160622145400 _14_15 85 23.126234 113.38929 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622145234 _14_15 5 23.126396 113.38952 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
+com.android.email 20160622145400 _14_15 85 23.126234 113.38929 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622145431 null 0 23.126291 113.38932 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622153329 _15_16 0 23.126219 113.38924 no no "EXCOMM-R2" no thurday no very_drak run null 174 null null home
+com.tencent.mm 20160622153329 _15_16 0 23.126219 113.38924 no no EXCOMM-R2 no thurday no very_drak run null 174 null null home
 insertTarget 20160622153331 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
 com.tencent.mobileqq 20160622153447 _15_16 0 23.126219 113.38924 no yes null no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622153447 null 0 0.0 0.0 null null null null null null null null null null LightChanged lighter school
@@ -2302,26 +2302,26 @@ com.android.email 20160622165032 _16_17 20 23.126225 113.38935 no yes null no th
 com.android.mms 20160622165141 _16_17 50 23.126225 113.38935 no yes null no thurday no very_drak idle urge 174 null null home
 insertTarget 20160622165200 null 30 23.126225 113.38935 null null null null null null null null null null ChargeCable  home
 com.kingpoint.gmcchh 20160622165218 _16_17 0 23.126225 113.38935 no yes null no thurday no very_drak idle null 174 null null home
-insertTarget 20160622165225 null 0 23.126225 113.38935 null null null null null null null null null null WiFiConnected "EXCOMM-R2" home
-com.tencent.mobileqq 20160622165408 _16_17 145 23.126225 113.38935 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mm 20160622165444 _16_17 5 23.12627 113.38931 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+insertTarget 20160622165225 null 0 23.126225 113.38935 null null null null null null null null null null WiFiConnected EXCOMM-R2 home
+com.tencent.mobileqq 20160622165408 _16_17 145 23.126225 113.38935 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mm 20160622165444 _16_17 5 23.12627 113.38931 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622165500 null 0 23.126293 113.38929 null null null null null null null null null null ChargeCable  home
-com.tencent.mobileqq 20160622165548 _16_17 0 23.126293 113.38929 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
+com.tencent.mobileqq 20160622165548 _16_17 0 23.126293 113.38929 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622165600 null 0 23.126293 113.38929 null null null null null null null null null null ChargeCable  home
-com.android.mms 20160622170712 _17_18 0 23.126293 113.38929 no no "EXCOMM-R2" no thurday no very_drak idle ignore 174 null null home
-com.android.email 20160622170714 _17_18 741 23.126293 113.38929 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null home
-com.tencent.mobileqq 20160622170903 _17_18 0 0.0 0.0 no no "EXCOMM-R2" no thurday no very_drak idle middle 174 null null school
+com.android.mms 20160622170712 _17_18 0 23.126293 113.38929 no no EXCOMM-R2 no thurday no very_drak idle ignore 174 null null home
+com.android.email 20160622170714 _17_18 741 23.126293 113.38929 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null home
+com.tencent.mobileqq 20160622170903 _17_18 0 0.0 0.0 no no EXCOMM-R2 no thurday no very_drak idle middle 174 null null school
 insertTarget 20160622171003 null 0 23.12627 113.38931 null null null null null null null null null null ChargeCable  home
-com.tencent.mm 20160622171051 _17_18 210 0.0 0.0 no no "EXCOMM-R2" no thurday no very_drak idle urge 174 null null school
+com.tencent.mm 20160622171051 _17_18 210 0.0 0.0 no no EXCOMM-R2 no thurday no very_drak idle urge 174 null null school
 insertTarget 20160622171103 null 75 23.126368 113.38954 null null null null null null null null null null ChargeCable  home
-com.android.settings 20160622171207 _17_18 0 23.126293 113.38939 no no "EXCOMM-R2" no thurday no very_drak idle null 174 null null home
+com.android.settings 20160622171207 _17_18 0 23.126293 113.38939 no no EXCOMM-R2 no thurday no very_drak idle null 174 null null home
 insertTarget 20160622171213 null 0 23.126293 113.38939 null null null null null null null null null null DataConnected gprs home
-com.flyme.netadmin 20160622171328 _17_18 5 23.126204 113.38918 no no "liu" no thurday no very_drak idle null 174 null null home
-com.android.settings 20160622171333 _17_18 0 23.126204 113.38918 no no "liu" no thurday no very_drak idle null 174 null null home
+com.flyme.netadmin 20160622171328 _17_18 5 23.126204 113.38918 no no liu no thurday no very_drak idle null 174 null null home
+com.android.settings 20160622171333 _17_18 0 23.126204 113.38918 no no liu no thurday no very_drak idle null 174 null null home
 insertTarget 20160622171403 null 50 23.126204 113.38918 null null null null null null null null null null ChargeCable  home
-com.tencent.mobileqq 20160622172104 _17_18 0 23.126202 113.38916 no no "liu" no thurday no very_drak idle middle 174 null null home
+com.tencent.mobileqq 20160622172104 _17_18 0 23.126202 113.38916 no no liu no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622172104 null 0 23.126202 113.38916 null null null null null null null null null null ChargeCable  home
-com.android.chrome 20160622172410 _17_18 30 23.126207 113.389244 no no "liu" no thurday no very_drak idle null 174 null null home
+com.android.chrome 20160622172410 _17_18 30 23.126207 113.389244 no no liu no thurday no very_drak idle null 174 null null home
 insertTarget 20160622172505 null 0 23.126207 113.389244 null null null null null null null null null null ChargeCable  home
 com.android.mms 20160622173209 _17_18 0 23.126207 113.389244 no no null no thurday no very_drak idle middle 174 null null home
 insertTarget 20160622173230 null 0 23.126207 113.389244 null null null null null null null null null null ChargeCable  home
@@ -2378,26 +2378,26 @@ insertTarget 20160622200102 null 0 0.0 0.0 null null null null null null null nu
 com.tencent.mobileqq 20160622202612 _20_21 3795 0.0 0.0 no yes null no thurday no very_drak idle ignore 174 null null school
 com.tencent.mm 20160622210418 _21_22 0 23.1263 113.38937 no yes null no thurday no very_drak idle null 174 null null home
 insertTarget 20160622210419 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mobileqq 20160622215927 _21_22 0 23.132809 113.37206 no no "liu" no thurday no very_drak idle null 174 null null company
+com.tencent.mobileqq 20160622215927 _21_22 0 23.132809 113.37206 no no liu no thurday no very_drak idle null 174 null null company
 insertTarget 20160622215927 null 55 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.tencent.mm 20160622220022 _22_23 0 23.132788 113.37207 no no "liu" no thurday no very_drak idle null 174 null null company
-insertTarget 20160622220743 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected "liu" school
-com.tencent.mobileqq 20160622224245 _22_23 0 0.0 0.0 no no "liu" no thurday no very_drak idle middle 174 null null school
+com.tencent.mm 20160622220022 _22_23 0 23.132788 113.37207 no no liu no thurday no very_drak idle null 174 null null company
+insertTarget 20160622220743 null 0 0.0 0.0 null null null null null null null null null null WiFiConnected liu school
+com.tencent.mobileqq 20160622224245 _22_23 0 0.0 0.0 no no liu no thurday no very_drak idle middle 174 null null school
 insertTarget 20160622224511 null 0 0.0 0.0 null null null null null null null null null null ChargeCable  school
-com.tencent.mm 20160622225348 _22_23 0 23.132784 113.37207 no no "liu" no thurday no very_drak idle null 174 null null company
+com.tencent.mm 20160622225348 _22_23 0 23.132784 113.37207 no no liu no thurday no very_drak idle null 174 null null company
 insertTarget 20160622225348 null 0 0.0 0.0 null null null null null null null null null null LocationChanged  school
-com.supercell.clashroyale 20160622225618 _22_23 0 23.132738 113.37205 no no "liu" no thurday no very_drak idle null 174 null null company
+com.supercell.clashroyale 20160622225618 _22_23 0 23.132738 113.37205 no no liu no thurday no very_drak idle null 174 null null company
 insertTarget 20160622225716 null 0 23.132738 113.37205 null null null null null null null null null null ChargeCable  company
-com.meizu.mstore 20160622225731 _22_23 75 23.132738 113.37205 no no "liu" no thurday no very_drak move ignore 174 null null company
-com.android.alarmclock 20160622225739 _22_23 10 23.132751 113.372055 no no "liu" no thurday no very_drak idle null 174 null null company
+com.meizu.mstore 20160622225731 _22_23 75 23.132738 113.37205 no no liu no thurday no very_drak move ignore 174 null null company
+com.android.alarmclock 20160622225739 _22_23 10 23.132751 113.372055 no no liu no thurday no very_drak idle null 174 null null company
 insertTarget 20160622225900 null 0 23.132751 113.372055 null null null null null null null null null null ChargeCable  company
-com.tencent.mm 20160622233800 _23_24 105 23.132753 113.37208 no no "liu" no thurday no very_drak idle null 174 null null company
-com.meizu.media.gallery 20160622233946 _23_24 140 23.132765 113.37207 no no "liu" no thurday no very_drak idle null 174 null null company
-com.tencent.mm 20160622234212 _23_24 5 23.13275 113.37195 no no "liu" no thurday no very_drak idle null 174 null null company
-com.taobao.fleamarket 20160622234222 _23_24 190 23.13275 113.37195 no no "liu" no thurday no very_drak idle null 174 null null company
-com.dianping.v1 20160622234533 _23_24 5 23.132784 113.372086 no no "liu" no thurday no very_drak idle null 174 null null company
-com.tencent.mm 20160622234609 _23_24 50 23.132784 113.372086 no no "liu" no thurday no very_drak idle null 174 null null company
-com.tencent.mobileqq 20160622234700 _23_24 10 23.132776 113.37199 no no "liu" no thurday no very_drak idle null 174 null null company
+com.tencent.mm 20160622233800 _23_24 105 23.132753 113.37208 no no liu no thurday no very_drak idle null 174 null null company
+com.meizu.media.gallery 20160622233946 _23_24 140 23.132765 113.37207 no no liu no thurday no very_drak idle null 174 null null company
+com.tencent.mm 20160622234212 _23_24 5 23.13275 113.37195 no no liu no thurday no very_drak idle null 174 null null company
+com.taobao.fleamarket 20160622234222 _23_24 190 23.13275 113.37195 no no liu no thurday no very_drak idle null 174 null null company
+com.dianping.v1 20160622234533 _23_24 5 23.132784 113.372086 no no liu no thurday no very_drak idle null 174 null null company
+com.tencent.mm 20160622234609 _23_24 50 23.132784 113.372086 no no liu no thurday no very_drak idle null 174 null null company
+com.tencent.mobileqq 20160622234700 _23_24 10 23.132776 113.37199 no no liu no thurday no very_drak idle null 174 null null company
 insertTarget 20160622234838 null 0 23.132776 113.37199 null null null null null null null null null null WiFiConnected <unknown ssid> company
 com.tencent.mm 20160623010931 _1_2 0 23.13281 113.37202 no yes null no fridNay no very_drak idle null 175 null null company
 insertTarget 20160623010931 null 110 0.0 0.0 null null null null null null null null null null LocationChanged  school
@@ -2508,7 +2508,7 @@ insertTarget 20160623105106 null 110 0.0 0.0 null null null null null null null 
 com.android.email 20160623105256 _10_11 5 23.132788 113.3721 no yes null no fridNay no very_drak idle null 175 null null company
 com.tencent.mm 20160623105303 _10_11 5 23.132788 113.3721 no yes null no fridNay no very_drak idle urge 175 null null company
 com.tencent.mobileqq 20160623105327 _10_11 0 23.13277 113.372086 no yes null no fridNay no very_drak idle null 175 null null company
-insertTarget 20160623105338 null 0 23.13277 113.372086 null null null null null null null null null null WiFiConnected "liu" company
-com.tencent.mm 20160623105343 _10_11 325 0.0 0.0 no no "liu" no fridNay no very_drak idle null 175 null null school
+insertTarget 20160623105338 null 0 23.13277 113.372086 null null null null null null null null null null WiFiConnected liu company
+com.tencent.mm 20160623105343 _10_11 325 0.0 0.0 no no liu no fridNay no very_drak idle null 175 null null school
 insertTarget 20160623105919 null 20 23.132807 113.37206 null null null null null null null null null null DataConnected gprs company
 com.supercell.clashroyale 20160623105929 _10_11 0 23.132854 113.37209 no yes null no fridNay no very_drak idle null 175 null null company
