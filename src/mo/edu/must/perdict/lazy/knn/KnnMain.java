@@ -181,9 +181,45 @@ public class KnnMain {
     public static float computeDistance(Instance inst1, Instance inst2) {
         float distance = 0f;
 
-        float similarity = parseFloat(
+        StringBuilder builder = new StringBuilder();
+        float similarity;
+
+        similarity = parseFloat(
                 SIMILARITY_MAP.get(inst1.getLastApp() + " " + inst2.getLastApp()), 0.0f);
         distance += 1 - similarity;
+        builder.append("App: " + inst1.getLastApp() + ", " + inst2.getLastApp() + " = " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastBluetooth() + " " + inst2.getLastBluetooth()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Bluetooth: " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastWifi() + " " + inst2.getLastWifi()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Wifi: " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastAudio() + " " + inst2.getLastAudio()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Audio: " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastLight() + " " + inst2.getLastLight()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Light: " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastLocation() + " " + inst2.getLastLocation()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Location: " + similarity);
+
+        similarity = parseFloat(
+                SIMILARITY_MAP.get(inst1.getLastCharge() + " " + inst2.getLastCharge()), 0.0f);
+        distance += 1 - similarity;
+        builder.append(", Charge: " + similarity);
+
+        System.out.println(builder.toString());
 
         return distance;
     }
