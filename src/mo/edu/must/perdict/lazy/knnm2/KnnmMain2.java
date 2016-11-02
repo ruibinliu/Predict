@@ -14,6 +14,7 @@ import mo.edu.must.perdict.utils.FileUtils;
 import mo.edu.must.perdict.utils.FileUtils.Listener;
 
 public class KnnmMain2 {
+    /*
     public static void main(String[] args) {
         final ArrayList<String> records = new ArrayList<>();
         FileUtils.read("data/mdc-data-out.txt", new Listener() {
@@ -244,4 +245,5 @@ public class KnnmMain2 {
                     + accuracy);
         }
     }
+    */
 }

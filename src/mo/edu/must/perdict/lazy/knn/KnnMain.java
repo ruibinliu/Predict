@@ -13,7 +13,7 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
 /** KNN算法测试类 */
 public class KnnMain {
     public static final int TOP_K = 5;
-    private static final HashMap<String, String> SIMILARITY_MAP = new HashMap<>();
+    private static final HashMap<String, HashMap<String, String>> SIMILARITY_MAP = new HashMap<>();
 
     /** 程序执行入口 */
     public static void main(String[] args) {
@@ -171,9 +171,15 @@ public class KnnMain {
         FileUtils.read("out/similarity.txt", new Listener() {
             @Override
             public void onReadLine(String line) {
-                String key = line.substring(0, line.lastIndexOf(" "));
-                String value = line.substring(line.lastIndexOf(" ") + 1);
-                SIMILARITY_MAP.put(key, value);
+                String[] split = line.split(" ");
+                if (split.length < 3) return;
+
+                HashMap<String, String> map = SIMILARITY_MAP.get(split[0]);
+                if (map == null) {
+                    map = new HashMap<>();
+                    SIMILARITY_MAP.put(split[0], map);
+                }
+                map.put(split[1], split[2]);
             }
         });
     }
@@ -181,47 +187,39 @@ public class KnnMain {
     public static float computeDistance(Instance inst1, Instance inst2) {
         float distance = 0f;
 
-        StringBuilder builder = new StringBuilder();
         float similarity;
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastApp() + " " + inst2.getLastApp()), 0.0f);
+        similarity = getSimilarity(inst1.getLastApp(), inst2.getLastApp());
         distance += 1 - similarity;
-        builder.append("App: " + inst1.getLastApp() + ", " + inst2.getLastApp() + " = " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastBluetooth() + " " + inst2.getLastBluetooth()), 0.0f);
+        similarity = getSimilarity(inst1.getLastBluetooth(), inst2.getLastBluetooth());
         distance += 1 - similarity;
-        builder.append(", Bluetooth: " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastWifi() + " " + inst2.getLastWifi()), 0.0f);
+        similarity = getSimilarity(inst1.getLastWifi(), inst2.getLastWifi());
         distance += 1 - similarity;
-        builder.append(", Wifi: " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastAudio() + " " + inst2.getLastAudio()), 0.0f);
+        similarity = getSimilarity(inst1.getLastAudio(), inst2.getLastAudio());
         distance += 1 - similarity;
-        builder.append(", Audio: " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastLight() + " " + inst2.getLastLight()), 0.0f);
+        similarity = getSimilarity(inst1.getLastLight(), inst2.getLastLight());
         distance += 1 - similarity;
-        builder.append(", Light: " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastLocation() + " " + inst2.getLastLocation()), 0.0f);
+        similarity = getSimilarity(inst1.getLastLocation(), inst2.getLastLocation());
         distance += 1 - similarity;
-        builder.append(", Location: " + similarity);
 
-        similarity = parseFloat(
-                SIMILARITY_MAP.get(inst1.getLastCharge() + " " + inst2.getLastCharge()), 0.0f);
+        similarity = getSimilarity(inst1.getLastCharge(), inst2.getLastCharge());
         distance += 1 - similarity;
-        builder.append(", Charge: " + similarity);
-
-        System.out.println(builder.toString());
 
         return distance;
+    }
+
+    private static float getSimilarity(String key1, String key2) {
+        HashMap<String, String> map = SIMILARITY_MAP.get(key2);
+        if (map == null) {
+            map = new HashMap<>();
+            SIMILARITY_MAP.put(key1, map);
+        }
+        return parseFloat(map.get(key2), 0.0f);
     }
 
     public static float parseFloat(String string, float defaultValue) {
