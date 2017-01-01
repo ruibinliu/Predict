@@ -156,6 +156,7 @@ public class KnnmMain3 {
                     instanceCovered.add(instance);
                 }
             }
+            // end of train
 
             for (KnnmCluster cluster : knnm) {
                 System.out.println(String.format("Cluster: <Cls=%s, Sim=%s, Num=%s, Rep=%s>",

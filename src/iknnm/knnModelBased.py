@@ -361,7 +361,7 @@ def classify(x, representatives, top_k, is_crop=False):
 
     return labels
 
-
+#               x_train_iknnm, iknnm, top_k, is_crop
 def classify_all(x, representatives, top_k, is_crop=False):
     if is_crop:
         for rep in representatives:
@@ -374,7 +374,7 @@ def classify_all(x, representatives, top_k, is_crop=False):
     classify_times = 0
     for k in range(1, top_k + 1):
         predicted_labels = list()
-        for i in range(x.shape[0]):
+        for i in range(x.shape[0]):  # length of x's first latitude
             labels = classify(x[i], representatives, k, is_crop)
             predicted_labels.append(labels)
             classify_times += 1
@@ -395,7 +395,7 @@ def print_model(model):
     print("Model size: %d" % len(model))
     for rep in model:
         if len(rep) > 5:
-            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s, fac=%s, cor=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4], rep[5], rep[6]))
+            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s, fac=%s, cor=%s>   " % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4], rep[5], rep[6]))
         else:
             print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
 
@@ -455,14 +455,14 @@ def kfold_cross_validation(x, labels, k):
 
         top_k = 5
         is_crop = True
-        k_delete_factor = 5
+        k_delete_factor = 5 # 错分样本阀值
 
         iknnm = knnm
-        for i in range(0, len(x_train_iknnm_list)):
+        for i in range(0, len(x_train_iknnm_list)): # 遍历 iknnm 训练集
             start = time.clock()
             print("===== IKNNM training the %d fold =====" % (i + 1))
             x_train_iknnm = x_train_iknnm_list[i]
-            labels_train_iknnm = labels_train_iknnm_list[i]
+            labels_train_iknnm = labels_train_iknnm_list[i]  # TODO 这个是什么意思？
             if is_crop:
                 classify_all(x_train_iknnm, iknnm, top_k, is_crop)
                 print_model(iknnm)
