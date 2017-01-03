@@ -1,12 +1,14 @@
 package mo.edu.must.perdict.lazy.iknnm;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import mo.edu.must.perdict.lazy.knn.Dataset;
 import mo.edu.must.perdict.lazy.knn.Instance;
 import mo.edu.must.perdict.lazy.knn.KnnMain;
 import mo.edu.must.perdict.utils.FileUtils;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 
 /**
  * Created by HackerZ on 2016/12/24.
@@ -110,7 +112,7 @@ public class IknnmMain {
 
             ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
             for (IknnmCluster iknn1 : representatives) {
-                float distance = getDistance(d, iknn1.req);
+                float distance = KnnMain.computeDistance(d.req, iknn1.req);
                 LabelIknnm labelIknn = new LabelIknnm();
                 labelIknn.iknnmcluster = iknn1;
                 labelIknn.distance = distance;
@@ -175,7 +177,7 @@ public class IknnmMain {
                             if (n == m)
                                 continue;
                             IknnmCluster rep2 = representatives.get(n);
-                            float distance = getDistance(rep1.req, rep2.req);
+                            float distance = KnnMain.computeDistance(rep1.req, rep2.req);
                             if ((distance < rep1.sim + rep2.sim) && (rep1.cls != rep2.cls)){
                                 canExtend = false;
                                 break;
@@ -183,7 +185,7 @@ public class IknnmMain {
                         }
                         if (canExtend){
                             rep1.num.add(i);
-                            float distance = getDistance(rep1.req, d.req);
+                            float distance = KnnMain.computeDistance(rep1.req, d.req);
                             representatives.remove(m);
                             representatives.add(m, rep1);
                             status[i] = 1;
@@ -210,7 +212,7 @@ public class IknnmMain {
                 ArrayList<Instance> inst =  repInst.num;
                 float sim = repInst.sim;
 
-                float d = getDistance(e, rep);
+                float d = KnnMain.computeDistance(e, rep);
 
                 if (d <= sim)
                     inst.add(e);
@@ -232,7 +234,7 @@ public class IknnmMain {
             System.out.print("inst = " + inst.size());
 
             for (int j = 0; j < inst.size(); j++) {
-                float d = getDistance(inst.get(j), repInst.req);
+                float d = KnnMain.computeDistance(inst.get(j), repInst.req);
                 float wj = 0;
                 if (d > 0 && sim < 0) {
                     wj = d / sim;
@@ -317,7 +319,7 @@ public class IknnmMain {
         Iknnm inReq  = new Iknnm();
 
         for (IknnmCluster iknn : iknnm) {
-            float distance = KnnMain.computeDistance(trainIknnm, iknn.req);// TODO 完成getDistance函数
+            float distance = KnnMain.computeDistance(trainIknnm.req, iknn.req);// TODO 完成getDistance函数
             LabelIknnm labIknn = new LabelIknnm();
             labIknn.iknnmcluster = iknn;
             labIknn.distance = distance;

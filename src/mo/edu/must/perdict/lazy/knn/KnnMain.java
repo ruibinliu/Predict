@@ -185,30 +185,25 @@ public class KnnMain {
     }
 
     public static float computeDistance(Instance inst1, Instance inst2) {
-        float distance = 0f;
+        float similarity1 = getSimilarity(inst1.getLastApp(), inst2.getLastApp());
+        float similarity2 = getSimilarity(inst1.getLastBluetooth(), inst2.getLastBluetooth());
+        float similarity3 = getSimilarity(inst1.getLastWifi(), inst2.getLastWifi());
+        float similarity4 = getSimilarity(inst1.getLastAudio(), inst2.getLastAudio());
+        float similarity5 = getSimilarity(inst1.getLastLight(), inst2.getLastLight());
+        float similarity6 = getSimilarity(inst1.getLastLocation(), inst2.getLastLocation());
+        float similarity7 = getSimilarity(inst1.getLastCharge(), inst2.getLastCharge());
+        float similarity8 = getSimilarity(inst1.getLastData(), inst2.getLastData());
 
-        float similarity;
-
-        similarity = getSimilarity(inst1.getLastApp(), inst2.getLastApp());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastBluetooth(), inst2.getLastBluetooth());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastWifi(), inst2.getLastWifi());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastAudio(), inst2.getLastAudio());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastLight(), inst2.getLastLight());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastLocation(), inst2.getLastLocation());
-        distance += 1 - similarity;
-
-        similarity = getSimilarity(inst1.getLastCharge(), inst2.getLastCharge());
-        distance += 1 - similarity;
+        float distance = (float) Math.sqrt(
+                Math.pow(similarity1, 2) +
+                Math.pow(similarity2, 2) +
+                Math.pow(similarity3, 2) +
+                Math.pow(similarity4, 2) +
+                Math.pow(similarity5, 2) +
+                Math.pow(similarity6, 2) +
+                Math.pow(similarity7, 2) +
+                Math.pow(similarity8, 2)
+                );
 
         return distance;
     }
