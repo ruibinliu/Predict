@@ -97,10 +97,11 @@ public class IknnmMain {
             Iknnm trainIknnm = new Iknnm();
             Iknnm iknnm = new Iknnm();
 
+            iknnm = trainIknnm(trainIknnm, iknnm);
         }
     }
 
-    public trainIknnm(Iknnm representatives, Iknnm x, Iknnm y, int erd,boolean isCorp){
+    public Iknnm trainIknnm(Iknnm representatives, Iknnm x, Iknnm y, int erd,boolean isCorp){
         int status[];
         status = new int[x.size()];
 
@@ -277,32 +278,93 @@ public class IknnmMain {
             status[i] = 0;
         }
         notCoverd = getNotCovered(status);
-        float distanceMatrix[] = getDistanceMatrix(x);
+        ArrayList<Iknnm> distanceMatrix = getDistanceMatrix(x);
         Iknnm newReps = new Iknnm();
 
         int lay = 0;
 
-        while (notCoverd.length) > 0{
+        while (notCoverd.length > 0) {
             Iknnm maxNeighbourhood = new Iknnm();
-            tuple_max_neighbourhood = null;
+            int tuple_max_neighbourhood = 0;
             for (int i = 0; i < notCoverd.length; i++) {
-                float distance = distanceMatrix[i];
+                 Iknnm distances = new Iknnm();
+                distances = distanceMatrix.get(i);
 
-                // TODO Line 233
+                // sort distance
+                Collections.sort(distances, new Comparator<IknnmCluster>() {
+                    @Override
+                    public int compare(IknnmCluster o1, IknnmCluster o2) {
+                        return o1.num.size() - o2.num.size();
+                    }
+                });
+
+                Iknnm sorted_distance = distances;
+
+                // filter only those which has not been yet covered
+                for (int j = 0; j < sorted_distance.size(); j++) {
+                    if (status[j] == 0) {
+                        sorted_distance.remove(j);
+                    }
+                }
+
+                // compute neighbourhood
+                int q = 0;
+                Iknnm neighbourhood = new Iknnm();
+                int error = 0;
+                while(q < sorted_distance.size() && labels.get(sorted_distance.get(q).num.size()) == labels.get(i) || error<erd)) {
+                    neighbourhood.add(sorted_distance.get(q));
+                    if (labels.get(sorted_distance.get(q).num.size()) != labels.get(i)){
+                        error++; // 计算错分率
+                    }
+                    q+=1;
+                }
+
+                if (neighbourhood.size() > maxNeighbourhood.size()) {
+                    maxNeighbourhood = neighbourhood;
+                    tuple_max_neighbourhood = i;
+                }
             }
+            // add representative
+            // representatives format (rep(di), all_tuples in neighbourhood, class(di), Sim(di))
+            IknnmCluster rep = x.get(tuple_max_neighbourhood);
+            Iknnm num = maxNeighbourhood;
+            IknnmCluster cls = labels.get(tuple_max_neighbourhood);
+            Iknnm sim = distanceMatrix.get(tuple_max_neighbourhood);
+            newReps.add(rep);
+
+            for (int i = 0; i < maxNeighbourhood.size(); i++) {
+                status[i] = 1;
+            }
+            notCoverd = getNotCovered(status);
+
+            for (IknnmCluster r : newReps) {
+                representatives.add(r);
+            }
+
+            return representatives;
         }
     }
 
-    public Iknnm classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+    // TODO getNotCover
+    public int[] getNotCovered(int[] status) {
+        return status;
+    }
+
+    // TODO getDistanceMatrix
+    public ArrayList<Iknnm> getDistanceMatrix(Iknnm distanceMatrix){
+        return new ArrayList<>();
+    }
+
+    public ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
         // 原  <rep, num, cls, sim, lay, fac, cor> iknn model
-        Iknnm predictedLabelList = new Iknnm();
+        ArrayList predictedLabelList = new ArrayList<Iknnm>();
         long startClassTime, endClassTime;
         int classifyTimes = 0;
         startClassTime = System.currentTimeMillis();
         for (int i = 1;i < topK+1;i++) {
             Iknnm predictedLabels = new Iknnm();
             for (int j = 0;j< trainIknnm.size();j++) {
-                ArrayList<String> labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
+                IknnmCluster labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
                 predictedLabels.add(labels);
                 classifyTimes += 1;
             }
@@ -314,12 +376,12 @@ public class IknnmMain {
         return predictedLabelList;
     }
 
-    public ArrayList<String> classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+    public IknnmCluster classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
         ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
         Iknnm inReq  = new Iknnm();
 
         for (IknnmCluster iknn : iknnm) {
-            float distance = KnnMain.computeDistance(trainIknnm.req, iknn.req);// TODO 完成getDistance函数
+            float distance = KnnMain.computeDistance(trainIknnm.req, iknn.req);
             LabelIknnm labIknn = new LabelIknnm();
             labIknn.iknnmcluster = iknn;
             labIknn.distance = distance;
