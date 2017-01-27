@@ -97,11 +97,11 @@ public class IknnmMain {
             Iknnm trainIknnm = new Iknnm();
             Iknnm iknnm = new Iknnm();
 
-            iknnm = trainIknnm(trainIknnm, iknnm);
+            iknnm = trainIknnm(trainIknnm, iknnm, iknnm, 0, false);
         }
     }
 
-    public Iknnm trainIknnm(Iknnm representatives, Iknnm x, Iknnm y, int erd,boolean isCorp){
+    public static Iknnm trainIknnm(Iknnm representatives, Iknnm x, Iknnm y, int erd,boolean isCorp){
         int status[];
         status = new int[x.size()];
 
@@ -156,7 +156,7 @@ public class IknnmMain {
                         float sim = representative.sim;
 
                         if (distance <= sim && actualClass.cls == predictedClass){
-                            representative.num.add(i);
+                            representative.num.add(d.num.get(i));
                         }
                     }
                 }else {
@@ -185,7 +185,7 @@ public class IknnmMain {
                             }
                         }
                         if (canExtend){
-                            rep1.num.add(i);
+                            rep1.num.add(d.num.get(i));
                             float distance = KnnMain.computeDistance(rep1.req, d.req);
                             representatives.remove(m);
                             representatives.add(m, rep1);
@@ -204,7 +204,7 @@ public class IknnmMain {
 
         Iknnm repInstList = new Iknnm();
         for (IknnmCluster rep:representatives) {
-            repInstList.add()
+            repInstList.add(rep);
         }
 
         for (IknnmCluster e: inCorrectlyClassifyInstances) {
@@ -213,10 +213,10 @@ public class IknnmMain {
                 ArrayList<Instance> inst =  repInst.num;
                 float sim = repInst.sim;
 
-                float d = KnnMain.computeDistance(e, rep);
+                float d = KnnMain.computeDistance(e.num.get(0), rep);
 
                 if (d <= sim)
-                    inst.add(e);
+                    inst.addAll(e.num);
             }
         }
 
@@ -265,7 +265,7 @@ public class IknnmMain {
             }
         }
 
-        int notCoverd[] = getNotCovered(status);
+        ArrayList<Integer> notCoverd = getNotCovered(status);
 
         for (int i : notCoverd) {
             x.remove(i);
@@ -283,10 +283,10 @@ public class IknnmMain {
 
         int lay = 0;
 
-        while (notCoverd.length > 0) {
+        while (notCoverd.size() > 0) {
             Iknnm maxNeighbourhood = new Iknnm();
             int tuple_max_neighbourhood = 0;
-            for (int i = 0; i < notCoverd.length; i++) {
+            for (int i = 0; i < notCoverd.size(); i++) {
                  Iknnm distances = new Iknnm();
                 distances = distanceMatrix.get(i);
 
@@ -311,7 +311,7 @@ public class IknnmMain {
                 int q = 0;
                 Iknnm neighbourhood = new Iknnm();
                 int error = 0;
-                while(q < sorted_distance.size() && labels.get(sorted_distance.get(q).num.size()) == labels.get(i) || error<erd)) {
+                while(q < sorted_distance.size() && labels.get(sorted_distance.get(q).num.size()) == labels.get(i) || error<erd) {
                     neighbourhood.add(sorted_distance.get(q));
                     if (labels.get(sorted_distance.get(q).num.size()) != labels.get(i)){
                         error++; // 计算错分率
@@ -341,21 +341,26 @@ public class IknnmMain {
                 representatives.add(r);
             }
 
-            return representatives;
         }
+        return representatives;
     }
 
-    // TODO getNotCover
-    public int[] getNotCovered(int[] status) {
-        return status;
+    public static ArrayList<Integer> getNotCovered(int[] status) {
+        ArrayList<Integer> notCovered = new ArrayList<>();
+        for (int i = 0; i < status.length; i++) {
+            if (status[i] != 0) {
+                notCovered.add(status[i]);
+            }
+        }
+        return notCovered;
     }
 
     // TODO getDistanceMatrix
-    public ArrayList<Iknnm> getDistanceMatrix(Iknnm distanceMatrix){
+    public static ArrayList<Iknnm> getDistanceMatrix(Iknnm distanceMatrix){
         return new ArrayList<>();
     }
 
-    public ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+    public static ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
         // 原  <rep, num, cls, sim, lay, fac, cor> iknn model
         ArrayList predictedLabelList = new ArrayList<Iknnm>();
         long startClassTime, endClassTime;
@@ -364,8 +369,8 @@ public class IknnmMain {
         for (int i = 1;i < topK+1;i++) {
             Iknnm predictedLabels = new Iknnm();
             for (int j = 0;j< trainIknnm.size();j++) {
-                IknnmCluster labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
-                predictedLabels.add(labels);
+                Iknnm labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
+                predictedLabels.addAll(labels);
                 classifyTimes += 1;
             }
             predictedLabelList.add(predictedLabels);
@@ -376,7 +381,7 @@ public class IknnmMain {
         return predictedLabelList;
     }
 
-    public IknnmCluster classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+    public static Iknnm classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
         ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
         Iknnm inReq  = new Iknnm();
 
@@ -398,7 +403,7 @@ public class IknnmMain {
             });
         }
 
-            ArrayList<String> labels = new ArrayList<>();
+        Iknnm labels = new Iknnm();
 
         for (int k = 0; k < topK; k++) {
             if (inReq.size() > 0) {
@@ -420,7 +425,7 @@ public class IknnmMain {
                         }
                     }
                     inReq.remove(inReq.get(0));
-                    labels.add(inReq.get(0).cls);
+                    labels.add(inReq.get(0));
                 }else {
                     IknnmCluster maxIknnm = Collections.max(inReq, new Comparator<IknnmCluster>() {
                         @Override
@@ -458,7 +463,8 @@ public class IknnmMain {
                     }
                     inReq = newInRep;
 
-                    labels.add(cls);
+                    IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
+                    labels.add(IknnCls);
                 }
 
             }else {
@@ -495,7 +501,9 @@ public class IknnmMain {
                 }
                 labelDistanceList = newLabelDistanceList;
                 String cls = sameLay.get(0).iknnmcluster.cls;
-                labels.add(cls);
+
+                IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
+                labels.add(IknnCls);
             }
         }
         return labels;
