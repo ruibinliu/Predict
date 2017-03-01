@@ -18,7 +18,7 @@ public class KnnMain {
     /** 程序执行入口 */
     public static void main(String[] args) {
         final ArrayList<String> records = new ArrayList<>();
-        FileUtils.read("out/tan-data.txt", new Listener() {
+        FileUtils.read("out/new_vector.txt", new Listener() {
             @Override
             public void onReadLine(String line) {
                 records.add(line);

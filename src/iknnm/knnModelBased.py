@@ -455,14 +455,14 @@ def kfold_cross_validation(x, labels, k):
 
         top_k = 5
         is_crop = True
-        k_delete_factor = 5 # 错分样本阀值
+        k_delete_factor = 5 
 
         iknnm = knnm
-        for i in range(0, len(x_train_iknnm_list)): # 遍历 iknnm 训练集
+        for i in range(0, len(x_train_iknnm_list)): 
             start = time.clock()
             print("===== IKNNM training the %d fold =====" % (i + 1))
             x_train_iknnm = x_train_iknnm_list[i]
-            labels_train_iknnm = labels_train_iknnm_list[i]  # TODO 这个是什么意思？
+            labels_train_iknnm = labels_train_iknnm_list[i]  
             if is_crop:
                 classify_all(x_train_iknnm, iknnm, top_k, is_crop)
                 print_model(iknnm)

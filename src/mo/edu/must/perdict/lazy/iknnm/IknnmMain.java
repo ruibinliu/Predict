@@ -16,13 +16,13 @@ import java.util.HashMap;
 public class IknnmMain {
     public static void main() {
         final ArrayList<String> records = new ArrayList<>();
-        FileUtils.read("out/tan-data.txt", new FileUtils.Listener() {
+        FileUtils.read("data/issue-1819.txt", new FileUtils.Listener() {
             @Override
             public void onReadLine(String line) {
                 records.add(line);
             }
         });
-        records.remove(0); // 第一行是字段的说明
+        // records.remove(0); // 第一行是字段的说明
 
         Dataset dataset = new Dataset();
         for (String line : records) {
@@ -42,7 +42,7 @@ public class IknnmMain {
         System.out.println("Test: " + testingSize);
         System.out.println("Count: " + trainingSize * testingSize);
 
-        int[] totalMatched = new int[top];
+        int[] totalMatched = new int[top]; // 输出5个预测结果
         int[] totalUnmatched = new int[top];
 
         // for search match or unmatch node
@@ -98,6 +98,8 @@ public class IknnmMain {
             Iknnm iknnm = new Iknnm();
 
             iknnm = trainIknnm(trainIknnm, iknnm, iknnm, 0, false);
+            System.out.println("===========");
+            System.out.println(iknnm);
         }
     }
 
@@ -197,8 +199,8 @@ public class IknnmMain {
             }
         }
 
-        System.out.print("Correctly classified instances: " + correctlyClassifyInstances.size());
-        System.out.print("Incorrectly classified instances: " + inCorrectlyClassifyInstances.size());
+        System.out.println("Correctly classified instances: " + correctlyClassifyInstances.size());
+        System.out.println("Incorrectly classified instances: " + inCorrectlyClassifyInstances.size());
 
         // Done step 1 ~ 5
 

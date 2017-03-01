@@ -3,10 +3,10 @@ from knnModelBased import *
 
 def main():
     # read data
-    data = np.genfromtxt('../../data/knnm-data.txt',  delimiter=" ", skip_header=False)
+    data = np.genfromtxt('../../out/new_vector.txt',  delimiter=" ", skip_header=False)
 
-    x = data[:, 0:400]
-    y = data[:, 400]
+    x = data[:, 0:100]
+    y = data[:, 100]
 
     classes, y = np.unique(y, return_inverse=True)
 

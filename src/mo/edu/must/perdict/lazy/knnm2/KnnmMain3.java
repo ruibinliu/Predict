@@ -17,7 +17,7 @@ import mo.edu.must.perdict.utils.FileUtils.Listener;
 public class KnnmMain3 {
     public static void main(String[] args) {
         final ArrayList<String> records = new ArrayList<>();
-        FileUtils.read("out/tan-data.txt", new Listener() {
+        FileUtils.read("out/word-vector.txt", new Listener() {
             @Override
             public void onReadLine(String line) {
                 records.add(line);

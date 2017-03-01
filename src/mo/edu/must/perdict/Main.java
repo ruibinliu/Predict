@@ -1,7 +1,8 @@
 
 package mo.edu.must.perdict;
 
-import mo.edu.must.perdict.lazy.knn.KnnMain;
+import mo.edu.must.perdict.lazy.knnm2.KnnmMain3;
+import mo.edu.must.perdict.lazy.iknnm.IknnmMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Main {
 //        TanMain.main(new String[] {
 //            "data/mdc-out.txt"
 //        });
-
-        KnnMain.main(new String[] {});
+//        KnnmMain3.main(new String[]{});
+        IknnmMain.main();
     }
 }
