@@ -344,6 +344,14 @@ public class IknnmMain {
             }
 
         }
+
+        // sort lay
+        Collections.sort(representatives, new Comparator<IknnmCluster>() {
+            @Override
+            public int compare(IknnmCluster o1, IknnmCluster o2) {
+                return o1.lay - o2.lay;
+            }
+        });
         return representatives;
     }
 
@@ -511,4 +519,35 @@ public class IknnmMain {
         return labels;
     }
 
+    public static void verify(Iknnm representatives, int top,Dataset testData) { // 必须先对 IknnModel 的lay进行排序
+        int[] matched = new int[top];
+        int[] unmatched  = new int[top];
+
+        for (int i = 0; i < top; i++) {
+            matched[i] = unmatched[i] = 0;
+        }
+
+        // 将数据放置在模型里，然后根据需要获取的预测个数，拿到最近的预测结果
+        // 将预测结果放到 HashMap 里面匹配，如果有其中之一匹配成功，那就 match++ ，否则将 unmatch++
+        // match/count : 准度
+        for (int i = 0; i < testData.size(); i++) {
+            for (int j = 0; j < top; j++) {
+                // TODO 将数据放置在模型
+                for (int k = 0; k < representatives.size(); k++) {
+                    if (representatives.get(k).cls.equals(testData.get(i).getApp())) {
+                        matched[i]++;
+                    }else {
+                        unmatched[i]++;
+                    }
+                }
+            }
+        }
+        int matchCount = 0;
+        for (int i = 0; i < matched.length; i++) {
+            if (matched[i] > 0) {
+                matchCount++;
+            }
+        }
+        System.out.printf("总体预测准度为：%d\n", matchCount/testData.size());
+    }
 }
