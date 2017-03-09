@@ -133,14 +133,14 @@ public class IknnmMain {
             boolean isClassified = false;
             for (LabelIknnm labeliknn1:labelDistanceList){
                 IknnmCluster representative = labeliknn1.iknnmcluster;
-                float distance = labeliknn1.distance;
+                double distance = labeliknn1.distance;
                 String predictedClass = representative.cls;
                 float sim = representative.sim;
 
                 if (distance <= sim){
                     isInCluster = true;  // In the cluster
 
-                    if (actualClass.cls == predictedClass) {
+                    if (actualClass.equals(predictedClass)) {
                         isClassified = true;
                         break;
                     }
@@ -153,12 +153,12 @@ public class IknnmMain {
                     correctlyClassifyInstances.add(d);
                     for (LabelIknnm labelDistance1: labelDistanceList) {
                         IknnmCluster representative = labelDistance1.iknnmcluster;
-                        float distance = labelDistance1.distance;
+                        double distance = labelDistance1.distance;
                         String predictedClass = representative.cls;
                         float sim = representative.sim;
 
-                        if (distance <= sim && actualClass.cls == predictedClass){
-                            representative.num.add(d.num.get(i));
+                        if (distance <= sim && actualClass.equals(predictedClass)){
+                            representative.num.add(d);
                         }
                     }
                 }else {
@@ -174,21 +174,21 @@ public class IknnmMain {
                 for (int m = 0; m < representatives.size(); m++) {
                     IknnmCluster rep1 = representatives.get(m);
 
-                    if (rep1.cls == predictedClass) {
+                    if (rep1.cls.equals(predictedClass)) {
                         boolean canExtend = true;
                         for (int n = 0; n < representatives.size(); n++) {
                             if (n == m)
                                 continue;
                             IknnmCluster rep2 = representatives.get(n);
-                            float distance = KnnMain.computeDistance(rep1.req, rep2.req);
+                            double distance = computeDistance(rep1.req.getVector(), rep2.req.getVector());
                             if ((distance < rep1.sim + rep2.sim) && (rep1.cls != rep2.cls)){
                                 canExtend = false;
                                 break;
                             }
                         }
                         if (canExtend){
-                            rep1.num.add(d.num.get(i));
-                            float distance = KnnMain.computeDistance(rep1.req, d.req);
+                            rep1.num.add(d);
+                            double distance = computeDistance(rep1.req.getVector(), d.getVector());
                             representatives.remove(m);
                             representatives.add(m, rep1);
                             status[i] = 1;
@@ -209,36 +209,36 @@ public class IknnmMain {
             repInstList.add(rep);
         }
 
-        for (IknnmCluster e: inCorrectlyClassifyInstances) {
+        for (iknnInstance e: inCorrectlyClassifyInstances) {
             for (IknnmCluster repInst : repInstList) {
-                Instance rep = repInst.req;
-                ArrayList<Instance> inst =  repInst.num;
+                iknnInstance rep = repInst.req;
+                ArrayList<iknnInstance> inst =  repInst.num;
                 float sim = repInst.sim;
 
-                float d = KnnMain.computeDistance(e.num.get(0), rep);
+                double d = computeDistance(e.getVector(), rep.getVector());
 
                 if (d <= sim)
-                    inst.addAll(e.num);
+                    inst.add(e);
             }
         }
 
         float minDistance = 0;
         for (int i = 0; i < repInstList.size(); i++) {
             IknnmCluster repInst = repInstList.get(i);
-            Instance rep = repInst.req;
-            ArrayList<Instance> inst = repInst.num;
+            iknnInstance rep = repInst.req;
+            ArrayList<iknnInstance> inst = repInst.num;
             if (inst.size() == 0)
                 continue;
 
             int num = inst.size();
-            float sim = repInst.sim;
+            double sim = repInst.sim;
 
             float w = 0;
             System.out.print("inst = " + inst.size());
 
             for (int j = 0; j < inst.size(); j++) {
-                float d = KnnMain.computeDistance(inst.get(j), repInst.req);
-                float wj = 0;
+                double d = computeDistance(inst.get(j).getVector(), repInst.req.getVector());
+                double wj = 0;
                 if (d > 0 && sim < 0) {
                     wj = d / sim;
                 }
@@ -272,8 +272,8 @@ public class IknnmMain {
         for (int i : notCoverd) {
             x.remove(i);
         }
-        Iknnm labels = new Iknnm();
-        for (IknnmCluster label : y) {
+        ArrayList<String> labels = new ArrayList<String>();
+        for (String label : y) {
             labels.add(label);
         }
         for (int i = 0; i < status.length; i++) {
@@ -281,7 +281,7 @@ public class IknnmMain {
         }
         notCoverd = getNotCovered(status);
         ArrayList<Iknnm> distanceMatrix = getDistanceMatrix(x);
-        Iknnm newReps = new Iknnm();
+        IknnmCluster newReps = new IknnmCluster();
 
         int lay = 0;
 
@@ -328,21 +328,18 @@ public class IknnmMain {
             }
             // add representative
             // representatives format (rep(di), all_tuples in neighbourhood, class(di), Sim(di))
-            IknnmCluster rep = x.get(tuple_max_neighbourhood);
+            iknnInstance rep = x.get(tuple_max_neighbourhood);
             Iknnm num = maxNeighbourhood;
-            IknnmCluster cls = labels.get(tuple_max_neighbourhood);
+            String cls = labels.get(tuple_max_neighbourhood);
             Iknnm sim = distanceMatrix.get(tuple_max_neighbourhood);
-            newReps.add(rep);
+            newReps.num.add(rep);
 
             for (int i = 0; i < maxNeighbourhood.size(); i++) {
                 status[i] = 1;
             }
             notCoverd = getNotCovered(status);
 
-            for (IknnmCluster r : newReps) {
-                representatives.add(r);
-            }
-
+            representatives.add(newReps);
         }
 
         // sort lay
@@ -366,7 +363,7 @@ public class IknnmMain {
     }
 
     // TODO getDistanceMatrix
-    public static ArrayList<Iknnm> getDistanceMatrix(Iknnm distanceMatrix){
+    public static ArrayList<Iknnm> getDistanceMatrix(ArrayList<iknnInstance> distanceMatrix){
         return new ArrayList<>();
     }
 
