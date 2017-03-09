@@ -103,19 +103,19 @@ public class IknnmMain {
         }
     }
 
-    public static Iknnm trainIknnm(Iknnm representatives, Iknnm x, Iknnm y, int erd,boolean isCorp){
+    public static Iknnm trainIknnm(Iknnm representatives, ArrayList<iknnInstance> x, ArrayList<String> y, int erd,boolean isCorp){
         int status[];
         status = new int[x.size()];
 
-        Iknnm correctlyClassifyInstances = new Iknnm();
-        Iknnm inCorrectlyClassifyInstances = new Iknnm();
+        ArrayList<iknnInstance> correctlyClassifyInstances = new ArrayList<iknnInstance>();
+        ArrayList<iknnInstance> inCorrectlyClassifyInstances = new ArrayList<iknnInstance>();
         for (int i = 0; i < x.size(); i++) {
-            IknnmCluster d = x.get(i);
-            IknnmCluster actualClass = y.get(i);
+            iknnInstance d = x.get(i);
+            String actualClass = y.get(i);
 
             ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
             for (IknnmCluster iknn1 : representatives) {
-                float distance = KnnMain.computeDistance(d.req, iknn1.req);
+                double distance = computeDistance(d.getVector(), iknn1.req.getVector());
                 LabelIknnm labelIknn = new LabelIknnm();
                 labelIknn.iknnmcluster = iknn1;
                 labelIknn.distance = distance;
@@ -396,7 +396,7 @@ public class IknnmMain {
         Iknnm inReq  = new Iknnm();
 
         for (IknnmCluster iknn : iknnm) {
-            float distance = KnnMain.computeDistance(trainIknnm.req, iknn.req);
+            float distance = computeDistance(trainIknnm.req, iknn.req);
             LabelIknnm labIknn = new LabelIknnm();
             labIknn.iknnmcluster = iknn;
             labIknn.distance = distance;
@@ -549,5 +549,19 @@ public class IknnmMain {
             }
         }
         System.out.printf("总体预测准度为：%d\n", matchCount/testData.size());
+    }
+
+    // computeDistance 计算欧式距离
+    public static double computeDistance(double[] vector1, double[] vector2) {
+        double distance = 0;
+
+        if (vector1.length == vector2.length) {
+            for (int i = 0; i < vector1.length; i++) {
+                double temp = Math.pow((vector1[i] - vector2[i]), 2);
+                distance += temp;
+            }
+            distance = Math.sqrt(distance);
+        }
+        return distance;
     }
 }

@@ -10,5 +10,5 @@ public class Iknnm extends ArrayList<IknnmCluster> {
 
  class LabelIknnm {
     IknnmCluster iknnmcluster;
-    float distance;
+    double distance;
 }
