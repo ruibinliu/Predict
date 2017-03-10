@@ -1,8 +1,8 @@
 package mo.edu.must.perdict.lazy.iknnm;
 
-import mo.edu.must.perdict.lazy.knn.Dataset;
-import mo.edu.must.perdict.lazy.knn.Instance;
-import mo.edu.must.perdict.lazy.knn.KnnMain;
+//import mo.edu.must.perdict.lazy.knn.Dataset;
+//import mo.edu.must.perdict.lazy.knn.Instance;
+//import mo.edu.must.perdict.lazy.knn.KnnMain;
 import mo.edu.must.perdict.utils.FileUtils;
 
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class IknnmMain {
     public static void main() {
         final ArrayList<String> records = new ArrayList<>();
-        FileUtils.read("data/issue-1819.txt", new FileUtils.Listener() {
+        FileUtils.read("out/new_vector.txt", new FileUtils.Listener() {
             @Override
             public void onReadLine(String line) {
                 records.add(line);
@@ -26,7 +26,7 @@ public class IknnmMain {
 
         Dataset dataset = new Dataset();
         for (String line : records) {
-            Instance instance = new Instance(line);
+            iknnInstance instance = new iknnInstance(line);
             dataset.add(instance);
         }
 
@@ -36,7 +36,7 @@ public class IknnmMain {
         int foldSize = size / foldCount;
         int testingSize = size / foldCount;
         int trainingSize = size - testingSize;
-        KnnMain.initSimilarityMap();
+//        KnnMain.initSimilarityMap();
         System.out.println("Size: " + size);
         System.out.println("Train: " + trainingSize);
         System.out.println("Test: " + testingSize);
@@ -69,24 +69,24 @@ public class IknnmMain {
             long startBuildTime, endBuildTime;
             startBuildTime = System.currentTimeMillis();
 
-            final HashMap<Instance, HashMap<Instance, Float>> instanceDistance = new HashMap<>();
+            final HashMap<iknnInstance, HashMap<iknnInstance, Double>> instanceDistance = new HashMap<>();
             for (int i = 0; i < trainDataSet.size(); i++) {
-                Instance inst1 = trainDataSet.get(i);
+                iknnInstance inst1 = trainDataSet.get(i);
 
-                HashMap<Instance, Float> map = instanceDistance.get(inst1);
+                HashMap<iknnInstance, Double> map = instanceDistance.get(inst1);
                 if (map == null) {
                     map = new HashMap<>();
                     instanceDistance.put(inst1, map);
                 }
-                for (Instance inst2 : trainDataSet) {
+                for (iknnInstance inst2 : trainDataSet) {
                     if (inst1 == inst2) continue;
 
-                    float distance;
+                    double distance;
 
                     if (map.containsKey(inst2)) {
                         distance = map.get(inst2);
                     } else {
-                        distance = KnnMain.computeDistance(inst1, inst2);
+                        distance = computeDistance(inst1.getVector(), inst2.getVector());
                         map.put(inst2, distance);
                     }
                 }
@@ -97,7 +97,14 @@ public class IknnmMain {
             Iknnm trainIknnm = new Iknnm();
             Iknnm iknnm = new Iknnm();
 
-            iknnm = trainIknnm(trainIknnm, iknnm, iknnm, 0, false);
+            ArrayList<iknnInstance> trainInstances = new ArrayList<iknnInstance>();
+            ArrayList<String> appNameList = new ArrayList<String>();
+            for (iknnInstance instance : trainDataSet) {
+                trainInstances.add(instance);
+                appNameList.add(instance.getApp());
+            }
+
+            iknnm = trainIknnm(trainIknnm, trainInstances, appNameList, 0, false);
             System.out.println("===========");
             System.out.println(iknnm);
         }
@@ -112,7 +119,6 @@ public class IknnmMain {
         for (int i = 0; i < x.size(); i++) {
             iknnInstance d = x.get(i);
             String actualClass = y.get(i);
-
             ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
             for (IknnmCluster iknn1 : representatives) {
                 double distance = computeDistance(d.getVector(), iknn1.req.getVector());
@@ -275,6 +281,7 @@ public class IknnmMain {
         ArrayList<String> labels = new ArrayList<String>();
         for (String label : y) {
             labels.add(label);
+
         }
         for (int i = 0; i < status.length; i++) {
             status[i] = 0;
@@ -367,154 +374,154 @@ public class IknnmMain {
         return new ArrayList<>();
     }
 
-    public static ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
-        // 原  <rep, num, cls, sim, lay, fac, cor> iknn model
-        ArrayList predictedLabelList = new ArrayList<Iknnm>();
-        long startClassTime, endClassTime;
-        int classifyTimes = 0;
-        startClassTime = System.currentTimeMillis();
-        for (int i = 1;i < topK+1;i++) {
-            Iknnm predictedLabels = new Iknnm();
-            for (int j = 0;j< trainIknnm.size();j++) {
-                Iknnm labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
-                predictedLabels.addAll(labels);
-                classifyTimes += 1;
-            }
-            predictedLabelList.add(predictedLabels);
-        }
-        endClassTime = System.currentTimeMillis();
-        System.out.println("Classify "+ classifyTimes+" times. Cost "+ (endClassTime - startClassTime)
-                + " ms, Average classify cost "+((endClassTime - startClassTime)/classifyTimes)+" ms.");
-        return predictedLabelList;
-    }
+//    public static ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+//        // 原  <rep, num, cls, sim, lay, fac, cor> iknn model
+//        ArrayList predictedLabelList = new ArrayList<Iknnm>();
+//        long startClassTime, endClassTime;
+//        int classifyTimes = 0;
+//        startClassTime = System.currentTimeMillis();
+//        for (int i = 1;i < topK+1;i++) {
+//            Iknnm predictedLabels = new Iknnm();
+//            for (int j = 0;j< trainIknnm.size();j++) {
+//                Iknnm labels = classify(trainIknnm.get(j), iknnm, topK, isCrop);
+//                predictedLabels.addAll(labels);
+//                classifyTimes += 1;
+//            }
+//            predictedLabelList.add(predictedLabels);
+//        }
+//        endClassTime = System.currentTimeMillis();
+//        System.out.println("Classify "+ classifyTimes+" times. Cost "+ (endClassTime - startClassTime)
+//                + " ms, Average classify cost "+((endClassTime - startClassTime)/classifyTimes)+" ms.");
+//        return predictedLabelList;
+//    }
 
-    public static Iknnm classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
-        ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
-        Iknnm inReq  = new Iknnm();
-
-        for (IknnmCluster iknn : iknnm) {
-            float distance = computeDistance(trainIknnm.req, iknn.req);
-            LabelIknnm labIknn = new LabelIknnm();
-            labIknn.iknnmcluster = iknn;
-            labIknn.distance = distance;
-            labelDistanceList.add(labIknn);
-            if (distance <= iknn.sim) {
-                inReq.add(iknn);
-            }
-
-            Collections.sort(labelDistanceList, new Comparator<LabelIknnm>() {
-                @Override
-                public int compare(LabelIknnm o1, LabelIknnm o2) {
-                    return (int) (o1.distance - o2.distance);
-                }
-            });
-        }
-
-        Iknnm labels = new Iknnm();
-
-        for (int k = 0; k < topK; k++) {
-            if (inReq.size() > 0) {
-                boolean isSameClass = true;
-                for (int i = 0; i < inReq.size(); i++) {
-                    for (int j = 0; j < inReq.size(); j++) {
-                        if (i == j)
-                            continue;
-                        if (inReq.get(i).cls != inReq.get(j).cls){
-                            isSameClass = false;
-                            break;
-                        }
-                    }
-                }
-                if (isSameClass) {
-                    if (isCrop) {
-                        for (IknnmCluster iknn2: inReq) {
-                            // TODO iknn.correct += 1
-                        }
-                    }
-                    inReq.remove(inReq.get(0));
-                    labels.add(inReq.get(0));
-                }else {
-                    IknnmCluster maxIknnm = Collections.max(inReq, new Comparator<IknnmCluster>() {
-                        @Override
-                        public int compare(IknnmCluster o1, IknnmCluster o2) {
-                            return o1.lay - o2.lay;
-                        }
-                    });
-                    Iknnm maxLayInReq = new Iknnm();
-                    int maxLay = maxIknnm.lay;
-                    System.out.print("max_lay "+ maxLay);
-                    for (IknnmCluster iknn3 : inReq){
-                        if (iknn3.lay == maxLay) {
-                            maxLayInReq.add(iknn3);
-                        }
-                    }
-
-                    String cls = maxLayInReq.get(0).cls;
-                    int maxNum = 0;
-                    IknnmCluster r = maxLayInReq.get(0);
-                    for (IknnmCluster iknn4: maxLayInReq) {
-                        if (iknn4.num.size() > maxNum) {
-                            cls = iknn4.cls;
-                            maxNum = iknn4.num.size();
-                            r = iknn4;
-                        }
-                    }
-
-                    Iknnm newInRep = new Iknnm();
-                    for (IknnmCluster iknn5 : inReq) {
-                        if (iknn5 == r) {
-                            continue;
-                        }else{
-                            newInRep.add(iknn5);
-                        }
-                    }
-                    inReq = newInRep;
-
-                    IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
-                    labels.add(IknnCls);
-                }
-
-            }else {
-                IknnmCluster maxIknnm = Collections.max(inReq, new Comparator<IknnmCluster>() {
-                    @Override
-                    public int compare(IknnmCluster o1, IknnmCluster o2) {
-                        return o1.lay - o2.lay;
-                    }
-                });
-                Iknnm maxLayInReq = new Iknnm();
-                int maxLay = maxIknnm.lay;
-                Collections.sort(labelDistanceList, new Comparator<LabelIknnm>() {
-                    @Override
-                    public int compare(LabelIknnm o1, LabelIknnm o2) {
-                        return o1.iknnmcluster.lay - o2.iknnmcluster.lay;
-                    }
-                });
-
-                ArrayList<LabelIknnm> sameLay = new ArrayList<>();
-                for (LabelIknnm liknn1 : labelDistanceList) {
-                    if (liknn1.iknnmcluster.lay == maxLay) {
-                        sameLay.add(liknn1);
-                    }
-                }
-
-                ArrayList<LabelIknnm> newLabelDistanceList = new ArrayList<>();
-                for (LabelIknnm labels1 : labelDistanceList) {
-                    if (sameLay.get(0).iknnmcluster.req == labels1.iknnmcluster.req &&
-                            sameLay.get(0).distance == labels1.distance){
-                        continue;
-                    }else {
-                        newLabelDistanceList.add(labels1);
-                    }
-                }
-                labelDistanceList = newLabelDistanceList;
-                String cls = sameLay.get(0).iknnmcluster.cls;
-
-                IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
-                labels.add(IknnCls);
-            }
-        }
-        return labels;
-    }
+//    public static Iknnm classify(IknnmCluster trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
+//        ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
+//        Iknnm inReq  = new Iknnm();
+//
+//        for (IknnmCluster iknn : iknnm) {
+//            float distance = computeDistance(trainIknnm.req, iknn.req);
+//            LabelIknnm labIknn = new LabelIknnm();
+//            labIknn.iknnmcluster = iknn;
+//            labIknn.distance = distance;
+//            labelDistanceList.add(labIknn);
+//            if (distance <= iknn.sim) {
+//                inReq.add(iknn);
+//            }
+//
+//            Collections.sort(labelDistanceList, new Comparator<LabelIknnm>() {
+//                @Override
+//                public int compare(LabelIknnm o1, LabelIknnm o2) {
+//                    return (int) (o1.distance - o2.distance);
+//                }
+//            });
+//        }
+//
+//        Iknnm labels = new Iknnm();
+//
+//        for (int k = 0; k < topK; k++) {
+//            if (inReq.size() > 0) {
+//                boolean isSameClass = true;
+//                for (int i = 0; i < inReq.size(); i++) {
+//                    for (int j = 0; j < inReq.size(); j++) {
+//                        if (i == j)
+//                            continue;
+//                        if (inReq.get(i).cls != inReq.get(j).cls){
+//                            isSameClass = false;
+//                            break;
+//                        }
+//                    }
+//                }
+//                if (isSameClass) {
+//                    if (isCrop) {
+//                        for (IknnmCluster iknn2: inReq) {
+//                            // TODO iknn.correct += 1
+//                        }
+//                    }
+//                    inReq.remove(inReq.get(0));
+//                    labels.add(inReq.get(0));
+//                }else {
+//                    IknnmCluster maxIknnm = Collections.max(inReq, new Comparator<IknnmCluster>() {
+//                        @Override
+//                        public int compare(IknnmCluster o1, IknnmCluster o2) {
+//                            return o1.lay - o2.lay;
+//                        }
+//                    });
+//                    Iknnm maxLayInReq = new Iknnm();
+//                    int maxLay = maxIknnm.lay;
+//                    System.out.print("max_lay "+ maxLay);
+//                    for (IknnmCluster iknn3 : inReq){
+//                        if (iknn3.lay == maxLay) {
+//                            maxLayInReq.add(iknn3);
+//                        }
+//                    }
+//
+//                    String cls = maxLayInReq.get(0).cls;
+//                    int maxNum = 0;
+//                    IknnmCluster r = maxLayInReq.get(0);
+//                    for (IknnmCluster iknn4: maxLayInReq) {
+//                        if (iknn4.num.size() > maxNum) {
+//                            cls = iknn4.cls;
+//                            maxNum = iknn4.num.size();
+//                            r = iknn4;
+//                        }
+//                    }
+//
+//                    Iknnm newInRep = new Iknnm();
+//                    for (IknnmCluster iknn5 : inReq) {
+//                        if (iknn5 == r) {
+//                            continue;
+//                        }else{
+//                            newInRep.add(iknn5);
+//                        }
+//                    }
+//                    inReq = newInRep;
+//
+//                    IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
+//                    labels.add(IknnCls);
+//                }
+//
+//            }else {
+//                IknnmCluster maxIknnm = Collections.max(inReq, new Comparator<IknnmCluster>() {
+//                    @Override
+//                    public int compare(IknnmCluster o1, IknnmCluster o2) {
+//                        return o1.lay - o2.lay;
+//                    }
+//                });
+//                Iknnm maxLayInReq = new Iknnm();
+//                int maxLay = maxIknnm.lay;
+//                Collections.sort(labelDistanceList, new Comparator<LabelIknnm>() {
+//                    @Override
+//                    public int compare(LabelIknnm o1, LabelIknnm o2) {
+//                        return o1.iknnmcluster.lay - o2.iknnmcluster.lay;
+//                    }
+//                });
+//
+//                ArrayList<LabelIknnm> sameLay = new ArrayList<>();
+//                for (LabelIknnm liknn1 : labelDistanceList) {
+//                    if (liknn1.iknnmcluster.lay == maxLay) {
+//                        sameLay.add(liknn1);
+//                    }
+//                }
+//
+//                ArrayList<LabelIknnm> newLabelDistanceList = new ArrayList<>();
+//                for (LabelIknnm labels1 : labelDistanceList) {
+//                    if (sameLay.get(0).iknnmcluster.req == labels1.iknnmcluster.req &&
+//                            sameLay.get(0).distance == labels1.distance){
+//                        continue;
+//                    }else {
+//                        newLabelDistanceList.add(labels1);
+//                    }
+//                }
+//                labelDistanceList = newLabelDistanceList;
+//                String cls = sameLay.get(0).iknnmcluster.cls;
+//
+//                IknnmCluster IknnCls = new IknnmCluster(new Instance(""), new ArrayList<Instance>(), cls, 0,0);
+//                labels.add(IknnCls);
+//            }
+//        }
+//        return labels;
+//    }
 
     public static void verify(Iknnm representatives, int top,Dataset testData) { // 必须先对 IknnModel 的lay进行排序
         int[] matched = new int[top];

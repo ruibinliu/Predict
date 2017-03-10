@@ -12,13 +12,15 @@ public class IknnmCluster {
     float sim;
     int lay;
 
-    public IknnmCluster(iknnInstance req, ArrayList<iknnInstance> num, String cls, float sim, int lay) {
-        this.req = req;
-        this.num = num;
-        this.cls = cls;
-        this.sim = sim;
-        this.lay = lay;
+    public IknnmCluster() {
+//        this.req = req;
+//        this.num = num;
+//        this.cls = cls;
+//        this.sim = sim;
+//        this.lay = lay;
     }
+
+//    public
 
     @Override
     public String toString()  {
