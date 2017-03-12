@@ -3,12 +3,12 @@ package mo.edu.must.perdict.lazy.iknnm;
 //import mo.edu.must.perdict.lazy.knn.Dataset;
 //import mo.edu.must.perdict.lazy.knn.Instance;
 //import mo.edu.must.perdict.lazy.knn.KnnMain;
+import mo.edu.must.perdict.lazy.knn.Instance;
+import mo.edu.must.perdict.lazy.knnm2.Knnm;
+import mo.edu.must.perdict.lazy.knnm2.KnnmCluster;
 import mo.edu.must.perdict.utils.FileUtils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * Created by HackerZ on 2016/12/24.
@@ -94,17 +94,89 @@ public class IknnmMain {
             endBuildTime = System.currentTimeMillis();
             System.out.println("Calculate eight last instance cost:" + (endBuildTime - startBuildTime) + " ms");
 
-            Iknnm trainIknnm = new Iknnm();
             Iknnm iknnm = new Iknnm();
+            HashSet<iknnInstance> instanceCovered = new HashSet<>();
+            while(instanceCovered.size() < trainDataSet.size()) {
+                System.out.println("Covered/Total: " + instanceCovered.size() + "/" + trainDataSet.size());
+                ArrayList<IknnmCluster> clusterList = new ArrayList<>();
 
-            ArrayList<iknnInstance> trainInstances = new ArrayList<iknnInstance>();
-            ArrayList<String> appNameList = new ArrayList<String>();
+                for (iknnInstance instance1 : trainDataSet) {
+                    IknnmCluster cluster = new IknnmCluster(instance1, new ArrayList<iknnInstance>(), instance1.getApp(), 0, 0);
+                    clusterList.add(cluster);
+                    cluster.num.add(instance1);
+
+                    if (instanceCovered.contains(instance1)) continue;
+
+                    final HashMap<iknnInstance, Double> instanceByDistance = new HashMap<>();
+                    for (iknnInstance instance2 : trainDataSet) {
+                        if (instance1 == instance2) continue;
+                        if (instanceCovered.contains(instance2)) continue;
+
+                        double distance = instanceDistance.get(instance1).get(instance2);
+                        instanceByDistance.put(instance2, distance);
+                    }
+                    ArrayList<iknnInstance> instancesNearBy1 = new ArrayList<>();
+                    instancesNearBy1.addAll(instanceByDistance.keySet());
+                    Collections.sort(instancesNearBy1, new Comparator<iknnInstance>() {
+                        @Override
+                        public int compare(iknnInstance o1, iknnInstance o2) {
+                            double distance1 = instanceByDistance.get(o1);
+                            double distance2 = instanceByDistance.get(o2);
+                            return (int)((distance1 * 1000000000) - (distance2 * 1000000000));
+                        }
+                    });
+                    for (iknnInstance instance : instancesNearBy1) {
+                        if (instance1.getApp().equals(instance.getApp())) {
+                            double distance = instanceByDistance.get(instance);
+                            cluster.num.add(instance);
+                            cluster.sim = distance;
+                        } else {
+                            break;
+                        }
+                    }
+                }
+
+                Collections.sort(clusterList, new Comparator<IknnmCluster>() {
+                    @Override
+                    public int compare(IknnmCluster o1, IknnmCluster o2) {
+                        return o2.num.size() - o1.num.size();
+                    }
+                });
+
+//                for (KnnmCluster cluster : clusterList) {
+//                    System.out.println(cluster);
+//                }
+
+                IknnmCluster cluster = clusterList.get(0);
+                System.out.println("cluster.num.size(): " + cluster.num.size());
+                if (cluster.num.size() < 2) {
+                    break;
+                }
+                iknnm.add(cluster);
+                for (iknnInstance instance : cluster.num) {
+                    instanceCovered.add(instance);
+                }
+            }
+            // end of train
+
+            for (IknnmCluster cluster : iknnm) {
+                System.out.println(String.format("Cluster: <Cls=%s, Sim=%s, Num=%s, Rep=%s>",
+                        cluster.cls.toString(),
+                        cluster.sim,
+                        cluster.num.size(),
+                        cluster.rep.toString()));
+            }
+
+            Iknnm trainIknnm = new Iknnm();
+
+            ArrayList<iknnInstance> trainInstances = new ArrayList<>();
+            ArrayList<String> appNameList = new ArrayList<>();
             for (iknnInstance instance : trainDataSet) {
                 trainInstances.add(instance);
                 appNameList.add(instance.getApp());
             }
 
-            iknnm = trainIknnm(trainIknnm, trainInstances, appNameList, 0, false);
+            iknnm = trainIknnm(iknnm, trainInstances, appNameList, 0, false);
             System.out.println("===========");
             System.out.println(iknnm);
         }
@@ -121,7 +193,7 @@ public class IknnmMain {
             String actualClass = y.get(i);
             ArrayList<LabelIknnm> labelDistanceList = new ArrayList<>();
             for (IknnmCluster iknn1 : representatives) {
-                double distance = computeDistance(d.getVector(), iknn1.req.getVector());
+                double distance = computeDistance(d.getVector(), iknn1.rep.getVector());
                 LabelIknnm labelIknn = new LabelIknnm();
                 labelIknn.iknnmcluster = iknn1;
                 labelIknn.distance = distance;
@@ -141,7 +213,7 @@ public class IknnmMain {
                 IknnmCluster representative = labeliknn1.iknnmcluster;
                 double distance = labeliknn1.distance;
                 String predictedClass = representative.cls;
-                float sim = representative.sim;
+                double sim = representative.sim;
 
                 if (distance <= sim){
                     isInCluster = true;  // In the cluster
@@ -161,7 +233,7 @@ public class IknnmMain {
                         IknnmCluster representative = labelDistance1.iknnmcluster;
                         double distance = labelDistance1.distance;
                         String predictedClass = representative.cls;
-                        float sim = representative.sim;
+                        double sim = representative.sim;
 
                         if (distance <= sim && actualClass.equals(predictedClass)){
                             representative.num.add(d);
@@ -186,7 +258,7 @@ public class IknnmMain {
                             if (n == m)
                                 continue;
                             IknnmCluster rep2 = representatives.get(n);
-                            double distance = computeDistance(rep1.req.getVector(), rep2.req.getVector());
+                            double distance = computeDistance(rep1.rep.getVector(), rep2.rep.getVector());
                             if ((distance < rep1.sim + rep2.sim) && (rep1.cls != rep2.cls)){
                                 canExtend = false;
                                 break;
@@ -194,7 +266,7 @@ public class IknnmMain {
                         }
                         if (canExtend){
                             rep1.num.add(d);
-                            double distance = computeDistance(rep1.req.getVector(), d.getVector());
+                            double distance = computeDistance(rep1.rep.getVector(), d.getVector());
                             representatives.remove(m);
                             representatives.add(m, rep1);
                             status[i] = 1;
@@ -217,9 +289,9 @@ public class IknnmMain {
 
         for (iknnInstance e: inCorrectlyClassifyInstances) {
             for (IknnmCluster repInst : repInstList) {
-                iknnInstance rep = repInst.req;
+                iknnInstance rep = repInst.rep;
                 ArrayList<iknnInstance> inst =  repInst.num;
-                float sim = repInst.sim;
+                double sim = repInst.sim;
 
                 double d = computeDistance(e.getVector(), rep.getVector());
 
@@ -231,7 +303,7 @@ public class IknnmMain {
         float minDistance = 0;
         for (int i = 0; i < repInstList.size(); i++) {
             IknnmCluster repInst = repInstList.get(i);
-            iknnInstance rep = repInst.req;
+            iknnInstance rep = repInst.rep;
             ArrayList<iknnInstance> inst = repInst.num;
             if (inst.size() == 0)
                 continue;
@@ -243,7 +315,7 @@ public class IknnmMain {
             System.out.print("inst = " + inst.size());
 
             for (int j = 0; j < inst.size(); j++) {
-                double d = computeDistance(inst.get(j).getVector(), repInst.req.getVector());
+                double d = computeDistance(inst.get(j).getVector(), repInst.rep.getVector());
                 double wj = 0;
                 if (d > 0 && sim < 0) {
                     wj = d / sim;
@@ -288,7 +360,7 @@ public class IknnmMain {
         }
         notCoverd = getNotCovered(status);
         ArrayList<Iknnm> distanceMatrix = getDistanceMatrix(x);
-        IknnmCluster newReps = new IknnmCluster();
+//        IknnmCluster newReps = new IknnmCluster(new iknnInstance(), );
 
         int lay = 0;
 
@@ -339,7 +411,7 @@ public class IknnmMain {
             Iknnm num = maxNeighbourhood;
             String cls = labels.get(tuple_max_neighbourhood);
             Iknnm sim = distanceMatrix.get(tuple_max_neighbourhood);
-            newReps.num.add(rep);
+            IknnmCluster newReps = new IknnmCluster(rep, num.get(0).num, cls, sim.get(0).sim, lay);
 
             for (int i = 0; i < maxNeighbourhood.size(); i++) {
                 status[i] = 1;

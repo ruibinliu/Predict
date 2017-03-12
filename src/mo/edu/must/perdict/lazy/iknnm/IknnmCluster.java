@@ -6,25 +6,25 @@ import java.util.ArrayList;
  * Created by HackerZ on 2016/12/24.
  */
 public class IknnmCluster {
-    iknnInstance req;
+    iknnInstance rep;
     ArrayList<iknnInstance> num;
     String cls;
-    float sim;
+    Double sim;
     int lay;
 
-    public IknnmCluster() {
-//        this.req = req;
-//        this.num = num;
-//        this.cls = cls;
-//        this.sim = sim;
-//        this.lay = lay;
+    public IknnmCluster(iknnInstance rep, ArrayList<iknnInstance> num, String cls, double sim, int lay) {
+        this.rep = rep;
+        this.num = num;
+        this.cls = cls;
+        this.sim = sim;
+        this.lay = lay;
     }
 
 //    public
 
     @Override
     public String toString()  {
-        return "IKnnmCluster [ req:" + req + ", num:" + num+ ", cls:"
+        return "IKnnmCluster [ rep:" + rep + ", num:" + num+ ", cls:"
                 + cls + ", sim:" + sim + ", lay:" + lay + " ]";
     }
 }
