@@ -179,6 +179,9 @@ public class IknnmMain {
             iknnm = trainIknnm(iknnm, trainInstances, appNameList, 0, false);
             System.out.println("===========");
             System.out.println(iknnm);
+
+            System.out.printf("第 %d 次交叉检验开始", fold+1);
+            verify(iknnm,top, testDataSet);
         }
     }
 
