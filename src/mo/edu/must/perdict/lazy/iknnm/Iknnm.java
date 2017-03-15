@@ -8,7 +8,12 @@ import java.util.ArrayList;
 public class Iknnm extends ArrayList<IknnmCluster> {
 }
 
- class LabelIknnm {
+class LabelIknnm {
     IknnmCluster iknnmcluster;
     double distance;
+}
+
+class ReqInstance {
+    IknnmCluster rep;
+    ArrayList<iknnInstance> instances;
 }
