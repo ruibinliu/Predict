@@ -8,6 +8,7 @@ import mo.edu.must.perdict.lazy.knnm2.Knnm;
 import mo.edu.must.perdict.lazy.knnm2.KnnmCluster;
 import mo.edu.must.perdict.utils.FileUtils;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -290,6 +291,7 @@ public class IknnmMain {
         for (IknnmCluster rep : representatives) {
             ReqInstance reqInstance = new ReqInstance();
             reqInstance.rep = rep;
+            reqInstance.instances = rep.num;
             repInstList.add(reqInstance);
         }
 
@@ -307,8 +309,10 @@ public class IknnmMain {
         }
 
         float minDensity = 0;
+        System.out.println("repInstList => " +repInstList.toString());
         for (int i = 0; i < repInstList.size(); i++) {
             ReqInstance repInst = repInstList.get(i);
+            System.out.println("repInst => "+ repInst.instances.toString());
             IknnmCluster rep = repInst.rep;
             ArrayList<iknnInstance> inst = repInst.instances;
             if (inst.size() == 0)
@@ -369,26 +373,21 @@ public class IknnmMain {
             status[i] = 0;
         }
         notCoverd = getNotCovered(status);
-        ArrayList<Iknnm> distanceMatrix = getDistanceMatrix(new_x); // TODO 未实现
-//        IknnmCluster newReps = new IknnmCluster();
+        ArrayList<ArrayList<Double>> distanceMatrix = getDistanceMatrix(new_x);
 
         int lay = 0;
 
-        while (notCoverd.size() > 0) {  // TODO 这里的处理开始有问题
-            Iknnm maxNeighbourhood = new Iknnm();
+        while (notCoverd.size() > 0) {
+            ArrayList<Double> maxNeighbourhood = new ArrayList<>();
             int tuple_max_neighbourhood = 0;
             for (int i = 0; i < notCoverd.size(); i++) {
-                Iknnm distances = distanceMatrix.get(i);
+                ArrayList<Double> distances = distanceMatrix.get(i);
 
                 // sort distance
-                Collections.sort(distances, new Comparator<IknnmCluster>() {
-                    @Override
-                    public int compare(IknnmCluster o1, IknnmCluster o2) {
-                        return o1.num.size() - o2.num.size();
-                    }
-                });
+                Collections.sort(distances);
 
-                Iknnm sorted_distance = distances;
+                ArrayList<Double> sorted_distance = new ArrayList<>();
+                sorted_distance = distances;
 
                 // filter only those which has not been yet covered
                 for (int j = 0; j < sorted_distance.size(); j++) {
@@ -399,11 +398,11 @@ public class IknnmMain {
 
                 // compute neighbourhood
                 int q = 0;
-                Iknnm neighbourhood = new Iknnm();
+                ArrayList<Double> neighbourhood = new ArrayList<>();
                 int error = 0;
-                while(q < sorted_distance.size() && labels.get(sorted_distance.get(q).num.size()) == labels.get(i) || error<erd) {
+                while(q < sorted_distance.size() && (labels.get(sorted_distance.get(q).intValue()).equals(labels.get(i)) || error<erd)) { // 这里处理错分率
                     neighbourhood.add(sorted_distance.get(q));
-                    if (labels.get(sorted_distance.get(q).num.size()) != labels.get(i)){
+                    if (labels.get(sorted_distance.get(q).intValue()) != labels.get(i)){
                         error++; // 计算错分率
                     }
                     q+=1;
@@ -417,10 +416,13 @@ public class IknnmMain {
             // add representative
             // representatives format (rep(di), all_tuples in neighbourhood, class(di), Sim(di))
             iknnInstance rep = x.get(tuple_max_neighbourhood);
-            Iknnm num = maxNeighbourhood;
+            ArrayList<iknnInstance> num = new ArrayList<>();
+            for (Double i : maxNeighbourhood) {
+                num.add(new_x.get(i.intValue()));
+            }
             String cls = labels.get(tuple_max_neighbourhood);
-            Iknnm sim = distanceMatrix.get(tuple_max_neighbourhood);
-            IknnmCluster newReps = new IknnmCluster(rep, num.get(0).num, cls, sim.get(0).sim, lay);
+            Double sim = distanceMatrix.get(tuple_max_neighbourhood).get(0);
+            IknnmCluster newReps = new IknnmCluster(rep, num, cls, sim, 0);
 
             for (int i = 0; i < maxNeighbourhood.size(); i++) {
                 status[i] = 1;
@@ -450,9 +452,16 @@ public class IknnmMain {
         return notCovered;
     }
 
-    // TODO getDistanceMatrix
-    public static ArrayList<Iknnm> getDistanceMatrix(ArrayList<iknnInstance> distanceMatrix){
-        return new ArrayList<>();
+    private static ArrayList<ArrayList<Double>> getDistanceMatrix(ArrayList<iknnInstance> instances){
+        ArrayList<ArrayList<Double>> distanceMatrix = new ArrayList<>();
+        for (int i = 0; i < instances.size(); i++) {
+            ArrayList<Double> distance = new ArrayList<>();
+            for (int j = 0; j < instances.size(); j++) {
+                distance.add(computeDistance(instances.get(i).getVector(), instances.get(j).getVector()));
+            }
+            distanceMatrix.add(distance);
+        }
+        return distanceMatrix;
     }
 
 //    public static ArrayList<Iknnm> classify_all(Iknnm trainIknnm , Iknnm iknnm, int topK, boolean isCrop) {
