@@ -452,7 +452,7 @@ public class IknnmMain {
     private static ArrayList<Integer> getNotCovered(int[] status) {
         ArrayList<Integer> notCovered = new ArrayList<>();
         for (int i = 0; i < status.length; i++) {
-            if (status[i] == 0) {
+            if (status[i] != 0) {
                 notCovered.add(status[i]);
             }
         }
