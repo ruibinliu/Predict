@@ -362,22 +362,27 @@ public class IknnmMain {
         System.out.println("not covered:"+ notCoverd);
 
         ArrayList<iknnInstance>  new_x = new ArrayList<iknnInstance>();
-        for (int i : notCoverd) {
+        for (int i : notCoverd) {  // x = x[not_covered]
             new_x.add(x.get(i));
         }
+        x = new_x;
+        System.out.println("size of not covered:"+ notCoverd.size());
+
         ArrayList<String> labels = new ArrayList<String>();
         for (String label : y) {
             labels.add(label);
         }
-        for (int i = 0; i < new_x.size(); i++) {
-            status[i] = 0;
+        int[] newStatus = new int[x.size()];
+        for (int i = 0; i < newStatus.length; i++) {
+            newStatus[i]= 0;
         }
+        status = newStatus;
         notCoverd = getNotCovered(status);
-        ArrayList<ArrayList<Double>> distanceMatrix = getDistanceMatrix(new_x);
+        ArrayList<ArrayList<Double>> distanceMatrix = getDistanceMatrix(x);
 
         int lay = 0;
 
-        while (notCoverd.size() > 0) {
+        while (notCoverd.size() > 0) {  // TODO 这里进入了死循环
             ArrayList<Double> maxNeighbourhood = new ArrayList<>();
             int tuple_max_neighbourhood = 0;
             for (int i = 0; i < notCoverd.size(); i++) {
@@ -418,7 +423,7 @@ public class IknnmMain {
             iknnInstance rep = x.get(tuple_max_neighbourhood);
             ArrayList<iknnInstance> num = new ArrayList<>();
             for (Double i : maxNeighbourhood) {
-                num.add(new_x.get(i.intValue()));
+                num.add(x.get(i.intValue()));
             }
             String cls = labels.get(tuple_max_neighbourhood);
             Double sim = distanceMatrix.get(tuple_max_neighbourhood).get(0);
@@ -430,6 +435,7 @@ public class IknnmMain {
             notCoverd = getNotCovered(status);
 
             representatives.add(newReps);
+            System.out.println("size of not covered:"+ notCoverd.size());
         }
 
         // sort lay
@@ -439,13 +445,14 @@ public class IknnmMain {
                 return o1.lay - o2.lay;
             }
         });
+        System.out.println(representatives.toString());
         return representatives;
     }
 
-    public static ArrayList<Integer> getNotCovered(int[] status) {
+    private static ArrayList<Integer> getNotCovered(int[] status) {
         ArrayList<Integer> notCovered = new ArrayList<>();
         for (int i = 0; i < status.length; i++) {
-            if (status[i] != 0) {
+            if (status[i] == 0) {
                 notCovered.add(status[i]);
             }
         }
