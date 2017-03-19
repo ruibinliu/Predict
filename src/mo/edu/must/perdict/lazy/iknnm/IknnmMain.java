@@ -178,11 +178,12 @@ public class IknnmMain {
             }
 
             iknnm = trainIknnm(iknnm, trainInstances, appNameList, 0, false);
-            System.out.println("===========");
+            System.out.println("=========== Representatives After: ===========");
             System.out.println(iknnm);
 
             System.out.printf("第 %d 次交叉检验开始", fold+1);
-            verify(iknnm,top, testDataSet);
+
+            verify(testDataSet, iknnm,top);
         }
     }
 
@@ -382,7 +383,7 @@ public class IknnmMain {
 
         int lay = 0;
 
-        while (notCoverd.size() > 0) {  // TODO 这里进入了死循环
+        while (notCoverd.size() > 0) {
             ArrayList<Double> maxNeighbourhood = new ArrayList<>();
             int tuple_max_neighbourhood = 0;
             for (int i = 0; i < notCoverd.size(); i++) {
@@ -479,7 +480,7 @@ public class IknnmMain {
         startClassTime = System.currentTimeMillis();
         for (int i = 1;i < topK+1;i++) {
             ArrayList<String> predictedLabels = new ArrayList<>();
-            for (int j = 0;j< instances.get(0).getVector().length;j++) {
+            for (int j = 0;j< instances.size()-1;j++) {
                 ArrayList<String> labels = classify(instances.get(j), iknnm, topK, isCrop);
                 predictedLabels.addAll(labels);
                 classifyTimes += 1;
@@ -516,7 +517,7 @@ public class IknnmMain {
 
         ArrayList<String> labels = new ArrayList<>();
 
-        for (int k = 0; k < topK; k++) {
+        for (int k = 0; k < topK-1; k++) {
             if (inReq.size() > 0) {
                 boolean isSameClass = true;
                 for (int i = 0; i < inReq.size(); i++) {
@@ -577,6 +578,7 @@ public class IknnmMain {
                 }
 
             }else {
+                System.out.println("size of labelDistanceList:"+ labelDistanceList.size());
                 int maxLay = 0;
                 for (LabelIknnm li : labelDistanceList) {
                     if (li.iknnmcluster.lay > maxLay) {
@@ -593,9 +595,12 @@ public class IknnmMain {
                 ArrayList<LabelIknnm> sameLay = new ArrayList<>();
                 for (LabelIknnm liknn1 : labelDistanceList) {
                     if (liknn1.iknnmcluster.lay == maxLay) {
+                        System.out.println("liknn1:"+ liknn1.toString());
                         sameLay.add(liknn1);
                     }
                 }
+                System.out.println("maxLay:"+ maxLay);
+                System.out.println("sameLay:"+ sameLay.toString());
 
                 ArrayList<LabelIknnm> newLabelDistanceList = new ArrayList<>();
                 for (LabelIknnm labels1 : labelDistanceList) {
@@ -618,36 +623,52 @@ public class IknnmMain {
         return labels;
     }
 
-    public static void verify(Iknnm representatives, int top,Dataset testData) { // 必须先对 IknnModel 的lay进行排序
-        int[] matched = new int[top];
-        int[] unmatched  = new int[top];
+    private static void verify(Dataset testData,Iknnm representatives, int top) { // 必须先对 IknnModel 的lay进行排序
+        ArrayList<ArrayList<String>> predictedLabelList = classify_all(testData, representatives, top, true);
+        int[] totalMatched = new int[top];
+        int[] totalUnmatched  = new int[top];
+        int allMatched = 0;
+        int allUnmatched = 0;
 
-        for (int i = 0; i < top; i++) {
-            matched[i] = unmatched[i] = 0;
-        }
+        System.out.println("size of predictedLabelList:" + predictedLabelList.size());
+        for (int i = 0; i < top-1; i++) {
+            totalMatched[i] = totalUnmatched[i] = 0;
 
-        // 将数据放置在模型里，然后根据需要获取的预测个数，拿到最近的预测结果
-        // 将预测结果放到 HashMap 里面匹配，如果有其中之一匹配成功，那就 match++ ，否则将 unmatch++
-        // match/count : 准度
-        for (int i = 0; i < testData.size(); i++) {
-            for (int j = 0; j < top; j++) {
-                // TODO 将数据放置在模型
-                for (int k = 0; k < representatives.size(); k++) {
-                    if (representatives.get(k).cls.equals(testData.get(i).getApp())) {
-                        matched[i]++;
-                    }else {
-                        unmatched[i]++;
+            System.out.printf("===== Predicting %d apps =====\n", i+1);
+            ArrayList<String> predictedLabels = predictedLabelList.get(i);
+            System.out.println("size of predictedLabels:" + predictedLabels.size());
+            System.out.println("predictedLabels:" + predictedLabels.toString());
+
+
+            System.out.println("size of testData:" + testData.size());
+            System.out.println("testData:" + testData.toString());
+            for (int j = 0; j < testData.size()-1; j++) {
+                boolean isMatched = false;
+                for (int k = 0; k < i+1; k++) {
+                    if (testData.get(j).getApp().equals(predictedLabels.get(j))){
+                        isMatched = true;
+                        break;
                     }
                 }
+                if (isMatched) {
+                    totalMatched[i]+=1;
+                } else {
+                    totalUnmatched[i]+=1;
+                }
             }
+            // 本次预测的结果
+            System.out.println("label test = " + testData.toString());
+            System.out.println("predicted_labels = " + predictedLabels.toString());
+            double accuracy = totalMatched[i] / (totalMatched[i] + totalUnmatched[i]);
+            System.out.printf("Accuracy %f, totalMatched %d, totalUnmatched %d", accuracy,totalMatched[i], totalUnmatched[i]);
+
+            // 综合交叉校验的结果
+            allMatched += totalMatched[i];
+            allUnmatched += totalUnmatched[i];
         }
-        int matchCount = 0;
-        for (int i = 0; i < matched.length; i++) {
-            if (matched[i] > 0) {
-                matchCount++;
-            }
-        }
-        System.out.printf("总体预测准度为：%d\n", matchCount/testData.size());
+        double average_accuracy = allMatched / (allMatched+allUnmatched);
+        System.out.printf("本次交叉检验预测结果： Accuracy :%f, allMatched :%d, allUnmatched :%d", average_accuracy, allMatched, allUnmatched);
+
     }
 
     // computeDistance 计算欧式距离
