@@ -594,8 +594,10 @@ public class IknnmMain {
 
                 ArrayList<LabelIknnm> sameLay = new ArrayList<>();
                 for (LabelIknnm liknn1 : labelDistanceList) {
+
                     if (liknn1.iknnmcluster.lay == maxLay) {
-                        System.out.println("liknn1:"+ liknn1.toString());
+                        System.out.println("lay of liknn1:"+ liknn1.iknnmcluster.lay);
+                        System.out.println("maxLay:" + maxLay);
                         sameLay.add(liknn1);
                     }
                 }
@@ -606,7 +608,7 @@ public class IknnmMain {
                 for (LabelIknnm labels1 : labelDistanceList) {
                     if (sameLay.get(0).iknnmcluster == labels1.iknnmcluster &&
                             sameLay.get(0).distance == labels1.distance){
-                        continue;
+//                        continue;
                     }else {
                         newLabelDistanceList.add(labels1);
                     }
@@ -615,23 +617,26 @@ public class IknnmMain {
                 if (isCrop) {
                     sameLay.get(0).iknnmcluster.lay+=1;
                 }
-                String cls = sameLay.get(0).iknnmcluster.cls;
+                if (sameLay.size()>0){
+                    String cls = sameLay.get(0).iknnmcluster.cls;
 
-                labels.add(cls);
+                    labels.add(cls);
+                }
+
             }
         }
         return labels;
     }
 
     private static void verify(Dataset testData,Iknnm representatives, int top) { // 必须先对 IknnModel 的lay进行排序
-        ArrayList<ArrayList<String>> predictedLabelList = classify_all(testData, representatives, top, true);
+        ArrayList<ArrayList<String>> predictedLabelList = classify_all(testData, representatives, top, false);
         int[] totalMatched = new int[top];
         int[] totalUnmatched  = new int[top];
         int allMatched = 0;
         int allUnmatched = 0;
 
         System.out.println("size of predictedLabelList:" + predictedLabelList.size());
-        for (int i = 0; i < top-1; i++) {
+        for (int i = 0; i < top; i++) {
             totalMatched[i] = totalUnmatched[i] = 0;
 
             System.out.printf("===== Predicting %d apps =====\n", i+1);
@@ -660,14 +665,14 @@ public class IknnmMain {
             System.out.println("label test = " + testData.toString());
             System.out.println("predicted_labels = " + predictedLabels.toString());
             double accuracy = totalMatched[i] / (totalMatched[i] + totalUnmatched[i]);
-            System.out.printf("Accuracy %f, totalMatched %d, totalUnmatched %d", accuracy,totalMatched[i], totalUnmatched[i]);
+            System.out.printf("Accuracy %f, totalMatched %d, totalUnmatched %d\n", accuracy,totalMatched[i], totalUnmatched[i]);
 
             // 综合交叉校验的结果
             allMatched += totalMatched[i];
             allUnmatched += totalUnmatched[i];
         }
-        double average_accuracy = allMatched / (allMatched+allUnmatched);
-        System.out.printf("本次交叉检验预测结果： Accuracy :%f, allMatched :%d, allUnmatched :%d", average_accuracy, allMatched, allUnmatched);
+        float average_accuracy = allMatched / (allMatched+allUnmatched);
+        System.out.printf("本次交叉检验预测结果： Accuracy :%.0f, allMatched :%d, allUnmatched :%d\n", average_accuracy, allMatched, allUnmatched);
 
     }
 
