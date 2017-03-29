@@ -3,11 +3,11 @@ from knnModelWithCCEV import *
 
 def main():
     # read data
-    data = np.genfromtxt('../../out/vector3.txt',  delimiter=" ", skip_header=False)
+    data = np.genfromtxt('../../out/vector_cevv_moto.txt', delimiter=" ", skip_header=False)
 
     x = data[:, 1:100]
     y = data[:, 0]
-    z = data[:, 101:107] # save all last for count ccev
+    z = data[:, 101:108] # save all last for count ccev
 
     classes, y = np.unique(y, return_inverse=True)
 

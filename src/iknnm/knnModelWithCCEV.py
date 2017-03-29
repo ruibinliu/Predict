@@ -398,52 +398,48 @@ def print_model(model):
     print("Model size: %d" % len(model))
     for rep in model:
         if len(rep) > 5:
-            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s, fac=%s, cor=%s>   " % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4], rep[5], rep[6]))
+            print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s, fac=%s, cor=%s, lasts=%s>   " % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4], rep[5], rep[6], rep[7]))
         else:
             print("    <rep=%s, num=%s, cls=%s, sim=%s, lay=%s>" % (rep[0][0], len(rep[1]), rep[2], rep[3], rep[4]))
 
 # return ccev value for a representative
 def count_ccev(representative):
-    change0，change1，change2，change3，change4，change5，change6，change7 = 0, 0, 0, 0, 0, 0, 0, 0
-    freq0, freq1, freq2, freq3, freq4, freq5, freq6, freq7 = 0, 0, 0, 0, 0, 0, 0, 0
-    for index, rep in enumerate(representative):
-        if rep[7][0] != "null": # for frequeency
+    change0, change1, change2, change3, change4, change5, change6 = 0, 0, 0, 0, 0, 0, 0
+    freq0, freq1, freq2, freq3, freq4, freq5, freq6 = 0, 0, 0, 0, 0, 0, 0
+    for index, rep in enumerate(representative[7]):
+        if rep[0] != "null": # for frequeency
             freq0+=1
-        if rep[7][1] != "null":
+        if rep[1] != "null":
             freq1+=1
-        if rep[7][2] != "null":
+        if rep[2] != "null":
             freq2+=1
-        if rep[7][3] != "null":
+        if rep[3] != "null":
             freq3+=1
-        if rep[7][4] != "null":
+        if rep[4] != "null":
             freq4+=1
-        if rep[7][5] != "null":
+        if rep[5] != "null":
             freq5+=1
-        if rep[7][6] != "null":
+        if rep[6] != "null":
             freq6+=1
-        if rep[7][7] != "null":
-            freq7+=1
         if 0 == index: # for change
             continue
-        if rep[7][0] != representative[index-1][7][0]:
+        if rep[0] != representative[7][index-1][0]:
             change0+=1
-        if rep[7][1] != representative[index-1][7][1]:
+        if rep[1] != representative[7][index-1][1]:
             change1+=1
-        if rep[7][2] != representative[index-1][7][2]:
+        if rep[2] != representative[7][index-1][2]:
             change2+=1
-        if rep[7][3] != representative[index-1][7][3]:
+        if rep[3] != representative[7][index-1][3]:
             change3+=1
-        if rep[7][4] != representative[index-1][7][4]:
+        if rep[4] != representative[7][index-1][4]:
             change4+=1
-        if rep[7][5] != representative[index-1][7][5]:
+        if rep[5] != representative[7][index-1][5]:
             change5+=1
-        if rep[7][6] != representative[index-1][7][6]:
+        if rep[6] != representative[7][index-1][6]:
             change6+=1
-        if rep[7][7] != representative[index-1][7][7]:
-            change7+=1
     
-    index = np.argmax([change0+freq0, change1+freq1,  change2+freq2,  change3+freq3,  change4+freq4,  change5+freq5,  change6+freq6,  change7+freq7])
-    print("the ccev of this representative is %d" % index+1)
+    index = np.argmax([change0+freq0, change1+freq1, change2+freq2, change3+freq3, change4+freq4, change5+freq5, change6+freq6])
+    print("the ccev of this representative is %d" % (index+1))
     return index+1
 
 
