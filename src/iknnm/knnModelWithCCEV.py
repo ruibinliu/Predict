@@ -284,9 +284,9 @@ def classify(x, representatives, top_k, is_crop=False):
 
     # Sort the result by their distance against x
     label_distance_list.sort(key=lambda a: a[1])
-
     labels = list()
-    for k in range(0, top_k):
+    top_k2 = 100
+    for k in range(0, top_k2):
         if len(in_reps) > 0:
             is_same_class = True
             for i in range(0, len(in_reps)):
@@ -302,7 +302,7 @@ def classify(x, representatives, top_k, is_crop=False):
                         r[6] += 1 # Increase the correctly classified instance number
                 cls = in_reps[0][2]
                 in_reps.remove(in_reps[0])
-                labels.append(cls)
+                # labels.append(cls)
             else:
                 max_lay = max(in_reps, key=lambda a: a[4])[4]
                 # print("max_lay = ", max_lay)
@@ -329,7 +329,7 @@ def classify(x, representatives, top_k, is_crop=False):
                         new_in_reps.append(rep)
                 in_reps = new_in_reps
 
-                labels.append(cls)
+                # labels.append(cls)
         else:
             # Not covered by any cluster
             max_lay = max(label_distance_list, key=lambda a: a[0][4])[0][4]
@@ -350,7 +350,14 @@ def classify(x, representatives, top_k, is_crop=False):
                 same_lay[0][0][6] += 1
             cls = same_lay[0][0][2]
             # print("Not covered. Selected cls: %d" % cls)
+            # labels.append(cls)
+        # Duplicate removal
+        if cls in labels:
+            continue
+        else:
             labels.append(cls)
+            if len(labels) == top_k:
+                break
 
     # Select the nearest k labels as the return value
 
