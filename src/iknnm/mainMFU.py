@@ -1,11 +1,14 @@
 from knnModelBased import *
 import operator
+import os  
+from os.path import join, getsize 
 
 
 def main():
     # read data
     data = np.genfromtxt('../../out/vector3forMFU.txt',  delimiter=" ", skip_header=False)
-
+    size = os.path.getsize('../../out/vector3forMFU.txt')
+    print("size of data: %s MB" % (size/1024/1024))
     x = data[:, 1:100]
     y = data[:, 0]
     # print y
